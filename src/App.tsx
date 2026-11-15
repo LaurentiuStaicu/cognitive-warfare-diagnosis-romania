@@ -537,7 +537,7 @@ export function App() {
         parts.push(...applyGlossaryTooltips(textChunk, `chunk-${lastIndex}`));
       }
 
-      const rawPreceding = paragraphText.slice(Math.max(0, matchIndex - 100), matchIndex);
+      const rawPreceding = paragraphText.slice(Math.max(0, matchIndex - 65), matchIndex);
       const boundaryParts = rawPreceding.split(/(?:[.!?;:]|\))\s+/);
       const precedingAuthorContext = boundaryParts[boundaryParts.length - 1] || '';
 
@@ -988,7 +988,7 @@ export function App() {
                     <div className="mt-6 p-4 sm:p-5 bg-[#F6F5EE] border-2 border-[#222426] space-y-5">
                       <div className="border-b border-[#222426] pb-3">
                         <div className="text-xs font-mono font-bold text-[#222426] uppercase tracking-wider">
-                          Sinteză executivă de capitol pentru decidenți instituționali și politici publice
+                          Sinteză executivă de capitol și focalizare pe secțiunea activă
                         </div>
                         <h3 className="font-serif text-base sm:text-lg font-bold text-[#222426] mt-1">
                           {currentExecutiveSummary.chapterTitle}
@@ -998,34 +998,94 @@ export function App() {
                         </p>
                       </div>
 
-                      <div className="grid grid-cols-1 gap-3.5">
-                        {currentExecutiveSummary.executiveSynthesis.map((pt, idx) => (
-                          <div
-                            key={pt.id}
-                            className="p-3.5 bg-[#F6F5EE] border border-[#222426] space-y-1.5"
-                          >
-                            <div className="flex items-center justify-between gap-2 border-b border-[#8C9BA5] pb-1">
-                              <span className="text-xs font-mono font-bold text-[#222426]">
-                                Directiva {idx + 1}
-                              </span>
-                              <span
-                                className={`text-[11px] font-mono px-2 py-0.5 border ${
-                                  idx === 0
-                                    ? 'bg-[#F01E1E]/10 text-[#F01E1E] border-[#F01E1E]'
-                                    : 'bg-[#E5B822]/25 text-[#222426] border-[#222426]'
-                                }`}
+                      {/* Subchapter-specific focal card (Remedy 15) */}
+                      <div className="p-3.5 bg-[#E5B822]/15 border-2 border-[#222426] space-y-2.5">
+                        <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[#222426] pb-1.5">
+                          <span className="text-xs font-mono font-bold text-[#222426] uppercase tracking-wider">
+                            Focalizare pe secțiunea curentă · {currentStep.code}
+                          </span>
+                          <span className="px-2 py-0.5 text-[11px] font-mono font-bold bg-[#E5B822] text-[#222426] border border-[#222426]">
+                            PASUL {String(currentStep.stepNumber).padStart(2, '0')} / 19
+                          </span>
+                        </div>
+                        <p className="font-serif text-sm sm:text-base font-bold text-[#222426] leading-snug">
+                          {currentStep.title}
+                        </p>
+                        <p className="text-xs sm:text-sm text-[#222426] leading-relaxed">
+                          {currentStep.summaryThesis}
+                        </p>
+                        {currentStep.dualRegister.length > 0 && (
+                          <div className="pt-2 border-t border-[#8C9BA5] grid grid-cols-1 sm:grid-cols-2 gap-2">
+                            {currentStep.dualRegister.map((dr) => (
+                              <div
+                                key={dr.id}
+                                className="p-2 bg-[#F6F5EE] border border-[#222426] text-xs space-y-0.5"
                               >
-                                {pt.title}
-                              </span>
-                            </div>
-                            <p className="font-serif text-sm sm:text-base font-bold text-[#222426] mb-1.5 leading-snug">
-                              {pt.takeaway}
-                            </p>
-                            <p className="text-xs sm:text-sm text-[#222426] leading-relaxed">
-                              {pt.implication}
-                            </p>
+                                <div className="font-mono font-bold text-[10.5px] text-[#6E7376] uppercase">
+                                  Stratul {dr.stratum} · {dr.theoreticalAuthor}
+                                </div>
+                                <div className="font-semibold text-[#222426]">
+                                  {dr.theoreticalConcept}
+                                </div>
+                              </div>
+                            ))}
                           </div>
-                        ))}
+                        )}
+                      </div>
+
+                      <div className="grid grid-cols-1 gap-3.5">
+                        {currentExecutiveSummary.executiveSynthesis.map((pt, idx) => {
+                          const chapterSteps = ALL_SUBCHAPTER_STEPS.filter(
+                            (s) => s.chapterNumber === currentStep.chapterNumber
+                          );
+                          const subIndex = chapterSteps.findIndex(
+                            (s) => s.stepNumber === currentStep.stepNumber
+                          );
+                          const isCurrentSubchapterDirective =
+                            chapterSteps.length > 1 &&
+                            (idx === subIndex ||
+                              (subIndex >= currentExecutiveSummary.executiveSynthesis.length &&
+                                idx === currentExecutiveSummary.executiveSynthesis.length - 1));
+
+                          return (
+                            <div
+                              key={pt.id}
+                              className={`p-3.5 space-y-1.5 transition-colors ${
+                                isCurrentSubchapterDirective
+                                  ? 'bg-[#E5B822]/15 border-2 border-[#222426]'
+                                  : 'bg-[#F6F5EE] border border-[#222426]'
+                              }`}
+                            >
+                              <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[#8C9BA5] pb-1">
+                                <div className="flex items-center gap-2">
+                                  <span className="text-xs font-mono font-bold text-[#222426]">
+                                    Directiva {idx + 1} de capitol
+                                  </span>
+                                  {isCurrentSubchapterDirective && (
+                                    <span className="px-2 py-0.5 text-[10px] font-mono font-bold bg-[#E5B822] text-[#222426] border border-[#222426]">
+                                      DIRECTIVA SUBCAPITOLULUI ACTIV
+                                    </span>
+                                  )}
+                                </div>
+                                <span
+                                  className={`text-[11px] font-mono px-2 py-0.5 border ${
+                                    idx === 0
+                                      ? 'bg-[#F01E1E]/10 text-[#F01E1E] border-[#F01E1E]'
+                                      : 'bg-[#E5B822]/25 text-[#222426] border-[#222426]'
+                                  }`}
+                                >
+                                  {pt.title}
+                                </span>
+                              </div>
+                              <p className="font-serif text-sm sm:text-base font-bold text-[#222426] mb-1.5 leading-snug">
+                                {pt.takeaway}
+                              </p>
+                              <p className="text-xs sm:text-sm text-[#222426] leading-relaxed">
+                                {pt.implication}
+                              </p>
+                            </div>
+                          );
+                        })}
                       </div>
 
                       <div className="pt-2 flex justify-end">
@@ -1235,7 +1295,19 @@ export function App() {
                     </div>
                     <div className="flex flex-wrap gap-1.5">
                       {currentStep.citedAuthorNames.map((authorLabel, idx) => {
-                        const isSelected = selectedAuthorCitation === authorLabel;
+                        const isSelected =
+                          selectedAuthorCitation === authorLabel ||
+                          (selectedAuthorCitation !== null &&
+                            matchedBibliographyForInspector.some((bib) => {
+                              const surname = bib.authors.split(',')[0].trim().toLowerCase();
+                              const bibYears =
+                                bib.year.match(/\b(18\d{2}|19\d{2}|20\d{2})\b/g) || [];
+                              return (
+                                surname.length >= 2 &&
+                                authorLabel.toLowerCase().includes(surname) &&
+                                bibYears.some((y) => authorLabel.includes(y))
+                              );
+                            }));
                         return (
                           <button
                             key={idx}
