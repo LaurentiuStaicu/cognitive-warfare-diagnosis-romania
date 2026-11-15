@@ -68,8 +68,11 @@ function findMatchingBibliographyItems(
 
   const seenIds = new Set<string>();
   const results: BibliographyItem[] = [];
+  const legislativeExclusionRegex =
+    /\b(?:Legea|O\.U\.G\.|O\.G\.|Decizia|Regulamentul|art\.|alin\.|CCR|ÎCCJ|RIL)\b/i;
 
   for (const clause of clauses) {
+    if (legislativeExclusionRegex.test(clause)) continue;
     const cleaned = clause.toLowerCase();
     const tokens = cleaned
       .split(/[^a-zăâîșțáéíóúçıöüä'-]+/iu)
@@ -330,11 +333,14 @@ export function App() {
         }
         return matchedBibliographyForInspector.some((bib) => {
           const primarySurname = bib.authors.split(',')[0].trim().toLowerCase();
+          const bibYears = bib.year.match(/\b(18\d{2}|19\d{2}|20\d{2})\b/g) || [];
           return (
             primarySurname.length >= 2 &&
-            st.citedAuthorNames.some((authorStr) =>
-              authorStr.toLowerCase().includes(primarySurname)
-            )
+            st.citedAuthorNames.some((authorStr) => {
+              const lower = authorStr.toLowerCase();
+              if (!lower.includes(primarySurname)) return false;
+              return bibYears.length === 0 || bibYears.some((y) => lower.includes(y));
+            })
           );
         });
       })
@@ -443,7 +449,6 @@ export function App() {
 
   const renderParagraphWithCitations = (paragraphText: string) => {
     const citationRegex = /\(((?:[^()]|\([^()]*\))*?\b(?:18\d{2}|19\d{2}|20\d{2})[a-z]?\b(?:[^()]|\([^()]*\))*)\)/g;
-    const legislativeExclusionRegex = /\b(?:Legea|O\.U\.G\.|O\.G\.|Decizia|Regulamentul|art\.|alin\.|CCR|ÎCCJ|RIL)\b/i;
     const matchedConceptsInParagraph = new Set<string>();
 
     const applyGlossaryTooltips = (
@@ -460,10 +465,12 @@ export function App() {
           length: number;
           matchedText: string;
           conceptId: string;
+          ruleKey: string;
         } | null = null;
 
         for (const rule of INLINE_GLOSSARY_PATTERNS) {
-          if (matchedConceptsInParagraph.has(rule.conceptId)) continue;
+          const ruleKey = rule.patternId ?? rule.conceptId;
+          if (matchedConceptsInParagraph.has(ruleKey)) continue;
           const m = rule.regex.exec(remaining);
           if (m && m.index !== undefined) {
             if (
@@ -475,7 +482,8 @@ export function App() {
                 index: m.index,
                 length: m[0].length,
                 matchedText: m[0],
-                conceptId: rule.conceptId
+                conceptId: rule.conceptId,
+                ruleKey
               };
             }
           }
@@ -498,10 +506,10 @@ export function App() {
           );
         }
 
-        matchedConceptsInParagraph.add(earliestMatch.conceptId);
+        matchedConceptsInParagraph.add(earliestMatch.ruleKey);
         nodes.push(
           <ContextualTooltip
-            key={`${keyPrefix}-tt-${earliestMatch.conceptId}-${segmentCounter}`}
+            key={`${keyPrefix}-tt-${earliestMatch.ruleKey}-${segmentCounter}`}
             conceptId={earliestMatch.conceptId}
             matchedText={earliestMatch.matchedText}
             onSelectConcept={handleConceptSelect}
@@ -529,14 +537,11 @@ export function App() {
         parts.push(...applyGlossaryTooltips(textChunk, `chunk-${lastIndex}`));
       }
 
-      const isLegislative = legislativeExclusionRegex.test(innerCitation);
       const rawPreceding = paragraphText.slice(Math.max(0, matchIndex - 100), matchIndex);
       const boundaryParts = rawPreceding.split(/(?:[.!?;:]|\))\s+/);
       const precedingAuthorContext = boundaryParts[boundaryParts.length - 1] || '';
 
-      const matchedItems = isLegislative
-        ? []
-        : findMatchingBibliographyItems(innerCitation, precedingAuthorContext);
+      const matchedItems = findMatchingBibliographyItems(innerCitation, precedingAuthorContext);
 
       if (matchedItems.length > 0) {
         const innerLower = innerCitation.toLowerCase();
