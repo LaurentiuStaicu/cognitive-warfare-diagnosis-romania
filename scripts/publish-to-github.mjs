@@ -179,7 +179,7 @@ async function main() {
   const authenticatedOwner = userRes.data.login || OWNER;
   console.log(`Autentificat cu succes ca: ${authenticatedOwner}`);
 
-  const isPrivateRepo = process.env.GITHUB_PRIVATE !== 'false';
+  const isPrivateRepo = process.env.GITHUB_PRIVATE === 'true';
   const repoDescription =
     process.env.GITHUB_REPO_DESCRIPTION ||
     (isPrivateRepo
