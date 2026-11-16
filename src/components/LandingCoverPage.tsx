@@ -114,7 +114,7 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
             </div>
 
             <h1 className="font-serif text-2xl sm:text-4xl lg:text-[42px] font-bold text-[#222426] leading-[1.12] headline-balance">
-              Diagnosis of the cognitive war in Romania
+              Diagnosis of Cognitive Warfare in Romania
             </h1>
 
             <p className="font-serif text-sm sm:text-base font-normal text-[#222426] leading-relaxed headline-balance">
@@ -123,7 +123,7 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
 
             <div className="pt-2 border-t border-[#8C9BA5] space-y-3 text-xs sm:text-sm text-[#222426] leading-relaxed max-w-[65ch]">
               <p>
-                This paper demonstrates that the cognitive vulnerability of Romanian society does not represent a simple lack of media literacy, but the emergent result of the interaction between three causal levels: the historical anomaly of "forms without substance", the chronic deficit of operational closure, the vacuum of political representation and the persistence of extractive institutions (Layer A); chronic allostatic wear and tear with switching to reactive System 1 in environments affected by precariousness, hijacking System 2 through motivated rationalization in urban bubbles, and colonizing the Orientation phase of the OODA loop through reflexive control (Layer B); respectively the projection of the collective Shadow, enantiodromia and slipping into collective self-sabotage in conditions of acute crisis (Layer C).
+                This paper demonstrates that the cognitive vulnerability of Romanian society does not represent a simple lack of media literacy, but the emergent result of the interaction between three causal levels: the historical anomaly of "forms without substance", the chronic deficit of operational closure, the vacuum of political representation and the persistence of extractive institutions (Layer A); chronic allostatic load with switching to reactive System 1 in environments affected by precariousness, hijacking System 2 through motivated rationalization in urban bubbles, and colonizing the Orientation phase of the OODA loop through reflexive control (Layer B); respectively the projection of the collective Shadow, enantiodromia and slipping into collective self-sabotage in conditions of acute crisis (Layer C).
               </p>
               <p className="text-[#6E7376]">
                 The interactive exploration brings together the full text of the six chapters, the executive synthesis for decision-makers, the mirroring decomposition into two registers—theoretical and empirical—the laboratory of the seven cybernetic diagrams, and the sequential three-phase reconstruction protocol.
@@ -140,17 +140,6 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
                 >
                   <span>Read the monograph online</span>
                   <ArrowRight className="w-4 h-4 shrink-0" />
-                </button>
-                <button
-                  type="button"
-                  onClick={() => {
-                    document
-                      .getElementById('video-teaser-section')
-                      ?.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                  }}
-                  className="px-5 py-3.5 text-xs sm:text-sm font-mono font-semibold text-[#222426] bg-[#F6F5EE] border-2 border-[#222426] hover:bg-[#E5B822]/25 transition-colors cursor-pointer inline-flex items-center justify-center gap-2"
-                >
-                  <span>Watch the video synopsis (Teaser)</span>
                 </button>
               </div>
 
@@ -643,59 +632,13 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
           </div>
         </div>
 
-        {/* Dedicated Video Teaser Plate (#video-teaser-section) */}
-        <section
-          id="video-teaser-section"
-          className="pt-8 lg:pt-10 mt-4 mb-8 lg:mb-10 border-t border-[#222426]"
-        >
-          <div className="max-w-[860px] w-full mx-auto bg-[#F6F5EE] border-2 border-[#222426] p-4 sm:p-6">
-            {/* Header Bar */}
-            <div className="flex flex-wrap items-center justify-between gap-2 pb-3 mb-4 border-b border-[#8C9BA5]">
-              <div>
-                <span className="inline-block px-2.5 py-0.5 text-[11px] font-mono font-bold tracking-wider text-[#222426] uppercase bg-[#E5B822] border border-[#222426]">
-                  VIDEO SYNTHESIS • VISUAL INTRODUCTION
-                </span>
-                <h2 className="font-serif text-base sm:text-lg font-bold text-[#222426] mt-1.5">
-                  Video presentation of the causal architecture from the monograph
-                </h2>
-              </div>
-              <a
-                href="https://youtu.be/alJXGWmn3lU"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-xs font-mono text-[#6E7376] hover:text-[#222426] underline underline-offset-4"
-              >
-                Open on YouTube ↗
-              </a>
-            </div>
-
-            {/* 16:9 Video Player Inner Frame */}
-            <div className="relative w-full aspect-video border-2 border-[#222426] bg-[#222426] overflow-hidden">
-              <iframe
-                src="https://www.youtube-nocookie.com/embed/alJXGWmn3lU?rel=0&modestbranding=1"
-                title="Diagnosis of the cognitive war in Romania — Official Video Teaser"
-                className="absolute inset-0 w-full h-full border-0"
-                loading="lazy"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerPolicy="strict-origin-when-cross-origin"
-                allowFullScreen
-              />
-            </div>
-
-            {/* Footer Caption */}
-            <p className="mt-3 text-xs font-serif italic text-[#6E7376] leading-relaxed">
-              Audio-visual synthesis of the three-layer model (institutional, neurocognitive and cultural), built without raw statistical indicators, exclusively on structural and causal dynamics.
-            </p>
-          </div>
-        </section>
-
         {/* Bottom Archival Summary Strip (Static Text Metadata — Zero Buttons) */}
         <div className="pt-6 border-t border-[#222426] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-xs text-[#6E7376]">
           <div>
             <div className="font-mono font-semibold text-[#222426]">
               Endogenous diagnosis · Chapters 0–1
             </div>
-            <div>Macro–Micro–Macro causal architecture (Coleman–Hedström), Lalonde–Dever determinants and allostatic attrition</div>
+            <div>Macro–Micro–Macro causal architecture (Coleman–Hedström), Lalonde–Dever determinants and allostatic load</div>
           </div>
           <div>
             <div className="font-mono font-semibold text-[#222426]">
