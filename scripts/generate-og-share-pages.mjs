@@ -18,7 +18,7 @@ function escapeHtml(str) {
 function buildShareHtml({ slug, targetHash, title, description, imageRelPath, imageAlt }) {
   const sharePageUrl = `${BASE_URL}/share/${slug}.html`;
   const targetAppUrl = `${BASE_URL}/#${targetHash}`;
-  const fullImageUrl = `${BASE_URL}/${imageRelPath.replace(/^\//, '')}`;
+  const fullImageUrl = `${BASE_URL}/${imageRelPath.replace(/^\//, '')}?v=en2`;
 
   return `<!doctype html>
 <html lang="en">
