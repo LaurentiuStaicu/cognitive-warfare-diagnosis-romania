@@ -18,7 +18,7 @@ function escapeHtml(str) {
 function buildShareHtml({ slug, targetHash, title, description, imageRelPath, imageAlt }) {
   const sharePageUrl = `${BASE_URL}/share/${slug}.html`;
   const targetAppUrl = `${BASE_URL}/#${targetHash}`;
-  const fullImageUrl = `${BASE_URL}/${imageRelPath.replace(/^\//, '')}?v=en2`;
+  const fullImageUrl = `${BASE_URL}/${imageRelPath.replace(/^\//, '')}`;
 
   return `<!doctype html>
 <html lang="en">
@@ -76,7 +76,7 @@ for (const step of ALL_SUBCHAPTER_STEPS) {
         ? 'Introduction · Diagnosis of Cognitive Warfare in Romania (Version 1.0)'
         : `${step.title} (Diagnosis of Cognitive Warfare in Romania)`,
     description: step.summaryThesis,
-    imageRelPath: `og/og-fig-${figId}.png`,
+    imageRelPath: `og/og-fig-${figId}-en.png`,
     imageAlt: `${step.title} (${figMeta.title})`
   });
   fs.writeFileSync(path.join(outDir, `pasul-${step.stepNumber}.html`), html, 'utf-8');
@@ -90,7 +90,7 @@ const CHAPTERS_META = [
     targetHash: 'capitolul-1',
     title: 'Chapter 1 (Structural Vulnerabilities of Romanian Society and the Erosion of Endogenous Resilience)',
     description: 'Three-layer causal architecture: the historical anomaly of forms without substance, chronic allostatic load, and learned helplessness.',
-    imageRelPath: 'og/og-fig-1.png',
+    imageRelPath: 'og/og-fig-1-en.png',
     imageAlt: 'Chapter 1 (Three-Layer Causal Architecture)'
   },
   {
@@ -99,7 +99,7 @@ const CHAPTERS_META = [
     targetHash: 'capitolul-2',
     title: 'Chapter 2 (The Architecture of Putinist Ideology and Sovereignist Discursive Camouflage)',
     description: 'The sistema network, Russkii Antimir, the Bobok state, and the double axiological falsification of conservatism and Orthodoxy.',
-    imageRelPath: 'og/og-fig-2.png',
+    imageRelPath: 'og/og-fig-2-en.png',
     imageAlt: 'Chapter 2 (Double Axiological Falsification and Discursive Camouflage)'
   },
   {
@@ -108,7 +108,7 @@ const CHAPTERS_META = [
     targetHash: 'capitolul-3',
     title: 'Chapter 3 (The Mechanism of Cognitive Capture and Decision Colonization in the Sixth Operational Domain)',
     description: 'Penetration of the Orientation phase of the OODA loop through second-order reflexive control and the binary semiosis of annihilation.',
-    imageRelPath: 'og/og-fig-3.png',
+    imageRelPath: 'og/og-fig-3-en.png',
     imageAlt: 'Chapter 3 (Hijacking the Orientation Phase of the OODA Loop)'
   },
   {
@@ -117,7 +117,7 @@ const CHAPTERS_META = [
     targetHash: 'capitolul-4',
     title: 'Chapter 4 (Social Polarization, Projection of the Collective Shadow, and Vulnerability to Manipulation)',
     description: 'Group defense mechanisms, enantiodromia, functional conversion of latent resources from the Shadow, and Cipolla’s behavioral matrix.',
-    imageRelPath: 'og/og-fig-4.png',
+    imageRelPath: 'og/og-fig-4-en.png',
     imageAlt: 'Chapter 4 (Functional Conversion of Latent Resources from the Collective Shadow)'
   },
   {
@@ -135,7 +135,7 @@ const CHAPTERS_META = [
     targetHash: 'capitolul-6',
     title: 'Chapter 6 (The Sequential Protocol for Reconstructing Societal Cognitive Resilience)',
     description: 'Three-phase sequential protocol across the Lalonde-Dever determinants: Phase I decompression, Phase II prebunking, Phase III organic modernity.',
-    imageRelPath: 'og/og-fig-7.png',
+    imageRelPath: 'og/og-fig-7-en.png',
     imageAlt: 'Chapter 6 (Three-Phase Sequential Protocol)'
   }
 ];
@@ -160,7 +160,7 @@ for (const figId of [1, 2, 3, 4, 5, 6, 7]) {
     targetHash: `figura-${figId}`,
     title: `${fig.title} (Diagnosis of Cognitive Warfare in Romania)`,
     description: fig.caption,
-    imageRelPath: `og/og-fig-${figId}.png`,
+    imageRelPath: `og/og-fig-${figId}-en.png`,
     imageAlt: `${fig.title} (${fig.subtitle})`
   });
   fs.writeFileSync(path.join(outDir, `figura-${figId}.html`), html, 'utf-8');
@@ -175,7 +175,7 @@ fs.writeFileSync(
     title: 'Synthesis Tables (1 and 2) and Regional Control Group (Estonia, Poland, Moldova) (Diagnosis of Cognitive Warfare in Romania)',
     description:
       'Matrix synthesis of the diagnosis across Layers A, B, and C (Table 1), the 3-phase Lalonde-Dever sequential protocol (Table 2), and comparison with the regional control group.',
-    imageRelPath: 'og/og-fig-7.png',
+    imageRelPath: 'og/og-fig-7-en.png',
     imageAlt: 'Synthesis Tables 1 and 2 and the Lalonde-Dever Protocol'
   }),
   'utf-8'
@@ -189,7 +189,7 @@ fs.writeFileSync(
     title: `Conceptual Glossary (${GLOSSARY_CONCEPTS.length} concepts) and Complete Bibliography (${BIBLIOGRAPHY_DATA.length} works) (Diagnosis of Cognitive Warfare in Romania)`,
     description:
       `Interdisciplinary conceptual apparatus (institutional sociology, neuroscience, semiotics, analytical psychology) and the ${BIBLIOGRAPHY_DATA.length} verified academic references of the monograph.`,
-    imageRelPath: 'og/og-fig-1.png',
+    imageRelPath: 'og/og-fig-1-en.png',
     imageAlt: 'Conceptual Glossary and Complete Bibliography'
   }),
   'utf-8'
