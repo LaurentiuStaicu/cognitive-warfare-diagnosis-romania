@@ -145,7 +145,7 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
 
               <div className="pt-3 border-t border-[#8C9BA5]">
                 <SocialShareButtons
-                  url="https://laurentiustaicu.github.io/cognitive-warfare-diagnosis-romania/"
+                  url="https://laurentiustaicu.github.io/cognitive-warfare-diagnosis-romania/?v=1"
                   label="Share the monograph on"
                 />
               </div>
