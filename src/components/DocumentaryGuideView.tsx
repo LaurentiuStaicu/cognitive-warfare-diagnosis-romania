@@ -63,7 +63,7 @@ export const DocumentaryGuideView: React.FC<DocumentaryGuideViewProps> = ({
           sceneNumber: '2.2',
           heading: 'The double axiological falsification of conservatism',
           narration:
-            'Defensive nationalism is hijacked from within, turning community values  into tools of anti-institutional mobilization.',
+            'Defensive nationalism is hijacked from within, turning community values into tools of anti-institutional mobilization.',
           scriptNote:
             'Close ups of old icons in mirror with smartphone screens illuminated in the dark. Strong light-shadow contrast.'
         }

@@ -395,17 +395,17 @@ const NODE_KEY_LABELS: Record<string, string> = {
   'filtru-moral': 'Layer C · Filter of Christian-Secular Moral Values',
   vector: 'External Cognitive Warfare Vector and Representation Vacuum',
   'sinteza-stanga': 'European Christian-Secular Synthesis (Imago Dei & Rule of Law)',
-  'falsificare-ortodoxie': 'Falsificarea I · Etnofiletismul Russkii Mir',
+  'falsificare-ortodoxie': 'Falsification I · Russkii Mir Ethnophyletism',
   'falsificare-suveranitate': 'Falsification II · False Isolationist Sovereignism',
   'nucleu-antimir': 'Real Operative Core · The Antiworld (Antimir) and the Bobok State',
   'retele-spalare': 'Three-Tier Architecture of Information Laundering',
   subordonare: 'Strategic Finality · Imperial Subordination and Anomie',
-  'primul-sistem': 'Primul sistem etic (Lefebvre)',
+  'primul-sistem': 'First Ethical System (Lefebvre)',
   'poluare-mad': 'Two-Stage Synthetic Pollution (RAG / MAD) and D1/D2 Striatal Capture',
-  observare: 'Faza de Observare (OODA)',
-  orientare: 'Faza de Orientare (Schwerpunkt-ul lui John Boyd)',
+  observare: 'Observation Phase (OODA)',
+  orientare: 'Orientation Phase (John Boyd\x27s Schwerpunkt)',
   reflexiv: 'Second-Order Reflexive Control and Aberrant Precision-Weighting',
-  decizie: 'Faza de Decizie (OODA)',
+  decizie: 'Decision Phase (OODA)',
   actiune: 'Action Phase (OODA)',
   contagiune: 'Complex Contagion via Wide Bridges (Centola)',
   binar: 'Compression into the Fractured Binary System (Second Ethical System)',
@@ -438,7 +438,7 @@ const NODE_KEY_LABELS: Record<string, string> = {
   trackB: 'Track B Synthesis · Deliberative Adaptive Processing',
   faza1: 'Phase I · Acute Triage (0–72h) and Structural Decompression (0–12 months)',
   'faza1-1': '1.1 Acute Triage 0–72h: CDC CERC, STIX/DISARM, and Technical DSA Measures',
-  'faza1-2': '1.2 Blocarea fluxurilor financiare ilicite (Follow the Money, 24–72h)',
+  'faza1-2': '1.2 Blocking Illicit Financial Flows (Follow the Money, 24–72h)',
   'faza1-3': '1.3 Allostatic Decompression and Administrative Simplification (0–12 months)',
   poarta1: 'Causal Gate 1 · Unlocking dlPFC and the 3 Mechanisms of Premature Fact-Checking',
   faza2: 'Phase II · Reconstructing OODA Orientation (1–3 years)',
@@ -647,7 +647,7 @@ function buildHtmlDocument(
     <div class="border border-[#222426] p-3 bg-[#F6F5EE] mb-4">
       <div class="text-[10px] font-mono text-[#6E7376] pb-2 mb-2 border-b border-[#8C9BA5] flex justify-between">
         <span>Cover Synoptic Board · Macro–Micro–Macro Model</span>
-        <span>Fig. I–VII · Sinteza arhitecturii</span>
+        <span>Fig. I–VII · Architecture Synthesis</span>
       </div>
       <div class="cover-svg-wrapper">
         ${svgs.coverSvg}
@@ -693,7 +693,7 @@ function buildHtmlDocument(
             (s) => `
             <div class="flex items-baseline justify-between gap-2 border-b border-[#8C9BA5]/40 py-0.5">
               <div>
-                <span class="font-mono font-bold text-[#6E7376]">PASUL ${String(s.stepNumber).padStart(2, '0')} · ${escapeHtml(s.code)}:</span>
+                <span class="font-mono font-bold text-[#6E7376]">STEP ${String(s.stepNumber).padStart(2, '0')} · ${escapeHtml(s.code)}:</span>
                 <span class="font-semibold text-[#222426]">${escapeHtml(s.title)}</span>
               </div>
               <span class="font-mono text-[9px] text-[#6E7376] shrink-0">Str. ${s.dominantStrata.join(', ')}${s.paragraphs.some((p) => p.startsWith('Figure ')) && s.linkedFigureId ? ` · Fig. ${s.linkedFigureId}` : ''}</span>
@@ -781,8 +781,8 @@ function buildHtmlDocument(
     <article class="page-break space-y-4">
       <header class="border-b-2 border-[#222426] pb-3">
         <div class="flex items-center justify-between text-[10px] font-mono text-[#6E7376] mb-1">
-          <span class="font-bold text-[#222426]">PASUL ${String(step.stepNumber).padStart(2, '0')} / 19 · ${escapeHtml(step.chapterTitle)}</span>
-          <span>Straturi dominante: ${step.dominantStrata.join(', ')}</span>
+          <span class="font-bold text-[#222426]">STEP ${String(step.stepNumber).padStart(2, '0')} / 19 · ${escapeHtml(step.chapterTitle)}</span>
+          <span>Dominant layers: ${step.dominantStrata.join(', ')}</span>
         </div>
         <h2 class="text-lg font-bold text-[#222426] leading-snug">${escapeHtml(step.title)}</h2>
         ${step.subtitle ? `<p class="text-xs text-[#6E7376] mt-1">${escapeHtml(step.subtitle)}</p>` : ''}
@@ -830,7 +830,7 @@ function buildHtmlDocument(
   <section class="page-break space-y-4">
     <div class="border-b-2 border-[#222426] pb-3">
       <div class="text-[10px] font-mono uppercase tracking-wider text-[#6E7376]">Part II · Executive Digest for Institutional Policymakers</div>
-      <h2 class="text-xl font-bold text-[#222426]">Sinteze executive de capitol (Capitolele 0–6)</h2>
+      <h2 class="text-xl font-bold text-[#222426]">Chapter Executive Summaries (Chapters 0–6)</h2>
     </div>
 
     ${CHAPTER_EXECUTIVE_SUMMARIES.map(
@@ -845,7 +845,7 @@ function buildHtmlDocument(
               (pt, idx) => `
             <div class="border border-[#8C9BA5] p-2.5 bg-[#F6F5EE] space-y-1">
               <div class="flex items-center justify-between gap-2 text-[10px] font-mono">
-                <span class="font-bold text-[#222426]">Directiva ${idx + 1}</span>
+                <span class="font-bold text-[#222426]">Directive ${idx + 1}</span>
                 <span class="px-1.5 py-0.5 border border-[#222426] bg-[#E5B822]/25 font-bold">${escapeHtml(pt.title)}</span>
               </div>
               <div class="font-bold text-[11px] text-[#222426]">${escapeHtml(pt.takeaway)}</div>
@@ -976,7 +976,7 @@ function buildHtmlDocument(
                 ${escapeHtml(c.roleInModel)}
               </span>
             </div>
-            <div><strong>Profil de expunere la vectorul rus:</strong> ${escapeHtml(c.exposureProfile)}</div>
+            <div><strong>Russian Vector Exposure Profile:</strong> ${escapeHtml(c.exposureProfile)}</div>
             <div><strong>Layer A · Institutional Architecture:</strong> ${escapeHtml(c.stratumA)}</div>
             <div><strong>Layer B · Neurocognitive Preparedness and Information Defense:</strong> ${escapeHtml(c.stratumB)}</div>
             <div><strong>Layer C · Cultural Unconscious and Ego–Self Axis:</strong> ${escapeHtml(c.stratumC)}</div>
@@ -995,7 +995,7 @@ function buildHtmlDocument(
   <section class="page-break space-y-3">
     <div class="border-b-2 border-[#222426] pb-3">
       <div class="text-[10px] font-mono uppercase tracking-wider text-[#6E7376]">Part IV · Interdisciplinary Conceptual Apparatus</div>
-      <h2 class="text-xl font-bold text-[#222426]">Glosar teoretic complet (${GLOSSARY_CONCEPTS.length} concepte-cheie)</h2>
+      <h2 class="text-xl font-bold text-[#222426]">Complete Theoretical Glossary (${GLOSSARY_CONCEPTS.length} Key Concepts)</h2>
     </div>
 
     <div class="space-y-2.5">
@@ -1094,13 +1094,13 @@ async function main() {
       displayHeaderFooter: true,
       headerTemplate: `
         <div style="width:100%; font-family: Inter, sans-serif; font-size: 7.5pt; color: #6E7376; padding: 0 14mm; display: flex; justify-content: space-between; border-bottom: 0.5pt solid #8C9BA5; padding-bottom: 2mm;">
-          <span>Diagnosis of Cognitive Warfare in Romania (Versiunea 1.0)</span>
+          <span>Diagnosis of Cognitive Warfare in Romania (Version 1.0)</span>
           <span>Complete Scientific Monograph</span>
         </div>`,
       footerTemplate: `
         <div style="width:100%; font-family: Inter, sans-serif; font-size: 7.5pt; color: #6E7376; padding: 0 14mm; display: flex; justify-content: space-between; border-top: 0.5pt solid #8C9BA5; padding-top: 2mm;">
           <span>Complete Edition · Text, Diagrams, Tables, Glossary, and Bibliography</span>
-          <span>Pagina <span class="pageNumber"></span> / <span class="totalPages"></span></span>
+          <span>Page <span class="pageNumber"></span> / <span class="totalPages"></span></span>
         </div>`,
       margin: {
         top: '18mm',

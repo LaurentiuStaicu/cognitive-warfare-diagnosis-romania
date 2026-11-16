@@ -164,7 +164,7 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
                 viewBox="0 0 460 476"
                 className="w-full h-auto block"
                 role="img"
-                aria-label="Concept map of the three-layer architecture in the monograph"
+                aria-label="Interactive conceptual map of the three-layer architecture in the monograph"
               >
                 <defs>
                   <pattern
@@ -622,7 +622,7 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
                       onClick={() => handleNavigate(activeBlockInfo.figureHash)}
                       className="px-2.5 py-1 text-[11px] font-mono font-semibold bg-[#F6F5EE] text-[#222426] border border-[#222426] hover:bg-[#E5B822]/25 transition-colors cursor-pointer inline-flex items-center gap-1"
                     >
-                      <span>inspects {activeBlockInfo.figureLabel}</span>
+                      <span>Inspect {activeBlockInfo.figureLabel}</span>
                       <ArrowRight className="w-3 h-3" />
                     </button>
                   </div>

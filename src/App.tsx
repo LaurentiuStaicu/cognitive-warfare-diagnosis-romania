@@ -80,7 +80,7 @@ function findMatchingBibliographyItems(
   const seenIds = new Set<string>();
   const results: BibliographyItem[] = [];
   const legislativeExclusionRegex =
-    /\b(?:Legea|Law|O\.U\.G\.|O\.G\.|Decizia|Decision|Regulamentul|Regulation|art\.|alin\.|para\.|par\.|CCR|ÎCCJ|RIL|AMEPIP)\b/i;
+    /(?:^|\b)(?:Legea|Law|O\.U\.G\.|O\.G\.|Decizia|Decision|Regulamentul|Regulation|art\.|alin\.|para\.|par\.|CCR|ÎCCJ|RIL|AMEPIP)(?:\b|\s|$)/i;
 
   for (const clause of clauses) {
     if (legislativeExclusionRegex.test(clause)) continue;
@@ -767,7 +767,7 @@ export function App() {
                   </p>
                 </div>
 
-                {/* Reader Controls: Lectură concentrată + Filtru straturi (A, B, C) */}
+                {/* Reader Controls: Focused reading + Layer filter (A, B, C) */}
                 <div className="flex flex-col items-start lg:items-end gap-3 shrink-0">
                   <button
                     onClick={() => setIsReaderMode((prev) => !prev)}
@@ -811,7 +811,7 @@ export function App() {
                 >
                   <div className="bg-[#F6F5EE] border border-[#222426] p-4 space-y-3">
                     <div className="flex items-center justify-between text-xs font-mono font-bold text-[#222426] border-b border-[#8C9BA5] pb-2">
-                      <span className="uppercase tracking-wider">The content of the monograph</span>
+                      <span className="uppercase tracking-wider">Table of Contents</span>
                       <span>19 sections</span>
                     </div>
 
@@ -884,14 +884,14 @@ export function App() {
                         className="px-2.5 py-1 text-xs font-mono border border-[#222426] bg-[#F6F5EE] hover:bg-[#E5B822]/20 disabled:opacity-40 disabled:pointer-events-none cursor-pointer flex items-center gap-1 whitespace-nowrap shrink-0"
                       >
                         <ArrowLeft className="w-3.5 h-3.5" />
-                        <span>The previous step</span>
+                        <span>Previous step</span>
                       </button>
                       <button
                         disabled={currentStepNumber >= ALL_SUBCHAPTER_STEPS.length}
                         onClick={() => handleStepSelect(currentStepNumber + 1)}
                         className="px-2.5 py-1 text-xs font-mono border border-[#222426] bg-[#E5B822] hover:bg-[#E5B822]/85 disabled:opacity-40 disabled:pointer-events-none cursor-pointer flex items-center gap-1 font-semibold whitespace-nowrap shrink-0"
                       >
-                        <span>The next step</span>
+                        <span>Next step</span>
                         <ArrowRight className="w-3.5 h-3.5" />
                       </button>
                     </div>
@@ -931,7 +931,7 @@ export function App() {
 
                     <div className="pt-2 border-t border-[#8C9BA5] flex flex-col sm:flex-row sm:items-center justify-between gap-2">
                       <div className="text-[11px] font-mono text-[#6E7376]">
-                        Show section
+                        Section display
                       </div>
                       <div className="flex flex-wrap items-center gap-1">
                         {(
@@ -961,7 +961,7 @@ export function App() {
                   {/* Social Share Bar for Current Section */}
                   <div className="mb-5 pb-3 border-b border-[#8C9BA5] flex flex-wrap items-center justify-between gap-2">
                     <SocialShareButtons
-                      url={`https://laurentiustaicu.github.io/cognitive-warfare-diagnosis-romania/share/pasul-${currentStep.stepNumber}.html`}
+                      url={`https://laurentiustaicu.github.io/cognitive-warfare-diagnosis-romania/share/pasul-${currentStep.stepNumber}.html?v=1`}
                       title={`${currentStep.title} (Diagnosis of Cognitive Warfare in Romania)`}
                       label="Share this section on"
                     />
@@ -1070,7 +1070,7 @@ export function App() {
                               <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[#8C9BA5] pb-1">
                                 <div className="flex items-center gap-2">
                                   <span className="text-xs font-mono font-bold text-[#222426]">
-                                    Directive {idx + 1} de capitol
+                                    Chapter Directive {idx + 1}
                                   </span>
                                   {isCurrentSubchapterDirective && (
                                     <span className="px-2 py-0.5 text-[10px] font-mono font-bold bg-[#E5B822] text-[#222426] border border-[#222426]">
@@ -1153,7 +1153,7 @@ export function App() {
                         Anatomy of tension and decomposition into two registers
                       </div>
                       <h3 className="font-serif text-base font-bold text-[#222426] mb-4">
-                        The theoretical and conceptual layer in the mirror with the practical and historical reality
+                        Theoretical and Conceptual Register Mirrored Against Empirical and Historical Reality
                       </h3>
 
                       <div className="space-y-6">
@@ -1597,7 +1597,7 @@ export function App() {
                 2D system maps in vector engraving style · Figures 1–7 in the monograph
               </div>
               <h2 className="font-serif text-xl sm:text-2xl font-bold text-[#222426]">
-                Causal diagrams laboratory in the monograph
+                Causal Diagrams Laboratory of the Monograph
               </h2>
               <p className="text-xs sm:text-sm text-[#6E7376] mt-1">
                 Interact with all seven vector diagrams of the paper to inspect allostatic stress propagation, double axiological falsification, OODA loop hijacking, collective Shadow projection and enantiodromia, Cipolla's matrix, Track A / Track B bifurcation, and the three-phase protocol.
@@ -1615,10 +1615,10 @@ export function App() {
           </div>
         )}
 
-        {/* VIEW 3: TABELELE 1 & 2 ȘI GRUPUL DE CONTROL REGIONAL */}
+        {/* VIEW 3: TABLES 1 & 2 AND REGIONAL CONTROL GROUP */}
         {activeView === 'tabele' && <TablesAndRegionalView />}
 
-        {/* VIEW 4: GLOSAR, BIBLIOGRAFIE ȘI MASTER BLUEPRINT */}
+        {/* VIEW 4: GLOSSARY AND BIBLIOGRAPHY */}
         {activeView === 'glosar' && <GlossaryAndBibliographyView />}
       </main>
 
@@ -1629,7 +1629,7 @@ export function App() {
         title="Back to the top of the page"
       >
         <ArrowUp className="w-4 h-4" />
-        <span className="hidden sm:inline">Above</span>
+        <span className="hidden sm:inline">Top</span>
       </button>
 
       {/* CLEAN EDITORIAL FOOTER */}
@@ -1646,7 +1646,7 @@ export function App() {
               </span>
             </div>
             <SocialShareButtons
-              url="https://laurentiustaicu.github.io/cognitive-warfare-diagnosis-romania/"
+              url="https://laurentiustaicu.github.io/cognitive-warfare-diagnosis-romania/?v=1"
               label="Share platform on"
             />
           </div>
@@ -1661,7 +1661,7 @@ export function App() {
                 }}
                 className="hover:text-[#222426] transition-colors cursor-pointer"
               >
-                The cover of the monograph
+                Monograph Cover
               </button>
               <span>·</span>
               <button
@@ -1672,7 +1672,7 @@ export function App() {
                 }}
                 className="hover:text-[#222426] transition-colors cursor-pointer"
               >
-                Course by chapter and subchapter · 19 sections
+                Step-by-step path by chapter and subchapter · 19 sections
               </button>
             </div>
           </div>

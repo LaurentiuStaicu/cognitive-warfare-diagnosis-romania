@@ -25,7 +25,7 @@ export const TABLE_1_DATA: Table1Row[] = [
     "id": "t1-dim-2",
     "dimensionNumber": 2,
     "dimensionTitle": "2. Sociodemographic cohesion and daily stress regime",
-    "stratumA": "Severe polarization between prosperous metropolitan centers and deindustrialized or rural peripheries, deepened by demographic decline and massive emigration of the active workforce. The result consists of enclaves of social exclusion and anomie, amoral familism (Banfield), the individualistic retreat into the private sphere of urban layers and the installation of a vacuum of political representation of the peripheries (Mair, 2013) speculated by populist intermediaries (Mudde, 2004) through the three transformational mechanisms Micro-Macro (Coleman, 1990; Robinson, 1950).",
+    "stratumA": "Severe polarization between prosperous metropolitan centers and deindustrialized or rural peripheries, deepened by demographic decline and massive emigration of the active workforce. The result consists of enclaves of social exclusion and anomie, amoral familism (Banfield), the individualistic retreat into the private sphere of urban layers and the installation of a vacuum of political representation of the peripheries (Mair, 2013) exploited by populist intermediaries (Mudde, 2004) through the three Micro–Macro transformational mechanisms (Coleman, 1990; Robinson, 1950).",
     "stratumB": "High allostatic load (McEwen) and chronic HPA axis dysfunction (cortisol circadian flattening, glucocorticoid receptor desensitization, and proinflammatory state), which induce basolateral amygdala hypertrophy, relevance detection network hyperactivation, and dendritic retraction in the dorsolateral prefrontal cortex (dlPFC), over which acute shocks add fast catecholaminergic synaptic inhibition (Arnsten) and switching to System 1 (Kahneman). In parallel, in the absence of actively open thinking, an intact biological System 2 is diverted into dysrationalia and motivated rationalization (Stanovich; Kahan) in two symmetrically dysfunctional directions: elitist civic secession in private services or the construction of radical pseudoscientific, esoteric, and revisionist rationalizations.",
     "stratumC": "The decrease in conscious tension (abaissement du niveau mental – Janet/Jung) and the blocking or splitting of the collective Ego–Self axis (Edinger). This rupture sets up the deflation of the collective Self, learned helplessness, and defensive fatalism, which alternates with compensatory nationalist inflation."
   },
@@ -192,7 +192,7 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
     "stratum": "A",
     "authors": "Titu Maiorescu, 1868 · Constantin Rădulescu-Motru, 1904 · Constantin Dobrogeanu-Gherea, 1910 · Eugen Lovinescu, 1924–1925 · Henri H. Stahl, 1980 · Daron Acemoglu and James A. Robinson, 2012 · North, Wallis and Weingast, 2009",
     "domain": "Historical Sociology and Institutional Economics",
-    "definition": "Analytical paradigm inaugurated by Titu Maiorescu (1868) and developed in the sociology of Romanian modernization (Rădulescu-Motru, 1904; Dobrogeanu-Gherea, 1910; Lovinescu, 1924–1925; Stahl, 1980). While Lovinescu demonstrated that in cultures that entered the sphere of modernity late, synchronization operates through a reverse evolution, from form to substance, the violent interruption of this organic process by the totalitarian regimes of the 20th century and the capture of the post-communist transition chronicled the dissociation between the formally adopted Western constitutional architecture — inclusive institutions — and the persistence of informal practices of rent capture and blocking of meritocracy, specific to extractive institutions in a social order with limited access (North, Wallis & Weingast, 2009; Acemoglu & Robinson, 2012).",
+    "definition": "Analytical paradigm inaugurated by Titu Maiorescu (1868) and developed in the sociology of Romanian modernization (Rădulescu-Motru, 1904; Dobrogeanu-Gherea, 1910; Lovinescu, 1924–1925; Stahl, 1980). While Lovinescu demonstrated that in cultures that entered the sphere of modernity late, synchronization operates through a reverse evolution, from form to substance, the violent interruption of this organic process by the totalitarian regimes of the 20th century and the capture of the post-communist transition entrenched the dissociation between the formally adopted Western constitutional architecture — inclusive institutions — and the persistence of informal practices of rent capture and blocking of meritocracy, specific to extractive institutions in a social order with limited access (North, Wallis & Weingast, 2009; Acemoglu & Robinson, 2012).",
     "monographContext": "It constitutes the historical root of the Romanian citizen's distrust in the official discourse and the split between the mimetic institutional Persona and the collective Shadow.",
     "polarity": "tension"
   },
@@ -203,7 +203,7 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
     "authors": "Carl Gustav Jung, 1928 · Joseph Henderson, 1984 · Thomas Singer and Samuel L. Kimbles, 2004 · Gail Kligman and Katherine Verdery, 2011",
     "domain": "Post-Jungian Analytical Psychology and Historical Anthropology",
     "definition": "The split from the cultural unconscious (Henderson, 1984) and cultural complexes (Singer & Kimbles, 2004) between the conformist facade of declarative alignment to external standards—the Mimetic Institutional Persona—and the Collective Shadow. In this Shadow, informal survival strategies, politics of duplicity (Kligman & Verdery, 2011) and unintegrated historical traumas are repressed.",
-    "monographContext": "It explains why the imposture of the domestic elites symbolically compromises the very idea of  European modernization in the eyes of the vulnerable citizen.",
+    "monographContext": "It explains why the imposture of the domestic elites symbolically compromises the very idea of European modernization in the eyes of the vulnerable citizen.",
     "polarity": "tension"
   },
   {
@@ -212,7 +212,7 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
     "stratum": "C",
     "authors": "Alexander and Margarete Mitscherlich, 1967 · Vamık D. Volkan, 1997, 2004",
     "domain": "Social and psychopolitical psychoanalysis",
-    "definition": "The articulation of two collective psychodynamic mechanisms: the inability to mourn (Die Unfähigkeit zu trauern, Mitscherlich & Mitscherlich, 1967), defined as the refusal of honest moral confrontation with one's own internal complicities in totalitarian regimes, and chosen trauma (chosen trauma, Volkan, 1997, 2004). The latter denotes the mental representation of a historical injustice that fixes the group in a transgenerational identity of innocent and perpetual victim.",
+    "definition": "The articulation of two collective psychodynamic mechanisms: the inability to mourn (Die Unfähigkeit zu trauern, Mitscherlich & Mitscherlich, 1967), defined as the refusal of honest moral confrontation with one's own internal complicities in totalitarian regimes, and chosen trauma (Volkan, 1997, 2004). The latter denotes the mental representation of a historical injustice that fixes the group in a transgenerational identity of innocent and perpetual victim.",
     "monographContext": "It blocks civic maturation and favors the venting of historical guilt through paranoid projections of \"external persecutors.\"",
     "polarity": "tension"
   },
@@ -242,7 +242,7 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
     "stratum": "B",
     "authors": "Peter Sterling and Joseph Eyer, 1988 · Bruce S. McEwen and Eliot Stellar, 1993 · Bruce S. McEwen, 1998 · Robert M. Sapolsky, 2004, 2017",
     "domain": "Neurobiology of stress",
-    "definition": "The neurobiological framework that distinguishes between allostasis — the maintenance of physiological stability through adaptive change (Sterling & Eyer, 1988) — and allostatic load (allostatic load, McEwen & Stellar, 1993; McEwen, 1998), defined as the cumulative physiological cost and tissue and neural damage produced by chronic overload of the stress response axis. In this analysis, the concept shows how socioeconomic insecurity, legislative unpredictability, and bureaucratic humiliation in Layer A deplete citizens' neurocognitive reserve before external propaganda intervenes.",
+    "definition": "The neurobiological framework that distinguishes between allostasis — the maintenance of physiological stability through adaptive change (Sterling & Eyer, 1988) — and allostatic load (McEwen & Stellar, 1993; McEwen, 1998), defined as the cumulative physiological cost and tissue and neural damage produced by chronic overload of the stress response axis. In this analysis, the concept shows how socioeconomic insecurity, legislative unpredictability, and bureaucratic humiliation in Layer A deplete citizens' neurocognitive reserve before external propaganda intervenes.",
     "monographContext": "It exhausts the citizen's neurocognitive reserve before contact with digital propaganda; its reduction is the primary objective of Phase I.",
     "polarity": "tension"
   },
@@ -252,7 +252,7 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
     "stratum": "B",
     "authors": "Amy F. T. Arnsten, 2009 · Vinod Menon, 2011 · Robert M. Sapolsky, 2004, 2017 · Daniel Kahneman, 2011 · Keith E. Stanovich, 2009",
     "domain": "Cognitive Neuroscience",
-    "definition": "Neuroendocrine and brain network mechanism operating on two temporal levels: in the long term, chronic dysfunction of the hypothalamic-pituitary-adrenal axis (HPA axis — manifested by flattening of the circadian rhythm of cortisol, desensitization of glucocorticoid receptors and a systemic pro-inflammatory state) causes dendritic hypertrophy in the basolateral amygdala, hyperactivation of the relevance detection network (Salience Network – SN), disconnection of the central executive network (Central Executive Network – CEN, Menon, 2011) and dendritic retraction in the hippocampus and in layer III of the dorsolateral (dlPFC) and ventromedial (vmPFC) prefrontal cortex; in the short term, over and above this chronic vulnerability, acute informational shocks trigger phasic discharges of noradrenaline (alpha-1 receptors) and dopamine (D1 receptors) that induce rapid catecholaminergic synaptic inhibition of working memory (Arnsten, 2009; Sapolsky, 2004, 2017).",
+    "definition": "Neuroendocrine and brain network mechanism operating on two temporal levels: in the long term, chronic dysfunction of the hypothalamic-pituitary-adrenal axis (HPA axis — manifested by flattening of the circadian rhythm of cortisol, desensitization of glucocorticoid receptors and a systemic pro-inflammatory state) causes dendritic hypertrophy in the basolateral amygdala, hyperactivation of the relevance detection network (Salience Network – SN), disconnection of the Central Executive Network (CEN, Menon, 2011) and dendritic retraction in the hippocampus and in layer III of the dorsolateral (dlPFC) and ventromedial (vmPFC) prefrontal cortex; in the short term, over and above this chronic vulnerability, acute informational shocks trigger phasic discharges of noradrenaline (alpha-1 receptors) and dopamine (D1 receptors) that induce rapid catecholaminergic synaptic inhibition of working memory (Arnsten, 2009; Sapolsky, 2004, 2017).",
     "monographContext": "It blocks the deliberative System 2, fosters irrationality (Stanovich, 2009) and switches the citizen's brain to the exclusive dominance of the reactive System 1.",
     "polarity": "tension"
   },
@@ -290,9 +290,9 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
     "id": "antilumea-epstein",
     "term": "The Russian Antiworld and Normative Inversion",
     "stratum": "B",
-    "authors": "Mihail Epstein, 2022, 2023",
+    "authors": "Mikhail Epstein, 2022, 2023",
     "domain": "Philosophy of culture and political semiotics",
-    "definition": "Ideological system conceptualized by Mihail Epstein as Russkii Antimir, which does not propose a positive civilizational project, but works by systematically overturning the meaning of every political, legal and moral concept: aggression is called defense of peace, and occupation is called sovereignty.",
+    "definition": "Ideological system conceptualized by Mikhail Epstein as Russkii Antimir, which does not propose a positive civilizational project, but works by systematically overturning the meaning of every political, legal and moral concept: aggression is called defense of peace, and occupation is called sovereignty.",
     "monographContext": "The real operative nucleus of the Putinist ideology, masked for export by traditionalist and sovereignist camouflage in Figure 2.",
     "polarity": "tension"
   },
@@ -340,9 +340,9 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
     "id": "mediere-ternara-vs-binara",
     "term": "Ternary semiosis (triad of interpretants) versus binary semiotics of annihilation",
     "stratum": "B",
-    "authors": "Charles Sanders Peirce, 1931–1958 · Iuri Lotman, 1990, 1992/2009 · Iuri Lotman and Boris Uspenski, 1985",
+    "authors": "Charles Sanders Peirce, 1931–1958 · Yuri Lotman, 1990, 1992/2009 · Yuri Lotman and Boris Uspensky, 1985",
     "domain": "Semiotics of culture and pragmatics",
-    "definition": "In the architecture of Charles Sanders Peirce (1931–1958), authentic semiosis is a three-term relationship between sign, object, and interpretant, the latter evolving from the affective interpretant (primary emotion) and the energetic interpretant (immediate reaction) to the logical interpretant (critical deliberation and the rational rule of verification in the community). This structure corresponds to the boundary of the semiosphere as a bilingual translation filter (Lotman, 1990) and ternary cultures (Lotman, 1992/2009). In opposition to this, the binary semiotics of annihilation (Lotman & Uspenski, 1985) amputates the logical interpretant and the neutral zone of mediation, encapsulating the receiver in the short-circuited reaction of the affective and energetic interpretant, in which the opponent is treated as an ontological enemy to be exterminated.",
+    "definition": "In the architecture of Charles Sanders Peirce (1931–1958), authentic semiosis is a three-term relationship between sign, object, and interpretant, the latter evolving from the affective interpretant (primary emotion) and the energetic interpretant (immediate reaction) to the logical interpretant (critical deliberation and the rational rule of verification in the community). This structure corresponds to the boundary of the semiosphere as a bilingual translation filter (Lotman, 1990) and ternary cultures (Lotman, 1992/2009). In opposition to this, the binary semiotics of annihilation (Lotman & Uspensky, 1985) amputates the logical interpretant and the neutral zone of mediation, encapsulating the receiver in the short-circuited reaction of the affective and energetic interpretant, in which the opponent is treated as an ontological enemy to be exterminated.",
     "monographContext": "Cognitive operations export binary semiotics to democracies to block access to the logical interpretant and disrupt civil peace.",
     "polarity": "synthesis"
   },
@@ -352,7 +352,7 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
     "stratum": "B",
     "authors": "Arie W. Kruglanski and Donna M. Webster, 1996 · Arie W. Kruglanski, 2004 · Dan M. Kahan, 2013, 2017",
     "domain": "Cognitive and social psychology",
-    "definition": "Psychocognitive mechanism triggered by acute stress and ambiguity, unfolding in two sequences: hasty and uncritical adoption of the first simplistic explanation that promises certainty (seizing), followed by epistemic freezing and impermeability to counterarguments (freezing). This hardening is reinforced by merging belief with identity and emotional status in the group of belonging (Identity-Protective Cognition, Kahan, 2013).",
+    "definition": "Psychocognitive mechanism triggered by acute stress and ambiguity, unfolding in two sequences: hasty and uncritical adoption of the first simplistic explanation that promises certainty (seizing), followed by epistemic freezing and impermeability to counterarguments. This hardening is reinforced by merging belief with identity and emotional status in the group of belonging (Identity-Protective Cognition, Kahan, 2013).",
     "monographContext": "It explains why aggressive confrontation strengthens amygdala defenses and why Phase II must begin with community validation.",
     "polarity": "tension"
   },
@@ -413,7 +413,7 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
     "authors": "Carlo M. Cipolla, 1976/2011 · Douglass C. North, John Joseph Wallis and Barry R. Weingast, 2009 · Richard H. Thaler and Cass R. Sunstein, 2008 · David Laibson, 1997 · Ernst Fehr and Simon Gächter, 2002",
     "domain": "Economic history and decision theory",
     "definition": "Two-dimensional Cartesian system (Cipolla, 1976/2011) that classifies human and institutional actions according to personal gain or loss on the X-axis and societal benefit or damage on the Y-axis in four quadrants: Quadrant I of intelligent cooperation (+X, +Y), Quadrant II of the vulnerable citizen (-X, +Y, helpless), Quadrant IV of the extractive actor (+X, -Y, bandits) and Quadrant III of collective self-sabotage (-X, -Y). This Quadrant III is systemically more dangerous than Quadrant IV because it defies means–end rationality.",
-    "monographContext": "It formalizes the trajectory by which the vulnerable citizen of Quadrant II (-X, +Y), subject to the endogenous primary cause of internal spoliation in Quadrant IV (+X, -Y) — whose oligarchic factions threatened by the European rule of law have a tactical interest in encouraging anti-institutional chaos — is driven by the external catalyst of cognitive warfare — through the hyperbolic discounting of the future (Laibson, 1997) and diversion of altruistic punishment (Fehr & Gächter, 2002) into self-destructive symbolic revenge (spiteful punishment) and antisocial punishment (antisocial punishment) — vertically downwards, in Quadrant III of collective self-sabotage (-X, -Y), while the restorative transition to Quadrant I (+X, +Y) is achieved by strengthening the constitutional floor and removing the extractive dam through the institutional choice architecture (Richard H. Thaler and Cass R. Sunstein, 2008) in Figure 5.",
+    "monographContext": "It formalizes the trajectory by which the vulnerable citizen of Quadrant II (-X, +Y), subject to the endogenous primary cause of internal spoliation in Quadrant IV (+X, -Y) — whose oligarchic factions threatened by the European rule of law have a tactical interest in encouraging anti-institutional chaos — is driven by the external catalyst of cognitive warfare — through the hyperbolic discounting of the future (Laibson, 1997) and diversion of altruistic punishment (Fehr & Gächter, 2002) into self-destructive symbolic revenge (spiteful punishment) and antisocial punishment — vertically downwards, in Quadrant III of collective self-sabotage (-X, -Y), while the restorative transition to Quadrant I (+X, +Y) is achieved by strengthening the constitutional floor and removing the extractive dam through the institutional choice architecture (Richard H. Thaler and Cass R. Sunstein, 2008) in Figure 5.",
     "polarity": "neutral"
   },
   {
@@ -480,7 +480,7 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
     "id": "stratul-b",
     "term": "Layer B: Neurocognitive, semiotic and axiological processing",
     "stratum": "B",
-    "authors": "Bruce S. McEwen, 1998 · Robert M. Sapolsky, 2004, 2017 · John Boyd, 1987 · Vladimir Lefebvre, 1982 · Iuri Lotman, 1990",
+    "authors": "Bruce S. McEwen, 1998 · Robert M. Sapolsky, 2004, 2017 · John Boyd, 1987 · Vladimir Lefebvre, 1982 · Yuri Lotman, 1990",
     "domain": "Cognitive Neuroscience and Decisional Cybernetics",
     "definition": "The second causal tier of the model, which articulates the neurobiological mechanisms of stress—the HPA axis, the basolateral amygdala, and the prefrontal cortex—with the Orientation phase of the OODA loop, reflexive control, and ternary versus binary semiotic mediation.",
     "monographContext": "It constitutes the micro-mechanistic interface where internal institutional insecurity meets the algorithmic and semiotic vectors of external cognitive warfare.",
@@ -682,7 +682,7 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
     "stratum": "A",
     "authors": "Richard H. Thaler and Cass R. Sunstein, 2008 · Niklas Luhmann, 2004 · Constitutional Court Decision no. 694/2015",
     "domain": "Constitutional tax law and institutional economics",
-    "definition": "Mechanism of institutional choice architecture (institutional choice architecture, Thaler & Sunstein, 2008) and operational closure (Luhmann, 2004) through which the state eliminates the extractive asymmetry from the fiscal report (art. 167, art. 182 and art. 281 of Law no. 207/2015 – CPF, in accordance with the principle of fiscal symmetry from CCR Decision no. 694/2015), operating the ex officio automatic compensation of mutual claims (art. 167 CPF), ex officio transferring to the same IBAN account the mirror interest and penalties owed to the citizen or the company (art. 182 CPF) and establishing joint and several patrimonial liability and the effective recourse for definitively annulled tax acts in which the court finds bad faith or gross negligence (art. 281 CPF).",
+    "definition": "Mechanism of institutional choice architecture (Thaler & Sunstein, 2008) and operational closure (Luhmann, 2004) through which the state eliminates the extractive asymmetry in the fiscal relationship (art. 167, art. 182 and art. 281 of Law no. 207/2015 – CPF, in accordance with the principle of fiscal symmetry from CCR Decision no. 694/2015), operating the ex officio automatic compensation of mutual claims (art. 167 CPF), ex officio transferring to the same IBAN account the mirror interest and penalties owed to the citizen or the company (art. 182 CPF) and establishing joint and several patrimonial liability and the effective recourse for definitively annulled tax acts in which the court finds bad faith or gross negligence (art. 281 CPF).",
     "monographContext": "It seals in Subchapter 6.3 and Figure 5 the horizontal constitutional floor between Quadrant II and Quadrant III in Cipolla's matrix, reducing the opportunity cost of honesty and drawing citizens into Quadrant I (+X, +Y).",
     "polarity": "synthesis"
   }
@@ -1393,29 +1393,29 @@ export const BIBLIOGRAPHY_DATA: BibliographyItem[] = [
   },
   {
     "id": "bib-61a",
-    "authors": "Lotman, I. M.",
+    "authors": "Lotman, Y. M.",
     "year": "1990",
     "title": "Universe of the mind: A semiotic theory of culture",
     "publication": "I. B. Tauris",
-    "fullCitation": "Lotman, I. M. (1990). Universe of the mind: A semiotic theory of culture (Trans. A. Shukman). I. B. Tauris.",
+    "fullCitation": "Lotman, Y. M. (1990). Universe of the mind: A semiotic theory of culture (Trans. A. Shukman). I. B. Tauris.",
     "domain": "Cybernetics & Semiotics"
   },
   {
     "id": "bib-61b",
-    "authors": "Lotman, I. M.",
+    "authors": "Lotman, Y. M.",
     "year": "1992/2009",
     "title": "Culture and explosion",
     "publication": "Mouton de Gruyter",
-    "fullCitation": "Lotman, I. M. (2009). Culture and explosion (Trans. W. Clark). Mouton de Gruyter. (Original work Kultura i vzryv published in 1992).",
+    "fullCitation": "Lotman, Y. M. (2009). Culture and explosion (Trans. W. Clark). Mouton de Gruyter. (Original work Kultura i vzryv published in 1992).",
     "domain": "Cybernetics & Semiotics"
   },
   {
     "id": "bib-61c",
-    "authors": "Lotman, I. M., & Uspenski, B. A.",
+    "authors": "Lotman, Y. M., & Uspensky, B. A.",
     "year": "1985",
     "title": "Binary models in the dynamics of Russian culture (to the end of the eighteenth century)",
     "publication": "Cornell University Press",
-    "fullCitation": "Lotman, I. M., & Uspenski, B. A. (1985). Binary models in the dynamics of Russian culture (to the end of the eighteenth century). In A. D. Nakhimovsky & A. Stone Nakhimovsky (Eds.), The semiotics of Russian cultural history (pp. 30–66). Cornell University Press.",
+    "fullCitation": "Lotman, Y. M., & Uspensky, B. A. (1985). Binary models in the dynamics of Russian culture (to the end of the eighteenth century). In A. D. Nakhimovsky & A. Stone Nakhimovsky (Eds.), The semiotics of Russian cultural history (pp. 30–66). Cornell University Press.",
     "domain": "Cybernetics & Semiotics"
   },
   {
@@ -2142,7 +2142,7 @@ export const CHAPTER_EXECUTIVE_SUMMARIES: ChapterExecutiveSummary[] = [
         "id": "exec-3-1",
         "title": "Diagnosed mechanism: Colonization of the OODA Orientation phase and binary semiosis",
         "takeaway": "Second-order reflexive control—automated today by recommendation algorithms and based on aberrant precision-weighting (Friston) that attributes hyperprecision to conspiratorial dogma and mitigates factual prediction errors—targets the Orientation phase of the OODA loop, keeping the citizen at Rank 0/1 reflexivity and switching him from the first ethical system of cooperation to the second ethical system of confrontation binary.",
-        "implication": "Once the Orientation matrix is  altered, the citizen spontaneously rejects fact checks to protect his identity and status within the group he belongs to."
+        "implication": "Once the Orientation matrix is altered, the citizen spontaneously rejects fact checks to protect his identity and status within the group he belongs to."
       },
       {
         "id": "exec-3-2",
@@ -2165,7 +2165,7 @@ export const CHAPTER_EXECUTIVE_SUMMARIES: ChapterExecutiveSummary[] = [
       {
         "id": "exec-4-1",
         "title": "Diagnosed Mechanism: Sovereign Enantiodromia and Shadow Projection",
-        "takeaway": "The saturation of the mimetic institutional Persona in a society devoid of predictable institutions and exhausted by chronic stress generates an enantiodromous reactive pendulum, overturning the pro-Western facade conformism in the radical rejection of the constitutional order.",
+        "takeaway": "The saturation of the mimetic institutional Persona in a society devoid of predictable institutions and exhausted by chronic stress generates an enantiodromic reactive pendulum, overturning the pro-Western facade conformism in the radical rejection of the constitutional order.",
         "implication": "Unintegrated contents of the collective Shadow are vented by paranoid projection onto an \"external persecutor\", masking the responsibility of internal extractive networks."
       },
       {

@@ -250,7 +250,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
         <p className="text-xs sm:text-sm text-[#6E7376] mt-1">{meta.subtitle}</p>
         <div className="mt-3 pt-2.5 border-t border-[#8C9BA5] flex flex-wrap items-center justify-between gap-2">
           <SocialShareButtons
-            url={`https://laurentiustaicu.github.io/cognitive-warfare-diagnosis-romania/share/figura-${meta.id}.html`}
+            url={`https://laurentiustaicu.github.io/cognitive-warfare-diagnosis-romania/share/figura-${meta.id}.html?v=1`}
             title={`${meta.title} (Diagnosis of Cognitive Warfare in Romania)`}
             label={`Share Figure ${meta.id} on`}
             compact={!showSelector}
@@ -488,7 +488,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 textAnchor="middle"
                 className="font-mono text-[9.5px] font-bold fill-[#222426]"
               >
-                1. Macro → Micro Transition (Situational Mechanisms Coleman)
+                1. Macro → Micro Transition (Coleman Situational Mechanisms)
               </text>
 
               {/* STRATUL B CONTAINER (x=75..665, y=216..384, height=168) */}
@@ -664,7 +664,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 textAnchor="middle"
                 className="font-mono text-[9.5px] font-bold fill-[#222426]"
               >
-                3. Transition Micro → Macro (Transformational Aggregation)
+                3. Micro → Macro Transition (Transformational Aggregation)
               </text>
 
               {/* STRATUL C CONTAINER (x=75..665, y=446..606, height=160) */}
@@ -1040,7 +1040,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     ? 'Layer C (Vulnerable Regime): Expression in the cultural unconscious. The lowering of conscious tension (abaissement du niveau mental, Janet and Jung) and the blocking of the Ego–Self axis (Edinger) produce the oscillation between learned helplessness (Seligman), regressive basic assumptions (Bion) and compensatory defensive inflation.'
                     : 'Layer C (Resilient Regime): Activation of transcendent function (Jung, 1916/1960), negative capability (Bion, 1970) and reality-anchored Work Group (Bion, 1961) on the Ego–Self axis, replacing learned helplessness and paranoid projection with moral discernment (proairesis) and historical responsibility.')}
                 {fig1SelectedNode === 'filtru-moral' &&
-                  'Layer C (Lalonde–Dever Field: Filter of Christian-Secular Moral Values  and Associative Lifestyle): In its intact state, patristic anthropology of human dignity (Imago Dei) reconciled with secular universalism protects the civic conscience. In conditions of cognitive warfare, the hostile actor short-circuits this filter through ethnophyletic instrumentalization and normative inversion.'}
+                  'Layer C (Lalonde–Dever Field: Filter of Christian-Secular Moral Values and Associative Lifestyle): In its intact state, patristic anthropology of human dignity (Imago Dei) reconciled with secular universalism protects the civic conscience. In conditions of cognitive warfare, the hostile actor short-circuits this filter through ethnophyletic instrumentalization and normative inversion.'}
                 {fig1SelectedNode === 'vector' &&
                   'The vector of external cognitive warfare does not create the vulnerabilities of the target society out of nothing, but is grafted parasitically on the faults and pre-existing vulnerabilities of Layers A, B and C, when the failure of representation of traditional parties (Mair, 2013) leaves a political vacuum that populist intermediaries (Mudde, 2004) and reflexive control operations divert to false targets.'}
               </p>
@@ -1106,17 +1106,14 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 y="40"
                 textAnchor="middle"
                 className="font-sans text-[16px] font-bold fill-[#222426]"
-              >
-                Christian-secular synthesis
-              </text>
+              >European Christian-secular</text>
               <text
                 x="170"
                 y="62"
                 textAnchor="middle"
                 className="font-sans text-[16px] font-bold fill-[#222426]"
               >
-                European
-              </text>
+                synthesis</text>
 
               {/* Right Column Header (center x=710) */}
               <text
@@ -1661,15 +1658,15 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 {fig2Inspect === 'sinteza-stanga' &&
                   'The Christian-secular European synthesis unites the patristic anthropology of the free person created in the divine image (Imago Dei and the discernment of proairesis — Berdyaev, Stăniloae, Kalaitzidis) with the rule of impersonal law and the autonomy of critical judgment in the post-secular society (Habermas, Taylor, Lefebvre). The debates between conservative ethics and modern secularism are resolved peacefully in the first ethical system, generating organic modernity.'}
                 {fig2Inspect === 'falsificare-ortodoxie' &&
-                  'Forgery I: Ethnophyletism Russkii Mir. To circumvent the Romanians\' historical aversion to Russian imperialism (the 12 invasions, the seizure of Bessarabia in 1812 and the re-annexation of the three southern counties of Bessarabia — Cahul, Ismail and Bolgrad — in 1878, the Treasury and the Gulag), the propaganda projects a pseudo-orthodox mask that substitutes Christian universalism (Imago Dei) with the militaristic state religion of the "Russian World" — a mimetic falsification (Solovyov, 1900/1994) condemned as an ethnophyletic heresy at the Synod of Constantinople in 1872.'}
+                  'Falsification I: Russkii Mir Ethnophyletism. To circumvent the Romanians\' historical aversion to Russian imperialism (the 12 invasions, the seizure of Bessarabia in 1812 and the re-annexation of the three southern counties of Bessarabia — Cahul, Ismail and Bolgrad — in 1878, the Treasury and the Gulag), the propaganda projects a pseudo-orthodox mask that substitutes Christian universalism (Imago Dei) with the militaristic state religion of the "Russian World" — a mimetic falsification (Solovyov, 1900/1994) condemned as an ethnophyletic heresy at the Synod of Constantinople in 1872.'}
                 {fig2Inspect === 'falsificare-suveranitate' &&
                   'Falsification II: False Isolationist Sovereignism. Under the slogan of defending national sovereignty against European institutions, the operation parasitises legitimate debates in constitutional democracy to promote exit from the NATO and EU security architecture, turning patriotism into a tool for strategic disarmament of the target state.'}
                 {fig2Inspect === 'nucleu-antimir' &&
                   'The real operative nucleus: The normative inversion of the Antiworld (Antimir — Epstein, 2022) and the cynicism of the Bobok state (Dostoevsky, 1873). Under traditionalist camouflage, the real operative regime reverses the meaning of fundamental concepts (war of aggression is called "peace", the sovereignty of neighboring states is treated as "anomaly") and cultivates the cynical belief that truth and law are mere hypocritical fictions.'}
                 {fig2Inspect === 'retele-spalare' &&
-                  'The architecture in 3 levels of recycling and dissimulation of the information source through intermediaries (information laundering): (1) the ideological laboratories and strategic platforms of the Kremlin (RT, Sputnik, Fundul Culturii Strategice, Katehon and the aggregators of the Pravda network); (2) ideological intermediaries, opportunistic political actors, and informal autochthonous paraecclesial nuclei; (3) digital distribution infrastructure through cloned sites (Doppelgänger), swarms of bots (Matryoshka), contamination of linguistic model corpora (LLM grooming) and micro-influencer networks on TikTok and Telegram.'}
+                  'The architecture in 3 levels of recycling and dissimulation of the information source through intermediaries (information laundering): (1) the ideological laboratories and strategic platforms of the Kremlin (RT, Sputnik, the Strategic Culture Foundation, Katehon and the aggregators of the Pravda network); (2) ideological intermediaries, opportunistic political actors, and informal autochthonous paraecclesial nuclei; (3) digital distribution infrastructure through cloned sites (Doppelgänger), swarms of bots (Matryoshka), contamination of linguistic model corpora (LLM grooming) and micro-influencer networks on TikTok and Telegram.'}
                 {fig2Inspect === 'subordonare' &&
-                  'Strategic Finality: Imperial Subordination and Anomie. By compromising internal normative cohesion and decoupling Romania from Western collective guarantees, the target state is pushed into a gray area of  insecurity and asymmetrical bilateralism in the face of revisionist aggression.'}
+                  'Strategic Finality: Imperial Subordination and Anomie. By compromising internal normative cohesion and decoupling Romania from Western collective guarantees, the target state is pushed into a gray area of insecurity and asymmetrical bilateralism in the face of revisionist aggression.'}
               </p>
             </div>
           </div>
@@ -1877,17 +1874,14 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   y="78"
                   textAnchor="middle"
                   className="font-sans text-[12px] font-bold fill-[#222426]"
-                >
-                  Reflexive control
-                </text>
+                >Second-order</text>
                 <text
                   x="474"
                   y="96"
                   textAnchor="middle"
                   className="font-sans text-[12px] font-bold fill-[#222426]"
                 >
-                  of second rank
-                </text>
+                  reflexive control</text>
               </g>
 
               {/* PIERCING VERMILION VECTOR: Injecție de control reflexiv străpungând Orientarea (x=474) */}
@@ -2638,17 +2632,14 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   y="184"
                   textAnchor="middle"
                   className="font-sans text-[11px] font-bold fill-[#222426]"
-                >
-                  function
-                </text>
+                >Transcendent</text>
                 <text
                   x="611"
                   y="203"
                   textAnchor="middle"
                   className="font-sans text-[11px] font-bold fill-[#222426]"
                 >
-                  transcendental
-                </text>
+                  function</text>
                 <text
                   x="611"
                   y="222"
@@ -4528,17 +4519,14 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   y="335"
                   textAnchor="middle"
                   className="font-sans text-[8px] font-bold fill-[#6E7376]"
-                >
-                  Consolidation
-                </text>
+                >Resilience</text>
                 <text
                   x="870"
                   y="346"
                   textAnchor="middle"
                   className="font-sans text-[8px] fill-[#6E7376]"
                 >
-                  resilience
-                </text>
+                  consolidation</text>
               </g>
             </svg>
 
@@ -5371,7 +5359,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 {fig7SelectedNode === 'faza3' &&
                   'Phase III · Strategic horizon, 3–10 years. It consolidates the architecture of democratic sovereignty through three pillars: (3.1) the operational closure of the rule of law and fiscal equality; (3.2) polycentric governance (Ostrom, 1990) and cooperative reform; and (3.3) the collective individuation on the Ego–Self axis, guaranteed by the double independent audit.'}
                 {fig7SelectedNode === 'faza3-1' &&
-                  '3.1 Operational closure and tax parity (3–10 years). Eliminating the vulnerabilities of institutional blackmail and perpetual interim appointments (art. 509–510 O.U.G. no. 57/2019), the meritocratic professionalization of the public body and the establishment of fiscal isonomy: based on the principle of fiscal symmetry established by CCR Decision no. 694/2015 (referring to the old art. 124 par. 1 related to art. 70 of O.G. no. 92/2003 — the current art. 182 CPF regarding the state\'s obligation to pay fiscal interest for sums improperly collected or not repaid on time), the ferenda law requires the amendment of art. 167 and art. 182 CPF (automatic automatic compensation of mutual tax claims under art. 167 CPF and ex officio crediting of interest and penalties in the same IBAN under art. 182 CPF) and completion of the procedural framework from art. 281 CPF (distinct from the current art. 281 CPF which aims to communicate the decision to resolve the appeal and from art. 499-500 of the Administrative Code regarding the civil servant\'s liability towards the public authority) for triggering the joint and several patrimonial liability and the effective recourse when the court definitively finds that the annulled tax act was issued in bad faith or gross negligence.'}
+                  '3.1 Operational closure and fiscal isonomy (3–10 years). Eliminating the vulnerabilities of institutional blackmail and perpetual interim appointments (art. 509–510 O.U.G. no. 57/2019), the meritocratic professionalization of the public body and the establishment of fiscal isonomy: based on the principle of fiscal symmetry established by CCR Decision no. 694/2015 (referring to the old art. 124 par. 1 related to art. 70 of O.G. no. 92/2003 — the current art. 182 CPF regarding the state\'s obligation to pay fiscal interest for sums improperly collected or not repaid on time), the ferenda law requires the amendment of art. 167 and art. 182 CPF (automatic automatic compensation of mutual tax claims under art. 167 CPF and ex officio crediting of interest and penalties in the same IBAN under art. 182 CPF) and completion of the procedural framework from art. 281 CPF (distinct from the current art. 281 CPF which aims to communicate the decision to resolve the appeal and from art. 499-500 of the Administrative Code regarding the civil servant\'s liability towards the public authority) for triggering the joint and several patrimonial liability and the effective recourse when the court definitively finds that the annulled tax act was issued in bad faith or gross negligence.'}
                 {fig7SelectedNode === 'faza3-2' &&
                   '3.2 Polycentric governance (Ostrom, 1990) and economic solidarity (3–10 years). Decision-making decentralization, the development of autonomous local centers for solving community problems and the professionalization of the governance of agricultural cooperatives according to Law no. 566/2004: amendment by law ferenda of art. 31 and art. 33–35 (the seat of the matter for the executive director) in conjunction with the rules of incompatibility in art. 16 para. (4) and art. 29 regarding the board of directors, for the recruitment by competition of an independent executive director and the express prohibition of relatives and relatives up to the 3rd degree, along with the guarantees and fiscal facilities in art. 76 and art. 76¹, for the generation of bridging social capital (Putnam, 2000).'}
                 {fig7SelectedNode === 'faza3-3' &&
