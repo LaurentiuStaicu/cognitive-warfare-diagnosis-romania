@@ -140,7 +140,7 @@ export const DocumentaryGuideView: React.FC<DocumentaryGuideViewProps> = ({
               <span>Documentary Directing & Production Guide · Cinematographic Treatment</span>
             </div>
             <h1 className="font-serif text-2xl sm:text-4xl font-bold text-[#222426] leading-tight">
-              Documentary Director & Production Guide "Diagnosis of Cognitive War"
+              Documentary Director & Production Guide "Diagnosis of Cognitive Warfare"
             </h1>
             <p className="text-xs sm:text-sm text-[#222426] leading-relaxed max-w-[70ch]">
               This secondary technical deliverable is decoupled from the text of the academic monograph. He provides directorial specifications, sound cues, and cinematic frame sequencing for the audiovisual adaptation of the research.

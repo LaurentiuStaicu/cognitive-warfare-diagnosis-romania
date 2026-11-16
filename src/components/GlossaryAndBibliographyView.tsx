@@ -89,7 +89,7 @@ export const GlossaryAndBibliographyView: React.FC = () => {
                 onChange={(e) => setSearchQuery(e.target.value)}
                 placeholder={
                   activeTab === 'glossary'
-                    ? 'Search for a concept: operational closure, allostasy, OODA, Bobok, Edinger...'
+                    ? 'Search for a concept: operational closure, allostasis, OODA, Bobok, Edinger...'
                     : 'Search for an author, year or title in the bibliography: Luhmann, Sterling, Menon, Sapolsky, Lefebvre, Lotman...'
                 }
                 className="w-full pl-9 pr-4 py-2 text-xs sm:text-sm bg-[#F6F5EE] border border-[#222426] text-[#222426] placeholder:text-[#6E7376] focus:outline-none focus:ring-2 focus:ring-[#E5B822]"

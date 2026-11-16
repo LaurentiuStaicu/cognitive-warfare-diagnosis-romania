@@ -225,7 +225,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     : 'bg-[#F6F5EE] text-[#222426] border-[#8C9BA5] hover:border-[#222426]'
                 }`}
               >
-                FIGURA 0{id}
+                FIGURE 0{id}
               </button>
             ))}
           </div>
@@ -284,7 +284,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
       </div>
 
       {/* =====================================================================
-          FIGURA 1: Arhitectura cauzală pe trei straturi (Pagina 8)
+          FIGURE 1: Three-Layer Causal Architecture (Page 8)
          ===================================================================== */}
       {figureId === 1 && (
         <div>
@@ -1050,7 +1050,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
       )}
 
       {/* =====================================================================
-          FIGURA 2: Mecanismul dublei falsificări axiologice (Pagina 12)
+          FIGURE 2: Mechanism of Dual Axiological Falsification (Page 12)
          ===================================================================== */}
       {figureId === 2 && (
         <div>
@@ -1659,9 +1659,9 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
               </div>
               <p className="text-xs sm:text-sm text-[#222426] leading-relaxed">
                 {fig2Inspect === 'sinteza-stanga' &&
-                  'The Christian-secular European synthesis unites the patristic anthropology of the free person created in the divine image (Imago Dei and the discernment of proairesis — Berdiaev, Stăniloae, Kalaitzidis) with the rule of impersonal law and the autonomy of critical judgment in the post-secular society (Habermas, Taylor, Lefebvre). The debates between conservative ethics and modern secularism are resolved peacefully in the first ethical system, generating organic modernity.'}
+                  'The Christian-secular European synthesis unites the patristic anthropology of the free person created in the divine image (Imago Dei and the discernment of proairesis — Berdyaev, Stăniloae, Kalaitzidis) with the rule of impersonal law and the autonomy of critical judgment in the post-secular society (Habermas, Taylor, Lefebvre). The debates between conservative ethics and modern secularism are resolved peacefully in the first ethical system, generating organic modernity.'}
                 {fig2Inspect === 'falsificare-ortodoxie' &&
-                  'Forgery I: Ethnophyletism Russkii Mir. To circumvent the Romanians\' historical aversion to Russian imperialism (the 12 invasions, the seizure of Bessarabia in 1812 and the re-annexation of the three southern counties of Bessarabia — Cahul, Ismail and Bolgrad — in 1878, the Treasury and the Gulag), the propaganda projects a pseudo-orthodox mask that substitutes Christian universalism (Imago Dei) with the militaristic state religion of the "Russian World" — a mimetic falsification (Soloviov, 1900/1994) condemned as an ethnophyletic heresy at the Synod of Constantinople in 1872.'}
+                  'Forgery I: Ethnophyletism Russkii Mir. To circumvent the Romanians\' historical aversion to Russian imperialism (the 12 invasions, the seizure of Bessarabia in 1812 and the re-annexation of the three southern counties of Bessarabia — Cahul, Ismail and Bolgrad — in 1878, the Treasury and the Gulag), the propaganda projects a pseudo-orthodox mask that substitutes Christian universalism (Imago Dei) with the militaristic state religion of the "Russian World" — a mimetic falsification (Solovyov, 1900/1994) condemned as an ethnophyletic heresy at the Synod of Constantinople in 1872.'}
                 {fig2Inspect === 'falsificare-suveranitate' &&
                   'Falsification II: False Isolationist Sovereignism. Under the slogan of defending national sovereignty against European institutions, the operation parasitises legitimate debates in constitutional democracy to promote exit from the NATO and EU security architecture, turning patriotism into a tool for strategic disarmament of the target state.'}
                 {fig2Inspect === 'nucleu-antimir' &&
@@ -1677,7 +1677,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
       )}
 
       {/* =====================================================================
-          FIGURA 3: Mecanismul cibernetic și semiotic în bucla OODA (Pagina 20)
+          FIGURE 3: Cybernetic and Semiotic Mechanism in the OODA Loop (Page 20)
          ===================================================================== */}
       {figureId === 3 && (
         <div>
@@ -2424,7 +2424,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
       )}
 
       {/* =====================================================================
-          FIGURA 4: Conversia funcțională a resurselor latente din Umbră (Pagina 24)
+          FIGURE 4: Functional Conversion of Latent Resources from the Shadow (Page 24)
          ===================================================================== */}
       {figureId === 4 && (
         <div>
@@ -3026,7 +3026,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
       )}
 
       {/* =====================================================================
-          FIGURA 5: Matricea comportamentală a lui Carlo M. Cipolla (Pagina 27)
+          FIGURE 5: Carlo M. Cipolla's Behavioral Matrix (Page 27)
          ===================================================================== */}
       {figureId === 5 && (
         <div>
@@ -3596,7 +3596,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
       )}
 
       {/* =====================================================================
-          FIGURA 6: Modelul comparativ al procesării cognitive în criză (Track A vs. Track B)
+          FIGURE 6: Comparative Model of Cognitive Processing in Crisis (Track A vs. Track B)
          ===================================================================== */}
       {figureId === 6 && (
         <div>
@@ -4581,7 +4581,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
       )}
 
       {/* =====================================================================
-          FIGURA 7: Protocolul secvențial în trei faze (Pagina 39)
+          FIGURE 7: The Three-Phase Sequential Protocol (Page 39)
          ===================================================================== */}
       {figureId === 7 && (
         <div>
@@ -5365,7 +5365,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 {fig7SelectedNode === 'faza2-2' &&
                   '2.2 Prebunking and Ebbinghaus consolidation (1–3 years). Preventive psychological inoculation against manipulation techniques (prebunking, McGuire, 1964; Roozenbeek & van der Linden, 2019, 2022), supported by periodic reminder sessions calibrated on the forgetting curve of Ebbinghaus (1885/1913) and the training of actively open-minded thinking (Stanovich, 2009) against motivated rationalization.'}
                 {fig7SelectedNode === 'faza2-3' &&
-                  '2.3 Christian-secular axiological partnership (1–3 years). Communicative reconciliation (Habermas, 2006; Taylor, 2007) between the Christian ethic of the inalienable dignity of the person (Imago Dei, proairesis) and secular constitutional universalism, protecting the functional autonomy of both spheres against their parasitism as militaristic state ideology (Hovorun, 2018; Kalaitzidis et al., 2022) or mimetic falsification (Soloviov, 1900/1994).'}
+                  '2.3 Christian-secular axiological partnership (1–3 years). Communicative reconciliation (Habermas, 2006; Taylor, 2007) between the Christian ethic of the inalienable dignity of the person (Imago Dei, proairesis) and secular constitutional universalism, protecting the functional autonomy of both spheres against their parasitism as militaristic state ideology (Hovorun, 2018; Kalaitzidis et al., 2022) or mimetic falsification (Solovyov, 1900/1994).'}
                 {fig7SelectedNode === 'poarta2' &&
                   'Causal Gateway 2: Civic Pressure in the “Narrow Corridor” (Acemoglu & Robinson, 2019). It explains why Phase III depends on the maturation of Phase II: no constitutional architecture or legislative reform can be self-enforcing in the absence of a vigilant civil society equipped with critical discernment, bridging social capital (Putnam, 2000) and mobilization capacity (the "Red Queen effect") to force the state to stay within the "narrow corridor" of democratic accountability.'}
                 {fig7SelectedNode === 'faza3' &&

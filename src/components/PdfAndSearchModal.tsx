@@ -70,7 +70,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({
             autoFocus
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Enter a term, concept or author (eg Luhmann, OODA, allostasy, Bobok, Cipolla, Bion)..."
+            placeholder="Enter a term, concept or author (e.g., Luhmann, OODA, allostasis, Bobok, Cipolla, Bion)..."
             className="w-full pl-10 pr-4 py-3 text-sm bg-[#F6F5EE] border-2 border-[#222426] text-[#222426] placeholder:text-[#6E7376] focus:outline-none focus:bg-[#F6F5EE]"
           />
         </div>
@@ -162,7 +162,7 @@ export const PdfDocumentView: React.FC = () => {
             Verified primary source (47 pages, Version 1.0)
           </div>
           <h2 className="font-serif text-xl sm:text-2xl font-bold text-[#222426]">
-            The original document in PDF format (Diagnosis of the cognitive war in Romania)
+            The original document in PDF format (Diagnosis of Cognitive Warfare in Romania)
           </h2>
           <p className="text-xs sm:text-sm text-[#6E7376] mt-1">
             All texts, diagrams, tables and bibliographic references in the platform are fully extracted from this monograph.
@@ -184,7 +184,7 @@ export const PdfDocumentView: React.FC = () => {
       <div className="bg-[#F6F5EE] border-2 border-[#222426] p-2 h-[80vh]">
         <iframe
           src={pdfPath}
-          title="Diagnosis of the cognitive war in Romania (PDF)"
+          title="Diagnosis of Cognitive Warfare in Romania (PDF)"
           className="w-full h-full border border-[#8C9BA5] bg-[#F6F5EE]"
         />
       </div>

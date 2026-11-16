@@ -245,7 +245,7 @@ export const INLINE_GLOSSARY_PATTERNS: GlossaryPatternRule[] = [
   {
     conceptId: 'vid-reprezentare-intermediere',
     patternId: 'vid-reprezentare',
-    regex: /(?<!\p{L})((?:political\s+)?representation\s+vacuum|void\s+of\s+(?:political\s+)?representation)(?!\p{L})/iu
+    regex: /(?<!\p{L})((?:political\s+)?representation\s+vacuum|(?:void|vacuum)\s+of\s+(?:political\s+)?representation)(?!\p{L})/iu
   },
   {
     conceptId: 'vid-reprezentare-intermediere',
@@ -392,7 +392,7 @@ export const INLINE_GLOSSARY_PATTERNS: GlossaryPatternRule[] = [
   {
     conceptId: 'model-collapse-mad',
     patternId: 'rag-poisoning',
-    regex: /(?<!\p{L})(inference-time\s+RAG\s+poisoning)(?!\p{L})/iu
+    regex: /(?<!\p{L})(inference-time\s+RAG\s+poisoning|RAG\s+poisoning(?:\s+at\s+inference\s+time)?|Retrieval-Augmented\s+Generation\s+\(RAG\))(?!\p{L})/iu
   },
   {
     conceptId: 'abaissement-du-niveau-mental',

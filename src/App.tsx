@@ -57,7 +57,18 @@ function findMatchingBibliographyItems(
     'basic',
     'laws',
     'human',
-    'stupidity'
+    'stupidity',
+    'chapter',
+    'table',
+    'figure',
+    'layer',
+    'phase',
+    'from',
+    'for',
+    'through',
+    'under',
+    'with',
+    'within'
   ]);
 
   const clauses = citationText
@@ -69,14 +80,14 @@ function findMatchingBibliographyItems(
   const seenIds = new Set<string>();
   const results: BibliographyItem[] = [];
   const legislativeExclusionRegex =
-    /\b(?:Legea|O\.U\.G\.|O\.G\.|Decizia|Regulamentul|art\.|alin\.|CCR|ÎCCJ|RIL)\b/i;
+    /\b(?:Legea|Law|O\.U\.G\.|O\.G\.|Decizia|Decision|Regulamentul|Regulation|art\.|alin\.|para\.|par\.|CCR|ÎCCJ|RIL|AMEPIP)\b/i;
 
   for (const clause of clauses) {
     if (legislativeExclusionRegex.test(clause)) continue;
     const cleaned = clause.toLowerCase();
     const tokens = cleaned
       .split(/[^a-zăâîșțáéíóúçıöüä'-]+/iu)
-      .map((t) => t.trim())
+      .map((t) => t.trim().replace(/['\u2019]s$/i, ''))
       .filter((t) => (t.length >= 3 || t === 'wu') && !stopWords.has(t));
 
     const yearMatches = clause.match(/\b(18\d{2}|19\d{2}|20\d{2})\b/g) || [];
@@ -116,7 +127,7 @@ function findMatchingBibliographyItems(
       const capitalizedContextWords = (
         precedingContext.match(/\b\p{Lu}[\p{L}'-]+\b/gu) || []
       )
-        .map((t) => t.toLowerCase())
+        .map((t) => t.toLowerCase().replace(/['\u2019]s$/i, ''))
         .filter((t) => (t.length >= 3 || t === 'wu') && !stopWords.has(t));
 
       if (capitalizedContextWords.length > 0) {
@@ -537,8 +548,8 @@ export function App() {
         parts.push(...applyGlossaryTooltips(textChunk, `chunk-${lastIndex}`));
       }
 
-      const rawPreceding = paragraphText.slice(Math.max(0, matchIndex - 65), matchIndex);
-      const boundaryParts = rawPreceding.split(/(?:[.!?;:]|\))\s+/);
+      const rawPreceding = paragraphText.slice(Math.max(0, matchIndex - 85), matchIndex);
+      const boundaryParts = rawPreceding.split(/(?<!\bal|\b\p{Lu})(?:[.!?;:]|\))\s+/u);
       const precedingAuthorContext = boundaryParts[boundaryParts.length - 1] || '';
 
       const matchedItems = findMatchingBibliographyItems(innerCitation, precedingAuthorContext);
@@ -624,7 +635,7 @@ export function App() {
           title="Return to the main cover (Landing page)"
           className="font-serif text-sm sm:text-lg font-bold tracking-tight text-[#222426] truncate max-w-[62vw] sm:max-w-none"
         >
-          Diagnosis of the cognitive war in Romania
+          Diagnosis of Cognitive Warfare in Romania
         </a>
 
         {/* Zone 2: Single-line text navigation links */}
@@ -749,7 +760,7 @@ export function App() {
                     </span>
                   </div>
                   <h1 className="font-serif text-xl sm:text-3xl lg:text-4xl font-bold text-[#222426] headline-balance leading-tight mt-1">
-                    Diagnosis of the cognitive war in Romania
+                    Diagnosis of Cognitive Warfare in Romania
                   </h1>
                   <p className="text-xs sm:text-sm font-normal text-[#222426] mt-2 leading-relaxed">
                     The Institutional, Neurocognitive, and Cultural Architecture of Societal Vulnerability and Resilience to Russian Information Operations and Putinist Ideology
@@ -1627,7 +1638,7 @@ export function App() {
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 pb-4 border-b border-[#8C9BA5]">
             <div className="text-xs text-[#6E7376]">
               <span className="font-serif font-bold text-[#222426]">
-                Diagnosis of the cognitive war in Romania · Version 1.0
+                Diagnosis of Cognitive Warfare in Romania · Version 1.0
               </span>
               <span> · </span>
               <span>

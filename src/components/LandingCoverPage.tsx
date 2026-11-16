@@ -46,7 +46,7 @@ const COVER_BLOCK_INFO: Record<
     badge: 'THE CHRISTIAN-SECULAR AXIOLOGICAL FILTER',
     title: 'The dignity of the person (Imago Dei) versus the double axiological falsification',
     synthesis:
-      'The Christian-secular European synthesis unites the patristic anthropology of the free person (Imago Dei and the discernment of proairesis—Berdiaev, Stăniloae, Kalaitzidis) with the rule of impersonal law (Habermas, Taylor). Kremlin propaganda operates a double mimetic falsification (Soloviov, 1900/1994): it substitutes canonical orthodoxy for the militarist ethnophiletist heresy Russkii Mir and constitutional sovereignty for isolationist strategic disarmament.',
+      'The Christian-secular European synthesis unites the patristic anthropology of the free person (Imago Dei and the discernment of proairesis—Berdyaev, Stăniloae, Kalaitzidis) with the rule of impersonal law (Habermas, Taylor). Kremlin propaganda operates a double mimetic falsification (Solovyov, 1900/1994): it substitutes canonical orthodoxy for the militarist ethnophiletist heresy Russkii Mir and constitutional sovereignty for isolationist strategic disarmament.',
     chapterLabel: 'Chapter 2',
     chapterHash: '#pasul-6',
     figureLabel: 'Figure 2',

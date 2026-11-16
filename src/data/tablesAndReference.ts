@@ -170,7 +170,7 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
     "id": "filtrul-axiologic",
     "term": "The Christian-secular axiological and normative filter",
     "stratum": "B",
-    "authors": "Nikolai Berdiaev, 1949/1996 · Dumitru Stăniloae, 1978 · Jürgen Habermas, 2006 · Charles Taylor, 2007",
+    "authors": "Nikolai Berdyaev, 1949/1996 · Dumitru Stăniloae, 1978 · Jürgen Habermas, 2006 · Charles Taylor, 2007",
     "domain": "Constitutional Philosophy and Theology",
     "definition": "The normative framework of European constitutional democracy (the post-secular society analyzed by Habermas, 2006), where there are real philosophical tensions and debates between conservative Christian ethics and modern secularism. However, these differences are peacefully mediated through dialogue, freedom of conscience and respect for the inalienable dignity of the person (Imago Dei), within the first ethical system of procedural cooperation (Lefebvre, 1982).",
     "monographContext": "It stabilizes operational closure in Layer A, the first ethical system of cooperation in Layer B, and the Ego–Self axis in Layer C, resisting the diversion of these legitimate debates into a symbolic civil war of mutual annihilation.",
@@ -278,11 +278,11 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
   },
   {
     "id": "triada-ilin-gumiliov-dughin",
-    "term": "The revisionist doctrinal corpus: Ilin, Gumiliov and Dughin",
+    "term": "The revisionist doctrinal corpus: Ilyin, Gumilyov and Dugin",
     "stratum": "B",
-    "authors": "Ivan Ilin, 1925/1956 · Lev Gumiliov, 1989 · Michel Eltchaninoff, 2018 · Timothy Snyder, 2018 · Françoise Thom, 2018, 2022 · Aleksandr Dughin, 1997 · Carl Schmitt, 1932/1996",
+    "authors": "Ivan Ilyin, 1925/1956 · Lev Gumilyov, 1989 · Michel Eltchaninoff, 2018 · Timothy Snyder, 2018 · Françoise Thom, 2018, 2022 · Aleksandr Dugin, 1997 · Carl Schmitt, 1932/1996",
     "domain": "History of political ideas and geopolitics",
-    "definition": "The doctrinal articulation of three revisionist pillars: the allegedly ontologically innocent totalitarianism of Ivan Ilin (the merging of the individual into a totality ruled by a leader unfettered by law — Gosudar) and the biocosmic determinism of Eurasian \"passionateness\" and \"supra-ethnicity\" formulated by Lev Gumiliov. To these is added the neo-Eurasian geopolitics of Aleksandr Dughin (1997), built on the confrontation between tellurocracy (\"empire of land\") and thalassocracy (\"empire of the sea\") and on the friend-enemy decisionism of Carl Schmitt (1932/1996).",
+    "definition": "The doctrinal articulation of three revisionist pillars: the allegedly ontologically innocent totalitarianism of Ivan Ilyin (the merging of the individual into a totality ruled by a leader unfettered by law — Gosudar) and the biocosmic determinism of Eurasian \"passionateness\" and \"supra-ethnicity\" formulated by Lev Gumilyov. To these is added the neo-Eurasian geopolitics of Aleksandr Dugin (1997), built on the confrontation between tellurocracy (\"empire of land\") and thalassocracy (\"empire of the sea\") and on the friend-enemy decisionism of Carl Schmitt (1932/1996).",
     "monographContext": "It provides the ideological justification for imperial aggression and the annihilation of the Euro-Atlantic constitutional order.",
     "polarity": "tension"
   },
@@ -300,7 +300,7 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
     "id": "starea-bobok",
     "term": "The Bobok state and transgressive cynical nihilism",
     "stratum": "B",
-    "authors": "Fiodor Dostoievski, 1873 · Françoise Thom, 2018 · Peter Pomerantsev, 2014, 2019",
+    "authors": "Fyodor Dostoevsky, 1873 · Françoise Thom, 2018 · Peter Pomerantsev, 2014, 2019",
     "domain": "Political science and the psychology of propaganda",
     "definition": "The deliberate cultivation of transgressive cynicism — summed up by the motto \"let's not be ashamed of anything!\" — and of absolute epistemic relativism, designed to convince the audience that truth does not exist and that all democratic institutions are only hypocritical masks.",
     "monographContext": "It replaces classical ideological persuasion with moral paralysis and acceptance of the law of the fittest.",
@@ -310,7 +310,7 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
     "id": "dubla-falsificare-axiologica",
     "term": "Axiological double falsification and semiotic parasitism",
     "stratum": "B",
-    "authors": "Vladimir Soloviov, 1900/1994 · Nikolai Berdiaev, 1949/1996 · Dumitru Stăniloae, 1978 · Pantelis Kalaitzidis, 2012 · Cyril Hovorun, 2018 · Aristotle Papanikolaou, 2012 · Kalaitzidis et al., 2022",
+    "authors": "Vladimir Solovyov, 1900/1994 · Nikolai Berdyaev, 1949/1996 · Dumitru Stăniloae, 1978 · Pantelis Kalaitzidis, 2012 · Cyril Hovorun, 2018 · Aristotle Papanikolaou, 2012 · Kalaitzidis et al., 2022",
     "domain": "Axiological semiotics and political theology",
     "definition": "Operation of discursive camouflage and semiotic parasitism of autochthonous identity codes, which first falsifies the orthodox Christian tradition of the free person (Imago Dei and proairesis), substituting it with the militarist and ethnophiletist Russkii Mir ideology. At the same time, it falsifies the constitutional concept of national sovereignty, which it transforms into a doctrine of strategic disarmament, decoupling from NATO and the EU, and isolation in asymmetric bilateralism.",
     "monographContext": "It allows Russian propaganda to bypass Romanians' historical aversion to Moscow, as illustrated in Figure 2.",
@@ -763,11 +763,11 @@ export const BIBLIOGRAPHY_DATA: BibliographyItem[] = [
   },
   {
     "id": "bib-8",
-    "authors": "Berdiaev, N.",
+    "authors": "Berdyaev, N.",
     "year": "1949/1996",
     "title": "The Realm of Spirit and the Realm of Caesar [Împărăția Duhului și împărăția Cezarului] (Trans. S. Lupan)",
     "publication": "Editura Amarcord",
-    "fullCitation": "Berdiaev, N. (1996). Împărăția Duhului și împărăția Cezarului [The Realm of Spirit and the Realm of Caesar] (Trans. S. Lupan). Editura Amarcord. (Original work published posthumously in 1949).",
+    "fullCitation": "Berdyaev, N. (1996). Împărăția Duhului și împărăția Cezarului [The Realm of Spirit and the Realm of Caesar] (Trans. S. Lupan). Editura Amarcord. (Original work published posthumously in 1949).",
     "domain": "Analytical Psychology & Memory"
   },
   {
@@ -907,11 +907,11 @@ export const BIBLIOGRAPHY_DATA: BibliographyItem[] = [
   },
   {
     "id": "bib-22",
-    "authors": "Dostoievski, F. M.",
+    "authors": "Dostoevsky, F. M.",
     "year": "1873",
     "title": "Bobok: Notes of a certain person [Bobok: Însemnările unei persoane]",
     "publication": "Grajdanin, (6), 1873",
-    "fullCitation": "Dostoievski, F. M. (1873). Bobok: Notes of a certain person [Bobok: Însemnările unei persoane]. Grazhdanin, (6), 1873.",
+    "fullCitation": "Dostoevsky, F. M. (1873). Bobok: Notes of a certain person [Bobok: Însemnările unei persoane]. Grazhdanin, (6), 1873.",
     "domain": "Geopolitics & Russian Ideology"
   },
   {
@@ -925,11 +925,11 @@ export const BIBLIOGRAPHY_DATA: BibliographyItem[] = [
   },
   {
     "id": "bib-24",
-    "authors": "Dughin, A.",
+    "authors": "Dugin, A.",
     "year": "1997",
     "title": "Osnovy geopolitiki: Geopoliticheskoe budushchee Rossii [Foundations of Geopolitics: The Geopolitical Future of Russia]",
     "publication": "Arktogheia",
-    "fullCitation": "Dughin, A. (1997). Osnovy geopolitiki: Geopoliticheskoe budushchee Rossii [Foundations of Geopolitics: The Geopolitical Future of Russia]. Arktogeia.",
+    "fullCitation": "Dugin, A. (1997). Osnovy geopolitiki: Geopoliticheskoe budushchee Rossii [Foundations of Geopolitics: The Geopolitical Future of Russia]. Arktogeia.",
     "domain": "Geopolitics & Russian Ideology"
   },
   {
@@ -1069,11 +1069,11 @@ export const BIBLIOGRAPHY_DATA: BibliographyItem[] = [
   },
   {
     "id": "bib-37a",
-    "authors": "Gumiliov, L. N.",
+    "authors": "Gumilyov, L. N.",
     "year": "1989",
     "title": "Etnogenez i biosfera Zemli [Ethnogenesis and the Biosphere of Earth]",
     "publication": "Ghidrometeoizdat",
-    "fullCitation": "Gumiliov, L. N. (1989). Etnogenez i biosfera Zemli [Ethnogenesis and the Biosphere of Earth]. Gidrometeoizdat.",
+    "fullCitation": "Gumilyov, L. N. (1989). Etnogenez i biosfera Zemli [Ethnogenesis and the Biosphere of Earth]. Gidrometeoizdat.",
     "domain": "Geopolitics & Russian Ideology"
   },
   {
@@ -1132,11 +1132,11 @@ export const BIBLIOGRAPHY_DATA: BibliographyItem[] = [
   },
   {
     "id": "bib-42b",
-    "authors": "Ilin, I. A.",
+    "authors": "Ilyin, I. A.",
     "year": "1925/1956",
     "title": "O soprotivlenii zlu siloiu [On Resistance to Evil by Force] · Nashi zadachi [Our Tasks]",
     "publication": "Izd. Russkogo Obshche-Voinskogo Soiuza",
-    "fullCitation": "Ilin, I. A. (1925/1956). O soprotivlenii zlu siloiu [On Resistance to Evil by Force] (1925); Nashi zadachi [Our Tasks] (Vol. 1–2, 1956). Izd. Russkogo Obshche-Voinskogo Soiuza.",
+    "fullCitation": "Ilyin, I. A. (1925/1956). O soprotivlenii zlu siloiu [On Resistance to Evil by Force] (1925); Nashi zadachi [Our Tasks] (Vol. 1–2, 1956). Izd. Russkogo Obshche-Voinskogo Soiuza.",
     "domain": "Geopolitics & Russian Ideology"
   },
   {
@@ -1843,11 +1843,11 @@ export const BIBLIOGRAPHY_DATA: BibliographyItem[] = [
   },
   {
     "id": "bib-91",
-    "authors": "Soloviov, V.",
+    "authors": "Solovyov, V.",
     "year": "1900/1994",
     "title": "A Short Story of the Anti-Christ (Three Conversations on War, Progress, and the End of Universal History) [Povestire despre Antihrist]",
     "publication": "Editura Institutul European",
-    "fullCitation": "Soloviov, V. (1994). Povestire despre Antihrist [A Short Story of the Anti-Christ] (In Trei conversații despre război, progres și sfârșitul istoriei universale [Three Conversations on War, Progress, and the End of Universal History]). Editura Institutul European. (Original work published in 1900).",
+    "fullCitation": "Solovyov, V. (1994). Povestire despre Antihrist [A Short Story of the Anti-Christ] (In Trei conversații despre război, progres și sfârșitul istoriei universale [Three Conversations on War, Progress, and the End of Universal History]). Editura Institutul European. (Original work published in 1900).",
     "domain": "Geopolitics & Russian Ideology"
   },
   {
