@@ -221,16 +221,16 @@ function extractFigureInspectionDetails(): Record<number, ExtractedNodeDetail[]>
           result[figId].push({
             key,
             regimeALabel: isFig1
-              ? 'Regim vulnerabil'
+              ? 'Vulnerable regime'
               : isFig3
-                ? 'Regim de capturare reflexivă'
-                : 'Starea A',
+                ? 'Reflexive capture regime'
+                : 'State A',
             regimeAText: textStrings[0],
             regimeBLabel: isFig1
-              ? 'Regim rezilient'
+              ? 'Resilient regime'
               : isFig3
-                ? 'Regim de compromis democratic'
-                : 'Starea B',
+                ? 'Democratic compromise regime'
+                : 'State B',
             regimeBText: textStrings[1]
           });
         }
@@ -292,9 +292,9 @@ async function captureAllVectorSvgs(browser: any, baseUrl: string): Promise<Capt
 
   // 1. Capture Cover SVG
   await page.goto(`${baseUrl}/`, { waitUntil: 'networkidle' });
-  await page.waitForSelector('svg[aria-label*="Harta conceptuală"]');
+  await page.waitForSelector('svg[aria-label*="Interactive conceptual map"]');
   const coverSvg = await page.evaluate(() => {
-    const svg = document.querySelector('svg[aria-label*="Harta conceptuală"]');
+    const svg = document.querySelector('svg[aria-label*="Interactive conceptual map"]');
     if (!svg) return '';
     svg.setAttribute('style', 'width: 100%; height: auto; display: block;');
     return svg.outerHTML;
@@ -305,38 +305,38 @@ async function captureAllVectorSvgs(browser: any, baseUrl: string): Promise<Capt
     { primaryLabel: string; secondaryLabel?: string; secondaryButtonText?: string }
   > = {
     1: {
-      primaryLabel: 'Regim 1: Vulnerabilitate endogenă și cuplare ostilă',
-      secondaryLabel: 'Regim 2: Filtru axiologic și închidere operațională',
-      secondaryButtonText: 'Filtru axiologic și închidere operațională'
+      primaryLabel: 'Regime 1: Endogenous Vulnerability and Hostile Coupling',
+      secondaryLabel: 'Regime 2: Axiological Filter and Operational Closure',
+      secondaryButtonText: 'Axiological Filter and Operational Closure'
     },
     2: {
-      primaryLabel: 'Mod 1: Disimulare și parazitare semiotică activă',
+      primaryLabel: 'Mode 1: Active Disguise and Semiotic Parasitism',
       secondaryLabel:
-        'Mod 2: Deconstrucție prin discernământ patristic (proairesis) și memorie istorică',
-      secondaryButtonText: 'Mod 2: Deconstrucție'
+        'Mode 2: Deconstruction via Patristic Discernment (proairesis) and Historical Memory',
+      secondaryButtonText: 'Mode 2: Deconstruction'
     },
     3: {
-      primaryLabel: 'Regim 1: Compresie binară prin control reflexiv',
-      secondaryLabel: 'Regim 2: Compromis democratic și mediere ternară',
-      secondaryButtonText: 'Compromis democratic și mediere ternară'
+      primaryLabel: 'Regime 1: Binary Compression via Reflexive Control',
+      secondaryLabel: 'Regime 2: Democratic Compromise and Ternary Mediation',
+      secondaryButtonText: 'Democratic Compromise and Ternary Mediation'
     },
     4: {
-      primaryLabel: 'Traseu 1: Conversie în modernitate organică',
-      secondaryLabel: 'Traseu 2: Alunecare în enantiodromie și cinism',
-      secondaryButtonText: 'Alunecare în enantiodromie și cinism'
+      primaryLabel: 'Pathway 1: Conversion into Organic Modernity',
+      secondaryLabel: 'Pathway 2: Slippage into Enantiodromia and Cynicism',
+      secondaryButtonText: 'Slippage into Enantiodromia and Cynicism'
     },
     5: {
-      primaryLabel: 'Traiectorie 1: Prăbușire în autosabotaj colectiv · Cadranul III',
-      secondaryLabel: 'Traiectorie 2: Tranziție spre cooperare inteligentă · Cadranul I',
-      secondaryButtonText: 'Tranziție spre cooperare inteligentă'
+      primaryLabel: 'Trajectory 1: Collapse into Collective Self-Sabotage · Quadrant III',
+      secondaryLabel: 'Trajectory 2: Transition to Intelligent Cooperation · Quadrant I',
+      secondaryButtonText: 'Transition to Intelligent Cooperation'
     },
     6: {
-      primaryLabel: 'Simulare A: Șoc acut fără coreglare (Dominanța buclei Track A)',
-      secondaryLabel: 'Simulare B: Coreglare instituțională CERC și Faza I (Activarea Track B)',
-      secondaryButtonText: 'Simulare: Coreglare instituțională CERC'
+      primaryLabel: 'Simulation A: Acute Shock without Co-Regulation (Track A Loop Dominance)',
+      secondaryLabel: 'Simulation B: CERC Institutional Co-Regulation and Phase I (Track B Activation)',
+      secondaryButtonText: 'Simulation: CERC Institutional Co-Regulation'
     },
     7: {
-      primaryLabel: 'Protocolul secvențial integrat (Faza I → Faza II → Faza III)'
+      primaryLabel: 'Integrated Sequential Protocol (Phase I → Phase II → Phase III)'
     }
   };
 
@@ -386,72 +386,72 @@ async function captureAllVectorSvgs(browser: any, baseUrl: string): Promise<Capt
 }
 
 const NODE_KEY_LABELS: Record<string, string> = {
-  servicii: 'Stratul A · Sistemul instituțional și serviciile publice',
-  mediu: 'Stratul A · Mediul socioeconomic și sociospațial',
-  alostazie: 'Stratul B · Alostazia, uzura alostatică și triada cerebrală',
-  reactiv: 'Stratul B · Sistemul 1 reactiv vs. Sistemul 2 deturnat',
-  persona: 'Stratul C · Persona instituțională mimetică („forme fără fond”) / Track A',
-  fatalism: 'Stratul C · Expresia în inconștientul cultural',
-  'filtru-moral': 'Stratul C · Filtrul valorilor morale creștin-seculare',
-  vector: 'Vectorul extern de război cognitiv și vidul de reprezentare',
-  'sinteza-stanga': 'Sinteza creștin-seculară europeană (Imago Dei & Statul de drept)',
+  servicii: 'Layer A · Institutional System and Public Services',
+  mediu: 'Layer A · Socioeconomic and Sociospatial Environment',
+  alostazie: 'Layer B · Allostasis, Allostatic Load, and the Brain Triad',
+  reactiv: 'Layer B · Reactive System 1 vs. Hijacked System 2',
+  persona: 'Layer C · Mimetic Institutional Persona ("forms without substance") / Track A',
+  fatalism: 'Layer C · Expression in the Cultural Unconscious',
+  'filtru-moral': 'Layer C · Filter of Christian-Secular Moral Values',
+  vector: 'External Cognitive Warfare Vector and Representation Vacuum',
+  'sinteza-stanga': 'European Christian-Secular Synthesis (Imago Dei & Rule of Law)',
   'falsificare-ortodoxie': 'Falsificarea I · Etnofiletismul Russkii Mir',
-  'falsificare-suveranitate': 'Falsificarea II · Falsul suveranism izolaționist',
-  'nucleu-antimir': 'Nucleul operativ real · Antilumea (Antimir) și starea Bobok',
-  'retele-spalare': 'Arhitectura pe 3 paliere a reciclării informaționale (Information Laundering)',
-  subordonare: 'Finalitatea strategică · Subordonarea imperială și anomia',
+  'falsificare-suveranitate': 'Falsification II · False Isolationist Sovereignism',
+  'nucleu-antimir': 'Real Operative Core · The Antiworld (Antimir) and the Bobok State',
+  'retele-spalare': 'Three-Tier Architecture of Information Laundering',
+  subordonare: 'Strategic Finality · Imperial Subordination and Anomie',
   'primul-sistem': 'Primul sistem etic (Lefebvre)',
-  'poluare-mad': 'Poluarea sintetică în două stadii (RAG / MAD) și capturarea striatală D1/D2',
+  'poluare-mad': 'Two-Stage Synthetic Pollution (RAG / MAD) and D1/D2 Striatal Capture',
   observare: 'Faza de Observare (OODA)',
   orientare: 'Faza de Orientare (Schwerpunkt-ul lui John Boyd)',
-  reflexiv: 'Controlul reflexiv de rang secund și aberrant precision-weighting',
+  reflexiv: 'Second-Order Reflexive Control and Aberrant Precision-Weighting',
   decizie: 'Faza de Decizie (OODA)',
-  actiune: 'Faza de Acțiune (OODA)',
-  contagiune: 'Contagiunea complexă prin punți largi (Centola)',
-  binar: 'Compresia în sistemul binar fracturat (al doilea sistem etic)',
-  'umbra-bruta': 'Umbra colectivă (resurse latente)',
-  memorie: 'Memoria istorică defensivă',
-  trickster: 'Ambivalența arhetipului Tricksterului',
-  'filtru-lege': 'Primul filtru (Stratul A) · Legea impersonală și insulele de închidere operațională',
-  'filtru-istorie': 'Al doilea filtru (Stratul B) · Discernământul critic și adevărul istoric',
-  'filtru-meta': 'Al treilea filtru (Stratul B) · Vigilența metacognitivă prefrontală',
-  'functie-transcendenta': 'Funcția transcendentă (Jung) pe axa Ego–Sine',
-  modernitate: 'Modernitate organică și încredere',
-  cooperare: 'Cooperare instituțională autonomă',
-  anomizare: 'Traseul inferior fără filtru · Incapacitate de doliu, proiecție și enantiodromie',
-  I: 'Cadranul I (+X, +Y) · Cooperare inteligentă',
-  II: 'Cadranul II (-X, +Y) · Cetățeni vulnerabili',
-  IV: 'Cadranul IV (+X, -Y) · Elite extractive și catalizator extern rus',
-  III: 'Cadranul III (-X, -Y) · Autosabotaj colectiv și vot punitiv',
-  bifurcatie: 'Nodul unic de bifurcație (stres acut și policriză)',
-  'punte-cerc': 'Puntea de coreglare instituțională CDC CERC și măsurile Fazei I',
-  anxietate: 'Track A · Anxietatea cronică, inhibiția dlPFC și raționalizarea motivată',
-  nfcc: 'Track A · Nevoia de închidere cognitivă (NFCC)',
-  umbra: 'Track A · Umbra colectivă, Puer Aeternus și ipotezele de bază (Bion)',
-  bucla_algoritmica: 'Track A · Bucla de feedback algoritmic și autoamplificarea (R)',
-  b1: 'Track B (1) · Acceptarea incertitudinii (capacitatea negativă)',
-  b2: 'Track B (2) · Reactivarea Sistemului 2 și gândirea activ deschisă (Rang 2+)',
-  b3: 'Track B (3) · Toleranța disonanței și integrarea ingeniozității Trickster',
-  b4: 'Track B (4) · Discernământul critic și Grupul de Lucru (Bion)',
-  b5: 'Track B (5) · Acțiunea suverană și Axa Ego–Sine',
-  trackA: 'Sinteză Track A · Procesare defensivă în buclă închisă',
-  trackB: 'Sinteză Track B · Procesare adaptativă deliberativă',
-  faza1: 'Faza I · Triaj acut (0–72h) și decompresie structurală (0–12 luni)',
-  'faza1-1': '1.1 Triaj acut 0–72h: CDC CERC, STIX/DISARM și măsuri tehnice DSA',
+  actiune: 'Action Phase (OODA)',
+  contagiune: 'Complex Contagion via Wide Bridges (Centola)',
+  binar: 'Compression into the Fractured Binary System (Second Ethical System)',
+  'umbra-bruta': 'Collective Shadow (Latent Resources)',
+  memorie: 'Defensive Historical Memory',
+  trickster: 'Ambivalence of the Trickster Archetype',
+  'filtru-lege': 'First Filter (Layer A) · Impersonal Law and Islands of Operational Closure',
+  'filtru-istorie': 'Second Filter (Layer B) · Critical Discernment and Historical Truth',
+  'filtru-meta': 'Third Filter (Layer B) · Prefrontal Metacognitive Vigilance',
+  'functie-transcendenta': 'Transcendent Function (Jung) on the Ego–Self Axis',
+  modernitate: 'Organic Modernity and Trust',
+  cooperare: 'Autonomous Institutional Cooperation',
+  anomizare: 'Unfiltered Lower Pathway · Inability to Mourn, Projection, and Enantiodromia',
+  I: 'Quadrant I (+X, +Y) · Intelligent Cooperation',
+  II: 'Quadrant II (-X, +Y) · Vulnerable Citizens',
+  IV: 'Quadrant IV (+X, -Y) · Extractive Elites and External Russian Catalyst',
+  III: 'Quadrant III (-X, -Y) · Collective Self-Sabotage and Punitive Vote',
+  bifurcatie: 'Single Bifurcation Node (Acute Stress and Polycrisis)',
+  'punte-cerc': 'CDC CERC Institutional Co-Regulation Bridge and Phase I Measures',
+  anxietate: 'Track A · Chronic Anxiety, dlPFC Inhibition, and Motivated Rationalization',
+  nfcc: 'Track A · Need for Cognitive Closure (NFCC)',
+  umbra: 'Track A · Collective Shadow, Puer Aeternus, and Basic Assumptions (Bion)',
+  bucla_algoritmica: 'Track A · Algorithmic Feedback Loop and Self-Amplification (R)',
+  b1: 'Track B (1) · Acceptance of Uncertainty (Negative Capability)',
+  b2: 'Track B (2) · Reactivation of System 2 and Actively Open-Minded Thinking (Rank 2+)',
+  b3: 'Track B (3) · Dissonance Tolerance and Integration of Trickster Ingenuity',
+  b4: 'Track B (4) · Critical Discernment and the Work Group (Bion)',
+  b5: 'Track B (5) · Sovereign Action and the Ego–Self Axis',
+  trackA: 'Track A Synthesis · Closed-Loop Defensive Processing',
+  trackB: 'Track B Synthesis · Deliberative Adaptive Processing',
+  faza1: 'Phase I · Acute Triage (0–72h) and Structural Decompression (0–12 months)',
+  'faza1-1': '1.1 Acute Triage 0–72h: CDC CERC, STIX/DISARM, and Technical DSA Measures',
   'faza1-2': '1.2 Blocarea fluxurilor financiare ilicite (Follow the Money, 24–72h)',
-  'faza1-3': '1.3 Decompresie alostatică și simplificare administrativă (0–12 luni)',
-  poarta1: 'Poarta cauzală 1 · Deblocarea dlPFC și cele 3 mecanisme ale fact-checking-ului prematur',
-  faza2: 'Faza II · Reconstrucția Orientării OODA (1–3 ani)',
-  'faza2-1': '2.1 Validare comunitară și rețele cu punți largi (1–3 ani)',
-  'faza2-2': '2.2 Prebunking și consolidare pe curba Ebbinghaus (1–3 ani)',
-  'faza2-3': '2.3 Parteneriat axiologic creștin-secular (1–3 ani)',
-  poarta2: 'Poarta cauzală 2 · Presiunea civică în „Coridorul îngust”',
-  faza3: 'Faza III · Stat de drept, guvernanță policentrică și individuare (3–10 ani)',
-  'faza3-1': '3.1 Închidere operațională și isonomie fiscală (CCR 694/2015, CPF)',
-  'faza3-2': '3.2 Guvernanță policentrică (Ostrom) și reforma cooperativelor (Legea 566/2004)',
-  'faza3-3': '3.3 Individuare colectivă și dublu audit independent (Curtea de Conturi & art. 40 DSA)',
-  fronton: 'Fronton · Sinteza modernității organice și a suveranității democratice',
-  fundament: 'Fundament · Cei 4 determinanți ai modelului Lalonde–Dever'
+  'faza1-3': '1.3 Allostatic Decompression and Administrative Simplification (0–12 months)',
+  poarta1: 'Causal Gate 1 · Unlocking dlPFC and the 3 Mechanisms of Premature Fact-Checking',
+  faza2: 'Phase II · Reconstructing OODA Orientation (1–3 years)',
+  'faza2-1': '2.1 Community Validation and Wide-Bridge Networks (1–3 years)',
+  'faza2-2': '2.2 Prebunking and Consolidation on the Ebbinghaus Curve (1–3 years)',
+  'faza2-3': '2.3 Christian-Secular Axiological Partnership (1–3 years)',
+  poarta2: 'Causal Gate 2 · Civic Pressure in the "Narrow Corridor"',
+  faza3: 'Phase III · Rule of Law, Polycentric Governance, and Individuation (3–10 years)',
+  'faza3-1': '3.1 Operational Closure and Fiscal Isonomy (CCR 694/2015, CPF)',
+  'faza3-2': '3.2 Polycentric Governance (Ostrom) and Cooperative Reform (Law 566/2004)',
+  'faza3-3': '3.3 Collective Individuation and Dual Independent Audit (Court of Accounts & Art. 40 DSA)',
+  fronton: 'Pediment · Synthesis of Organic Modernity and Democratic Sovereignty',
+  fundament: 'Foundation · The 4 Determinants of the Lalonde–Dever Model'
 };
 
 function buildHtmlDocument(
@@ -474,7 +474,7 @@ function buildHtmlDocument(
           <div class="px-4 py-2.5 border-b border-[#222426] bg-[#222426]/[0.04]">
             <div class="flex items-center gap-2 mb-0.5">
               <span class="bg-[#E5B822] text-[#222426] border border-[#222426] px-2 py-0.5 font-mono text-[10px] font-bold">
-                FIGURA 0${meta.id}
+                FIGURE 0${meta.id}
               </span>
               <span class="text-[10px] font-mono text-[#6E7376]">${escapeHtml(meta.chapterRef)}</span>
             </div>
@@ -509,8 +509,8 @@ function buildHtmlDocument(
         }
 
         <div class="border-t border-[#8C9BA5] px-4 py-3 text-[11.5px] leading-relaxed space-y-1.5 bg-[#F6F5EE]">
-          <p class="text-[#222426]"><strong>Legendă academică:</strong> ${escapeHtml(meta.caption)}</p>
-          <p class="text-[#6E7376] text-[10.5px]"><strong>Notă metodologică (${escapeHtml(meta.chapterRef)}):</strong> ${escapeHtml(meta.methodologicalNote)}</p>
+          <p class="text-[#222426]"><strong>Academic caption:</strong> ${escapeHtml(meta.caption)}</p>
+          <p class="text-[#6E7376] text-[10.5px]"><strong>Methodological note (${escapeHtml(meta.chapterRef)}):</strong> ${escapeHtml(meta.methodologicalNote)}</p>
         </div>
 
         ${
@@ -518,7 +518,7 @@ function buildHtmlDocument(
             ? `
         <div class="border-t border-[#222426] px-4 py-3 bg-[#222426]/[0.025] space-y-2">
           <div class="text-[10.5px] font-mono font-bold uppercase tracking-wider text-[#222426]">
-            Descrierea detaliată a elementelor, nodurilor și regimurilor interactive din Figura ${meta.id}
+            Detailed description of interactive elements, nodes, and regimes in Figure ${meta.id}
           </div>
           <div class="space-y-1.5">
             ${nodes
@@ -548,10 +548,10 @@ function buildHtmlDocument(
   };
 
   return `<!doctype html>
-<html lang="ro">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Diagnosticul războiului cognitiv în România (Versiunea 1.0) — Ediție integrală</title>
+  <title>Diagnosis of Cognitive Warfare in Romania (Version 1.0) — Complete Edition</title>
   <style>
     ${compiledCss}
 
@@ -615,38 +615,38 @@ function buildHtmlDocument(
 <body class="bg-[#F6F5EE] text-[#222426]">
 
   <!-- =======================================================================
-       PAGINA 1: COPERTA MONOGRAFIEI & PLANȘA SINOPTICĂ
+       PAGE 1: MONOGRAPH COVER & SYNOPTIC BOARD
        ======================================================================= -->
   <section class="border-2 border-[#222426] p-6 bg-[#F6F5EE]">
     <div class="flex items-center justify-between border-b border-[#222426] pb-3 mb-5 text-[10px] font-mono text-[#6E7376]">
       <span class="px-2.5 py-0.5 border border-[#222426] text-[#222426] font-bold uppercase">
-        MONOGRAFIE ȘTIINȚIFICĂ • VERSIUNEA 1.0 • EDIȚIE INTEGRALĂ
+        SCIENTIFIC MONOGRAPH • VERSION 1.0 • COMPLETE EDITION
       </span>
-      <span>19 secțiuni · 7 diagrame · Tabele & Matrice · 55 concepte · 152 referințe</span>
+      <span>19 sections · 7 diagrams · Tables & Matrix · 55 concepts · 152 references</span>
     </div>
 
     <div class="text-[10.5px] font-mono text-[#6E7376] mb-1.5">
-      Arhitectura cauzală pe trei straturi: Sociologie instituțională · Neuroștiințe și semiotică · Psihologie analitică
+      Three-layer causal architecture: Institutional Sociology · Neuroscience and Semiotics · Analytical Psychology
     </div>
     <h1 class="text-[26px] font-bold text-[#222426] leading-tight mb-2">
-      Diagnosticul războiului cognitiv în România
+      Diagnosis of Cognitive Warfare in Romania
     </h1>
     <p class="text-[13px] text-[#222426] leading-relaxed mb-4 pb-4 border-b border-[#8C9BA5]">
-      Arhitectura instituțională, neurocognitivă și culturală a vulnerabilității și rezilienței societale în fața operațiunilor informaționale ruse și a ideologiei putiniste
+      The Institutional, Neurocognitive, and Cultural Architecture of Societal Vulnerability and Resilience in the Face of Russian Information Operations and Putinist Ideology
     </p>
 
     <div class="space-y-2.5 text-[11px] text-[#222426] leading-relaxed mb-5">
       <p>
-        Această lucrare demonstrează că vulnerabilitatea cognitivă a societății românești nu reprezintă un simplu deficit de alfabetizare media, ci rezultatul emergent al interacțiunii dintre trei paliere cauzale: anomalia istorică a „formelor fără fond”, deficitul cronic de închidere operațională, vidul de reprezentare politică și persistența instituțiilor extractive (Stratul A); uzura alostatică cronică cu comutare pe Sistemul 1 reactiv în mediile afectate de precaritate, deturnarea Sistemului 2 prin raționalizare motivată în bulele urbane și colonizarea fazei de Orientare din bucla OODA prin control reflexiv (Stratul B); respectiv proiecția Umbrei colective, enantiodromia și alunecarea în autosabotaj colectiv în condiții de criză acută (Stratul C).
+        This work demonstrates that the cognitive vulnerability of Romanian society is not a mere media literacy deficit, but the emergent outcome of the interaction across three causal tiers: the historical anomaly of "forms without substance", the chronic deficit of operational closure, the political representation vacuum, and the persistence of extractive institutions (Layer A); chronic allostatic load with switching to reactive System 1 in precarious environments, the hijacking of System 2 via motivated rationalization in urban bubbles, and the colonization of the Orientation phase of the OODA loop through reflexive control (Layer B); and the projection of the collective Shadow, enantiodromia, and slippage into collective self-sabotage under acute crisis conditions (Layer C).
       </p>
       <p class="text-[#6E7376]">
-        Ediția completă de față reunește într-un singur document: planșa sinoptică de copertă și descrierile straturilor, textul integral al celor 19 secțiuni cu descompunerea pe două registre, toate cele 7 diagrame vectoriale cu ambele regimuri vizuale și descrierile integrale ale nodurilor interactive, sintezele executive de capitol, Tabelele 1 și 2, matricea instituțională, analiza comparativă a grupului de control regional, glosarul conceptual complet și bibliografia integrală.
+        This complete edition brings together in a single document: the cover synoptic board and layer descriptions, the full text of all 19 sections with dual-register decomposition, all 7 vector diagrams with both visual regimes and complete interactive node descriptions, the chapter executive summaries, Tables 1 and 2, the institutional responsibility matrix, the regional control group comparative analysis, the complete conceptual glossary, and the full bibliography.
       </p>
     </div>
 
     <div class="border border-[#222426] p-3 bg-[#F6F5EE] mb-4">
       <div class="text-[10px] font-mono text-[#6E7376] pb-2 mb-2 border-b border-[#8C9BA5] flex justify-between">
-        <span>Planșa sinoptică de copertă · Modelul Macro–Micro–Macro</span>
+        <span>Cover Synoptic Board · Macro–Micro–Macro Model</span>
         <span>Fig. I–VII · Sinteza arhitecturii</span>
       </div>
       <div class="cover-svg-wrapper">
@@ -656,7 +656,7 @@ function buildHtmlDocument(
 
     <div class="page-break border border-[#222426] p-4 bg-[#F6F5EE] space-y-2">
       <div class="text-[10.5px] font-mono font-bold uppercase tracking-wider text-[#222426] border-b border-[#222426] pb-1.5">
-        Elementele planșei sinoptice de copertă
+        Elements of the Cover Synoptic Board
       </div>
       ${coverBlocks
         .map(
@@ -679,14 +679,14 @@ function buildHtmlDocument(
        ======================================================================= -->
   <section class="page-break border border-[#222426] p-4 bg-[#F6F5EE]">
     <div class="border-b-2 border-[#222426] pb-1.5 mb-2.5">
-      <div class="text-[9.5px] font-mono uppercase tracking-wider text-[#6E7376]">Structura completă a volumului</div>
-      <h2 class="text-base font-bold text-[#222426]">Cuprins general al monografiei și anexelor</h2>
+      <div class="text-[9.5px] font-mono uppercase tracking-wider text-[#6E7376]">Complete Volume Structure</div>
+      <h2 class="text-base font-bold text-[#222426]">General Table of Contents of the Monograph and Appendices</h2>
     </div>
 
     <div class="space-y-2.5 text-[10px] leading-snug">
       <div>
         <div class="font-bold text-[#222426] border-b border-[#222426] pb-0.5 mb-1">
-          Partea I · Textul integral al monografiei, registrele duale și planșele grafice (Pașii 01–19)
+          Part I · Full Text of the Monograph, Dual Registers, and Graphic Plates (Steps 01–19)
         </div>
         <div class="space-y-0.5">
           ${ALL_SUBCHAPTER_STEPS.map(
@@ -696,7 +696,7 @@ function buildHtmlDocument(
                 <span class="font-mono font-bold text-[#6E7376]">PASUL ${String(s.stepNumber).padStart(2, '0')} · ${escapeHtml(s.code)}:</span>
                 <span class="font-semibold text-[#222426]">${escapeHtml(s.title)}</span>
               </div>
-              <span class="font-mono text-[9px] text-[#6E7376] shrink-0">Str. ${s.dominantStrata.join(', ')}${s.paragraphs.some((p) => p.startsWith('Figura ')) && s.linkedFigureId ? ` · Fig. ${s.linkedFigureId}` : ''}</span>
+              <span class="font-mono text-[9px] text-[#6E7376] shrink-0">Str. ${s.dominantStrata.join(', ')}${s.paragraphs.some((p) => p.startsWith('Figure ')) && s.linkedFigureId ? ` · Fig. ${s.linkedFigureId}` : ''}</span>
             </div>`
           ).join('')}
         </div>
@@ -704,33 +704,33 @@ function buildHtmlDocument(
 
       <div>
         <div class="font-bold text-[#222426] border-b border-[#222426] pb-0.5 mb-0.5">
-          Partea a II-a · Sinteze executive de capitol pentru decidenți (Capitolele 0–6)
+          Part II · Chapter Executive Summaries for Policymakers (Chapters 0–6)
         </div>
-        <p class="text-[9.5px] text-[#6E7376]">${CHAPTER_EXECUTIVE_SUMMARIES.length} sinteze operaționale cu directive și implicații de politici publice.</p>
+        <p class="text-[9.5px] text-[#6E7376]">${CHAPTER_EXECUTIVE_SUMMARIES.length} operational syntheses with public policy directives and implications.</p>
       </div>
 
       <div>
         <div class="font-bold text-[#222426] border-b border-[#222426] pb-0.5 mb-0.5">
-          Partea a III-a · Tabelele de sinteză 1 și 2, Matricea instituțională și Grupul de control regional
+          Part III · Synthesis Tables 1 and 2, Institutional Matrix, and Regional Control Group
         </div>
         <p class="text-[9.5px] text-[#6E7376]">
-          Tabelul 1 (${TABLE_1_DATA.length} dimensiuni × 3 straturi) · Tabelul 2 Lalonde–Dever (${TABLE_2_DATA.length} faze × 4 determinanți) · Matricea responsabilităților instituționale (${OPERATIONAL_PROTOCOL_TABLE.length} faze) · Grupul de control regional (România, Estonia, Polonia, Republica Moldova).
+          Table 1 (${TABLE_1_DATA.length} dimensions × 3 layers) · Table 2 Lalonde–Dever (${TABLE_2_DATA.length} phases × 4 determinants) · Institutional Responsibility Matrix (${OPERATIONAL_PROTOCOL_TABLE.length} phases) · Regional Control Group (Romania, Estonia, Poland, Republic of Moldova).
         </p>
       </div>
 
       <div class="grid grid-cols-2 gap-3 pt-0.5">
         <div class="font-bold text-[#222426] border-b border-[#222426] pb-0.5">
-          Partea a IV-a · Glosar conceptual (${GLOSSARY_CONCEPTS.length} concepte-cheie)
+          Part IV · Conceptual Glossary (${GLOSSARY_CONCEPTS.length} key concepts)
         </div>
         <div class="font-bold text-[#222426] border-b border-[#222426] pb-0.5">
-          Partea a V-a · Bibliografie integrală (${BIBLIOGRAPHY_DATA.length} lucrări)
+          Part V · Complete Bibliography (${BIBLIOGRAPHY_DATA.length} works)
         </div>
       </div>
     </div>
   </section>
 
   <!-- =======================================================================
-       PARTEA I: CELE 19 SECȚIUNI INTEGRALE + REGISTRE DUALE + FIGURILE 1–7
+       PART I: ALL 19 FULL SECTIONS + DUAL REGISTERS + FIGURES 1–7
        ======================================================================= -->
   ${ALL_SUBCHAPTER_STEPS.map((step) => {
     const conceptsHtml = step.keyConceptIds
@@ -738,7 +738,7 @@ function buildHtmlDocument(
       .filter((c): c is NonNullable<typeof c> => Boolean(c))
       .map(
         (c) =>
-          `<span class="inline-block px-2 py-0.5 text-[9.5px] border border-[#222426] bg-[#E5B822]/25 text-[#222426] font-semibold mr-1 mb-1">${escapeHtml(c.term)} (Stratul ${c.stratum})</span>`
+          `<span class="inline-block px-2 py-0.5 text-[9.5px] border border-[#222426] bg-[#E5B822]/25 text-[#222426] font-semibold mr-1 mb-1">${escapeHtml(c.term)} (Layer ${c.stratum})</span>`
       )
       .join('');
 
@@ -748,7 +748,7 @@ function buildHtmlDocument(
       <div class="dual-row grid grid-cols-2 gap-3 my-2">
         <div class="border border-[#222426] bg-[#F6F5EE]">
           <div class="border-b border-[#222426] px-2.5 py-1.5 bg-[#222426]/[0.05] text-[9.5px] font-mono font-bold uppercase text-[#222426]">
-            ■ Registrul teoretic · STRATUL ${dr.stratum}
+            ■ Theoretical Register · LAYER ${dr.stratum}
           </div>
           <div class="p-2.5 text-[10.5px] leading-relaxed">
             <div class="font-bold text-[#222426]">${escapeHtml(dr.theoreticalConcept)}</div>
@@ -758,7 +758,7 @@ function buildHtmlDocument(
         </div>
         <div class="border border-[#222426] bg-[#F6F5EE]">
           <div class="border-b border-[#222426] px-2.5 py-1.5 bg-[#222426]/[0.05] text-[9.5px] font-mono font-bold uppercase text-[#222426]">
-            ${dr.systemicOutcome === 'tension' ? '■ Realitatea empirică · Vulnerabilitate structurală' : '■ Realitatea empirică · Mecanism de reziliență'}
+            ${dr.systemicOutcome === 'tension' ? '■ Empirical Reality · Structural Vulnerability' : '■ Empirical Reality · Resilience Mechanism'}
           </div>
           <div class="p-2.5 text-[10.5px] leading-relaxed">
             ${escapeHtml(dr.empiricalReality)}
@@ -770,7 +770,7 @@ function buildHtmlDocument(
 
     const paragraphsHtml = step.paragraphs
       .map((para, idx) => {
-        if (para.startsWith('Figura ') && step.linkedFigureId) {
+        if (para.startsWith('Figure ') && step.linkedFigureId) {
           return renderFigureBlock(step.linkedFigureId);
         }
         return `<p class="mb-3 text-[11.2px] leading-[1.68] text-[#222426] text-justify">${escapeHtml(para)}</p>`;
@@ -790,21 +790,21 @@ function buildHtmlDocument(
 
       <div class="avoid-break border border-[#222426] bg-[#E5B822]/15 p-3">
         <div class="text-[9.5px] font-mono font-bold uppercase tracking-wider text-[#222426] mb-1">
-          Sinteză cauzală și teză structurală
+          Causal Synthesis and Structural Thesis
         </div>
         <p class="text-[10.8px] leading-relaxed text-[#222426]">${escapeHtml(step.summaryThesis)}</p>
       </div>
 
       <div>
         <div class="text-[10px] font-mono font-bold uppercase tracking-wider text-[#6E7376] mb-1">
-          Anatomia tensiunii și descompunerea pe două registre (Teoretic vs. Empiric)
+          Anatomy of Tension and Dual-Register Decomposition (Theoretical vs. Empirical)
         </div>
         ${dualHtml}
       </div>
 
       <div class="pt-2 border-t border-[#222426]">
         <div class="text-[10px] font-mono font-bold uppercase tracking-wider text-[#6E7376] mb-2.5">
-          Textul integral al secțiunii din monografie
+          Full Text of the Monograph Section
         </div>
         ${paragraphsHtml}
       </div>
@@ -812,12 +812,12 @@ function buildHtmlDocument(
       <footer class="avoid-break border-t border-[#8C9BA5] pt-2.5 space-y-2">
         ${
           conceptsHtml
-            ? `<div><div class="text-[9.5px] font-mono font-bold text-[#6E7376] mb-1">Concepte-cheie în această secțiune:</div><div>${conceptsHtml}</div></div>`
+            ? `<div><div class="text-[9.5px] font-mono font-bold text-[#6E7376] mb-1">Key Concepts in This Section:</div><div>${conceptsHtml}</div></div>`
             : ''
         }
         ${
           step.citedAuthorNames.length > 0
-            ? `<div><div class="text-[9.5px] font-mono font-bold text-[#6E7376] mb-1">Autori și lucrări citate în secțiune:</div><div class="text-[10px] font-mono text-[#222426]">${step.citedAuthorNames.map(escapeHtml).join(' · ')}</div></div>`
+            ? `<div><div class="text-[9.5px] font-mono font-bold text-[#6E7376] mb-1">Authors and Works Cited in This Section:</div><div class="text-[10px] font-mono text-[#222426]">${step.citedAuthorNames.map(escapeHtml).join(' · ')}</div></div>`
             : ''
         }
       </footer>
@@ -825,11 +825,11 @@ function buildHtmlDocument(
   }).join('')}
 
   <!-- =======================================================================
-       PARTEA A II-A: SINTEZE EXECUTIVE DE CAPITOL
+       PART II: CHAPTER EXECUTIVE SUMMARIES
        ======================================================================= -->
   <section class="page-break space-y-4">
     <div class="border-b-2 border-[#222426] pb-3">
-      <div class="text-[10px] font-mono uppercase tracking-wider text-[#6E7376]">Partea a II-a · Decupaj pentru decidenți instituționali</div>
+      <div class="text-[10px] font-mono uppercase tracking-wider text-[#6E7376]">Part II · Executive Digest for Institutional Policymakers</div>
       <h2 class="text-xl font-bold text-[#222426]">Sinteze executive de capitol (Capitolele 0–6)</h2>
     </div>
 
@@ -859,26 +859,26 @@ function buildHtmlDocument(
   </section>
 
   <!-- =======================================================================
-       PARTEA A III-A: TABELUL 1, TABELUL 2, MATRICEA INSTITUȚIONALĂ & GRUPUL REGIONAL
+       PART III: TABLE 1, TABLE 2, INSTITUTIONAL MATRIX & REGIONAL GROUP
        ======================================================================= -->
   <section class="page-break space-y-5">
     <div class="border-b-2 border-[#222426] pb-3">
-      <div class="text-[10px] font-mono uppercase tracking-wider text-[#6E7376]">Partea a III-a · Sinteze matriciale și analiză comparativă</div>
-      <h2 class="text-xl font-bold text-[#222426]">Tabelele 1 și 2, Matricea instituțională și Grupul de control regional</h2>
+      <div class="text-[10px] font-mono uppercase tracking-wider text-[#6E7376]">Part III · Matrix Syntheses and Comparative Analysis</div>
+      <h2 class="text-xl font-bold text-[#222426]">Tables 1 and 2, Institutional Matrix, and Regional Control Group</h2>
     </div>
 
     <!-- TABELUL 1 -->
     <div>
       <h3 class="text-sm font-bold text-[#222426] mb-2">
-        Tabelul 1. Sinteza arhitecturii cauzale ascendente a diagnosticului instituțional, neurocognitiv și cultural
+        Table 1. Synthesis of the Upward Causal Architecture of the Institutional, Neurocognitive, and Cultural Diagnosis
       </h3>
       <table class="border border-[#222426] text-[10px] leading-relaxed">
         <thead>
           <tr class="bg-[#222426] text-[#F6F5EE]">
-            <th class="p-2 border-r border-[#8C9BA5] text-left w-[18%]">Dimensiunea analitică</th>
-            <th class="p-2 border-r border-[#8C9BA5] text-left w-[27%]">STRATUL A · Instituțional, istoric și sociologic</th>
-            <th class="p-2 border-r border-[#8C9BA5] text-left w-[27%]">STRATUL B · Neurocognitiv, semiotic și axiologic</th>
-            <th class="p-2 text-left w-[28%]">STRATUL C · Inconștient cultural și dinamică arhetipală</th>
+            <th class="p-2 border-r border-[#8C9BA5] text-left w-[18%]">Analytical Dimension</th>
+            <th class="p-2 border-r border-[#8C9BA5] text-left w-[27%]">LAYER A · Institutional, Historical, and Sociological</th>
+            <th class="p-2 border-r border-[#8C9BA5] text-left w-[27%]">LAYER B · Neurocognitive, Semiotic, and Axiological</th>
+            <th class="p-2 text-left w-[28%]">LAYER C · Cultural Unconscious and Archetypal Dynamics</th>
           </tr>
         </thead>
         <tbody>
@@ -898,16 +898,16 @@ function buildHtmlDocument(
     <!-- TABELUL 2 -->
     <div class="page-break">
       <h3 class="text-[13px] font-bold text-[#222426] mb-1.5" style="break-after: avoid; page-break-after: avoid;">
-        Tabelul 2. Protocolul secvențial de reconstrucție a rezilienței cognitive și instituționale structurat pe determinanții modelului Lalonde–Dever
+        Table 2. Sequential Protocol for Reconstructing Cognitive and Institutional Resilience Structured on the Determinants of the Lalonde–Dever Model
       </h3>
       <table class="border border-[#222426] text-[7.9px] leading-[1.28]">
         <thead>
           <tr class="bg-[#222426] text-[#F6F5EE]">
-            <th class="p-1 border-r border-[#8C9BA5] text-left w-[11%]">Faza și orizontul</th>
-            <th class="p-1 border-r border-[#8C9BA5] text-left w-[16%]">Biologia umană și rezerva neurocognitivă</th>
-            <th class="p-1 border-r border-[#8C9BA5] text-left w-[20%]">Mediul digital și sociospațial</th>
-            <th class="p-1 border-r border-[#8C9BA5] text-left w-[16%]">Stil de viață informațional și axiologie</th>
-            <th class="p-1 text-left w-[37%]">Sistem instituțional și constituțional</th>
+            <th class="p-1 border-r border-[#8C9BA5] text-left w-[11%]">Phase and Horizon</th>
+            <th class="p-1 border-r border-[#8C9BA5] text-left w-[16%]">Human Biology and Neurocognitive Reserve</th>
+            <th class="p-1 border-r border-[#8C9BA5] text-left w-[20%]">Digital and Sociospatial Environment</th>
+            <th class="p-1 border-r border-[#8C9BA5] text-left w-[16%]">Information Lifestyle and Axiology</th>
+            <th class="p-1 text-left w-[37%]">Institutional and Constitutional System</th>
           </tr>
         </thead>
         <tbody>
@@ -932,15 +932,15 @@ function buildHtmlDocument(
     <!-- MATRICEA RESPONSABILITĂȚILOR INSTITUȚIONALE -->
     <div class="page-break">
       <h3 class="text-sm font-bold text-[#222426] mb-2">
-        Matricea responsabilităților instituționale pe cele trei faze secvențiale (România și Uniunea Europeană)
+        Institutional Responsibility Matrix Across the Three Sequential Phases (Romania and the European Union)
       </h3>
       <table class="border border-[#222426] text-[8.8px] leading-[1.38]">
         <thead>
           <tr class="bg-[#222426] text-[#F6F5EE]">
-            <th class="p-1.5 border-r border-[#8C9BA5] text-left w-[17%]">Faza și orizontul</th>
-            <th class="p-1.5 border-r border-[#8C9BA5] text-left w-[22%]">Obiectivul strategic și neurocognitiv</th>
-            <th class="p-1.5 border-r border-[#8C9BA5] text-left w-[38%]">Acțiuni tactice, legislative și algoritmice</th>
-            <th class="p-1.5 text-left w-[23%]">Instituții responsabile și parteneri</th>
+            <th class="p-1.5 border-r border-[#8C9BA5] text-left w-[17%]">Phase and Horizon</th>
+            <th class="p-1.5 border-r border-[#8C9BA5] text-left w-[22%]">Strategic and Neurocognitive Objective</th>
+            <th class="p-1.5 border-r border-[#8C9BA5] text-left w-[38%]">Tactical, Legislative, and Algorithmic Actions</th>
+            <th class="p-1.5 text-left w-[23%]">Responsible Institutions and Partners</th>
           </tr>
         </thead>
         <tbody>
@@ -964,7 +964,7 @@ function buildHtmlDocument(
     <!-- GRUPUL DE CONTROL REGIONAL -->
     <div class="page-break space-y-3">
       <h3 class="text-sm font-bold text-[#222426]">
-        Comparația sistematică a României cu grupul de control regional (Estonia, Polonia, Republica Moldova) · Subcapitolul 2.3
+        Systematic Comparison of Romania with the Regional Control Group (Estonia, Poland, Republic of Moldova) · Subchapter 2.3
       </h3>
       <div class="space-y-3">
         ${REGIONAL_CONTROL_GROUP.map(
@@ -977,11 +977,11 @@ function buildHtmlDocument(
               </span>
             </div>
             <div><strong>Profil de expunere la vectorul rus:</strong> ${escapeHtml(c.exposureProfile)}</div>
-            <div><strong>Stratul A · Arhitectura instituțională:</strong> ${escapeHtml(c.stratumA)}</div>
-            <div><strong>Stratul B · Pregătirea neurocognitivă și apărarea informațională:</strong> ${escapeHtml(c.stratumB)}</div>
-            <div><strong>Stratul C · Inconștientul cultural și axa Ego–Sine:</strong> ${escapeHtml(c.stratumC)}</div>
+            <div><strong>Layer A · Institutional Architecture:</strong> ${escapeHtml(c.stratumA)}</div>
+            <div><strong>Layer B · Neurocognitive Preparedness and Information Defense:</strong> ${escapeHtml(c.stratumB)}</div>
+            <div><strong>Layer C · Cultural Unconscious and Ego–Self Axis:</strong> ${escapeHtml(c.stratumC)}</div>
             <div class="p-2 border ${c.statusType === 'tension' ? 'border-[#F01E1E] bg-[#F01E1E]/10' : 'border-[#222426] bg-[#E5B822]/20'}">
-              <strong>Concluzie cauzală demonstrată:</strong> ${escapeHtml(c.strategicLesson)}
+              <strong>Demonstrated Causal Conclusion:</strong> ${escapeHtml(c.strategicLesson)}
             </div>
           </div>`
         ).join('')}
@@ -990,11 +990,11 @@ function buildHtmlDocument(
   </section>
 
   <!-- =======================================================================
-       PARTEA A IV-A: GLOSAR CONCEPTUAL COMPLET (55 CONCEPTE-CHEIE)
+       PART IV: COMPLETE CONCEPTUAL GLOSSARY (55 KEY CONCEPTS)
        ======================================================================= -->
   <section class="page-break space-y-3">
     <div class="border-b-2 border-[#222426] pb-3">
-      <div class="text-[10px] font-mono uppercase tracking-wider text-[#6E7376]">Partea a IV-a · Aparat conceptual interdisciplinar</div>
+      <div class="text-[10px] font-mono uppercase tracking-wider text-[#6E7376]">Part IV · Interdisciplinary Conceptual Apparatus</div>
       <h2 class="text-xl font-bold text-[#222426]">Glosar teoretic complet (${GLOSSARY_CONCEPTS.length} concepte-cheie)</h2>
     </div>
 
@@ -1003,7 +1003,7 @@ function buildHtmlDocument(
         (g, idx) => `
         <div class="glossary-card border border-[#222426] bg-[#F6F5EE] p-3 text-[10.5px] leading-relaxed">
           <div class="flex items-center justify-between gap-2 border-b border-[#8C9BA5] pb-1 mb-1 text-[9.5px] font-mono">
-            <span class="text-[#6E7376]">#${String(idx + 1).padStart(2, '0')} · Stratul ${g.stratum} · ${escapeHtml(g.domain)}</span>
+            <span class="text-[#6E7376]">#${String(idx + 1).padStart(2, '0')} · Layer ${g.stratum} · ${escapeHtml(g.domain)}</span>
             <span class="font-bold ${
               g.polarity === 'tension'
                 ? 'text-[#F01E1E]'
@@ -1011,14 +1011,14 @@ function buildHtmlDocument(
                   ? 'text-[#222426] bg-[#E5B822]/35 px-1.5 border border-[#222426]'
                   : 'text-[#6E7376]'
             }">
-              ${g.polarity === 'tension' ? 'Vulnerabilitate și tensiune' : g.polarity === 'synthesis' ? 'Reziliență și sinteză' : 'Cadru analitic'}
+              ${g.polarity === 'tension' ? 'Vulnerability and Tension' : g.polarity === 'synthesis' ? 'Resilience and Synthesis' : 'Analytical Framework'}
             </span>
           </div>
           <div class="font-bold text-xs text-[#222426]">${escapeHtml(g.term)}</div>
-          <div class="text-[9.5px] font-mono text-[#6E7376] mb-1">Referințe teoretice: ${escapeHtml(g.authors)}</div>
+          <div class="text-[9.5px] font-mono text-[#6E7376] mb-1">Theoretical References: ${escapeHtml(g.authors)}</div>
           <p class="text-[#222426] mb-1.5">${escapeHtml(g.definition)}</p>
           <div class="p-2 border ${g.polarity === 'tension' ? 'border-[#F01E1E] bg-[#F01E1E]/5' : 'border-[#222426] bg-[#E5B822]/15'} text-[10px]">
-            <span class="font-mono font-bold">Funcția în arhitectura monografiei: </span>${escapeHtml(g.monographContext)}
+            <span class="font-mono font-bold">Function in the Monograph Architecture: </span>${escapeHtml(g.monographContext)}
           </div>
         </div>`
       ).join('')}
@@ -1026,12 +1026,12 @@ function buildHtmlDocument(
   </section>
 
   <!-- =======================================================================
-       PARTEA A V-A: BIBLIOGRAFIE INTEGRALĂ APA 7TH (152 LUCRĂRI)
+       PART V: COMPLETE APA 7TH BIBLIOGRAPHY (152 WORKS)
        ======================================================================= -->
   <section class="page-break space-y-3">
     <div class="border-b-2 border-[#222426] pb-3">
-      <div class="text-[10px] font-mono uppercase tracking-wider text-[#6E7376]">Partea a V-a · Surse academice verificate · APA 7th Edition</div>
-      <h2 class="text-xl font-bold text-[#222426]">Bibliografie integrală (${BIBLIOGRAPHY_DATA.length} lucrări)</h2>
+      <div class="text-[10px] font-mono uppercase tracking-wider text-[#6E7376]">Part V · Verified Academic Sources · APA 7th Edition</div>
+      <h2 class="text-xl font-bold text-[#222426]">Complete Bibliography (${BIBLIOGRAPHY_DATA.length} works)</h2>
     </div>
 
     <div class="border border-[#222426] divide-y divide-[#8C9BA5] bg-[#F6F5EE]">
@@ -1094,12 +1094,12 @@ async function main() {
       displayHeaderFooter: true,
       headerTemplate: `
         <div style="width:100%; font-family: Inter, sans-serif; font-size: 7.5pt; color: #6E7376; padding: 0 14mm; display: flex; justify-content: space-between; border-bottom: 0.5pt solid #8C9BA5; padding-bottom: 2mm;">
-          <span>Diagnosticul războiului cognitiv în România (Versiunea 1.0)</span>
-          <span>Monografie științifică integrală</span>
+          <span>Diagnosis of Cognitive Warfare in Romania (Versiunea 1.0)</span>
+          <span>Complete Scientific Monograph</span>
         </div>`,
       footerTemplate: `
         <div style="width:100%; font-family: Inter, sans-serif; font-size: 7.5pt; color: #6E7376; padding: 0 14mm; display: flex; justify-content: space-between; border-top: 0.5pt solid #8C9BA5; padding-top: 2mm;">
-          <span>Ediție completă · Text, diagrame, tabele, glosar și bibliografie</span>
+          <span>Complete Edition · Text, Diagrams, Tables, Glossary, and Bibliography</span>
           <span>Pagina <span class="pageNumber"></span> / <span class="totalPages"></span></span>
         </div>`,
       margin: {
