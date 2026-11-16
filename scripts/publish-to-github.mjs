@@ -179,17 +179,27 @@ async function main() {
   const authenticatedOwner = userRes.data.login || OWNER;
   console.log(`Autentificat cu succes ca: ${authenticatedOwner}`);
 
-  console.log(`2. Verificare / creare depozit ${authenticatedOwner}/${REPO}...`);
+  const isPrivateRepo = process.env.GITHUB_PRIVATE === 'true';
+  const repoDescription =
+    process.env.GITHUB_REPO_DESCRIPTION ||
+    (isPrivateRepo
+      ? 'Diagnosticul războiului cognitiv în România (Versiunea 2.0 — Depozit privat de lucru)'
+      : 'Diagnosticul războiului cognitiv în România (Versiunea 1.0) — Platformă interactivă');
+
+  console.log(
+    `2. Verificare / creare depozit ${authenticatedOwner}/${REPO} (${isPrivateRepo ? 'PRIVAT' : 'PUBLIC'})...`
+  );
   const repoCheck = await ghRequest(`/repos/${authenticatedOwner}/${REPO}`);
   if (!repoCheck.ok && repoCheck.status === 404) {
     const createRes = await ghRequest('/user/repos', {
       method: 'POST',
       body: JSON.stringify({
         name: REPO,
-        description:
-          'Diagnosticul războiului cognitiv în România (Versiunea 1.0) — Platformă interactivă',
-        homepage: `https://${authenticatedOwner.toLowerCase()}.github.io/${REPO}/`,
-        private: false,
+        description: repoDescription,
+        homepage: isPrivateRepo
+          ? ''
+          : `https://${authenticatedOwner.toLowerCase()}.github.io/${REPO}/`,
+        private: isPrivateRepo,
         auto_init: true
       })
     });
@@ -197,8 +207,18 @@ async function main() {
       console.error(`Nu s-a putut crea depozitul (${createRes.status}):`, createRes.data);
       process.exit(1);
     }
-    console.log(`Depozitul https://github.com/${authenticatedOwner}/${REPO} a fost creat.`);
+    console.log(
+      `Depozitul ${isPrivateRepo ? 'privat' : 'public'} https://github.com/${authenticatedOwner}/${REPO} a fost creat.`
+    );
     await new Promise((r) => setTimeout(r, 2500));
+  } else if (repoCheck.ok && process.env.GITHUB_PRIVATE !== undefined) {
+    await ghRequest(`/repos/${authenticatedOwner}/${REPO}`, {
+      method: 'PATCH',
+      body: JSON.stringify({
+        private: isPrivateRepo,
+        description: repoDescription
+      })
+    });
   }
 
   let refRes = await ghRequest(`/repos/${authenticatedOwner}/${REPO}/git/ref/heads/${BRANCH}`);
@@ -238,43 +258,49 @@ async function main() {
     console.log(`   -> Commit creat pe ${PAGES_BRANCH}: ${pagesCommitSha}`);
   }
 
-  console.log(`5. Configurare GitHub Pages din ramura ${PAGES_BRANCH}...`);
-  const pagesGet = await ghRequest(`/repos/${authenticatedOwner}/${REPO}/pages`);
-  if (!pagesGet.ok && pagesGet.status === 404) {
-    await ghRequest(`/repos/${authenticatedOwner}/${REPO}/pages`, {
-      method: 'POST',
-      body: JSON.stringify({
-        build_type: 'legacy',
-        source: {
-          branch: PAGES_BRANCH,
-          path: '/'
-        }
-      })
+  if (!isPrivateRepo) {
+    console.log(`5. Configurare GitHub Pages din ramura ${PAGES_BRANCH}...`);
+    const pagesGet = await ghRequest(`/repos/${authenticatedOwner}/${REPO}/pages`);
+    if (!pagesGet.ok && pagesGet.status === 404) {
+      await ghRequest(`/repos/${authenticatedOwner}/${REPO}/pages`, {
+        method: 'POST',
+        body: JSON.stringify({
+          build_type: 'legacy',
+          source: {
+            branch: PAGES_BRANCH,
+            path: '/'
+          }
+        })
+      });
+    } else {
+      await ghRequest(`/repos/${authenticatedOwner}/${REPO}/pages`, {
+        method: 'PUT',
+        body: JSON.stringify({
+          build_type: 'legacy',
+          source: {
+            branch: PAGES_BRANCH,
+            path: '/'
+          }
+        })
+      });
+    }
+
+    // Trigger a pages build
+    await ghRequest(`/repos/${authenticatedOwner}/${REPO}/pages/builds`, {
+      method: 'POST'
     });
   } else {
-    await ghRequest(`/repos/${authenticatedOwner}/${REPO}/pages`, {
-      method: 'PUT',
-      body: JSON.stringify({
-        build_type: 'legacy',
-        source: {
-          branch: PAGES_BRANCH,
-          path: '/'
-        }
-      })
-    });
+    console.log(`5. Depozit PRIVAT: GitHub Pages public a fost omis pentru a păstra confidențialitatea.`);
   }
-
-  // Trigger a pages build
-  await ghRequest(`/repos/${authenticatedOwner}/${REPO}/pages/builds`, {
-    method: 'POST'
-  });
 
   console.log(`=====================================================`);
   console.log(`PUBLICARE FINALIZATĂ CU SUCCES!`);
-  console.log(`Depozit GitHub: https://github.com/${authenticatedOwner}/${REPO}`);
-  console.log(
-    `URL GitHub Pages: https://${authenticatedOwner.toLowerCase()}.github.io/${REPO}/`
-  );
+  console.log(`Depozit GitHub (${isPrivateRepo ? 'PRIVAT' : 'PUBLIC'}): https://github.com/${authenticatedOwner}/${REPO}`);
+  if (!isPrivateRepo) {
+    console.log(
+      `URL GitHub Pages: https://${authenticatedOwner.toLowerCase()}.github.io/${REPO}/`
+    );
+  }
   console.log(`=====================================================`);
 }
 
