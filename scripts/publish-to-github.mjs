@@ -6,7 +6,7 @@ dotenv.config();
 
 const GITHUB_TOKEN = (process.env.GITHUB_TOKEN || '').trim();
 const OWNER = 'LaurentiuStaicu';
-const REPO = process.env.GITHUB_REPO_NAME || 'cognitive-warfare-diagnosis-romania';
+const REPO = process.env.GITHUB_REPO_NAME || 'diagnosticul-razboiului-cognitiv-romania';
 const BRANCH = 'main';
 const PAGES_BRANCH = 'gh-pages';
 
@@ -179,7 +179,7 @@ async function main() {
   const authenticatedOwner = userRes.data.login || OWNER;
   console.log(`Autentificat cu succes ca: ${authenticatedOwner}`);
 
-  const isPrivateRepo = process.env.GITHUB_PRIVATE !== 'false';
+  const isPrivateRepo = process.env.GITHUB_PRIVATE === 'true';
   const repoDescription =
     process.env.GITHUB_REPO_DESCRIPTION ||
     (isPrivateRepo
