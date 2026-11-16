@@ -23,11 +23,11 @@ export const GlossaryAndBibliographyView: React.FC = () => {
 
   const domains = [
     'ALL',
-    'Sociologie instituțională',
-    'Neuroștiințe și psihobiologie',
-    'Cibernetică și semiotică',
-    'Psihologie analitică și memorie',
-    'Geopolitică și ideologie rusă'
+    'Institutional Sociology',
+    'Neuroscience & Psychobiology',
+    'Cybernetics & Semiotics',
+    'Analytical Psychology & Memory',
+    'Geopolitics & Russian Ideology'
   ];
 
   const filteredBibliography = BIBLIOGRAPHY_DATA.filter((item) => {
@@ -49,10 +49,10 @@ export const GlossaryAndBibliographyView: React.FC = () => {
         <div className="flex flex-col md:flex-row md:items-center justify-between gap-4">
           <div>
             <div className="text-xs font-mono text-[#6E7376] mb-1">
-              Aparat conceptual interdisciplinar și surse academice verificate
+              Interdisciplinary conceptual apparatus and verified academic sources
             </div>
             <h2 className="font-serif text-2xl font-bold text-[#222426]">
-              Glosar teoretic și bibliografie integrală
+              Theoretical glossary and comprehensive bibliography
             </h2>
           </div>
 
@@ -65,7 +65,7 @@ export const GlossaryAndBibliographyView: React.FC = () => {
                   : 'bg-[#F6F5EE] text-[#222426] border-[#8C9BA5] hover:border-[#222426]'
               }`}
             >
-              Glosar conceptual · {GLOSSARY_CONCEPTS.length} concepte
+              Conceptual glossary · {GLOSSARY_CONCEPTS.length} concepts
             </button>
             <button
               onClick={() => setActiveTab('bibliography')}
@@ -75,7 +75,7 @@ export const GlossaryAndBibliographyView: React.FC = () => {
                   : 'bg-[#F6F5EE] text-[#222426] border-[#8C9BA5] hover:border-[#222426]'
               }`}
             >
-              Bibliografie integrală · {BIBLIOGRAPHY_DATA.length} lucrări
+              Complete bibliography · {BIBLIOGRAPHY_DATA.length} works
             </button>
           </div>
         </div>
@@ -89,8 +89,8 @@ export const GlossaryAndBibliographyView: React.FC = () => {
                 onChange={(e) => setSearchQuery(e.target.value)}
                 placeholder={
                   activeTab === 'glossary'
-                    ? 'Căutați un concept: închidere operațională, alostazie, OODA, Bobok, Edinger...'
-                    : 'Căutați un autor, an sau titlu în bibliografie: Luhmann, Sterling, Menon, Sapolsky, Lefebvre, Lotman...'
+                    ? 'Search for a concept: operational closure, allostasy, OODA, Bobok, Edinger...'
+                    : 'Search for an author, year or title in the bibliography: Luhmann, Sterling, Menon, Sapolsky, Lefebvre, Lotman...'
                 }
                 className="w-full pl-9 pr-4 py-2 text-xs sm:text-sm bg-[#F6F5EE] border border-[#222426] text-[#222426] placeholder:text-[#6E7376] focus:outline-none focus:ring-2 focus:ring-[#E5B822]"
               />
@@ -108,7 +108,7 @@ export const GlossaryAndBibliographyView: React.FC = () => {
                         : 'bg-[#F6F5EE] text-[#222426] border-[#8C9BA5]'
                     }`}
                   >
-                    {st === 'ALL' ? 'Toate straturile' : `Stratul ${st}`}
+                    {st === 'ALL' ? 'All layers' : `Layer ${st}`}
                   </button>
                 ))}
               </div>
@@ -127,7 +127,7 @@ export const GlossaryAndBibliographyView: React.FC = () => {
                     : 'bg-[#F6F5EE] text-[#222426] border-[#8C9BA5]'
                 }`}
               >
-                {dom === 'ALL' ? 'Toate domeniile științifice' : dom}
+                {dom === 'ALL' ? 'All scientific domains' : dom}
               </button>
             ))}
           </div>
@@ -145,7 +145,7 @@ export const GlossaryAndBibliographyView: React.FC = () => {
               <div>
                 <div className="flex flex-wrap items-center justify-between gap-2 text-xs font-mono text-[#6E7376] pb-2 mb-3 border-b border-[#8C9BA5]">
                   <span>
-                    Stratul {concept.stratum} · {concept.domain}
+                    Layer {concept.stratum} · {concept.domain}
                   </span>
                   <span
                     className={`font-semibold ${
@@ -157,10 +157,10 @@ export const GlossaryAndBibliographyView: React.FC = () => {
                     }`}
                   >
                     {concept.polarity === 'tension'
-                      ? 'Vulnerabilitate și tensiune'
+                      ? 'Vulnerability & tension'
                       : concept.polarity === 'synthesis'
-                      ? 'Reziliență și sinteză'
-                      : 'Cadru analitic'}
+                      ? 'Resilience & synthesis'
+                      : 'Analytical framework'}
                   </span>
                 </div>
 
@@ -168,7 +168,7 @@ export const GlossaryAndBibliographyView: React.FC = () => {
                   {concept.term}
                 </h3>
                 <div className="text-xs font-mono text-[#6E7376] mt-1 mb-3">
-                  Referințe teoretice: {concept.authors}
+                  Theoretical references: {concept.authors}
                 </div>
 
                 <p className="text-xs sm:text-sm text-[#222426] leading-relaxed mb-3">
@@ -184,7 +184,7 @@ export const GlossaryAndBibliographyView: React.FC = () => {
                 }`}
               >
                 <span className="font-mono font-semibold block mb-0.5">
-                  Funcția în arhitectura monografiei
+                  Function in monograph architecture
                 </span>
                 {concept.monographContext}
               </div>
@@ -198,9 +198,9 @@ export const GlossaryAndBibliographyView: React.FC = () => {
         <div className="bg-[#F6F5EE] border border-[#222426] divide-y divide-[#8C9BA5]">
           <div className="p-3.5 bg-[#F6F5EE] text-xs font-mono text-[#6E7376] flex flex-wrap items-center justify-between gap-2">
             <span>
-              {filteredBibliography.length} din {BIBLIOGRAPHY_DATA.length} lucrări academice
+              {filteredBibliography.length} of {BIBLIOGRAPHY_DATA.length} academic works
             </span>
-            <span>Ordine alfabetică după autor și an · APA 7th Edition</span>
+            <span>Alphabetical order by author and year · APA 7th Edition</span>
           </div>
 
           {filteredBibliography.map((item, idx) => (

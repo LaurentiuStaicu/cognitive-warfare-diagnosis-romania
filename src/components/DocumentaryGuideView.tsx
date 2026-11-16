@@ -13,117 +13,117 @@ export const DocumentaryGuideView: React.FC<DocumentaryGuideViewProps> = ({
   const ACTS_DATA = [
     {
       actNumber: 1,
-      code: 'ACTUL I',
-      title: 'Cadrul macro și rădăcina sistemică',
-      timeframe: 'Minutul 00:00 – 12:30',
-      focus: 'Stratul A (Sociologie instituțională & Forme fără fond)',
+      code: 'ACT I',
+      title: 'The macro framework and the systemic root',
+      timeframe: 'Minute 00:00 – 12:30',
+      focus: 'Layer A (Institutional Sociology & Foundationless Forms)',
       visualDirection:
-        'Cadre largi de arhitectură instituțională bucureșteană în contrast cu sate depopulate; iluminare rece, umbre adânci, estetice cinemascop 2.39:1.',
+        'Wide frames of Bucharest institutional architecture in contrast with depopulated villages; cool lighting, deep shadows, cinemascope aesthetics 2.39:1.',
       audioDesign:
-        'Frecvențe joase sintetice (drone sub-bass 40Hz) suprapuse peste zgomotul de fond al aparaturii de imprimat și tic-tac-ul metronomului instituțional.',
+        'Synthetic low frequencies (sub-bass drone 40Hz) superimposed over the background noise of the printing press and the tick-tock of the institutional metronome.',
       keyScenes: [
         {
           sceneNumber: '1.1',
-          heading: 'Anomalia istorică a formelor fără fond (Maiorescu & Zeletin)',
+          heading: 'The historical anomaly of bottomless forms (Maiorescu & Zeletin)',
           narration:
-            'Aparatul de stat a adoptat arhitectura formală a democrației constituționale euroatlantice, păstrând însă în profunzime dinamica patrimonială și extractivă a relațiilor de putere.',
+            'The state apparatus adopted the formal architecture of the Euro-Atlantic constitutional democracy, but deeply preserving the patrimonial and extractive dynamics of power relations.',
           scriptNote:
-            'Voce din off sobră, fără inflexiuni dramatice. Transziție bruscă de la textul legii din 1866 la imagini aeriene cu clădirile birocratice contemporane.'
+            'Sober voiceover, without dramatic inflections. Abrupt transition from the text of the 1866 law to aerial images of contemporary bureaucratic buildings.'
         },
         {
           sceneNumber: '1.2',
-          heading: 'Insecuritatea cotidiană și uzura alostatică cronică',
+          heading: 'Everyday insecurity and chronic allostatic wear and tear',
           narration:
-            'Înainte de prima întâlnire cu discursul propagandistic digital, cetățeanul român este deja epuizat biologic de uzura cotidiană a serviciilor publice nefuncționale.',
+            'Before the first encounter with the digital propaganda discourse, the Romanian citizen is already biologically exhausted by the daily wear and tear of dysfunctional public services.',
           scriptNote:
-            'Montaj alert de secvențe cotidiene: săli de așteptare din spitale, ghișee administrative, trafic urban blocat. Ritm de montaj sincopat.'
+            'Alert montage of everyday sequences: hospital waiting rooms, administrative counters, blocked urban traffic. Syncopated montage rhythm.'
         }
       ]
     },
     {
       actNumber: 2,
-      code: 'ACTUL II',
-      title: 'Anatomia tensiunii și camuflajul discursiv',
-      timeframe: 'Minutul 12:30 – 25:00',
-      focus: 'Stratul B (Antilumea putinistă & Dubla falsificare axiologică)',
+      code: 'ACT II',
+      title: 'The anatomy of tension and discursive camouflage',
+      timeframe: 'Minute 12:30 – 25:00',
+      focus: 'Layer B (Putinist Antiworld & Double Axiological Falsification)',
       visualDirection:
-        'Dualitate cromatică vizuală: stânga luminoasă (sinteza creștin-seculară europeană) versus dreapta întunecată (camuflajul suveranist al Antilumii).',
+        'Visual chromatic duality: the bright left (European Christian-secular synthesis) versus the dark right (the Antiworld\'s sovereignist camouflage).',
       audioDesign:
-        'Coruri ecoulice distorsionate digital, armonii de orgă suprapuse peste impulsuri sintetice de tip rețea cibernetică.',
+        'Digitally distorted echoic choruses, organ harmonies layered over cybernetic synth pulses.',
       keyScenes: [
         {
           sceneNumber: '2.1',
-          heading: 'Rețeaua Sistema și starea Bobok (Dostoiévski & Thom)',
+          heading: 'The Sistema Network and the Bobok State (Dostoiévski & Thom)',
           narration:
-            'Operațiunea rusească de război cognitiv nu urmărește convingerea rațională, ci parazitarea semiotică a spațiului discursiv și transgresiunea cinică a tuturor normelor.',
+            'The Russian operation of cognitive warfare does not aim at rational persuasion, but at the semiotic parasitism of the discursive space and the cynical transgression of all norms.',
           scriptNote:
-            'Suprapunere de texturi din rețelele sociale, comentarii conspirative, simboluri ortodoxe parazitate și secvențe din discursurile revizioniste.'
+            'Overlay of textures from social networks, conspiratorial comments, parasitized orthodox symbols and sequences from revisionist discourses.'
         },
         {
           sceneNumber: '2.2',
-          heading: 'Dubla falsificare axiologică a conservatorismului',
+          heading: 'The double axiological falsification of conservatism',
           narration:
-            'Naționalismul defensiv este deturnat din interior, transformând valorile comunitare în instrumente de mobilizare antiinstituțională.',
+            'Defensive nationalism is hijacked from within, turning community values ​​into tools of anti-institutional mobilization.',
           scriptNote:
-            'Planuri de detaliu pe icoane vechi în oglindă cu ecrane de smartphone illuminate în întuneric. Contrast puternic lumină-umbră.'
+            'Close ups of old icons in mirror with smartphone screens illuminated in the dark. Strong light-shadow contrast.'
         }
       ]
     },
     {
       actNumber: 3,
-      code: 'ACTUL III',
-      title: 'Buclele de sistem și capturarea OODA',
-      timeframe: 'Minutul 25:00 – 37:30',
+      code: 'ACT III',
+      title: 'System loops and OODA capture',
+      timeframe: 'Minute 25:00 – 37:30',
       focus: 'Stratul B/C (Bucla OODA, Control reflexiv & Filtrele Umbrei)',
       visualDirection:
-        'Diagrame cibernetice animate în overlay peste imagini reale; grafică vectorială aurie și roșie reprezentând fluxurile de informație și interferență.',
+        'Animated cyber diagrams overlaid on real images; gold and red vector graphics representing information and interference flows.',
       audioDesign:
-        'Impulsuri Binaural Beats (stare Alfa/Beta), semnale morse de frecvență înaltă, declanșări acustice de alarmă scurtă.',
+        'Binaural Beats pulses (Alpha/Beta state), high frequency morse signals, short alarm acoustic triggers.',
       keyScenes: [
         {
           sceneNumber: '3.1',
-          heading: 'Deturnarea fazei de Orientare (Boyd & Lefebvre)',
+          heading: 'Hijacking the Orientation phase (Boyd & Lefebvre)',
           narration:
-            'Subiecții primesc informații construite pentru a le confirma fricile profunde, manipulându-le discernământul prefrontal și obligându-i la decizii autodistructive.',
+            'Subjects receive information constructed to confirm their deepest fears, manipulating their prefrontal discernment and forcing them to make self-destructive decisions.',
           scriptNote:
-            'Vizualizarea buclei OODA în spațiu 3D cu noduri decizionale scurtcircuitate de atacuri de rang secund.'
+            'Visualization of the OODA loop in 3D space with decision nodes short-circuited by second-order attacks.'
         },
         {
           sceneNumber: '3.2',
-          heading: 'Conversia în Cadranul III al Matricei lui Cipolla',
+          heading: 'Conversion to Quadrant III of Cipolla\'s Matrix',
           narration:
-            'Cetățeanul capturat acționează împotriva propriilor interese de securitate și comunitare, generând un autosabotaj colectiv în stare de criză.',
+            'The captured citizen acts against his own security and community interests, generating a collective self-sabotage in a state of crisis.',
           scriptNote:
-            'Graficul matricei bidimensionale a lui Cipolla suprapus peste secvențe de proteste anomizante și panică de rețea.'
+            'Cipolla\'s two-dimensional matrix plot superimposed over sequences of anonymizing protests and network panic.'
         }
       ]
     },
     {
       actNumber: 4,
-      code: 'ACTUL IV',
-      title: 'Protocolul secvențial și reconstrucția',
-      timeframe: 'Minutul 37:30 – 50:00',
-      focus: 'Reconstrucție societală (Protocolul Lalonde–Dever & Modernitate organică)',
+      code: 'ACT IV',
+      title: 'Sequential protocol and reconstruction',
+      timeframe: 'Minute 37:30 – 50:00',
+      focus: 'Societal Reconstruction (The Lalonde–Dever Protocol & Organic Modernity)',
       visualDirection:
-        'Tranziție de la tonuri rece-monocrome la lumină naturală caldă, peisaje instituționale deschise, spații educaționale moderne și laboratoare de cercetare.',
+        'Transition from cold-monochrome tones to warm natural light, open institutional landscapes, modern educational spaces and research laboratories.',
       audioDesign:
-        'Pian acustic organic integrat cu cvartet de coarde susținut de un tempo ascendent stabil (72 BPM).',
+        'Integrated organic acoustic piano with string quartet supported by a steady ascending tempo (72 BPM).',
       keyScenes: [
         {
           sceneNumber: '4.1',
-          heading: 'Faza I: Decompresia alostatică și igiena digitală (0–12 luni)',
+          heading: 'Phase I: Allostatic decompression and digital hygiene (0–12 months)',
           narration:
-            'Restabilirea capacității executive prefrontale necesită mai întâi reducere presiunii de stres și reglementarea mediului informațional digital.',
+            'Restoring prefrontal executive capacity first requires reducing stress pressure and regulating the digital information environment.',
           scriptNote:
-            'Secvențe din centre de securitate cibernetică, săli de clasă cu programe de alfabetizare media și comunități de tineri.'
+            'Sequences from cyber security centers, classrooms with media literacy programs, and youth communities.'
         },
         {
           sceneNumber: '4.2',
-          heading: 'Faza II & III: Prebunking și modernitate organică (1–10 ani)',
+          heading: 'Phase II & III: Prebunking and organic modernity (1–10 years)',
           narration:
-            'Reconstrucția rezilienței societale pe termen lung se fundamentează pe policentricitatea Ostrom, prebunking calibrat și apărarea antropologiei persoanei libere.',
+            'The reconstruction of long-term societal resilience is grounded in Ostrom\'s polycentricity, calibrated prebunking, and the defense of the anthropology of the free person.',
           scriptNote:
-            'Plan final panoramic asupra societății civile românești ancorate în spațiul euroatlantic, închidere în lumină solara plină.'
+            'Final panoramic shot of Romanian civil society anchored in the Euro-Atlantic space, closing in full sunlight.'
         }
       ]
     }
@@ -137,13 +137,13 @@ export const DocumentaryGuideView: React.FC<DocumentaryGuideViewProps> = ({
           <div className="max-w-3xl space-y-3">
             <div className="flex items-center gap-2 text-xs font-mono text-[#6E7376]">
               <Film className="w-4 h-4 text-[#222426]" />
-              <span>Ghid de Regie & Producție Documentar · Tratament Cinematografic</span>
+              <span>Documentary Directing & Production Guide · Cinematographic Treatment</span>
             </div>
             <h1 className="font-serif text-2xl sm:text-4xl font-bold text-[#222426] leading-tight">
-              Ghidul de Regie & Producție Documentar „Diagnosticul războiului cognitiv”
+              Documentary Director & Production Guide "Diagnosis of Cognitive War"
             </h1>
             <p className="text-xs sm:text-sm text-[#222426] leading-relaxed max-w-[70ch]">
-              Acest livrabil tehnic secundar este decuplat de textul monografiei academice. El oferă specificațiile regizorale, indicațiile de sonorizare acustică și secvențierea cadrelor cinematografice pentru adaptarea audiovizuală a cercetării.
+              This secondary technical deliverable is decoupled from the text of the academic monograph. He provides directorial specifications, sound cues, and cinematic frame sequencing for the audiovisual adaptation of the research.
             </p>
           </div>
 
@@ -153,7 +153,7 @@ export const DocumentaryGuideView: React.FC<DocumentaryGuideViewProps> = ({
               className="px-4 py-2.5 text-xs font-serif font-bold text-[#222426] bg-[#E5B822] border border-[#222426] hover:bg-[#E5B822]/85 transition-colors cursor-pointer flex items-center justify-center gap-2"
             >
               <BookOpen className="w-4 h-4" />
-              <span>Revin la Monografia Academică</span>
+              <span>I return to the Academic Monograph</span>
             </button>
           </div>
         </div>
@@ -161,7 +161,7 @@ export const DocumentaryGuideView: React.FC<DocumentaryGuideViewProps> = ({
         {/* Act Selector Buttons */}
         <div className="mt-6">
           <div className="text-xs font-mono font-semibold text-[#222426] mb-2.5">
-            Selectați Actul cinematografic pentru vizualizarea scenariului și indicațiilor de regie:
+            Select the Cinematic Act to view the script and directing cues:
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3">
             {ACTS_DATA.map((act) => (
@@ -196,14 +196,14 @@ export const DocumentaryGuideView: React.FC<DocumentaryGuideViewProps> = ({
               <div className="flex flex-wrap items-center justify-between gap-3 pb-4 mb-6 border-b border-[#222426]">
                 <div>
                   <span className="text-xs font-mono font-bold text-[#222426] uppercase tracking-wider">
-                    {currentAct.code} · Specificații de Regie
+                    {currentAct.code} · Directing Specifications
                   </span>
                   <h2 className="font-serif text-xl sm:text-2xl font-bold text-[#222426] mt-1">
                     {currentAct.title}
                   </h2>
                 </div>
                 <div className="text-xs font-mono text-[#6E7376]">
-                  Segment cronologic: {currentAct.timeframe}
+                  Chronological segment: {currentAct.timeframe}
                 </div>
               </div>
 
@@ -212,7 +212,7 @@ export const DocumentaryGuideView: React.FC<DocumentaryGuideViewProps> = ({
                 <div className="p-4 bg-[#F6F5EE] border border-[#222426] space-y-2">
                   <div className="flex items-center gap-2 text-xs font-mono font-bold text-[#222426]">
                     <Clapperboard className="w-4 h-4 text-[#F01E1E]" />
-                    <span>Direcție Vizuală & Imagine</span>
+                    <span>Visual & Image Direction</span>
                   </div>
                   <p className="text-xs sm:text-sm text-[#222426] leading-relaxed">
                     {currentAct.visualDirection}
@@ -222,7 +222,7 @@ export const DocumentaryGuideView: React.FC<DocumentaryGuideViewProps> = ({
                 <div className="p-4 bg-[#F6F5EE] border border-[#222426] space-y-2">
                   <div className="flex items-center gap-2 text-xs font-mono font-bold text-[#222426]">
                     <Volume2 className="w-4 h-4 text-[#222426]" />
-                    <span>Design Sonor & Design Acustic</span>
+                    <span>Sound Design & Acoustic Design</span>
                   </div>
                   <p className="text-xs sm:text-sm text-[#222426] leading-relaxed">
                     {currentAct.audioDesign}
@@ -233,7 +233,7 @@ export const DocumentaryGuideView: React.FC<DocumentaryGuideViewProps> = ({
               {/* Key Scenes Breakdown */}
               <div className="space-y-4">
                 <div className="text-xs font-mono font-bold text-[#222426] uppercase tracking-wider">
-                  Decupaj secvențial și indicații de voce din off:
+                  Sequential cut and voiceover cues:
                 </div>
 
                 {currentAct.keyScenes.map((scene) => (
@@ -243,7 +243,7 @@ export const DocumentaryGuideView: React.FC<DocumentaryGuideViewProps> = ({
                   >
                     <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[#8C9BA5] pb-2">
                       <span className="text-xs font-mono font-bold text-[#222426]">
-                        Secvența {scene.sceneNumber}
+                        Sequence {scene.sceneNumber}
                       </span>
                       <span className="text-xs font-serif font-semibold text-[#222426]">
                         {scene.heading}
@@ -251,14 +251,14 @@ export const DocumentaryGuideView: React.FC<DocumentaryGuideViewProps> = ({
                     </div>
 
                     <div className="space-y-2">
-                      <div className="text-[11px] font-mono text-[#6E7376]">Text narațiune:</div>
+                      <div className="text-[11px] font-mono text-[#6E7376]">Narration text:</div>
                       <p className="font-serif text-sm sm:text-base italic text-[#222426] leading-relaxed bg-[#F6F5EE] p-3 border border-[#8C9BA5]">
                         „{scene.narration}”
                       </p>
                     </div>
 
                     <div className="text-xs font-mono text-[#222426] pt-1">
-                      <span className="font-bold">Notă de regie: </span>
+                      <span className="font-bold">Director's Note: </span>
                       {scene.scriptNote}
                     </div>
                   </div>
@@ -269,13 +269,13 @@ export const DocumentaryGuideView: React.FC<DocumentaryGuideViewProps> = ({
             {/* Bottom Link back to Monograph */}
             <div className="p-4 bg-[#F6F5EE] border border-[#222426] flex flex-col sm:flex-row items-center justify-between gap-4">
               <div className="text-xs text-[#222426]">
-                Doriți să aprofundați fundamentul teoretic și demonstrativ al acestei secvențe?
+                Want to delve deeper into the theoretical and demonstrative foundation of this sequence?
               </div>
               <button
                 onClick={onOpenMonographReader}
                 className="px-4 py-2 text-xs font-serif font-bold text-[#222426] bg-[#E5B822] border border-[#222426] hover:bg-[#E5B822]/85 transition-colors cursor-pointer flex items-center gap-2 whitespace-nowrap"
               >
-                <span>Deschide Monografia Academică</span>
+                <span>Open the Academic Monograph</span>
                 <ArrowRight className="w-4 h-4" />
               </button>
             </div>

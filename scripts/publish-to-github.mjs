@@ -6,7 +6,7 @@ dotenv.config();
 
 const GITHUB_TOKEN = (process.env.GITHUB_TOKEN || '').trim();
 const OWNER = 'LaurentiuStaicu';
-const REPO = process.env.GITHUB_REPO_NAME || 'diagnosticul-razboiului-cognitiv-romania';
+const REPO = process.env.GITHUB_REPO_NAME || 'cognitive-warfare-diagnosis-romania';
 const BRANCH = 'main';
 const PAGES_BRANCH = 'gh-pages';
 
@@ -179,12 +179,12 @@ async function main() {
   const authenticatedOwner = userRes.data.login || OWNER;
   console.log(`Autentificat cu succes ca: ${authenticatedOwner}`);
 
-  const isPrivateRepo = process.env.GITHUB_PRIVATE === 'true';
+  const isPrivateRepo = process.env.GITHUB_PRIVATE !== 'false';
   const repoDescription =
     process.env.GITHUB_REPO_DESCRIPTION ||
     (isPrivateRepo
-      ? 'Diagnosticul războiului cognitiv în România (Versiunea 2.0 — Depozit privat de lucru)'
-      : 'Diagnosticul războiului cognitiv în România (Versiunea 1.0) — Platformă interactivă');
+      ? 'Diagnosis of Cognitive Warfare in Romania (Version 1.0 — Complete English Edition, Private Repository)'
+      : 'Diagnosis of Cognitive Warfare in Romania (Version 1.0) — Interactive Platform');
 
   console.log(
     `2. Verificare / creare depozit ${authenticatedOwner}/${REPO} (${isPrivateRepo ? 'PRIVAT' : 'PUBLIC'})...`
@@ -228,7 +228,7 @@ async function main() {
     process.env.COMMIT_MESSAGE ||
     'Runda a III-a: optimizare logico-terminologică (Lalonde-Dever, Bion, Ostrom) și recalibrare SVG Figurile 2 și 3';
 
-  const workspaceRoot = process.cwd();
+  const workspaceRoot = process.env.PUBLISH_SOURCE_DIR || process.cwd();
   const allSourceFiles = collectFiles(workspaceRoot);
   console.log(`3. Încărcare ${allSourceFiles.length} fișiere sursă pe ramura ${BRANCH}...`);
   const mainCommitSha = await uploadFilesToBranch(

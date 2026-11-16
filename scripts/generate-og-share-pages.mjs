@@ -3,8 +3,8 @@ import path from 'node:path';
 import { ALL_SUBCHAPTER_STEPS, GLOSSARY_CONCEPTS, BIBLIOGRAPHY_DATA } from '../src/data/tablesAndReference.ts';
 import { FIGURE_METADATA } from '../src/components/InteractiveFigures.tsx';
 
-const BASE_URL = 'https://laurentiustaicu.github.io/diagnosticul-razboiului-cognitiv-romania';
-const outDir = path.join(process.cwd(), 'public', 'share');
+const BASE_URL = 'https://laurentiustaicu.github.io/cognitive-warfare-diagnosis-romania';
+const outDir = path.join(import.meta.dirname ? path.resolve(import.meta.dirname, "..") : process.cwd(), 'public', 'share');
 fs.mkdirSync(outDir, { recursive: true });
 
 function escapeHtml(str) {
@@ -21,7 +21,7 @@ function buildShareHtml({ slug, targetHash, title, description, imageRelPath, im
   const fullImageUrl = `${BASE_URL}/${imageRelPath.replace(/^\//, '')}`;
 
   return `<!doctype html>
-<html lang="ro">
+<html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -33,8 +33,8 @@ function buildShareHtml({ slug, targetHash, title, description, imageRelPath, im
 
     <!-- OpenGraph Social Sharing Cards (Section / Chapter Specific) -->
     <meta property="og:type" content="article" />
-    <meta property="og:locale" content="ro_RO" />
-    <meta property="og:site_name" content="Diagnosticul războiului cognitiv în România" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:site_name" content="Diagnosis of Cognitive Warfare in Romania" />
     <meta property="og:title" content="${escapeHtml(title)}" />
     <meta property="og:description" content="${escapeHtml(description)}" />
     <meta property="og:url" content="${sharePageUrl}" />
@@ -57,8 +57,8 @@ function buildShareHtml({ slug, targetHash, title, description, imageRelPath, im
     </script>
   </head>
   <body style="background:#F6F5EE;color:#222426;font-family:Inter,system-ui,-apple-system,sans-serif;padding:2rem;text-align:center;">
-    <p>Redirecționare către secțiunea selectată din monografie...</p>
-    <p><a href="../#${targetHash}" style="color:#222426;font-weight:bold;">Deschide ${escapeHtml(title)}</a></p>
+    <p>Redirecting to the selected monograph section...</p>
+    <p><a href="../#${targetHash}" style="color:#222426;font-weight:bold;">Open ${escapeHtml(title)}</a></p>
   </body>
 </html>
 `;
@@ -73,8 +73,8 @@ for (const step of ALL_SUBCHAPTER_STEPS) {
     targetHash: `pasul-${step.stepNumber}`,
     title:
       step.stepNumber === 1
-        ? 'Introducere · Diagnosticul războiului cognitiv în România (Versiunea 1.0)'
-        : `${step.title} (Diagnosticul războiului cognitiv în România)`,
+        ? 'Introduction · Diagnosis of Cognitive Warfare in Romania (Version 1.0)'
+        : `${step.title} (Diagnosis of Cognitive Warfare in Romania)`,
     description: step.summaryThesis,
     imageRelPath: `og/og-fig-${figId}.png`,
     imageAlt: `${step.title} (${figMeta.title})`
@@ -88,55 +88,55 @@ const CHAPTERS_META = [
     num: 1,
     slug: 'capitolul-1',
     targetHash: 'capitolul-1',
-    title: 'Capitolul 1 (Vulnerabilitățile structurale ale societății românești și eroziunea rezilienței endogene)',
-    description: 'Arhitectura cauzală pe cele trei straturi: anomalia istorică a formelor fără fond, uzura alostatică cronică și neputința învățată.',
+    title: 'Chapter 1 (Structural Vulnerabilities of Romanian Society and the Erosion of Endogenous Resilience)',
+    description: 'Three-layer causal architecture: the historical anomaly of forms without substance, chronic allostatic load, and learned helplessness.',
     imageRelPath: 'og/og-fig-1.png',
-    imageAlt: 'Capitolul 1 (Arhitectura cauzală pe trei straturi)'
+    imageAlt: 'Chapter 1 (Three-Layer Causal Architecture)'
   },
   {
     num: 2,
     slug: 'capitolul-2',
     targetHash: 'capitolul-2',
-    title: 'Capitolul 2 (Arhitectura ideologiei putiniste și camuflajul discursiv suveranist)',
-    description: 'Rețeaua sistema, Russkii Antimir, starea Bobok și dubla falsificare axiologică a conservatorismului și ortodoxiei.',
+    title: 'Chapter 2 (The Architecture of Putinist Ideology and Sovereignist Discursive Camouflage)',
+    description: 'The sistema network, Russkii Antimir, the Bobok state, and the double axiological falsification of conservatism and Orthodoxy.',
     imageRelPath: 'og/og-fig-2.png',
-    imageAlt: 'Capitolul 2 (Dubla falsificare axiologică și camuflajul discursiv)'
+    imageAlt: 'Chapter 2 (Double Axiological Falsification and Discursive Camouflage)'
   },
   {
     num: 3,
     slug: 'capitolul-3',
     targetHash: 'capitolul-3',
-    title: 'Capitolul 3 (Mecanismul capturării cognitive și colonizarea deciziei în al șaselea domeniu operațional)',
-    description: 'Penetrarea fazei de Orientare din bucla OODA prin control reflexiv de rang secund și semioză binară a anihilării.',
+    title: 'Chapter 3 (The Mechanism of Cognitive Capture and Decision Colonization in the Sixth Operational Domain)',
+    description: 'Penetration of the Orientation phase of the OODA loop through second-order reflexive control and the binary semiosis of annihilation.',
     imageRelPath: 'og/og-fig-3.png',
-    imageAlt: 'Capitolul 3 (Deturnarea fazei de Orientare din bucla OODA)'
+    imageAlt: 'Chapter 3 (Hijacking the Orientation Phase of the OODA Loop)'
   },
   {
     num: 4,
     slug: 'capitolul-4',
     targetHash: 'capitolul-4',
-    title: 'Capitolul 4 (Polarizarea socială, proiecția Umbrei colective și vulnerabilitatea la manipulare)',
-    description: 'Mecanismele de apărare de grup, enantiodromia, conversia funcțională a resurselor latente din Umbră și matricea comportamentală a lui Cipolla.',
+    title: 'Chapter 4 (Social Polarization, Projection of the Collective Shadow, and Vulnerability to Manipulation)',
+    description: 'Group defense mechanisms, enantiodromia, functional conversion of latent resources from the Shadow, and Cipolla’s behavioral matrix.',
     imageRelPath: 'og/og-fig-4.png',
-    imageAlt: 'Capitolul 4 (Conversia funcțională a resurselor latente din Umbra colectivă)'
+    imageAlt: 'Chapter 4 (Functional Conversion of Latent Resources from the Collective Shadow)'
   },
   {
     num: 5,
     slug: 'capitolul-5',
     targetHash: 'capitolul-5',
-    title: 'Capitolul 5 (Comportamentul decizional în criză acută: Matricea lui Cipolla și bifurcația neurocognitivă)',
-    description: 'Alunecarea în Cadranul III al autosabotajului colectiv și bifurcația între Track A reactiv și Track B deliberativ.',
+    title: 'Chapter 5 (Decision-Making Behavior in Acute Crisis: Cipolla’s Matrix and Neurocognitive Bifurcation)',
+    description: 'Sliding into Quadrant III of collective self-sabotage and bifurcation between reactive Track A and deliberative Track B.',
     imageRelPath: 'og/og-fig-5.png',
-    imageAlt: 'Capitolul 5 (Matricea lui Cipolla și bifurcația Track A și Track B)'
+    imageAlt: 'Chapter 5 (Cipolla’s Matrix and Track A / Track B Bifurcation)'
   },
   {
     num: 6,
     slug: 'capitolul-6',
     targetHash: 'capitolul-6',
-    title: 'Capitolul 6 (Protocolul secvențial de reconstrucție a rezilienței cognitive societale)',
-    description: 'Protocolul secvențial în trei faze pe determinanții Lalonde-Dever: Faza I decompresie, Faza II prebunking, Faza III modernitate organică.',
+    title: 'Chapter 6 (The Sequential Protocol for Reconstructing Societal Cognitive Resilience)',
+    description: 'Three-phase sequential protocol across the Lalonde-Dever determinants: Phase I decompression, Phase II prebunking, Phase III organic modernity.',
     imageRelPath: 'og/og-fig-7.png',
-    imageAlt: 'Capitolul 6 (Protocolul secvențial în trei faze)'
+    imageAlt: 'Chapter 6 (Three-Phase Sequential Protocol)'
   }
 ];
 
@@ -144,7 +144,7 @@ for (const chap of CHAPTERS_META) {
   const html = buildShareHtml({
     slug: chap.slug,
     targetHash: chap.targetHash,
-    title: `${chap.title} (Diagnosticul războiului cognitiv în România)`,
+    title: `${chap.title} (Diagnosis of Cognitive Warfare in Romania)`,
     description: chap.description,
     imageRelPath: chap.imageRelPath,
     imageAlt: chap.imageAlt
@@ -158,7 +158,7 @@ for (const figId of [1, 2, 3, 4, 5, 6, 7]) {
   const html = buildShareHtml({
     slug: `figura-${figId}`,
     targetHash: `figura-${figId}`,
-    title: `${fig.title} (Diagnosticul războiului cognitiv în România)`,
+    title: `${fig.title} (Diagnosis of Cognitive Warfare in Romania)`,
     description: fig.caption,
     imageRelPath: `og/og-fig-${figId}.png`,
     imageAlt: `${fig.title} (${fig.subtitle})`
@@ -172,11 +172,11 @@ fs.writeFileSync(
   buildShareHtml({
     slug: 'tabele',
     targetHash: 'tabele',
-    title: 'Tabelele de sinteză (1 și 2) și grupul de control regional (Estonia, Polonia, Moldova) (Diagnosticul războiului cognitiv în România)',
+    title: 'Synthesis Tables (1 and 2) and Regional Control Group (Estonia, Poland, Moldova) (Diagnosis of Cognitive Warfare in Romania)',
     description:
-      'Sinteza matricială a diagnosticului pe Straturile A, B și C (Tabelul 1), protocolul secvențial Lalonde-Dever în 3 faze (Tabelul 2) și comparația cu grupul de control regional.',
+      'Matrix synthesis of the diagnosis across Layers A, B, and C (Table 1), the 3-phase Lalonde-Dever sequential protocol (Table 2), and comparison with the regional control group.',
     imageRelPath: 'og/og-fig-7.png',
-    imageAlt: 'Tabelele de sinteză 1 și 2 și protocolul Lalonde-Dever'
+    imageAlt: 'Synthesis Tables 1 and 2 and the Lalonde-Dever Protocol'
   }),
   'utf-8'
 );
@@ -186,11 +186,11 @@ fs.writeFileSync(
   buildShareHtml({
     slug: 'glosar',
     targetHash: 'glosar',
-    title: `Glosar conceptual (${GLOSSARY_CONCEPTS.length} concepte) și bibliografie integrală (${BIBLIOGRAPHY_DATA.length} lucrări) (Diagnosticul războiului cognitiv în România)`,
+    title: `Conceptual Glossary (${GLOSSARY_CONCEPTS.length} concepts) and Complete Bibliography (${BIBLIOGRAPHY_DATA.length} works) (Diagnosis of Cognitive Warfare in Romania)`,
     description:
-      `Aparatul conceptual interdisciplinar (sociologie instituțională, neuroștiințe, semiotică, psihologie analitică) și cele ${BIBLIOGRAPHY_DATA.length} de referințe academice verificate ale monografiei.`,
+      `Interdisciplinary conceptual apparatus (institutional sociology, neuroscience, semiotics, analytical psychology) and the ${BIBLIOGRAPHY_DATA.length} verified academic references of the monograph.`,
     imageRelPath: 'og/og-fig-1.png',
-    imageAlt: 'Glosar conceptual și bibliografie integrală'
+    imageAlt: 'Conceptual Glossary and Complete Bibliography'
   }),
   'utf-8'
 );

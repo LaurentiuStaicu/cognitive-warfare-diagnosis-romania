@@ -564,7 +564,7 @@ export function App() {
                 ? 'font-bold underline decoration-[#222426]'
                 : 'hover:underline text-[#222426]'
             }`}
-            title="Verifică fișa referinței bibliografice în panoul lateral"
+            title="Check the bibliography sheet in the side panel"
           >
             {fullMatch}
           </button>
@@ -621,10 +621,10 @@ export function App() {
             updateUrlHash('');
             window.scrollTo({ top: 0, behavior: 'smooth' });
           }}
-          title="Revenire la coperta principală (Landing page)"
+          title="Return to the main cover (Landing page)"
           className="font-serif text-sm sm:text-lg font-bold tracking-tight text-[#222426] truncate max-w-[62vw] sm:max-w-none"
         >
-          Diagnosticul războiului cognitiv în România
+          Diagnosis of the cognitive war in Romania
         </a>
 
         {/* Zone 2: Single-line text navigation links */}
@@ -641,7 +641,7 @@ export function App() {
                 : ''
             }`}
           >
-            Parcurs pas cu pas
+            Step-by-step walkthrough
           </button>
           <button
             onClick={() => {
@@ -655,7 +655,7 @@ export function App() {
                 : ''
             }`}
           >
-            Laborator diagrame
+            Diagram laboratory
           </button>
           <button
             onClick={() => {
@@ -669,7 +669,7 @@ export function App() {
                 : ''
             }`}
           >
-            Tabele și sinteză
+            Tables and summary
           </button>
           <button
             onClick={() => {
@@ -683,7 +683,7 @@ export function App() {
                 : ''
             }`}
           >
-            Glosar și bibliografie
+            Glossary and bibliography
           </button>
         </nav>
 
@@ -694,8 +694,8 @@ export function App() {
             className="px-2.5 sm:px-3.5 py-1.5 sm:py-2 text-xs font-semibold text-[#222426] bg-[#E5B822] border border-[#222426] hover:bg-[#E5B822]/85 transition-colors whitespace-nowrap shrink-0 cursor-pointer flex items-center gap-1.5 sm:gap-2"
           >
             <Search className="w-3.5 h-3.5" />
-            <span className="hidden sm:inline">Căutare în monografie</span>
-            <span className="sm:hidden">Căutare</span>
+            <span className="hidden sm:inline">Monograph search</span>
+            <span className="sm:hidden">Search</span>
           </button>
         </div>
       </header>
@@ -704,10 +704,10 @@ export function App() {
       <div className="lg:hidden sticky top-[49px] z-30 bg-[#F6F5EE]/95 backdrop-blur-sm border-b border-[#222426] px-3 py-2 flex items-center gap-1.5 overflow-x-auto">
         {(
           [
-            { id: 'parcurs', label: 'Parcurs pas cu pas' },
-            { id: 'diagrame', label: 'Laborator diagrame' },
-            { id: 'tabele', label: 'Tabele și sinteză' },
-            { id: 'glosar', label: 'Glosar și bibliografie' }
+            { id: 'parcurs', label: 'Step-by-step walkthrough' },
+            { id: 'diagrame', label: 'Diagram laboratory' },
+            { id: 'tabele', label: 'Tables and summary' },
+            { id: 'glosar', label: 'Glossary and bibliography' }
           ] as const
         ).map((tab) => (
           <button
@@ -745,14 +745,14 @@ export function App() {
                 <div className="max-w-3xl">
                   <div className="text-xs font-mono text-[#6E7376] mb-1.5">
                     <span className="inline-block px-2.5 py-0.5 text-[11px] font-mono font-semibold tracking-wider text-[#222426] uppercase bg-[#F6F5EE] border border-[#222426]">
-                      MONOGRAFIE ȘTIINȚIFICĂ • VERSIUNEA 1.0
+                      SCIENTIFIC MONOGRAPH • VERSION 1.0
                     </span>
                   </div>
                   <h1 className="font-serif text-xl sm:text-3xl lg:text-4xl font-bold text-[#222426] headline-balance leading-tight mt-1">
-                    Diagnosticul războiului cognitiv în România
+                    Diagnosis of the cognitive war in Romania
                   </h1>
                   <p className="text-xs sm:text-sm font-normal text-[#222426] mt-2 leading-relaxed">
-                    Arhitectura instituțională, neurocognitivă și culturală a vulnerabilității și rezilienței societale în fața operațiunilor informaționale ruse și a ideologiei putiniste
+                    The Institutional, Neurocognitive, and Cultural Architecture of Societal Vulnerability and Resilience to Russian Information Operations and Putinist Ideology
                   </p>
                 </div>
 
@@ -765,10 +765,10 @@ export function App() {
                         ? 'bg-[#E5B822] text-[#222426] border-[#222426] font-bold'
                         : 'bg-[#F6F5EE] text-[#222426] border-[#8C9BA5] hover:border-[#222426]'
                     }`}
-                    title="Comută modul de lectură concentrată (ascunde/arată barele laterale)"
+                    title="Toggle focused reading mode (hide/show sidebars)"
                   >
                     {isReaderMode ? <Minimize2 className="w-3.5 h-3.5" /> : <Maximize2 className="w-3.5 h-3.5" />}
-                    <span>{isReaderMode ? 'Afișează panourile' : 'Lectură concentrată'}</span>
+                    <span>{isReaderMode ? 'Show panels' : 'Focused reading'}</span>
                   </button>
 
                   <div className="flex flex-wrap items-center gap-1.5 text-xs font-mono">
@@ -782,7 +782,7 @@ export function App() {
                             : 'bg-[#F6F5EE] text-[#222426] border-[#8C9BA5] hover:border-[#222426]'
                         }`}
                       >
-                        {st === 'ALL' ? 'Toate straturile' : `Stratul ${st}`}
+                        {st === 'ALL' ? 'All layers' : `Layer ${st}`}
                       </button>
                     ))}
                   </div>
@@ -800,19 +800,19 @@ export function App() {
                 >
                   <div className="bg-[#F6F5EE] border border-[#222426] p-4 space-y-3">
                     <div className="flex items-center justify-between text-xs font-mono font-bold text-[#222426] border-b border-[#8C9BA5] pb-2">
-                      <span className="uppercase tracking-wider">Cuprinsul monografiei</span>
-                      <span>19 secțiuni</span>
+                      <span className="uppercase tracking-wider">The content of the monograph</span>
+                      <span>19 sections</span>
                     </div>
 
                     <div className="space-y-3 text-xs">
                       {[
-                        { chapNum: 0, title: 'Introducere', steps: [1] },
-                        { chapNum: 1, title: 'Capitolul 1: Vulnerabilități', steps: [2, 3, 4] },
-                        { chapNum: 2, title: 'Capitolul 2: Ideologia putinistă', steps: [5, 6, 7] },
-                        { chapNum: 3, title: 'Capitolul 3: Capturarea OODA', steps: [8, 9, 10] },
-                        { chapNum: 4, title: 'Capitolul 4: Polarizare și Umbra colectivă', steps: [11, 12, 13] },
-                        { chapNum: 5, title: 'Capitolul 5: Matricea Cipolla', steps: [14, 15] },
-                        { chapNum: 6, title: 'Capitolul 6: Reconstrucție', steps: [16, 17, 18, 19] }
+                        { chapNum: 0, title: 'Introduction', steps: [1] },
+                        { chapNum: 1, title: 'Chapter 1: Vulnerabilities', steps: [2, 3, 4] },
+                        { chapNum: 2, title: 'Chapter 2: Putinist ideology', steps: [5, 6, 7] },
+                        { chapNum: 3, title: 'Chapter 3: OODA Capture', steps: [8, 9, 10] },
+                        { chapNum: 4, title: 'Chapter 4: Polarization and the Collective Shadow', steps: [11, 12, 13] },
+                        { chapNum: 5, title: 'Chapter 5: Cipolla Matrix', steps: [14, 15] },
+                        { chapNum: 6, title: 'Chapter 6: Reconstruction', steps: [16, 17, 18, 19] }
                       ].map((group) => (
                         <div key={group.chapNum} className="space-y-1">
                           <div className="text-[11px] font-sans font-bold text-[#222426] pt-1 border-t border-[#8C9BA5]/60">
@@ -873,14 +873,14 @@ export function App() {
                         className="px-2.5 py-1 text-xs font-mono border border-[#222426] bg-[#F6F5EE] hover:bg-[#E5B822]/20 disabled:opacity-40 disabled:pointer-events-none cursor-pointer flex items-center gap-1 whitespace-nowrap shrink-0"
                       >
                         <ArrowLeft className="w-3.5 h-3.5" />
-                        <span>Pasul anterior</span>
+                        <span>The previous step</span>
                       </button>
                       <button
                         disabled={currentStepNumber >= ALL_SUBCHAPTER_STEPS.length}
                         onClick={() => handleStepSelect(currentStepNumber + 1)}
                         className="px-2.5 py-1 text-xs font-mono border border-[#222426] bg-[#E5B822] hover:bg-[#E5B822]/85 disabled:opacity-40 disabled:pointer-events-none cursor-pointer flex items-center gap-1 font-semibold whitespace-nowrap shrink-0"
                       >
-                        <span>Pasul următor</span>
+                        <span>The next step</span>
                         <ArrowRight className="w-3.5 h-3.5" />
                       </button>
                     </div>
@@ -890,7 +890,7 @@ export function App() {
                   <div className="mb-5 p-3 bg-[#F6F5EE] border border-[#222426] space-y-2.5">
                     <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2.5">
                       <div className="text-xs font-mono text-[#222426] font-semibold">
-                        Mod de lectură
+                        Reading mode
                       </div>
                       <div className="flex flex-wrap items-center gap-1.5">
                         <button
@@ -902,7 +902,7 @@ export function App() {
                               : 'bg-[#F6F5EE] text-[#222426] border-[#8C9BA5] hover:border-[#222426]'
                           }`}
                         >
-                          Text integral academic
+                          Full academic text
                         </button>
                         <button
                           type="button"
@@ -913,21 +913,21 @@ export function App() {
                               : 'bg-[#F6F5EE] text-[#222426] border-[#8C9BA5] hover:border-[#222426]'
                           }`}
                         >
-                          Sinteză executivă
+                          Executive summary
                         </button>
                       </div>
                     </div>
 
                     <div className="pt-2 border-t border-[#8C9BA5] flex flex-col sm:flex-row sm:items-center justify-between gap-2">
                       <div className="text-[11px] font-mono text-[#6E7376]">
-                        Afișare secțiune
+                        Show section
                       </div>
                       <div className="flex flex-wrap items-center gap-1">
                         {(
                           [
-                            { id: 'ambele', label: 'Text + Registre' },
-                            { id: 'integral', label: 'Doar textul' },
-                            { id: 'registre', label: 'Doar registrele' }
+                            { id: 'ambele', label: 'Text + Registers' },
+                            { id: 'integral', label: 'Text Only' },
+                            { id: 'registre', label: 'Registers Only' }
                           ] as const
                         ).map((tabOpt) => (
                           <button
@@ -950,9 +950,9 @@ export function App() {
                   {/* Social Share Bar for Current Section */}
                   <div className="mb-5 pb-3 border-b border-[#8C9BA5] flex flex-wrap items-center justify-between gap-2">
                     <SocialShareButtons
-                      url={`https://laurentiustaicu.github.io/diagnosticul-razboiului-cognitiv-romania/share/pasul-${currentStep.stepNumber}.html`}
-                      title={`${currentStep.title} (Diagnosticul războiului cognitiv în România)`}
-                      label="Distribuie această secțiune pe"
+                      url={`https://laurentiustaicu.github.io/cognitive-warfare-diagnosis-romania/share/pasul-${currentStep.stepNumber}.html`}
+                      title={`${currentStep.title} (Diagnosis of Cognitive Warfare in Romania)`}
+                      label="Share this section on"
                     />
                   </div>
 
@@ -960,7 +960,7 @@ export function App() {
                   <div className="text-xs font-mono font-semibold text-[#6E7376] mb-1.5">
                     {currentStep.chapterNumber === 0
                       ? currentStep.chapterTitle
-                      : `Capitolul ${currentStep.chapterNumber} · ${currentStep.chapterTitle.replace(/^Capitolul\s+[0-9]+:\s*/, '').replace(/^[0-9]+\.\s*/, '')}`}
+                      : `Chapter ${currentStep.chapterNumber} · ${currentStep.chapterTitle.replace(/^(?:Capitolul|Chapter)\\s+[0-9]+:\\s*/, '').replace(/^[0-9]+\\.\\s*/, '')}`}
                   </div>
                   <div>
                     <h2 className="font-serif text-base sm:text-lg font-bold text-[#222426] headline-balance leading-snug">
@@ -976,7 +976,7 @@ export function App() {
                   {/* Systemic Thesis Box */}
                   <div className="mt-5 p-4 bg-[#F6F5EE] border border-[#222426]">
                     <div className="text-xs font-mono font-semibold text-[#222426] mb-1">
-                      Sinteză cauzală și teză structurală
+                      Causal Synthesis and Structural Thesis
                     </div>
                     <p className="text-xs sm:text-sm text-[#222426] leading-relaxed">
                       {currentStep.summaryThesis}
@@ -988,13 +988,13 @@ export function App() {
                     <div className="mt-6 p-4 sm:p-5 bg-[#F6F5EE] border-2 border-[#222426] space-y-5">
                       <div className="border-b border-[#222426] pb-3">
                         <div className="text-xs font-mono font-bold text-[#222426] uppercase tracking-wider">
-                          Sinteză executivă de capitol și focalizare pe secțiunea activă
+                          Executive Chapter Summary and Active Section Focus
                         </div>
                         <h3 className="font-serif text-base sm:text-lg font-bold text-[#222426] mt-1">
                           {currentExecutiveSummary.chapterTitle}
                         </h3>
                         <p className="text-xs sm:text-sm font-mono text-[#6E7376] mt-1">
-                          Decupaj metodologic · {currentStep.code} · Pasul {currentStep.stepNumber} din 19
+                          Methodological scope · {currentStep.code} · Pasul {currentStep.stepNumber} of 19
                         </p>
                       </div>
 
@@ -1002,7 +1002,7 @@ export function App() {
                       <div className="p-3.5 bg-[#E5B822]/15 border-2 border-[#222426] space-y-2.5">
                         <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[#222426] pb-1.5">
                           <span className="text-xs font-mono font-bold text-[#222426] uppercase tracking-wider">
-                            Focalizare pe secțiunea curentă · {currentStep.code}
+                            Focus on current section · {currentStep.code}
                           </span>
                           <span className="px-2 py-0.5 text-[11px] font-mono font-bold bg-[#E5B822] text-[#222426] border border-[#222426]">
                             PASUL {String(currentStep.stepNumber).padStart(2, '0')} / 19
@@ -1022,7 +1022,7 @@ export function App() {
                                 className="p-2 bg-[#F6F5EE] border border-[#222426] text-xs space-y-0.5"
                               >
                                 <div className="font-mono font-bold text-[10.5px] text-[#6E7376] uppercase">
-                                  Stratul {dr.stratum} · {dr.theoreticalAuthor}
+                                  Layer {dr.stratum} · {dr.theoreticalAuthor}
                                 </div>
                                 <div className="font-semibold text-[#222426]">
                                   {dr.theoreticalConcept}
@@ -1059,11 +1059,11 @@ export function App() {
                               <div className="flex flex-wrap items-center justify-between gap-2 border-b border-[#8C9BA5] pb-1">
                                 <div className="flex items-center gap-2">
                                   <span className="text-xs font-mono font-bold text-[#222426]">
-                                    Directiva {idx + 1} de capitol
+                                    Directive {idx + 1} de capitol
                                   </span>
                                   {isCurrentSubchapterDirective && (
                                     <span className="px-2 py-0.5 text-[10px] font-mono font-bold bg-[#E5B822] text-[#222426] border border-[#222426]">
-                                      DIRECTIVA SUBCAPITOLULUI ACTIV
+                                      ACTIVE SUBCHAPTER DIRECTIVE
                                     </span>
                                   )}
                                 </div>
@@ -1094,7 +1094,7 @@ export function App() {
                           onClick={() => handleAudienceModeChange('academic')}
                           className="px-3.5 py-2 text-xs font-mono font-semibold bg-[#222426] text-[#F6F5EE] border border-[#222426] hover:bg-[#6E7376] cursor-pointer"
                         >
-                          Comută la textul integral academic al secțiunii →
+                          Switch to the full academic text of the section →
                         </button>
                       </div>
                     </div>
@@ -1103,7 +1103,7 @@ export function App() {
                   {/* Interactive Concept Anchors */}
                   <div className="mt-5 pt-4 border-t border-[#8C9BA5]">
                     <div className="text-xs font-mono text-[#6E7376] mb-2">
-                      Concepte-cheie în această secțiune
+                      Key concepts in this section
                     </div>
                     <div className="flex flex-wrap gap-2">
                       {currentStep.keyConceptIds.map((cid) => {
@@ -1139,10 +1139,10 @@ export function App() {
                   {(readingTab === 'registre' || readingTab === 'ambele') && (
                     <div className="mt-6 pt-6 border-t border-[#222426]">
                       <div className="text-xs font-mono uppercase tracking-wider text-[#6E7376] mb-1">
-                        Anatomia tensiunii și descompunerea pe două registre
+                        Anatomy of tension and decomposition into two registers
                       </div>
                       <h3 className="font-serif text-base font-bold text-[#222426] mb-4">
-                        Stratul teoretic și conceptual în oglindă cu realitatea practică și istorică
+                        The theoretical and conceptual layer in the mirror with the practical and historical reality
                       </h3>
 
                       <div className="space-y-6">
@@ -1171,7 +1171,7 @@ export function App() {
                                 <div className="border-b border-[#222426] px-4 py-2.5 bg-[#222426]/[0.04] flex items-center gap-2">
                                   <span className="w-2.5 h-2.5 bg-[#E5B822] border border-[#222426] shrink-0" />
                                   <span className="font-mono text-xs uppercase tracking-wider text-[#222426] font-semibold">
-                                    Registrul teoretic · STRATUL {dr.stratum}
+                                    Theoretical Register · LAYER {dr.stratum}
                                   </span>
                                 </div>
                                 <div className="p-4 flex-1 flex flex-col justify-between">
@@ -1207,8 +1207,8 @@ export function App() {
                                   />
                                   <span className="font-mono text-xs uppercase tracking-wider text-[#222426] font-semibold">
                                     {dr.systemicOutcome === 'tension'
-                                      ? 'Realitatea empirică · Vulnerabilitate structurală'
-                                      : 'Realitatea empirică · Mecanism de reziliență'}
+                                      ? 'Empirical reality · Structural vulnerability'
+                                      : 'Empirical reality · Resilience mechanism'}
                                   </span>
                                 </div>
                                 <div className="p-4 flex-1 flex flex-col justify-between">
@@ -1229,12 +1229,12 @@ export function App() {
                     <div className="mt-6 pt-6 border-t border-[#222426]">
                       <div className="mb-4">
                         <div className="text-xs font-mono uppercase tracking-wider text-[#6E7376]">
-                          Textul integral al secțiunii din monografie
+                          The full text of the section in the monograph
                         </div>
                       </div>
                       <div className="space-y-6 font-serif text-[17px] sm:text-[18px] text-[#222426] leading-[1.75]">
                         {currentStep.paragraphs.map((paragraph, index) => {
-                          const isFigureCaption = paragraph.startsWith('Figura ');
+                          const isFigureCaption = paragraph.startsWith('Figure ');
                           if (isFigureCaption && currentStep.linkedFigureId) {
                             return (
                               <div
@@ -1278,7 +1278,7 @@ export function App() {
                         <div className="mt-8 p-4.5 bg-[#F6F5EE] border-2 border-[#222426] space-y-2 max-w-[72ch]">
                           <div className="text-xs font-mono font-bold text-[#222426] uppercase tracking-wider flex items-center gap-2">
                             <span className="w-2 h-2 bg-[#E5B822] border border-[#222426] inline-block" />
-                            <span>Punct de control și sinteză intermediară</span>
+                            <span>Checkpoint and intermediate synthesis</span>
                           </div>
                           <p className="text-xs sm:text-sm font-serif text-[#222426] leading-relaxed italic">
                             {currentStep.summaryThesis}
@@ -1291,7 +1291,7 @@ export function App() {
                   {/* Cited Authors Pills */}
                   <div className="mt-8 pt-4 border-t border-[#8C9BA5]">
                     <div className="text-xs font-mono font-semibold text-[#222426] mb-2">
-                      Autori și lucrări de referință citate în această secțiune
+                      Authors and reference works cited in this section
                     </div>
                     <div className="flex flex-wrap gap-1.5">
                       {currentStep.citedAuthorNames.map((authorLabel, idx) => {
@@ -1335,7 +1335,7 @@ export function App() {
                       >
                         <ArrowLeft className="w-4 h-4 shrink-0" />
                         <span className="truncate">
-                          Pasul anterior ({ALL_SUBCHAPTER_STEPS[currentStepNumber - 2].code})
+                          Previous step ({ALL_SUBCHAPTER_STEPS[currentStepNumber - 2].code})
                         </span>
                       </button>
                     ) : (
@@ -1348,7 +1348,7 @@ export function App() {
                         className="border border-[#222426] bg-[#F6F5EE] hover:bg-[#E5B822] text-[#222426] transition-colors px-5 py-3 font-sans text-sm font-medium cursor-pointer flex items-center justify-end gap-2.5 text-right"
                       >
                         <span className="truncate">
-                          Pasul următor ({ALL_SUBCHAPTER_STEPS[currentStepNumber].code})
+                          Next step ({ALL_SUBCHAPTER_STEPS[currentStepNumber].code})
                         </span>
                         <ArrowRight className="w-4 h-4 shrink-0" />
                       </button>
@@ -1361,7 +1361,7 @@ export function App() {
                         }}
                         className="border border-[#222426] bg-[#F6F5EE] hover:bg-[#E5B822] text-[#222426] transition-colors px-5 py-3 font-sans text-sm font-medium cursor-pointer flex items-center justify-end gap-2.5 text-right"
                       >
-                        <span>Explorează Tabelele 1 și 2 de sinteză</span>
+                        <span>Explore Summary Tables 1 and 2</span>
                         <ArrowRight className="w-4 h-4 shrink-0" />
                       </button>
                     )}
@@ -1378,8 +1378,8 @@ export function App() {
                   {/* Sidenote Cards for Current Step Key Terms */}
                   <div className="space-y-3">
                     <div className="text-xs font-mono font-bold text-[#222426] border-b border-[#8C9BA5] pb-1.5 uppercase tracking-wider flex items-center justify-between">
-                      <span>Note marginale</span>
-                      <span>{currentStep.keyConceptIds.length} termeni</span>
+                      <span>Marginal notes</span>
+                      <span>{currentStep.keyConceptIds.length} terms</span>
                     </div>
 
                     {currentStep.keyConceptIds.map((cid) => {
@@ -1440,13 +1440,13 @@ export function App() {
                       <div className="flex items-center justify-between gap-2 pb-2 border-b border-[#222426]">
                         <div className="flex items-center gap-1.5 text-xs font-mono font-bold text-[#222426]">
                           <BookOpen className="w-3.5 h-3.5 shrink-0" />
-                          <span>Referință: {selectedAuthorCitation}</span>
+                          <span>Reference: {selectedAuthorCitation}</span>
                         </div>
                         <button
                           type="button"
                           onClick={() => setSelectedAuthorCitation(null)}
                           className="p-1 border border-[#222426] bg-[#F6F5EE] hover:bg-[#E5B822]/30 cursor-pointer shrink-0"
-                          aria-label="Închide referința"
+                          aria-label="Close the reference"
                         >
                           <X className="w-3.5 h-3.5 text-[#222426]" />
                         </button>
@@ -1472,14 +1472,14 @@ export function App() {
                         </div>
                       ) : (
                         <p className="text-xs text-[#6E7376]">
-                          Referință contextuală în cadrul secțiunii.
+                          Contextual reference within the section.
                         </p>
                       )}
 
                       {matchedSubchaptersForAuthor.length > 0 && (
                         <div className="pt-2 border-t border-[#8C9BA5] space-y-1.5">
                           <div className="text-[11px] font-mono font-semibold text-[#6E7376]">
-                            Secțiuni în care este citată referința:
+                            Sections where the reference is cited:
                           </div>
                           <div className="flex flex-wrap gap-1">
                             {matchedSubchaptersForAuthor.map((st) => (
@@ -1510,7 +1510,7 @@ export function App() {
                     >
                       <div className="flex flex-wrap items-center gap-1.5 text-[11px] font-mono text-[#6E7376] pb-2 mb-2 border-b border-[#8C9BA5]">
                         <span className="font-bold text-[#222426]">
-                          Stratul {activeGlossaryConcept.stratum}
+                          Layer {activeGlossaryConcept.stratum}
                         </span>
                         <span aria-hidden="true">·</span>
                         <span>{activeGlossaryConcept.domain}</span>
@@ -1532,7 +1532,7 @@ export function App() {
                         }`}
                       >
                         <span className="font-mono font-semibold block mb-0.5">
-                          Aplicație în diagnosticul României
+                          Application in the diagnosis of Romania
                         </span>
                         {activeGlossaryConcept.monographContext}
                       </div>
@@ -1544,7 +1544,7 @@ export function App() {
                     <div className="bg-[#F6F5EE] border-2 border-[#222426] p-4 space-y-2.5">
                       <div className="flex flex-wrap items-center gap-1.5 text-[11px] font-mono text-[#6E7376] border-b border-[#8C9BA5] pb-1.5">
                         <span className="font-bold text-[#222426]">
-                          DIAGRAMĂ ASOCIATĂ · FIGURA {currentStep.linkedFigureId}
+                          ASSOCIATED DIAGRAM · FIGURE {currentStep.linkedFigureId}
                         </span>
                         <span aria-hidden="true">·</span>
                         <span>{FIGURE_METADATA[currentStep.linkedFigureId]?.chapterRef}</span>
@@ -1553,9 +1553,9 @@ export function App() {
                         {FIGURE_METADATA[currentStep.linkedFigureId]?.title}
                       </div>
                       <p className="text-[11px] text-[#6E7376] leading-relaxed">
-                        {currentStep.paragraphs.some((p) => p.startsWith('Figura '))
-                          ? 'Diagrama interactivă este afișată integral în această secțiune pe coloana centrală de lectură și poate fi deschisă pentru inspecție comparativă în Laboratorul de diagrame.'
-                          : 'Diagrama asociată acestui capitol este afișată inline în secțiunea sa canonică și poate fi deschisă oricând pentru inspecție extinsă în Laboratorul de diagrame.'}
+                        {currentStep.paragraphs.some((p) => p.startsWith('Figure '))
+                          ? 'The interactive chart is displayed in full in this section on the central reading column and can be opened for comparative inspection in the Chart Lab.'
+                          : 'The diagram associated with this chapter is displayed inline in its canonical section and can be opened at any time for extended inspection in the Diagram Lab.'}
                       </p>
                       <button
                         type="button"
@@ -1568,7 +1568,7 @@ export function App() {
                         }}
                         className="w-full px-3 py-2 text-xs font-mono font-bold text-[#222426] bg-[#E5B822] border border-[#222426] hover:bg-[#E5B822]/85 transition-colors cursor-pointer flex items-center justify-center gap-1.5"
                       >
-                        <span>Vezi Figura {currentStep.linkedFigureId} în Laboratorul de diagrame →</span>
+                        <span>View Figure {currentStep.linkedFigureId} in the Diagram Lab →</span>
                       </button>
                     </div>
                   )}
@@ -1583,13 +1583,13 @@ export function App() {
           <div className="space-y-6">
             <div className="bg-[#F6F5EE] border border-[#222426] p-4 sm:p-5">
               <div className="text-xs font-mono text-[#6E7376] mb-1">
-                Hărți sistemice 2D în stil gravură vectorială · Figurile 1–7 din monografie
+                2D system maps in vector engraving style · Figures 1–7 in the monograph
               </div>
               <h2 className="font-serif text-xl sm:text-2xl font-bold text-[#222426]">
-                Laboratorul diagramelor cauzale din monografie
+                Causal diagrams laboratory in the monograph
               </h2>
               <p className="text-xs sm:text-sm text-[#6E7376] mt-1">
-                Interacționați cu toate cele șapte diagrame vectoriale ale lucrării pentru a inspecta propagarea stresului alostatic, dubla falsificare axiologică, deturnarea buclei OODA, proiecția Umbrei colective și enantiodromia, matricea lui Cipolla, bifurcația Track A / Track B și protocolul în trei faze.
+                Interact with all seven vector diagrams of the paper to inspect allostatic stress propagation, double axiological falsification, OODA loop hijacking, collective Shadow projection and enantiodromy, Cipolla's matrix, Track A / Track B bifurcation, and the three-phase protocol.
               </p>
             </div>
 
@@ -1615,10 +1615,10 @@ export function App() {
       <button
         onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
         className="fixed bottom-6 right-6 z-40 p-3 bg-[#222426] text-[#F6F5EE] border border-[#222426] hover:bg-[#6E7376] cursor-pointer flex items-center gap-1.5 text-xs font-mono"
-        title="Înapoi la începutul paginii"
+        title="Back to the top of the page"
       >
         <ArrowUp className="w-4 h-4" />
-        <span className="hidden sm:inline">Sus</span>
+        <span className="hidden sm:inline">Above</span>
       </button>
 
       {/* CLEAN EDITORIAL FOOTER */}
@@ -1627,16 +1627,16 @@ export function App() {
           <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4 pb-4 border-b border-[#8C9BA5]">
             <div className="text-xs text-[#6E7376]">
               <span className="font-serif font-bold text-[#222426]">
-                Diagnosticul războiului cognitiv în România · Versiunea 1.0
+                Diagnosis of the cognitive war in Romania · Version 1.0
               </span>
               <span> · </span>
               <span>
-                Arhitectura instituțională, neurocognitivă și culturală a vulnerabilității și rezilienței societale
+                The institutional, neurocognitive, and cultural architecture of societal vulnerability and resilience
               </span>
             </div>
             <SocialShareButtons
-              url="https://laurentiustaicu.github.io/diagnosticul-razboiului-cognitiv-romania/"
-              label="Distribuie platforma pe"
+              url="https://laurentiustaicu.github.io/cognitive-warfare-diagnosis-romania/"
+              label="Share platform on"
             />
           </div>
 
@@ -1650,7 +1650,7 @@ export function App() {
                 }}
                 className="hover:text-[#222426] transition-colors cursor-pointer"
               >
-                Coperta monografiei
+                The cover of the monograph
               </button>
               <span>·</span>
               <button
@@ -1661,7 +1661,7 @@ export function App() {
                 }}
                 className="hover:text-[#222426] transition-colors cursor-pointer"
               >
-                Parcurs pe capitole și subcapitole · 19 secțiuni
+                Course by chapter and subchapter · 19 sections
               </button>
             </div>
           </div>

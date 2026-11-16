@@ -63,7 +63,7 @@ export const ContextualTooltip: React.FC<ContextualTooltipProps> = ({
             ? 'bg-[#E5B822] text-[#222426] font-semibold'
             : 'bg-transparent text-[#222426] hover:bg-[#E5B822]/20'
         }`}
-        title={`Definiție contextuală (${concept.term})`}
+        title={`Contextual definition (${concept.term})`}
       >
         {matchedText}
       </button>
@@ -76,7 +76,7 @@ export const ContextualTooltip: React.FC<ContextualTooltipProps> = ({
         >
           <span className="flex items-center justify-between gap-2 pb-2 mb-2 border-b border-[#6E7376]">
             <span className="text-[11px] font-mono font-bold text-[#E5B822]">
-              STRATUL {concept.stratum} · {concept.domain}
+              LAYER {concept.stratum} · {concept.domain}
             </span>
             <button
               type="button"
@@ -85,7 +85,7 @@ export const ContextualTooltip: React.FC<ContextualTooltipProps> = ({
                 setIsOpen(false);
               }}
               className="p-0.5 text-[#F6F5EE] hover:text-[#E5B822] cursor-pointer"
-              aria-label="Închide explicația"
+              aria-label="Close the explanation"
             >
               <X className="w-3.5 h-3.5" />
             </button>
@@ -113,7 +113,7 @@ export const ContextualTooltip: React.FC<ContextualTooltipProps> = ({
             >
               <span className="flex items-center gap-1.5">
                 <BookOpen className="w-3 h-3 shrink-0" />
-                <span>Deschide fișa în inspector</span>
+                <span>Open the tab in the inspector</span>
               </span>
               <ArrowRight className="w-3 h-3 shrink-0" />
             </button>
@@ -135,381 +135,381 @@ export const INLINE_GLOSSARY_PATTERNS: GlossaryPatternRule[] = [
   {
     conceptId: 'stratul-a',
     patternId: 'stratul-a',
-    regex: /(?<!\p{L})(Stratul\s+A(?:\s*[:–-]\s*Arhitectura\s+instituțională)?|Stratului\s+A)(?!\p{L})/u
+    regex: /(?<!\p{L})(Layer\s+A(?:\s*[:–-]\s*Institutional\s+Architecture)?|Stratum\s+A|Stratul\s+A)(?!\p{L})/u
   },
   {
     conceptId: 'macro-micro-macro',
     patternId: 'coleman-boat',
-    regex: /(?<!\p{L})(Macro[–-]Micro[–-]Macro|bărc(?:ii|a)\s+lui\s+Coleman|barc(?:a|ii)\s+lui\s+Coleman)(?!\p{L})/iu
+    regex: /(?<!\p{L})(Macro[–-]Micro[–-]Macro|Coleman(?:'s|\s+s)?\s+boat)(?!\p{L})/iu
   },
   {
     conceptId: 'macro-micro-macro',
     patternId: 'robinson-ecological',
-    regex: /(?<!\p{L})(eroar(?:ea|ii)\s+ecologic(?:ă|e)|anti-ecological\s+fallacy|ecological\s+fallacy)(?!\p{L})/iu
+    regex: /(?<!\p{L})(ecological\s+fallacy|anti-ecological\s+fallacy)(?!\p{L})/iu
   },
   {
     conceptId: 'macro-micro-macro',
     patternId: 'popper-falsifiability',
-    regex: /(?<!\p{L})(falsificabilit(?:ate|atea|ății))(?!\p{L})/iu
+    regex: /(?<!\p{L})(falsifiabilit(?:y|ies)|falsifiable)(?!\p{L})/iu
   },
   {
     conceptId: 'determinantii-lalonde-dever',
     patternId: 'determinantii-lalonde-dever',
-    regex: /(?<!\p{L})(determinanț(?:i|ii|ilor)\s+(?:sistemici\s+)?(?:ai\s+modelului\s+|modelului\s+)?Lalonde[–-]Dever|model(?:ul|ului)\s+(?:epidemiologic\s+)?Lalonde[–-]Dever|determinanț(?:ii|ilor)\s+sănătății\s+publice(?:\s+\(și\s+mintale\)|\s+și\s+mintale))(?!\p{L})/iu
+    regex: /(?<!\p{L})(Lalonde[–-]Dever(?:\s+(?:model|determinants|epidemiological\s+model))?|public\s+(?:and\s+mental\s+)?health\s+determinants)(?!\p{L})/iu
   },
   {
     conceptId: 'inchidere-operationala',
     patternId: 'inchidere-operationala',
-    regex: /(?<!\p{L})(închider(?:e|ea|ii|i)\s+operațional(?:ă|e|i)|autonomi(?:e|a|ei)\s+funcțional(?:ă|e))(?!\p{L})/iu
+    regex: /(?<!\p{L})(operational\s+closure|functional\s+autonomy)(?!\p{L})/iu
   },
   {
     conceptId: 'inchidere-operationala',
     patternId: 'insule-inchidere-operationala',
-    regex: /(?<!\p{L})(insul(?:e|ele|elor)\s+de\s+închidere\s+operațională)(?!\p{L})/iu
+    regex: /(?<!\p{L})(islands?\s+of\s+operational\s+closure)(?!\p{L})/iu
   },
   {
     conceptId: 'forme-fara-fond',
     patternId: 'forme-fara-fond',
-    regex: /(?<!\p{L})(formelor\s+fără\s+fond|formele\s+fără\s+fond|forme\s+fără\s+fond|formă\s+fără\s+fond|evoluția\s+se\s+produce\s+de\s+la\s+formă\s+spre\s+fond)(?!\p{L})/iu
+    regex: /(?<!\p{L})(forms?\s+without\s+(?:substance|foundation|background)|evolution\s+proceeds\s+from\s+form\s+to\s+substance)(?!\p{L})/iu
   },
   {
     conceptId: 'institutii-extractive',
     patternId: 'institutii-extractive',
-    regex: /(?<!\p{L})(instituți(?:i|ile|ilor)\s+extractive)(?!\p{L})/iu
+    regex: /(?<!\p{L})(extractive\s+institutions?)(?!\p{L})/iu
   },
   {
     conceptId: 'institutii-extractive',
     patternId: 'ordine-acces-limitat',
-    regex: /(?<!\p{L})(ordin(?:e|ea|ii)\s+social(?:ă|e)\s+cu\s+acces\s+limitat)(?!\p{L})/iu
+    regex: /(?<!\p{L})(limited\s+access\s+(?:social\s+)?orders?)(?!\p{L})/iu
   },
   {
     conceptId: 'institutii-extractive',
     patternId: 'coridorul-ingust',
-    regex: /(?<!\p{L})(coridor(?:ul|ului)?\s+îngust)(?!\p{L})/iu
+    regex: /(?<!\p{L})(narrow\s+corridor)(?!\p{L})/iu
   },
   {
     conceptId: 'familism-amoral',
     patternId: 'familism-amoral',
-    regex: /(?<!\p{L})(familism(?:ul|ului)?\s+amoral)(?!\p{L})/iu
+    regex: /(?<!\p{L})(amoral\s+familism)(?!\p{L})/iu
   },
   {
     conceptId: 'familism-amoral',
     patternId: 'capital-social-punte',
-    regex: /(?<!\p{L})(capital(?:ul|ului)?\s+social\s+de\s+punte)(?!\p{L})/iu
+    regex: /(?<!\p{L})(bridging\s+social\s+capital)(?!\p{L})/iu
   },
   {
     conceptId: 'guvernanta-policentrica-ostrom',
     patternId: 'guvernanta-policentrica-ostrom',
-    regex: /(?<!\p{L})(guvernanț(?:ă|a|ei|e)\s+policentric(?:ă|e))(?!\p{L})/iu
+    regex: /(?<!\p{L})(polycentric\s+governance)(?!\p{L})/iu
   },
   {
     conceptId: 'protocolul-secvential-trei-faze',
     patternId: 'protocolul-secvential-trei-faze',
-    regex: /(?<!\p{L})(protocol(?:ul|ului)?\s+secvențial(?:\s+în\s+trei\s+faze)?|protocol(?:ul|ului)?\s+în\s+trei\s+faze|protocol(?:ul|ului)?\s+de\s+reconstrucție\s+a\s+rezilienței(?:\s+cognitive(?:\s+și\s+instituționale|\s+societale)?)?)(?!\p{L})/iu
+    regex: /(?<!\p{L})(three[–\s-]phase\s+sequential\s+protocol|sequential\s+protocol|resilience\s+reconstruction\s+protocol)(?!\p{L})/iu
   },
   {
     conceptId: 'grup-control-regional',
     patternId: 'grup-control-regional',
-    regex: /(?<!\p{L})(grup(?:ul|ului)?\s+de\s+control\s+regional)(?!\p{L})/iu
+    regex: /(?<!\p{L})(regional\s+control\s+group)(?!\p{L})/iu
   },
   {
     conceptId: 'spalare-informationala',
     patternId: 'spalare-informationala',
-    regex: /(?<!\p{L})(Doppelgänger|Matrioșka|rețea(?:ua|lei)\s+Pravda|information\s+laundering|spăl(?:are|area|ării)\s+informațional(?:ă|e)|recicl(?:are|area|ării)\s+(?:și\s+disimul(?:are|area|ării)\s+(?:a\s+)?)?(?:informațional(?:ă|e)|sursei\s+informaționale))(?!\p{L})/iu
+    regex: /(?<!\p{L})(Doppelgänger|Matryoshka|Matrioșka|Pravda\s+network|information\s+laundering|informational\s+laundering)(?!\p{L})/iu
   },
   {
     conceptId: 'sistema',
     patternId: 'sistema',
-    regex: /(?<!\p{L})(rețea(?:ua|lei)\s+sistema|sistema|siloviki|kompromat|deathonomics|economi(?:a|ei)\s+morții)(?!\p{L})/iu
+    regex: /(?<!\p{L})(sistema\s+network|sistema|siloviki|kompromat|deathonomics|economy\s+of\s+death)(?!\p{L})/iu
   },
   {
     conceptId: 'matricea-cipolla',
     patternId: 'matricea-cipolla',
-    regex: /(?<!\p{L})(matrice(?:a|i)\s+(?:comportamental(?:ă|e)\s+)?(?:a\s+|ale\s+)?lui\s+(?:Carlo\s+M\.\s+)?Cipolla|matricea\s+lui\s+Cipolla)(?!\p{L})/iu
+    regex: /(?<!\p{L})(Cipolla(?:'s)?\s+(?:behavioral\s+)?matrix|Carlo\s+M\.\s+Cipolla)(?!\p{L})/iu
   },
   {
     conceptId: 'matricea-cipolla',
     patternId: 'scontare-hiperbolica',
-    regex: /(?<!\p{L})(scont(?:are|area|ării)\s+hiperbolic(?:ă|e)(?:\s+a\s+viitorului)?|hyperbolic\s+discounting)(?!\p{L})/iu
+    regex: /(?<!\p{L})(hyperbolic\s+discounting)(?!\p{L})/iu
   },
   {
     conceptId: 'matricea-cipolla',
     patternId: 'pedeapsa-altruista-spiteful',
-    regex: /(?<!\p{L})(revanș(?:ă|a|ei)\s+simbolic(?:ă|e)\s+(?:autodistructiv(?:ă|e)|punitiv(?:ă|e))|spiteful\s+punishment|pedeps(?:ei|a)\s+altruiste)(?!\p{L})/iu
+    regex: /(?<!\p{L})(spiteful\s+punishment|altruistic\s+punishment|self-destructive\s+symbolic\s+revenge)(?!\p{L})/iu
   },
   {
     conceptId: 'matricea-cipolla',
     patternId: 'pedeapsa-antisociala',
-    regex: /(?<!\p{L})(pedeps(?:ei|a)\s+antisocial(?:ă|e)|pedeapsă\s+antisocială|antisocial\s+punishment)(?!\p{L})/iu
+    regex: /(?<!\p{L})(antisocial\s+punishment)(?!\p{L})/iu
   },
   {
     conceptId: 'vid-reprezentare-intermediere',
     patternId: 'vid-reprezentare',
-    regex: /(?<!\p{L})(vid(?:ul|ului)?\s+de\s+reprezentare(?:\s+politică)?)(?!\p{L})/iu
+    regex: /(?<!\p{L})((?:political\s+)?representation\s+vacuum|void\s+of\s+(?:political\s+)?representation)(?!\p{L})/iu
   },
   {
     conceptId: 'vid-reprezentare-intermediere',
     patternId: 'intermediere-oportunista',
-    regex: /(?<!\p{L})(intermedier(?:e|ea|ii)\s+(?:politic(?:ă|e)\s+)?oportunist(?:ă|e))(?!\p{L})/iu
+    regex: /(?<!\p{L})(opportunistic\s+(?:political\s+)?intermediation|opportunistic\s+brokerage)(?!\p{L})/iu
   },
   {
     conceptId: 'isonomie-fiscala-arhitectura-alegerii',
     patternId: 'isonomie-fiscala',
-    regex: /(?<!\p{L})(isonomi(?:e|a|ei)\s+fiscal(?:ă|e)|simetri(?:e|a|ei)\s+fiscal(?:ă|e)|penaliz(?:are|area|ării)\s+în\s+oglindă(?:\s+a\s+statului)?|compens(?:area|ării)\s+(?:automat(?:ă|e)\s+)?din\s+oficiu)(?!\p{L})/iu
+    regex: /(?<!\p{L})(fiscal\s+isonomy|fiscal\s+symmetry|mirror\s+penalization|ex\s+officio\s+(?:automatic\s+)?compensation)(?!\p{L})/iu
   },
   {
     conceptId: 'isonomie-fiscala-arhitectura-alegerii',
     patternId: 'arhitectura-alegerii',
-    regex: /(?<!\p{L})(arhitectur(?:a|ii)\s+alegerii(?:\s+instituționale)?|institutional\s+choice\s+architecture)(?!\p{L})/iu
+    regex: /(?<!\p{L})((?:institutional\s+)?choice\s+architecture)(?!\p{L})/iu
   },
 
   // Stratul B: Neurocognitiv, Cibernetic & Semiotic
   {
     conceptId: 'stratul-b',
     patternId: 'stratul-b',
-    regex: /(?<!\p{L})(Stratul\s+B(?:\s*[:–-]\s*Procesarea\s+neurocognitivă)?|Stratului\s+B)(?!\p{L})/u
+    regex: /(?<!\p{L})(Layer\s+B(?:\s*[:–-]\s*Neurocognitive\s+Processing)?|Stratum\s+B|Stratul\s+B)(?!\p{L})/u
   },
   {
     conceptId: 'al-saselea-domeniu',
     patternId: 'al-saselea-domeniu',
-    regex: /(?<!\p{L})(al\s+șaselea\s+domeniu(?:\s+operațional)?|spați(?:ul|ului)\s+cognitiv)(?!\p{L})/iu
+    regex: /(?<!\p{L})(sixth\s+(?:operational\s+)?domain|cognitive\s+domain|cognitive\s+space)(?!\p{L})/iu
   },
   {
     conceptId: 'uzura-alostatica',
     patternId: 'uzura-alostatica',
-    regex: /(?<!\p{L})((?:uzur|sarcin)(?:ă|ii|a)\s+alostatic(?:ă|e)|alostazi(?:e|a|ei))(?!\p{L})/iu
+    regex: /(?<!\p{L})(allostatic\s+(?:load|wear(?:\s+and\s+tear)?)|allostasis)(?!\p{L})/iu
   },
   {
     conceptId: 'axa-hpa-dlpf',
     patternId: 'axa-hpa',
-    regex: /(?<!\p{L})(ax(?:a|ei)\s+(?:hipotalamo-hipofizo-suprarenalian(?:ă|e)|HPA))(?!\p{L})/iu
+    regex: /(?<!\p{L})(hypothalamic-pituitary-adrenal\s+axis|HPA\s+axis)(?!\p{L})/iu
   },
   {
     conceptId: 'axa-hpa-dlpf',
     patternId: 'triada-retelelor-dlpf',
-    regex: /(?<!\p{L})(rețea(?:ua|lei)\s+de\s+detecție\s+a\s+relevanței|triad(?:a|ei)\s+rețelelor\s+cerebrale|cortex(?:ul|ului)?\s+prefrontal\s+dorsolateral|dlPFC)(?!\p{L})/iu
+    regex: /(?<!\p{L})(salience\s+(?:detection\s+)?network|triple\s+network\s+model|dorsolateral\s+prefrontal\s+cortex|dlPFC)(?!\p{L})/iu
   },
   {
     conceptId: 'bucla-ooda',
     patternId: 'bucla-ooda',
-    regex: /(?<!\p{L})(bucl(?:a|ei)\s+(?:decizional(?:ă|e)\s+)?OODA|faz(?:a|ei)\s+de\s+Orientare)(?!\p{L})/iu
+    regex: /(?<!\p{L})(OODA\s+(?:decision\s+)?loop|Orientation\s+phase)(?!\p{L})/iu
   },
   {
     conceptId: 'control-reflexiv-rang-secund',
     patternId: 'control-reflexiv',
-    regex: /(?<!\p{L})(control(?:ul|ului)?\s+reflexiv(?:\s+de\s+rang\s+secund)?|Rang(?:ul|ului)?\s+(?:0|1|2|3|0\/1|2\+)(?:\s+și\s+(?:a\s+)?Rang(?:ul|ului)?\s+3)?\s+de\s+reflexivitate(?:\s+strategică)?)(?!\p{L})/iu
+    regex: /(?<!\p{L})((?:second-order\s+)?reflexive\s+control|Rank\s+(?:0|1|2|3|0\/1|2\+)(?:\s+and\s+Rank\s+3)?\s+of\s+(?:strategic\s+)?reflexivity)(?!\p{L})/iu
   },
   {
     conceptId: 'control-reflexiv-rang-secund',
     patternId: 'precision-weighting-friston',
-    regex: /(?<!\p{L})(distorsion(?:area|ării)\s+ponderării\s+preciziei|ponder(?:area|ării)\s+preciziei|aberrant\s+precision[–-]weighting|scurtătur(?:ă|a|i|ii)\s+predictiv(?:ă|e)|principi(?:ul|ului)\s+energiei\s+libere)(?!\p{L})/iu
+    regex: /(?<!\p{L})(aberrant\s+precision[–\s-]weighting|precision\s+weighting|predictive\s+shortcut|free\s+energy\s+principle)(?!\p{L})/iu
   },
   {
     conceptId: 'inchidere-cognitiva-seizing-freezing',
     patternId: 'inchidere-cognitiva-seizing-freezing',
-    regex: /(?<!\p{L})(nevoi(?:a|i)\s+de\s+închidere\s+cognitivă|închider(?:e|ea|ii)\s+cognitiv(?:ă|e)|îngheț(?:are|area|ării)\s+epistemic(?:ă|e)|seizing|freezing)(?!\p{L})/iu
+    regex: /(?<!\p{L})(need\s+for\s+cognitive\s+closure|cognitive\s+closure|epistemic\s+freezing|seizing|freezing)(?!\p{L})/iu
   },
   {
     conceptId: 'capturare-dopaminergica',
     patternId: 'capturare-dopaminergica',
-    regex: /(?<!\p{L})(captur(?:are|area|ării)\s+(?:adictiv(?:ă|e)\s+a\s+circuitelor\s+)?dopaminergic(?:ă|e)|eroar(?:ea|ii)\s+de\s+predicție\s+a\s+recompensei|desensibiliz(?:are|area|ării)\s+receptorilor\s+(?:dopaminergici\s+(?:postsinaptici\s+)?)?D2)(?!\p{L})/iu
+    regex: /(?<!\p{L})(dopaminergic\s+(?:capture|hijacking)|reward\s+prediction\s+error|D2\s+(?:postsynaptic\s+)?(?:dopamine\s+)?receptor\s+desensitization)(?!\p{L})/iu
   },
   {
     conceptId: 'sistemele-etice-lefebvre',
     patternId: 'sistemele-etice-lefebvre',
-    regex: /(?<!\p{L})(prim(?:ul|ului)\s+sistem\s+etic|cel(?:ui)?\s+de-al\s+doilea\s+sistem\s+etic|al\s+doilea\s+sistem\s+etic|sistemel(?:e|or)\s+etice\s+(?:ale\s+lui\s+)?Lefebvre|algebr(?:a|ei)\s+moral(?:ă|e)\s+a\s+lui\s+Lefebvre|îndoial(?:ă|a)\s+moral(?:ă|e)\s+și\s+autocritic(?:ă|a))(?!\p{L})/iu
+    regex: /(?<!\p{L})(first\s+ethical\s+system|second\s+ethical\s+system|Lefebvre(?:'s)?\s+(?:ethical\s+systems|moral\s+algebra)|moral\s+doubt\s+and\s+self-criticism)(?!\p{L})/iu
   },
   {
     conceptId: 'mediere-ternara-vs-binara',
     patternId: 'mediere-ternara-vs-binara',
-    regex: /(?<!\p{L})((?:semiotic(?:ă|a|ii)|semioz(?:ă|a|ei)|logic(?:ă|a|ii))\s+binar(?:ă|e)\s+a\s+anihilării|semioz(?:ă|a|ei)\s+ternar(?:ă|e)|medier(?:e|ea|ii)\s+(?:semiotic(?:ă|e)\s+)?ternar(?:ă|e))(?!\p{L})/iu
+    regex: /(?<!\p{L})(binary\s+(?:semiotics|semiosis|logic)\s+of\s+annihilation|ternary\s+(?:semiosis|(?:semiotic\s+)?mediation))(?!\p{L})/iu
   },
   {
     conceptId: 'dubla-falsificare-axiologica',
     patternId: 'dubla-falsificare-axiologica',
-    regex: /(?<!\p{L})(dubl(?:ă|a|ei)\s+falsific(?:are|ări)\s+axiologic(?:ă|e))(?!\p{L})/iu
+    regex: /(?<!\p{L})(double\s+axiological\s+falsification)(?!\p{L})/iu
   },
   {
     conceptId: 'antilumea-epstein',
     patternId: 'antilumea-epstein',
-    regex: /(?<!\p{L})(Russkii\s+Antimir|Antilumi(?:i|e)|Antilumea)(?!\p{L})/u
+    regex: /(?<!\p{L})(Russkii\s+Antimir|Antiworld|Anti-world)(?!\p{L})/iu
   },
   {
     conceptId: 'starea-bobok',
     patternId: 'starea-bobok',
-    regex: /(?<!\p{L})(stării\s+Bobok|starea\s+Bobok)(?!\p{L})/u
+    regex: /(?<!\p{L})(Bobok\s+state)(?!\p{L})/iu
   },
   {
     conceptId: 'russkii-mir-etnofiletism',
     patternId: 'russkii-mir-etnofiletism',
-    regex: /(?<!\p{L})(Russkii\s+Mir|erezi(?:a|ei)\s+etnofiletist(?:ă|e)|etnofiletism(?:ul|ului)?)(?!\p{L})/iu
+    regex: /(?<!\p{L})(Russkii\s+Mir|ethnophyletist\s+heresy|ethnophyletism)(?!\p{L})/iu
   },
   {
     conceptId: 'triada-ilin-gumiliov-dughin',
     patternId: 'triada-ilin-gumiliov-dughin',
-    regex: /(?<!\p{L})(Ivan\s+Ilin|Lev\s+Gumiliov|Aleksandr\s+Dughin|Ilin,\s+Gumiliov\s+și\s+Dughin)(?!\p{L})/iu
+    regex: /(?<!\p{L})(Ivan\s+Ilyin|Ivan\s+Ilin|Lev\s+Gumilev|Lev\s+Gumiliov|Aleksandr\s+Dugin|Aleksandr\s+Dughin)(?!\p{L})/iu
   },
   {
     conceptId: 'cognitia-protectoare-a-identitatii',
     patternId: 'identity-protective-cognition',
-    regex: /(?<!\p{L})(cogniți(?:a|ei)\s+protectoar(?:e|ii)\s+a\s+identității|proces(?:are|area|ării)\s+defensiv(?:ă|e)\s+motivat(?:ă|e)\s+de\s+protejarea\s+identității(?:\s+de\s+grup)?|Identity[–-]Protective\s+Cognition)(?!\p{L})/iu
+    regex: /(?<!\p{L})(identity[–\s-]protective\s+cognition)(?!\p{L})/iu
   },
   {
     conceptId: 'cognitia-protectoare-a-identitatii',
     patternId: 'motivated-system-2',
-    regex: /(?<!\p{L})(raționaliz(?:are|area|ării)\s+motivat(?:ă|e)(?:\s+a\s+Sistemului\s+2)?|Motivated\s+System\s+2\s+Reasoning|disraționalit(?:ate|atea|ății)|dysrationalia)(?!\p{L})/iu
+    regex: /(?<!\p{L})(motivated\s+System\s+2\s+reasoning|dysrationalia)(?!\p{L})/iu
   },
   {
     conceptId: 'cognitia-protectoare-a-identitatii',
     patternId: 'aomt-smerenie-epistemica',
-    regex: /(?<!\p{L})(gândir(?:e|ea|ii)\s+activ[–\s-]deschis(?:ă|e)|gândir(?:e|ea|ii)\s+deschis(?:ă|e)\s+activ|actively\s+open[–-]minded\s+thinking|smereni(?:e|a|ei)\s+epistemic(?:ă|e))(?!\p{L})/iu
+    regex: /(?<!\p{L})(actively\s+open[–\s-]minded\s+thinking|epistemic\s+humility)(?!\p{L})/iu
   },
   {
     conceptId: 'bifurcare-track-a-track-b',
     patternId: 'bifurcare-track-a-track-b',
-    regex: /(?<!\p{L})(Trase(?:ul|ului)\s+reactiv\s+dezadaptativ|Trase(?:ul|ului)\s+deliberativ\s+adaptativ|Trase(?:ul|ului)\s+A\s+reactiv|Trase(?:ul|ului)\s+B\s+deliberativ|Traseul\s+A|Traseul\s+B|Track\s+A|Track\s+B)(?!\p{L})/iu
+    regex: /(?<!\p{L})(maladaptive\s+reactive\s+Track\s+A|adaptive\s+deliberative\s+Track\s+B|reactive\s+Track\s+A|deliberative\s+Track\s+B|Track\s+A|Track\s+B)(?!\p{L})/iu
   },
   {
     conceptId: 'prebunking-inoculare',
     patternId: 'prebunking-inoculare',
-    regex: /(?<!\p{L})(prebunking|pregătir(?:ea|e|ii)\s+psihocognitiv(?:ă|e)\s+preventiv(?:ă|e)|teori(?:a|ei)\s+(?:inoculării|rezistenței\s+la\s+persuasiune)|inocular(?:e|ea|ii)\s+psihologic(?:ă|e)|DigComp|KAVI)(?!\p{L})/iu
+    regex: /(?<!\p{L})(prebunking|psychological\s+inoculation|inoculation\s+theory|DigComp|KAVI)(?!\p{L})/iu
   },
   {
     conceptId: 'curba-uitarii-ebbinghaus',
     patternId: 'curba-uitarii-ebbinghaus',
-    regex: /(?<!\p{L})(curb(?:a|ei)\s+uitării(?:\s+a\s+lui\s+(?:Hermann\s+)?Ebbinghaus)?|curb(?:a|ei)\s+lui\s+Ebbinghaus|consolidar(?:e|ea|ii)\s+mnezic(?:ă|e)(?:\s+(?:spațiat(?:ă|e)|Ebbinghaus))?)(?!\p{L})/iu
+    regex: /(?<!\p{L})((?:Ebbinghaus(?:'s)?\s+)?forgetting\s+curve|spaced\s+mnemonic\s+consolidation)(?!\p{L})/iu
   },
   {
     conceptId: 'contagiune-complexa',
     patternId: 'contagiune-complexa',
-    regex: /(?<!\p{L})(contagiun(?:e|ea|ii)\s+(?:social(?:ă|e)\s+)?complex(?:ă|e)|punți\s+largi|wide\s+bridges)(?!\p{L})/iu
+    regex: /(?<!\p{L})(complex\s+(?:social\s+)?contagion|wide\s+bridges)(?!\p{L})/iu
   },
   {
     conceptId: 'model-collapse-mad',
     patternId: 'model-collapse-mad',
-    regex: /(?<!\p{L})(Model\s+Collapse|Model\s+Autophagy\s+Disorder|colaps(?:ul|ului)?\s+modelelor\s+generative|autofagi(?:a|ei)\s+modelelor\s+generative)(?!\p{L})/iu
+    regex: /(?<!\p{L})(Model\s+Collapse|Model\s+Autophagy\s+Disorder|collapse\s+of\s+generative\s+models)(?!\p{L})/iu
   },
   {
     conceptId: 'model-collapse-mad',
     patternId: 'rag-poisoning',
-    regex: /(?<!\p{L})(inference-time\s+RAG\s+poisoning|contamin(?:area|ării)\s+la\s+momentul\s+interogării)(?!\p{L})/iu
+    regex: /(?<!\p{L})(inference-time\s+RAG\s+poisoning)(?!\p{L})/iu
   },
   {
     conceptId: 'abaissement-du-niveau-mental',
     patternId: 'abaissement-du-niveau-mental',
-    regex: /(?<!\p{L})(abaissement\s+du\s+niveau\s+mental|scăder(?:e|ea|ii)\s+tensiunii\s+conștiente)(?!\p{L})/iu
+    regex: /(?<!\p{L})(abaissement\s+du\s+niveau\s+mental|lowering\s+of\s+conscious\s+tension)(?!\p{L})/iu
   },
   {
     conceptId: 'filtrul-axiologic',
     patternId: 'filtrul-axiologic',
-    regex: /(?<!\p{L})(filtr(?:ul|ului)?\s+(?:moral\s+)?(?:creștin[–-]secular|axiologic(?:\s+și\s+normativ)?)|Imago\s+Dei)(?!\p{L})/iu
+    regex: /(?<!\p{L})(Christian[–-]secular\s+moral\s+filter|axiological\s+(?:and\s+normative\s+)?filter|Imago\s+Dei)(?!\p{L})/iu
   },
   {
     conceptId: 'capacitate-negativa-bion',
     patternId: 'capacitate-negativa-bion',
-    regex: /(?<!\p{L})(capacit(?:ate|atea|ății|ăți)\s+negativ(?:ă|e))(?!\p{L})/iu
+    regex: /(?<!\p{L})(negative\s+capability)(?!\p{L})/iu
   },
   {
     conceptId: 'proairesis',
     patternId: 'proairesis',
-    regex: /(?<!\p{L})(proairesis|discernământ(?:ul|ului)?\s+moral)(?!\p{L})/iu
+    regex: /(?<!\p{L})(proairesis|moral\s+discernment)(?!\p{L})/iu
   },
   {
     conceptId: 'coreglare-cerc-validatori',
     patternId: 'cerc-punte-coreglare',
-    regex: /(?<!\p{L})(CDC\s+CERC|Crisis\s+and\s+Emergency\s+Risk\s+Communication|punt(?:ea|ii)\s+de\s+coreglare(?:\s+instituțională)?)(?!\p{L})/iu
+    regex: /(?<!\p{L})(CDC\s+CERC|Crisis\s+and\s+Emergency\s+Risk\s+Communication|(?:institutional\s+)?co-regulation\s+bridge)(?!\p{L})/iu
   },
   {
     conceptId: 'coreglare-cerc-validatori',
     patternId: 'validatori-proximitate-stix-disarm',
-    regex: /(?<!\p{L})(validator(?:i|ii|ilor)\s+(?:comunitari(?:\s+și\s+epistemici)?(?:\s+de\s+proximitate)?|epistemici\s+și\s+morali\s+de\s+proximitate|de\s+proximitate)|STIX\/DISARM|EDMO\/BROD)(?!\p{L})/iu
+    regex: /(?<!\p{L})(proximity\s+(?:community|epistemic|moral)\s+validators|validators\s+of\s+proximity|STIX\/DISARM|EDMO\/BROD)(?!\p{L})/iu
   },
 
   // Stratul C: Psihodinamic, Arhetipal & Axiologic
   {
     conceptId: 'stratul-c',
     patternId: 'stratul-c',
-    regex: /(?<!\p{L})(Stratul\s+C(?:\s*[:–-]\s*Inconștientul\s+cultural)?|Stratului\s+C)(?!\p{L})/u
+    regex: /(?<!\p{L})(Layer\s+C(?:\s*[:–-]\s*Cultural\s+Unconscious)?|Stratum\s+C|Stratul\s+C)(?!\p{L})/u
   },
   {
     conceptId: 'axa-ego-sine',
     patternId: 'axa-ego-sine',
-    regex: /(?<!\p{L})(ax(?:a|ei)\s+Ego[–-]Sine)(?!\p{L})/iu
+    regex: /(?<!\p{L})(Ego[–-]Self\s+axis)(?!\p{L})/iu
   },
   {
     conceptId: 'persona-si-umbra',
     patternId: 'persona-mimetica',
-    regex: /(?<!\p{L})(Person(?:a|ei)\s+instituțional(?:ă|e)(?:\s+mimetic(?:ă|e))?|Person(?:a|ei)\s+mimetic(?:ă|e))(?!\p{L})/iu
+    regex: /(?<!\p{L})(mimetic\s+(?:institutional\s+)?Persona|institutional\s+Persona)(?!\p{L})/iu
   },
   {
     conceptId: 'persona-si-umbra',
     patternId: 'umbra-colectiva',
-    regex: /(?<!\p{L})(Umbr(?:a|ei)\s+colectiv(?:ă|e))(?!\p{L})/iu
+    regex: /(?<!\p{L})(collective\s+Shadow)(?!\p{L})/iu
   },
   {
     conceptId: 'arhetipul-trickster',
     patternId: 'arhetipul-trickster',
-    regex: /(?<!\p{L})(arhetip(?:ul|ului)?\s+Trickster(?:ului|-ului)?|Trickster(?:ului|-ului)?)(?!\p{L})/iu
+    regex: /(?<!\p{L})(Trickster\s+archetype|Trickster)(?!\p{L})/iu
   },
   {
     conceptId: 'enantiodromie',
     patternId: 'enantiodromie',
-    regex: /(?<!\p{L})(enantiodromi(?:e|a|ei))(?!\p{L})/iu
+    regex: /(?<!\p{L})(enantiodromia)(?!\p{L})/iu
   },
   {
     conceptId: 'trauma-aleasa',
     patternId: 'trauma-aleasa',
-    regex: /(?<!\p{L})(traum(?:a|ă|e|ei)\s+ale(?:asă|se))(?!\p{L})/iu
+    regex: /(?<!\p{L})(chosen\s+traumas?)(?!\p{L})/iu
   },
   {
     conceptId: 'trauma-aleasa',
     patternId: 'incapacitatea-de-a-tine-doliu',
-    regex: /(?<!\p{L})(incapacitat(?:ea|ii)\s+de\s+a\s+ține\s+doliu)(?!\p{L})/iu
+    regex: /(?<!\p{L})(inability\s+to\s+mourn)(?!\p{L})/iu
   },
   {
     conceptId: 'proiectie-paranoida',
     patternId: 'proiectie-paranoida',
-    regex: /(?<!\p{L})(proiecți(?:a|e|ei)\s+paranoid(?:ă|e)|țap(?:ul|ului)?\s+ispășitor)(?!\p{L})/iu
+    regex: /(?<!\p{L})(paranoid\s+projection|scapegoating|scapegoat)(?!\p{L})/iu
   },
   {
     conceptId: 'identificarea-cu-agresorul',
     patternId: 'identificarea-cu-agresorul',
-    regex: /(?<!\p{L})(identific(?:are|area|ării)\s+cu\s+agresorul(?:\s+geopolitic)?|angoas(?:ă|a|ei)\s+existențial(?:ă|e)\s+de\s+abandon)(?!\p{L})/iu
+    regex: /(?<!\p{L})(identification\s+with\s+the\s+(?:geopolitical\s+)?aggressor|existential\s+abandonment\s+anxiety)(?!\p{L})/iu
   },
   {
     conceptId: 'aparare-maniacala-izolationism',
     patternId: 'aparare-maniacala-izolationism',
-    regex: /(?<!\p{L})(apăr(?:are|area|ării)\s+maniacal(?:ă|e)|(?:suveranit|neutralit)(?:ate|atea|ății)\s+izolaționist(?:ă|e))(?!\p{L})/iu
+    regex: /(?<!\p{L})(manic\s+defense|isolationist\s+(?:sovereignism|sovereignty|neutrality))(?!\p{L})/iu
   },
   {
     conceptId: 'ipoteze-baza-grup-lucru-bion',
     patternId: 'ipoteze-baza-bion',
-    regex: /(?<!\p{L})(ipotezel(?:e|or)\s+de\s+bază(?:\s+ale\s+lui\s+Bion)?|ipotez(?:a|ei)\s+de\s+bază\s+a\s+(?:dependenței|împerecherii\s+mesianice)|ipotez(?:a|ei)\s+de\s+bază\s+luptă-sau-fugi|baD|baF|baP)(?!\p{L})/iu
+    regex: /(?<!\p{L})((?:Bion(?:'s)?\s+)?basic\s+assumptions?|basic\s+assumption\s+of\s+(?:dependency|messianic\s+pairing|fight-flight)|baD|baF|baP)(?!\p{L})/iu
   },
   {
     conceptId: 'ipoteze-baza-grup-lucru-bion',
     patternId: 'grup-de-lucru-bion',
-    regex: /(?<!\p{L})(grup(?:ul|ului)?\s+de\s+lucru)(?!\p{L})/iu
+    regex: /(?<!\p{L})(work\s+group)(?!\p{L})/iu
   },
   {
     conceptId: 'puer-aeternus',
     patternId: 'puer-aeternus',
-    regex: /(?<!\p{L})(Puer\s+Aeternus|stat(?:ul|ului)?\s+paternalist\s+tutelar)(?!\p{L})/iu
+    regex: /(?<!\p{L})(Puer\s+Aeternus|tutelary\s+paternalistic\s+state)(?!\p{L})/iu
   },
   {
     conceptId: 'functia-transcendenta',
     patternId: 'functia-transcendenta',
-    regex: /(?<!\p{L})(funcți(?:a|ei)\s+transcendent(?:ă|e))(?!\p{L})/iu
+    regex: /(?<!\p{L})(transcendent\s+function)(?!\p{L})/iu
   },
   {
     conceptId: 'individuare-colectiva',
     patternId: 'individuare-colectiva',
-    regex: /(?<!\p{L})(individu(?:are|area|ării)\s+colectiv(?:ă|e))(?!\p{L})/iu
+    regex: /(?<!\p{L})(collective\s+individuation)(?!\p{L})/iu
   },
   {
     conceptId: 'modernitate-organica',
     patternId: 'modernitate-organica',
-    regex: /(?<!\p{L})(modernit(?:ate|atea|ății)\s+organic(?:ă|e))(?!\p{L})/iu
+    regex: /(?<!\p{L})(organic\s+modernity)(?!\p{L})/iu
   }
 ];
 

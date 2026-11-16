@@ -14,1074 +14,2219 @@ export const ALL_SUBCHAPTER_STEPS = [...CHAPTERS_PART_1, ...CHAPTERS_PART_2];
 
 export const TABLE_1_DATA: Table1Row[] = [
   {
-    id: 't1-dim-1',
-    dimensionNumber: 1,
-    dimensionTitle: '1. Arhitectura statului și raportul cu norma legală',
-    stratumA:
-      'Modernizare asincronă prin „forme fără fond” (Maiorescu) și coexistența instituțiilor formale incluzive cu rețele informale extractive (Acemoglu & Robinson). Această ordine socială cu acces limitat (North, Wallis & Weingast) generează un deficit cronic de închidere operațională a justiției și administrației (Luhmann).',
-    stratumB:
-      'Erodarea încrederii în regulile formale și percepția legii ca instrument selectiv de spoliere. Această percepție slăbește angajamentul față de primul sistem etic al cooperării procedurale (Lefebvre) și crește toleranța cognitivă față de transgresiunea normativă.',
-    stratumC:
-      'Scindarea structurală între Persona instituțională mimetică (conformismul oficial prooccidental de fațadă) și Umbra colectivă. În această Umbră sunt refulate strategiile informale de supraviețuire, „descurcăreala” și ambivalența arhetipului Tricksterului.'
+    "id": "t1-dim-1",
+    "dimensionNumber": 1,
+    "dimensionTitle": "1. State architecture and the relationship with the legal norm",
+    "stratumA": "Asynchronous modernization through \"forms without substance\" (Maiorescu) and the coexistence of inclusive formal institutions with extractive informal networks (Acemoglu & Robinson). This social order with limited access (North, Wallis & Weingast) generates a chronic deficit of operational closure of justice and administration (Luhmann).",
+    "stratumB": "The erosion of trust in formal rules and the perception of law as a selective instrument of spoliation. This perception weakens commitment to the first ethical system of procedural cooperation (Lefebvre) and increases cognitive tolerance for normative transgression.",
+    "stratumC": "The structural split between the mimetic institutional Persona (facade official pro-Western conformism) and the collective Shadow. Into this Shadow are repressed the informal survival strategies, \"getting by\" and ambivalence of the Trickster archetype."
   },
   {
-    id: 't1-dim-2',
-    dimensionNumber: 2,
-    dimensionTitle: '2. Coeziunea sociodemografică și regimul de stres cotidian',
-    stratumA:
-      'Polarizare severă între centrele metropolitane prospere și periferiile dezindustrializate sau rurale, adâncită de declinul demografic și emigrația masivă a forței de muncă active. Rezultatul constă în enclave de excluziune socială și anomie, familism amoral (Banfield), retragerea individualistă în sfera privată a păturilor urbane și instalarea unui vid de reprezentare politică a periferiilor (Mair, 2013) speculat de intermediarii populiști (Mudde, 2004) prin cele trei mecanisme transformaționale Micro–Macro (Coleman, 1990; Robinson, 1950).',
-    stratumB:
-      'Uzură alostatică ridicată (McEwen) și disfuncția cronică a axei HPA (aplatizarea ritmului circadian al cortizolului, desensibilizarea receptorilor glucocorticoizi și stare proinflamatorie), care induc hipertrofia amigdalei bazolaterale, hiperactivarea rețelei de detecție a relevanței și retracția dendritică în cortexul prefrontal dorsolateral (dlPFC), peste care șocurile acute adaugă inhibiția sinaptică catecolaminergică rapidă (Arnsten) și comutarea pe Sistemul 1 (Kahneman). În paralel, în absența gândirii activ deschise, un Sistem 2 biologic intact este deturnat în disraționalitate și raționalizare motivată (Stanovich; Kahan) în două direcții simetric disfuncționale: secesiunea civică elitistă în servicii private sau construirea unor raționalizări pseudosavante, esoterice și revizioniste radicale.',
-    stratumC:
-      'Scăderea tensiunii conștiente (abaissement du niveau mental – Janet/Jung) și blocarea sau scindarea axei Ego–Sine colective (Edinger). Această ruptură instalează deflația Eului colectiv, neputința învățată (learned helplessness) și fatalismul defensiv, care alternează cu inflația naționalistă compensatoare.'
+    "id": "t1-dim-2",
+    "dimensionNumber": 2,
+    "dimensionTitle": "2. Sociodemographic cohesion and daily stress regime",
+    "stratumA": "Severe polarization between prosperous metropolitan centers and deindustrialized or rural peripheries, deepened by demographic decline and massive emigration of the active workforce. The result consists of enclaves of social exclusion and anomie, amoral familism (Banfield), the individualistic retreat into the private sphere of urban layers and the installation of a vacuum of political representation of the peripheries (Mair, 2013) speculated by populist intermediaries (Mudde, 2004) through the three transformational mechanisms Micro-Macro (Coleman, 1990; Robinson, 1950).",
+    "stratumB": "High allostatic wear (McEwen) and chronic HPA axis dysfunction (cortisol circadian flattening, glucocorticoid receptor desensitization, and proinflammatory state), which induce basolateral amygdala hypertrophy, relevance detection network hyperactivation, and dendritic retraction in the dorsolateral prefrontal cortex (dlPFC), over which acute shocks add fast catecholaminergic synaptic inhibition (Arnsten) and switching to System 1 (Kahneman). In parallel, in the absence of actively open thinking, an intact biological System 2 is diverted into dysrationality and motivated rationalization (Stanovich; Kahan) in two symmetrically dysfunctional directions: elitist civic secession in private services or the construction of radical pseudoscientific, esoteric, and revisionist rationalizations.",
+    "stratumC": "The decrease in conscious tension (abaissement du niveau mental – Janet/Jung) and the blocking or splitting of the collective Ego–Self axis (Edinger). This rupture sets up the deflation of the collective Self, learned helplessness, and defensive fatalism, which alternates with compensatory nationalist inflation."
   },
   {
-    id: 't1-dim-3',
-    dimensionNumber: 3,
-    dimensionTitle: '3. Filtrul axiologic și raportarea la tradiția spirituală',
-    stratumA:
-      'Instrumentalizarea politică a discursului identitar și religios de către actori politici oportuniști și rețele informale paraecleziale în convergență cu doctrina revizionistă Russkii Mir, exploatând ezitările pastorale și absența unui proces instituționalizat de asumare a traumelor totalitare din secolul al XX-lea.',
-    stratumB:
-      'Dubla falsificare axiologică și parazitarea semiotică a conservatorismului și a ortodoxiei prin camuflaj discursiv. Sinteza creștin-seculară europeană (întemeiată pe Imago Dei și universalismul drepturilor fundamentale) este substituită cu inversiunea normativă a Antilumii (Epstein), etnofiletismul și nihilismul cinic al stării Bobok (Dostoievski).',
-    stratumC:
-      'Incapacitatea de a ține doliu pentru complicitățile totalitare (Mitscherlich) și fixarea într-o traumă aleasă de victimă perpetuă (Volkan). Credința este redusă astfel la o religiozitate ritualistă de fațadă și la un conformism confesional exterior, vulnerabil la proiecții paranoide și xenofobe.'
+    "id": "t1-dim-3",
+    "dimensionNumber": 3,
+    "dimensionTitle": "3. The axiological filter and reference to the spiritual tradition",
+    "stratumA": "The political instrumentalization of the identity and religious discourse by opportunistic political actors and informal paraecclesial networks in convergence with the revisionist Russkii Mir doctrine, exploiting pastoral hesitations and the absence of an institutionalized process of assuming the totalitarian traumas of the 20th century.",
+    "stratumB": "The axiological double falsification and semiotic parasitism of conservatism and orthodoxy through discursive camouflage. The Christian-secular European synthesis (based on the Imago Dei and the universalism of fundamental rights) is substituted with the normative inversion of the Antiworld (Epstein), ethnophyletism and the cynical nihilism of the Bobok state (Dostoevsky).",
+    "stratumC": "The inability to mourn totalitarian complicity (Mitscherlich) and the fixation on a chosen trauma of perpetual victimhood (Volkan). Faith is thus reduced to a facade ritualistic religiosity and an external confessional conformity, vulnerable to paranoid and xenophobic projections."
   },
   {
-    id: 't1-dim-4',
-    dimensionNumber: 4,
-    dimensionTitle: '4. Ecologia informațională și dinamica decizională în bucla OODA',
-    stratumA:
-      'Dereglementarea pieței atenției digitale și proliferarea rețelelor de reciclare și disimulare a sursei informaționale prin intermediari (information laundering: ferme de boți, rețele de microinfluenceri coordonați netransparent, canale criptate). Concomitent, ecosistemul digital este poluat deliberat cu date sintetice în două stadii: pe termen scurt, contaminarea neparametrică la momentul interogării a motoarelor de căutare și a sistemelor RAG (inference-time RAG poisoning), iar pe termen mediu, degradarea parametrică la reantrenare prin Model Collapse (Shumailov) și Model Autophagy Disorder (Alemohammad).',
-    stratumB:
-      'Deturnarea fazei de Orientare din bucla OODA (Boyd) prin control reflexiv de rang secund și distorsionarea ponderării preciziei (aberrant precision-weighting, Friston: hiperprecizie acordată dogmei conspirative și atenuarea erorilor de predicție factuale), menținând ținta la Rangul 0 și Rangul 1 de reflexivitate, comutând-o în al doilea sistem etic al confruntării (Lefebvre) și în semiotica binară a anihilării (Lotman), proces accelerat de capturarea dopaminergică în nucleul accumbens și de contagiunea complexă prin punți largi (Centola).',
-    stratumC:
-      'Captivitatea psihologică în bule identitare închise, omogenizarea cognitivă și deteriorarea hărții mentale predictive a realității. În acest cadru de încapsulare algoritmică, grupurile vulnerabilizate adoptă reactiv tipare culturale defensive (Singer & Kimbles) și mecanismul psihodinamic al identificării cu agresorul geopolitic (pe fondul angoasei existențiale de abandon) sub masca apărării suveranității.'
+    "id": "t1-dim-4",
+    "dimensionNumber": 4,
+    "dimensionTitle": "4. Information ecology and decision dynamics in the OODA loop",
+    "stratumA": "The deregulation of the digital attention market and the proliferation of networks for recycling and disguising the information source through intermediaries (information laundering: bot farms, non-transparently coordinated micro-influencer networks, encrypted channels). At the same time, the digital ecosystem is deliberately polluted with synthetic data in two stages: in the short term, the non-parametric contamination at the time of querying search engines and RAG systems (inference-time RAG poisoning), and in the medium term, the parametric degradation when retraining through Model Collapse (Shumailov) and Model Autophagy Disorder (Alemohammad).",
+    "stratumB": "Bypassing the Orientation phase of the OODA loop (Boyd) by second-order reflexive control and distortion of precision-weighting (aberrant precision-weighting, Friston: hyper-precision given to conspiratorial dogma and mitigation of factual prediction errors), keeping the target at Rank 0 and Rank 1 reflexivity, switching it into the second ethical system of confrontation (Lefebvre) and binary semiotics of annihilation (Lotman), a process accelerated by dopaminergic capture in the nucleus accumbens and complex contagion through broad bridges (Centola).",
+    "stratumC": "Psychological captivity in closed identity bubbles, cognitive homogenization, and the deterioration of the predictive mental map of reality. In this framework of algorithmic encapsulation, vulnerable groups reactively adopt defensive cultural patterns (Singer & Kimbles) and the psychodynamic mechanism of identification with the geopolitical aggressor (against the existential anguish of abandonment) under the guise of defending sovereignty."
   },
   {
-    id: 't1-dim-5',
-    dimensionNumber: 5,
-    dimensionTitle: '5. Dinamica polarizării și răspunsul la criză acută',
-    stratumA:
-      'Alunecarea cetățeanului vulnerabil (-X, +Y), sub presiunea endogenă primară a actorilor extractivi interni (+X, -Y) — ale căror facțiuni oligarhice amenințate de statul de drept european au interesul tactic de a încuraja haosul antiinstituțional — și sub acțiunea de catalizator exogen a războiului cognitiv (prin scontarea hiperbolică a viitorului, revanșa simbolică autodistructivă și pedeapsa antisocială), în cadranul comportamentului autodistructiv și al autosabotajului colectiv (-X, -Y) din matricea lui Cipolla. Rezultatul sistemic este paralizia instituțională și vulnerabilizarea strategică a statului-țintă.',
-    stratumB:
-      'Bifurcarea procesării în punctul critic al unei crize acute (nodul de bifurcație decizională) și blocarea pe Traseul reactiv dezadaptativ (Track A: hiperactivare amigdaliană, adoptare precipitată și înghețare epistemică seizing/freezing, procesare defensivă motivată de protejarea identității de grup, furie și blocaj decizional). Această blocare survine în detrimentul Traseului deliberativ adaptativ (Track B: reglare prefrontală, capacitate negativă, gândire activ deschisă la Rangul 2 și Rangul 3 de reflexivitate și validare epistemică), a cărui deschidere depinde de puntea de coreglare prin protocolul CDC CERC, de probatoriul tehnic verificabil și de validatorii comunitari de proximitate care reconstituie comunitatea ca „grup de lucru” rațional (Bion, 1961).',
-    stratumC:
-      'Enantiodromia suveranistă, manifestată prin răsturnarea mimetismului prooccidental în respingerea radicală a modernității constituționale. La aceasta se adaugă sindromul Puer Aeternus colectiv (von Franz), iluzia suveranității izolaționiste și regresia spre dependență pasivă față de un stat paternalist tutelar (Neumann).'
+    "id": "t1-dim-5",
+    "dimensionNumber": 5,
+    "dimensionTitle": "5. Dynamics of polarization and response to acute crisis",
+    "stratumA": "The slippage of the vulnerable citizen (-X, +Y), under the primary endogenous pressure of internal extractive actors (+X, -Y) — whose oligarchic factions threatened by the European rule of law have a tactical interest in encouraging anti-institutional chaos — and under the action of the exogenous catalyst of cognitive warfare (through hyperbolic discounting of the future, self-destructive symbolic revenge and antisocial punishment), in the behavior quadrant self-destructive and collective self-sabotage (-X, -Y) from Cipolla's matrix. The systemic result is institutional paralysis and strategic vulnerability of the target state.",
+    "stratumB": "Bifurcation of processing at the critical point of an acute crisis (decisional bifurcation node) and blocking on the Maladaptive Reactive Track (Track A: amygdala hyperactivation, hasty adoption and epistemic seizing/freezing, defensive processing motivated by protecting group identity, anger and decisional blocking). This blockage comes at the expense of the adaptive deliberative Track (Track B: prefrontal regulation, negative capacity, active thinking open to Rank 2 and Rank 3 reflexivity and epistemic validation), whose opening depends on the bridge of co-regulation through the CDC CERC protocol, the verifiable technical evidence and the proximity community validators that reconstitute the community as a rational \"workgroup\" (Bion, 1961).",
+    "stratumC": "The sovereignist enantiodrome, manifested by the reversal of pro-Western mimicry in the radical rejection of constitutional modernity. Added to this is the collective Puer Aeternus syndrome (von Franz), the illusion of isolationist sovereignty and the regression towards passive dependence on a tutelary paternalistic state (Neumann)."
   }
 ];
 
 export const TABLE_2_DATA: Table2Row[] = [
   {
-    id: 't2-faza-1',
-    phaseCode: 'Faza I',
-    phaseSubtitle: 'Decompresia alostatică și igiena informațională',
-    horizon: 'Dublu orizont: 0–72 de ore (triaj tactic acut) · 0–12 luni (decompresie structurală)',
-    humanBiology:
-      'Reducerea uzurii alostatice (McEwen) și a hiperactivării cronice a axei HPA prin scăderea insecurității materiale și birocratice. Protejarea somnului și a atenției prin limitarea expunerii la fluxurile adictive care capturează circuitele dopaminergice în nucleul accumbens restabilește latența temporală necesară deblocării cortexului prefrontal dorsolateral.',
-    digitalAndSociospatial:
-      'Aplicarea Regulamentului DSA (Legea nr. 50/2024) și a AI Act prin asocierea Ordinelor de a acționa împotriva conținutului ilegal (art. 7–8 din Legea nr. 50/2024 / art. 9 din DSA) emise de autoritățile sectoriale (CNA, AEP/BEC, DNSC) și transmise procedural prin ANCOM (fără decizii de fond pe conținut) cu Ordinele obligatorii de furnizare a informațiilor financiare și a identității plătitorilor (art. 9 din Legea nr. 50/2024 / art. 10 din DSA) către VLOPs. Aceasta este dublată de standardizarea probatorie STIX/DISARM prin DNSC și EDMO/BROD, mecanisme de încetinire a viralității, etichetarea criptografică a datelor sintetice și investiții în serviciile din enclavele de excluziune.',
-    informationalLifestyle:
-      'Campanii publice de conștientizare a igienei digitale și a mecanismelor de capturare a atenției. Comunicarea oficială arogantă sau alarmistă este înlocuită cu o comunicare strategică de decompresie alostatică bazată pe principiile CDC CERC (Crisis and Emergency Risk Communication, Reynolds & Seeger, 2005), menită să dezamorseze hipervigilența rețelei de detecție a relevanței (Salience Network – SN) și să oprească bucla reactivă a Traseului A.',
-    institutionalSystem:
-      'Pe palierul structural (0–12 luni), simplificarea administrativă după modelul e-Estonia. Pe palierul de triaj acut (0–72h), urmărirea și blocarea fluxurilor financiare ilicite (pe principiul Follow the Money) se execută în trei pași. În primul pas, autoritățile sectoriale relevante (inclusiv CNA pentru audiovizualul online, AEP/BEC sau DNSC) emit ordinele de a acționa împotriva conținutului ilegal, transmise procedural prin punctul unic ANCOM către VLOPs și asociate cu ordinele de identificare a plătitorilor (art. 9 și 10 DSA / art. 7–8 și art. 9 Legea nr. 50/2024). În al doilea pas, AEP și BEC asigură verificarea CMF și blocarea publicității politice nemarcate sau finanțate din țări terțe (Legea nr. 334/2006, O.U.G. nr. 1/2025 — art. 16–17 pentru alegerile prezidențiale din mai 2025 și Regulamentul TTPA (UE) 2024/900 aplicabil din 10 octombrie 2025 — art. 5 alin. 2, art. 11–12 și art. 16, distinct de art. 13, 15 și 17). În al treilea pas, ONPCSB dispune în regim de competență exclusivă suspendarea operativă în 24–72h a tranzacțiilor suspecte și blocarea conversiilor din criptoactive în monedă fiduciară (off-ramp) (art. 33–34 din Legea nr. 129/2019), cu sesizarea PICCJ, sub supravegherea sectorială a BNR și ASF prin interogarea registrului central electronic pentru conturi de plăți și conturi bancare (art. 61¹ din Legea nr. 207/2015 – CPF și art. 33 alin. 4–5 din Legea nr. 129/2019, actualizată prin Legea nr. 86/2025), aplicarea O.U.G. nr. 10/2025 (mecanismul național pentru Regulamentul TFR (UE) 2023/1113 – Travel Rule și supravegherea furnizorilor de servicii de criptoactive (CASP) privind combaterea spălării banilor și a finanțării terorismului conform art. 32¹ din Legea nr. 129/2019) și a Regulamentului MiCA (UE) 2023/1114.'
+    "id": "t2-faza-1",
+    "phaseCode": "Phase I",
+    "phaseSubtitle": "Allostatic decompression and informational hygiene",
+    "horizon": "Dual horizon: 0–72 hours (acute tactical triage) · 0–12 months (structural decompression)",
+    "humanBiology": "Reducing allostatic wear and tear (McEwen) and chronic hyperactivation of the HPA axis by decreasing material and bureaucratic insecurity. Protecting sleep and attention by limiting exposure to addictive streams that capture dopaminergic circuits in the nucleus accumbens restores the temporal latency required to unlock the dorsolateral prefrontal cortex.",
+    "digitalAndSociospatial": "The application of the DSA Regulation (Law no. 50/2024) and the AI Act by associating the Orders to act against illegal content (art. 7–8 of Law no. 50/2024 / art. 9 of the DSA) issued by the sectoral authorities (CNA, AEP/BEC, DNSC) and procedurally transmitted through ANCOM (without substantive decisions on content) with the mandatory Orders to provide financial information and the identity of payers (art. 9 of Law no. 50/2024 / art. 10 of DSA) to VLOPs. This is doubled by STIX/DISARM evidentiary standardization through DNSC and EDMO/BROD, virality-slowing mechanisms, cryptographic tagging of synthetic data, and investment in exclusion enclave services.",
+    "informationalLifestyle": "Public campaigns to raise awareness of digital hygiene and attention-grabbing mechanisms. The arrogant or alarmist official communication is replaced by a strategic allostatic decompression communication based on the principles of CDC CERC (Crisis and Emergency Risk Communication, Reynolds & Seeger, 2005), intended to defuse the hypervigilance of the Salience Network (SN) and stop the reactive loop of Pathway A.",
+    "institutionalSystem": "On the structural level (0–12 months), administrative simplification according to the e-Estonia model. On the acute triage level (0–72h), the tracking and blocking of illicit financial flows (on the Follow the Money principle) is performed in three steps. In the first step, the relevant sectoral authorities (including CNA for online audiovisual, AEP/BEC or DNSC) issue orders to act against illegal content, procedurally transmitted through the single point ANCOM to VLOPs and associated with orders to identify payers (art. 9 and 10 DSA / art. 7–8 and art. 9 Law no. 50/2024). In the second step, AEP and BEC ensure the verification of the CMF and the blocking of unmarked or financed political advertising from third countries (Law no. 334/2006, O.U.G. no. 1/2025 — art. 16–17 for the presidential elections of May 2025 and Regulation TTPA (EU) 2024/900 applicable from October 10, 2025 — art. 5 para. 11-12 and art. 13, 15 and 17). In the third step, ONPCSB orders under exclusive competence the operative suspension within 24-72 hours of suspicious transactions and the blocking of conversions from crypto-assets to fiduciary currency (off-ramp) (art. 33-34 of Law no. 129/2019), with notification to the PICCJ, under the sectoral supervision of the BNR and ASF by querying the electronic central register for payment accounts and bank accounts (art. 61¹ of Law No. 207/2015 and Article 33 of Law No. 129/2019, updated by Law No. 86/2025. no. 10/2025 (the national mechanism for the TFR Regulation (EU) 2023/1113 – Travel Rule and the supervision of crypto-asset service providers (CASP) regarding the fight against money laundering and terrorist financing according to art. 32¹ of Law no. 129/2019) and MiCA Regulation (EU) 2023/1114."
   },
   {
-    id: 't2-faza-2',
-    phaseCode: 'Faza II',
-    phaseSubtitle: 'Stabilizarea comunitară și pregătirea preventivă',
-    horizon: 'Orizont operațional mediu: 1–3 ani',
-    humanBiology:
-      'Antrenarea reglării descendente a amigdalei bazolaterale de către cortexul prefrontal ventromedial și dorsolateral. Cultivarea capacității negative (Bion) și a toleranței la incertitudine asigură comutarea stabilă pe Traseul deliberativ B, susținută de sesiuni periodice de consolidare mnezică calibrate pe curba uitării a lui Hermann Ebbinghaus.',
-    digitalAndSociospatial:
-      'Reconstrucția infrastructurii comunitare și culturale de proximitate în mediul rural, în orașele mici și în comunitățile din diaspora pentru a înlocui izolarea în bule informaționale închise cu spații fizice de interacțiune umană directă. Aceste rețele locale favorizează contagiunea socială complexă pozitivă (Centola, 2018) și refacerea capitalului social de punte (Putnam, 2000).',
-    informationalLifestyle:
-      'Instituționalizarea pregătirii psihocognitive preventive în școli, universități și programe pentru adulți, axată pe detecția controlului reflexiv de rang secund și a semiozei binare. În paralel, filtrul moral creștin-secular este reconciliat prin dialog între teologia ortodoxă patristică a demnității persoanei și etica civică constituțională, consolidând primul sistem etic al cooperării.',
-    institutionalSystem:
-      'Crearea unor mecanisme instituționale permanente de coordonare interministerială și societală pentru apărarea spațiului cognitiv, după modelul apărării cuprinzătoare din Estonia și Polonia. Concomitent, CNA și autoritățile publice aplică direct Regulamentul (UE) 2024/1083 privind libertatea mass-mediei (European Media Freedom Act – EMFA), asigurând transparența beneficiarilor reali ai instituțiilor media (art. 6 EMFA), garanțiile de independență editorială (art. 4–5 EMFA), dialogul structurat cu VLOPs (art. 18 EMFA) și alocarea nediscriminatorie a publicității de stat (art. 25 EMFA), alături de integrarea validării comunitare pentru neutralizarea procesării defensive motivate de protejarea identității de grup.'
+    "id": "t2-faza-2",
+    "phaseCode": "Phase II",
+    "phaseSubtitle": "Community stabilization and preventive preparedness",
+    "horizon": "Average operational horizon: 1–3 years",
+    "humanBiology": "Entrainment of descending regulation of the basolateral amygdala by ventromedial and dorsolateral prefrontal cortex. Cultivating negative capacity (Bion) and uncertainty tolerance ensures stable switching on Deliberative Route B, supported by periodic sessions of mnemonic consolidation calibrated on Hermann Ebbinghaus's forgetting curve.",
+    "digitalAndSociospatial": "Rebuilding community and cultural infrastructure of proximity in rural areas, small towns and diaspora communities to replace isolation in closed informational bubbles with physical spaces of direct human interaction. These local networks foster positive complex social contagion (Centola, 2018) and rebuilding bridging social capital (Putnam, 2000).",
+    "informationalLifestyle": "Institutionalizing preventive psychocognitive training in schools, universities, and adult programs focused on the detection of second-order reflexive control and binary semiosis. In parallel, the Christian-secular moral filter is reconciled through the dialogue between the orthodox patristic theology of the dignity of the person and the constitutional civic ethics, strengthening the first ethical system of cooperation.",
+    "institutionalSystem": "Creation of permanent institutional mechanisms of inter-ministerial and societal coordination for the defense of cognitive space, following the model of comprehensive defense in Estonia and Poland. At the same time, CNA and public authorities directly apply Regulation (EU) 2024/1083 on media freedom (European Media Freedom Act – EMFA), ensuring the transparency of the real beneficiaries of media institutions (art. 6 EMFA), editorial independence guarantees (art. 4–5 EMFA), structured dialogue with VLOPs (art. 18 EMFA) and non-discriminatory allocation of state advertising (art. 25 EMFA), alongside the integration of community validation to neutralize defensive processing motivated by protecting group identity."
   },
   {
-    id: 't2-faza-3',
-    phaseCode: 'Faza III',
-    phaseSubtitle: 'Consolidarea statului de drept și individuarea colectivă',
-    horizon: 'Orizont strategic: 3–10 ani',
-    humanBiology:
-      'Stabilizarea pe termen lung a rezervei neurobiologice și a echilibrului psihofiziologic al populației printr-un mediu social predictibil și meritocratic. Această stabilitate menține capacitatea minții conștiente de a integra critic informațiile și previne scăderea tensiunii conștiente (abaissement du niveau mental) în fața șocurilor geopolitice viitoare.',
-    digitalAndSociospatial:
-      'Reducerea structurală a faliilor sociospațiale dintre centrele metropolitane și periferiile interne și integrarea diasporei în rețelele economice și civice ale țării prin conversia experienței occidentale în „remitențe sociale și instituționale” (Sandu, 2010). Reconstrucția capitalului social de punte (Putnam, 2000) în mediul rural și depășirea familismului amoral (Banfield, 1958) se realizează prin reforma de lege ferenda a guvernanței cooperativelor agricole din Legea nr. 566/2004 (modificarea art. 31 și art. 33–35 coroborate cu art. 16 alin. 4 și art. 29 și facilitățile din art. 76–76¹: director executiv independent recrutat competitiv, interdicția rudelor sau afinilor până la gradul al III-lea ai administratorilor, filtre de integritate și protejarea rambursărilor de TVA).',
-    informationalLifestyle:
-      'Asumarea critică și onestă a istoriei naționale în educație și în cultura publică, depășind incapacitatea de a ține doliu și trauma aleasă. Resursele latente din Umbra colectivă și arhetipul Tricksterului sunt convertite funcțional în agilitate cognitivă și inovație, susținând maturizarea conștiinței civice dincolo de sindromul Puer Aeternus și individuarea colectivă pe axa Ego–Sine.',
-    institutionalSystem:
-      'Închiderea operațională autentică a justiției și administrației (eliminarea numirilor temporare discreționare din art. 509–510 O.U.G. nr. 57/2019, încetarea mandatelor provizorii în lanț din companiile de stat prevăzute la art. 29¹ și art. 64¹ din O.U.G. nr. 109/2011 modificată prin Legea nr. 187/2023 și operaționalizarea autonomă a AMEPIP), autonomia financiară locală pe formule obiective de cost (art. 32–33 din Legea nr. 273/2006 și restrângerea Fondului de rezervă de la art. 30 din Legea nr. 500/2002 exclusiv la urgențe imprevizibile), dublate de reforma de lege ferenda a art. 167 și art. 182 din Codul de procedură fiscală (Legea nr. 207/2015) prin „penalizarea în oglindă a statului”, compensarea automată din oficiu a creanțelor fiscale reciproce (art. 167 CPF) și virarea din oficiu, în același cont IBAN, a dobânzilor și penalităților pentru întârzierea rambursării TVA (art. 169 CPF), a concediilor medicale FNUASS (art. 38 și art. 40 din O.U.G. nr. 158/2005) și plata facturilor comerciale (Legea nr. 72/2013, distinctă de e-Factura), în deplin acord cu principiul simetriei fiscale (Decizia CCR nr. 694/2015) și depășind blocajele din O.G. nr. 22/2002 sau statuarea din RIL nr. 24/2025; delimitată de răspunderea patrimonială internă a funcționarilor față de instituție (art. 499–500 Codul administrativ), propunerea de completare a art. 281 CPF vizează răspunderea patrimonială solidară și regresul efectiv atunci când instanța constată definitiv că actul fiscal anulat a fost emis cu rea-credință sau gravă neglijență. Întregul protocol este verificat prin auditul bienal al Curții de Conturi (art. 2 lit. b și d și art. 28 alin. 2 din Legea nr. 94/1992; Legea nr. 500/2002) și prin auditul științific al „cercetătorilor agreați” (art. 40 DSA / EDMO) pe Cadrul european al competențelor digitale (DigComp), pe metodologiile Institutului Național pentru Educație Audiovizuală KAVI și prin simulări decizionale participative.'
+    "id": "t2-faza-3",
+    "phaseCode": "Phase III",
+    "phaseSubtitle": "Consolidation of the rule of law and collective individuation",
+    "horizon": "Strategic horizon: 3–10 years",
+    "humanBiology": "Long-term stabilization of the neurobiological reserve and psychophysiological balance of the population through a predictable and meritocratic social environment. This stability maintains the capacity of the conscious mind to critically integrate information and prevents lowering of conscious tension (abaissement du niveau mental) in the face of future geopolitical shocks.",
+    "digitalAndSociospatial": "The structural reduction of sociospatial faults between metropolitan centers and internal peripheries and the integration of the diaspora into the country's economic and civic networks by converting Western experience into \"social and institutional remittances\" (Sandu, 2010). The reconstruction of the bridge social capital (Putnam, 2000) in the rural environment and the overcoming of amoral familism (Banfield, 1958) is achieved through the law ferenda reform of the governance of agricultural cooperatives from Law no. 566/2004 (amending art. 31 and art. 33–35 in conjunction with art. 16 para. 4 and art. 29 and the facilities in art. 76–76¹: competitively recruited independent executive director, prohibition of relatives or relatives up to the 3rd degree of administrators, integrity filters and protection of VAT refunds).",
+    "informationalLifestyle": "Critical and honest take on national history in education and public culture, overcoming the inability to hold grief and chosen trauma. The latent resources of the collective Shadow and Trickster archetype are functionally converted into cognitive agility and innovation, supporting the maturation of civic consciousness beyond the Puer Aeternus syndrome and collective individuation on the Ego–Self axis.",
+    "institutionalSystem": "Genuine operational closure of justice and administration (elimination of temporary discretionary appointments from art. 509–510 O.U.G. no. 57/2019, termination of temporary mandates in the chain in state companies provided for in art. 29¹ and art. 64¹ of O.U.G. no. 109/2011 amended by Law no. 187/2023 and the autonomous operationalization of AMEPIP), local financial autonomy based on objective cost formulas (art. 32-33 of Law no. 273/2006 and the restriction of the Reserve Fund from art. 30 of Law no. 500/2002 exclusively to unpredictable emergencies), doubled by the ferenda law reform of art. 167 and art. 182 of the Fiscal Procedure Code (Law no. 207/2015) through \"penalization in the mirror of the state\", the automatic ex officio compensation of mutual fiscal claims (art. 167 CPF) and the ex officio transfer, to the same IBAN account, of interest and penalties for late VAT reimbursement (art. 169 CPF), of FNUASS medical leaves (art. 38 and art. 40 of O.U.G. no. 158/2005) and payment of commercial invoices (Law no. 72/2013, distinct from e-Invoice), in full agreement with the principle of fiscal symmetry (CCR Decision no. 694/2015) and overcoming the blockages in O.G. no. 22/2002 or the ruling from RIL no. 24/2025; delimited by the internal patrimonial liability of officials towards the institution (art. 499–500 Administrative Code), the proposal to supplement art. 281 CPF covers joint patrimonial liability and effective recourse when the court definitively finds that the annulled tax act was issued in bad faith or with gross negligence. The entire protocol is verified by the biennial audit of the Court of Accounts (art. 2 letters b and d and art. 28 para. 2 of Law no. 94/1992; Law no. 500/2002) and by the scientific audit of \"approved researchers\" (art. 40 DSA / EDMO) on the European Digital Skills Framework (DigComp), on the methodologies of the National Institute for Audiovisual Education KAVI and through participatory decision-making simulations."
   }
 ];
 
 export const REGIONAL_CONTROL_GROUP: RegionalCase[] = [
   {
-    id: 'romania',
-    country: 'România — Diagnostic de bază',
-    roleInModel: 'Societatea-țintă analizată în monografie',
-    exposureProfile: 'Expunere intensă la camuflaj discursiv suveranist și parazitare semiotică a ortodoxiei și conservatorismului, ocolind aversiunea istorică directă față de Rusia.',
-    stratumA: 'Ordine instituțională semiconformată bazată pe „forme fără fond”; coexistența instituțiilor formale euroatlantice cu rețele extractive clientelare și polarizare sociospațială severă.',
-    stratumB: 'Dublă vulnerabilitate neurocognitivă (uzură alostatică și inhibarea dlPFC cu comutare pe Sistemul 1 sub epuizare alostatică, respectiv deturnarea Sistemului 2 în disraționalitate și raționalizare motivată — fie spre secesiune civică elitistă, fie spre justificări pseudosavante și revizioniste radicale —), pe fondul vidului de reprezentare politică (Mair, 2013), al absenței unei strategii naționale de pregătire preventivă și al dereglării spațiului algoritmic, favorizând deturnarea fazei de Orientare din bucla OODA.',
-    stratumC: 'Scindare între Persona instituțională mimetică și Umbra colectivă, incapacitatea de a ține doliu pentru complicitățile totalitare și declanșarea enantiodromiei suveraniste.',
-    strategicLesson: 'Vulnerabilitatea nu decurge dintr-o fatalitate culturală sau din lipsa garanțiilor de securitate, ci din complacerea unei părți a elitelor într-o ordine extractivă care a lăsat filtrul axiologic expus eroziunii.',
-    statusType: 'tension'
+    "id": "romania",
+    "country": "Romania — Basic diagnosis",
+    "roleInModel": "The target society analyzed in the monograph",
+    "exposureProfile": "Intense exposure to sovereignist discursive camouflage and semiotic parasitism of orthodoxy and conservatism, bypassing direct historical aversion to Russia.",
+    "stratumA": "Semi-conformed institutional order based on \"forms without substance\"; the coexistence of formal Euro-Atlantic institutions with clientelistic extractive networks and severe sociospatial polarization.",
+    "stratumB": "Double neurocognitive vulnerability (allostatic wear and dlPFC inhibition with switching to System 1 under allostatic exhaustion, respectively the hijacking of System 2 in irrationality and motivated rationalization — either for elitist civic secession or for radical pseudoscientific and revisionist justifications —), against the background of the vacuum of political representation (Mair, 2013), the absence of a national strategy of preventive preparation and the deregulation of space algorithmically, favoring the diversion of the Orientation phase from the OODA loop.",
+    "stratumC": "Split between the mimetic institutional Persona and the collective Shadow, the inability to mourn totalitarian complicity and the triggering of the sovereignist enantiodromy.",
+    "strategicLesson": "The vulnerability does not arise from a cultural fatality or lack of security guarantees, but from the complacency of a part of the elites in an extractive order that has left the axiological filter exposed to erosion.",
+    "statusType": "tension"
   },
   {
-    id: 'estonia',
-    country: 'Estonia — Reziliență instituțională și cognitivă',
-    roleInModel: 'Modelul articulării coerente a celor patru determinanți Lalonde–Dever',
-    exposureProfile: 'Stat în prima linie geografică la granița cu Federația Rusă, cu o minoritate rusofonă semnificativă și țintă a atacurilor cibernetice și informaționale majore încă din 2007.',
-    stratumA: 'Tranziție timpurie și radicală către instituții incluzive cu închidere operațională autentică; digitalizare transparentă prin sistemul e-Estonia, care a eliminat corupția mică și umilința birocratică; politici susținute de unificare educațională și alternative media publice credibile pentru reducerea vulnerabilității reziduale a minorității rusofone.',
-    stratumB: 'Instituționalizarea pregătirii psihocognitive preventive și a alfabetizării mediatice și digitale de la grădiniță până la adulți, integrate în doctrina apărării cuprinzătoare și a voinței de apărare.',
-    stratumC: 'Axă Ego–Sine colectivă stabilă, în care modernizarea prooccidentală este trăită ca expresie organică a identității naționale, nu ca o formă fără fond impusă din exterior.',
-    strategicLesson: 'Eliminarea umilinței birocratice și a corupției prin digitalizare transparentă scade uzura alostatică și ancorează organic cetățeanul în apărarea ordinii constituționale.',
-    statusType: 'synthesis'
+    "id": "estonia",
+    "country": "Estonia — Institutional and cognitive resilience",
+    "roleInModel": "The Coherent Articulation Model of the Four Lalonde–Dever Determinants",
+    "exposureProfile": "Frontline geographic state on the border with the Russian Federation, with a significant Russian-speaking minority and the target of major cyber and information attacks since 2007.",
+    "stratumA": "Early and radical transition to inclusive institutions with genuine operational closure; transparent digitization through the e-Estonia system, which eliminated petty corruption and bureaucratic humiliation; supported policies of educational unification and credible public media alternatives to reduce the residual vulnerability of the Russian-speaking minority.",
+    "stratumB": "Institutionalizing preventive psychocognitive training and media and digital literacy from kindergarten to adult, integrated into the doctrine of comprehensive defense and the will to defend.",
+    "stratumC": "Stable collective Ego–Self axis, in which pro-Western modernization is experienced as an organic expression of national identity, not as a bottomless form imposed from the outside.",
+    "strategicLesson": "Eliminating bureaucratic humiliation and corruption through transparent digitization lowers allostatic attrition and organically anchors the citizen to the defense of constitutional order.",
+    "statusType": "synthesis"
   },
   {
-    id: 'polonia',
-    country: 'Polonia — Memorie istorică și consens strategic',
-    roleInModel: 'Modelul rezilienței conservatorismului și a religiozității împotriva parazitării semiotice moscovite',
-    exposureProfile: 'Polarizări politice și axiologice interne intense între tabăra conservatoare națională și cea liberală cosmopolită, însoțite de tensiuni constituționale severe privind autonomia sistemului judiciar și partizanatul mediatic în Stratul A.',
-    stratumA: 'Consens strategic transpartinic asupra apărării naționale, a înzestrării militare și a consolidării flancului estic al Alianței Nord-Atlantice, menținut chiar și în perioadele de dispută constituțională internă acută în Stratul A.',
-    stratumB: 'Eșecul sistematic al operațiunilor ruse de a converti conservatorismul catolic și suveranismul polonez într-o platformă prorusă sau ostilă NATO.',
-    stratumC: 'Memoria istorică a ocupației țariste și sovietice — de la împărțirile Poloniei până la Katyn și sindicatul Solidaritatea — a fost riguros instituționalizată prin educație, cultură publică și biserică.',
-    strategicLesson: 'Asumarea și instituționalizarea riguroasă a memoriei istorice în educație și biserică creează o normă culturală transversală în care tradiția și suveranitatea sunt indisolubil legate de descurajarea Rusiei.',
-    statusType: 'synthesis'
+    "id": "polonia",
+    "country": "Poland — Historical memory and strategic consensus",
+    "roleInModel": "The Resilience Model of Conservatism and Religiosity Against Muscovite Semiotic Parasitism",
+    "exposureProfile": "Intense internal political and axiological polarizations between the national conservative camp and the cosmopolitan liberal camp, accompanied by severe constitutional tensions regarding the autonomy of the judiciary and media partisanship in Layer A.",
+    "stratumA": "Cross-party strategic consensus on national defense, military endowment, and strengthening the eastern flank of the North Atlantic Alliance, maintained even during periods of acute internal constitutional dispute in Layer A.",
+    "stratumB": "The systematic failure of Russian operations to convert Catholic conservatism and Polish sovereignty into a pro-Russian or anti-NATO platform.",
+    "stratumC": "The historical memory of Tsarist and Soviet occupation—from the partitions of Poland to Katyn and the Solidarity trade union—was rigorously institutionalized through education, public culture, and the church.",
+    "strategicLesson": "The rigorous assumption and institutionalization of historical memory in education and the church creates a transversal cultural norm in which tradition and sovereignty are inextricably linked to the deterrence of Russia.",
+    "statusType": "synthesis"
   },
   {
-    id: 'moldova',
-    country: 'Republica Moldova — Mobilizare sub presiune hibridă',
-    roleInModel: 'Oglinda comparativă a rezilienței în condiții de resurse reduse și asalt hibrid extrem',
-    exposureProfile: 'Resurse economice și militare mult mai reduse, lipsa umbrelei NATO, șantaj energetic decenal și finanțare ilegală masivă a rețelelor oligarhice de cumpărare de voturi, plus amenințarea transnistreană.',
-    stratumA: 'Crearea de instituții dedicate, precum Centrul pentru Comunicare Strategică și Combatere a Dezinformării, și aplicarea de sancțiuni legale ferme împotriva fluxurilor financiare ilicite și a canalelor de propagandă, în pofida marjelor electorale strânse, a vulnerabilităților economice și a rezistenței rețelelor corupte la reforma justiției (vetting și pre-vetting).',
-    stratumB: 'Confruntarea directă și deconstrucția operațiunilor de cumpărare a voinței politice și de reciclare și disimulare a sursei informaționale prin intermediari (information laundering) în momente electorale critice.',
-    stratumC: 'Articularea unui proiect de modernizare în care integrarea europeană este asumată conștient ca garanție existențială a supraviețuirii naționale.',
-    strategicLesson: 'Voința politică fermă de a sancționa fluxurile financiare ilicite și de a apăra instituțional spațiul informațional poate compensa deficite majore de resurse materiale.',
-    statusType: 'synthesis'
+    "id": "moldova",
+    "country": "Republic of Moldova — Mobilization under hybrid pressure",
+    "roleInModel": "The Comparative Mirror of Resilience under Low Resource and Extreme Hybrid Assault",
+    "exposureProfile": "Much reduced economic and military resources, lack of NATO umbrella, decade-long energy blackmail and massive illegal financing of oligarchic vote-buying networks, plus the Transnistrian threat.",
+    "stratumA": "The creation of dedicated institutions, such as the Center for Strategic Communication and Combating Disinformation, and the application of firm legal sanctions against illicit financial flows and propaganda channels, despite tight electoral margins, economic vulnerabilities and the resistance of corrupt networks to justice reform (vetting and pre-vetting).",
+    "stratumB": "Direct confrontation and deconstruction of the operations of buying political will and recycling and concealing the information source through intermediaries (information laundering) in critical electoral moments.",
+    "stratumC": "The articulation of a modernization project in which European integration is consciously assumed as an existential guarantee of national survival.",
+    "strategicLesson": "The strong political will to sanction illicit financial flows and institutionally defend the information space can compensate for major deficits in material resources.",
+    "statusType": "synthesis"
   }
 ];
 
 export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
   {
-    id: 'al-saselea-domeniu',
-    term: 'Al șaselea domeniu operațional: spațiul cognitiv',
-    stratum: 'B',
-    authors: 'Claverie, Baptiste și du Cluzel, 2022 · du Cluzel, 2020 · NATO ACT',
-    domain: 'Doctrină strategică și cibernetică militară',
-    definition: 'Domeniu operațional definit de Comandamentul Suprem Aliat pentru Transformare al NATO, alături de cel terestru, maritim, aerian, cosmic și cibernetic, în care ținta directă este arhitectura de procesare a realității și capacitatea decizională a unei națiuni.',
-    monographContext: 'Urmărește erodarea încrederii în instituțiile democratice și paralizia decizională a statului-țintă fără a declanșa pragul articolului 5 al Tratatului Atlanticului de Nord.',
-    polarity: 'neutral'
+    "id": "al-saselea-domeniu",
+    "term": "The sixth operational domain: cognitive space",
+    "stratum": "B",
+    "authors": "Claverie, Baptiste și du Cluzel, 2022 · du Cluzel, 2020 · NATO ACT",
+    "domain": "Strategic doctrine and military cyber",
+    "definition": "Operational domain defined by NATO's Supreme Allied Command Transformation, along with land, sea, air, space and cyber, where the direct target is a nation's reality processing architecture and decision-making capacity.",
+    "monographContext": "It pursues the erosion of confidence in democratic institutions and decision-making paralysis of the target state without triggering the threshold of Article 5 of the North Atlantic Treaty.",
+    "polarity": "neutral"
   },
   {
-    id: 'macro-micro-macro',
-    term: 'Arhitectura cauzală Macro–Micro–Macro: barca lui Coleman',
-    stratum: 'A',
-    authors: 'James S. Coleman, 1990 · Peter Hedström, 2005 · Karl Popper, 1934/2002 · William S. Robinson, 1950 · C. G. Jung, 1936/1964',
-    domain: 'Sociologie analitică',
-    definition: 'Model explicativ din sociologia analitică (cunoscut drept „barca lui Coleman”) care articulează trei mecanisme cauzale înlănțuite: mecanismele situaționale de tranziție de la nivel macro la nivel micro, mecanismele individuale de formare a acțiunii (nivelul micro) și cele trei mecanisme transformaționale de agregare colectivă (tranziția micro–macro: sincronizarea afectivă și contagiunea emoțională în rețea, contagiunea socială complexă prin punți largi și intermedierea politică oportunistă în vidul de reprezentare a periferiilor). Operaționalizat în această monografie cu respectarea criteriului falsificabilității (Popper, 1934/2002), a clauzei împotriva erorii ecologice (anti-ecological fallacy, Robinson, 1950) și prin delimitarea față de eroarea metodologică din eseul Wotan al lui Jung (1936/1964), modelul arată cum configurația instituțională din Stratul A condiționează procesarea neurocognitivă din Stratul B și se agregă algoritmic în polarizare sau reziliență în Stratul C.',
-    monographContext: 'Explică științific și falsificabil cum deficitele instituționale din Stratul A modelează procesarea neurocognitivă în Stratul B și se agregă prin cele trei mecanisme transformaționale în polarizare și autosabotaj colectiv, împotriva erorii ecologice.',
-    polarity: 'neutral'
+    "id": "macro-micro-macro",
+    "term": "Macro–Micro–Macro causal architecture: Coleman's boat",
+    "stratum": "A",
+    "authors": "James S. Coleman, 1990 · Peter Hedström, 2005 · Karl Popper, 1934/2002 · William S. Robinson, 1950 · C. G. Jung, 1936/1964",
+    "domain": "Analytical sociology",
+    "definition": "Explanatory model from analytical sociology (known as \"Coleman's boat\") that articulates three chained causal mechanisms: the situational mechanisms of transition from the macro to the micro level, the individual mechanisms of action formation (the micro level), and the three transformational mechanisms of collective aggregation (the micro–macro transition: affective synchronization and emotional contagion in the network, complex social contagion through wide bridges, and opportunistic political intermediation in the vacuum of representation of the peripheries). Operationalized in this monograph with respect to the criterion of falsifiability (Popper, 1934/2002), the clause against the ecological fallacy (Robinson, 1950) and by delimitation from the methodological fallacy in Jung's Wotan essay (1936/1964), the model shows how the institutional configuration in Layer A conditions the neurocognitive processing in Layer B and aggregates algorithmically in polarization or resilience in Layer C.",
+    "monographContext": "It scientifically and falsifiably explains how institutional deficits in Layer A shape neurocognitive processing in Layer B and aggregate through the three transformational mechanisms into polarization and collective self-sabotage against the ecological fallacy.",
+    "polarity": "neutral"
   },
   {
-    id: 'determinantii-lalonde-dever',
-    term: 'Modelul epidemiologic Lalonde–Dever (modelul câmpului sănătății)',
-    stratum: 'A',
-    authors: 'Marc Lalonde, 1974 · G. E. Alan Dever, 1976',
-    domain: 'Politici publice și psihosociologie',
-    definition: 'Model analitic (cunoscut drept modelul epidemiologic Lalonde–Dever sau modelul câmpului sănătății) fundamentat pe cadrul clasic al determinanților sănătății publice elaborat de Marc Lalonde (1974) și rafinat epidemiologic de G. E. Alan Dever (1976), potrivit căruia starea unei populații este guvernată de patru câmpuri structurale ordonate cauzal: (1) organizarea sistemului instituțional și a serviciilor publice, (2) mediul socioeconomic și digital, (3) stilul de viață informațional și asociativ și (4) biologia umană / rezerva neurobiologică. Operaționalizat în arhitectura acestei monografii, modelul stabilește că reziliența și echilibrul mintal al unei populații depind de interacțiunea continuă a celor patru determinanți.',
-    monographContext: 'Fundamentează atât diagnosticul vulnerabilității endogene din Capitolul 1 (în ordinea cauzală descendentă de la sistemul instituțional și mediu spre rezerva neurobiologică), cât și arhitectura matricială a protocolului de reconstrucție din Capitolul 6 și Tabelul 2: pe axa verticală, protocolul se desfășoară strict secvențial în trei faze (Faza I de deblocare biologică și digitală -> Faza II de pregătire preventivă și validare comunitară -> Faza III de închidere operațională și individuare colectivă), în timp ce pe axa orizontală toate cele patru câmpuri Lalonde–Dever sunt activate sincron în fiecare fază, centrul de greutate cauzal deplasându-se progresiv de la decompresia alostatică și igiena algoritmică în Faza I la consolidarea macrostructurală a statului de drept în Faza a III-a.',
-    polarity: 'synthesis'
+    "id": "determinantii-lalonde-dever",
+    "term": "Lalonde–Dever epidemiological model (health field model)",
+    "stratum": "A",
+    "authors": "Marc Lalonde, 1974 · G. E. Alan Dever, 1976",
+    "domain": "Public policies and psychosociology",
+    "definition": "Analytical model (known as the Lalonde–Dever epidemiological model or the health field model) based on the classical framework of public health determinants developed by Marc Lalonde (1974) and refined epidemiologically by G. E. Alan Dever (1976), according to which the state of a population is governed by four causally ordered structural fields: (1) the organization of the institutional system and public services, (2) the socioeconomic and digital environment, (3) the informational and associative lifestyle and (4) human biology / neurobiological reserve. Operationalized in the architecture of this monograph, the model establishes that the resilience and mental balance of a population depends on the continuous interaction of the four determinants.",
+    "monographContext": "It underpins both the diagnosis of endogenous vulnerability in Chapter 1 (in descending causal order from the institutional and environmental system to the neurobiological reserve) and the matrix architecture of the reconstruction protocol in Chapter 6 and Table 2: on the vertical axis, the protocol proceeds strictly sequentially in three phases (Phase I of biological and digital unlocking -> Phase II of preventive preparation and community validation -> Phase III of operational closure and collective individuation), while on the axis horizontally all four Lalonde–Dever fields are activated synchronously in each phase, the causal center of gravity progressively shifting from allostatic decompression and algorithmic hygiene in Phase I to the macrostructural consolidation of the rule of law in Phase III.",
+    "polarity": "synthesis"
   },
   {
-    id: 'filtrul-axiologic',
-    term: 'Filtrul axiologic și normativ creștin-secular',
-    stratum: 'B',
-    authors: 'Nikolai Berdiaev, 1949/1996 · Dumitru Stăniloae, 1978 · Jürgen Habermas, 2006 · Charles Taylor, 2007',
-    domain: 'Filosofie constituțională și teologie',
-    definition: 'Cadrul normativ al democrației constituționale europene (societatea postseculară analizată de Habermas, 2006), în care între etica creștină conservatoare și secularismul modern există tensiuni și dezbateri filosofice reale. Aceste diferențe sunt însă mediate pașnic prin dialog, libertatea conștiinței și respectarea demnității inalienabile a persoanei (Imago Dei), în cadrul primului sistem etic al cooperării procedurale (Lefebvre, 1982).',
-    monographContext: 'Stabilizează închiderea operațională în Stratul A, primul sistem etic al cooperării în Stratul B și axa Ego–Sine în Stratul C, opunându-se deturnării acestor dezbateri legitime într-un război civil simbolic de anihilare reciprocă.',
-    polarity: 'synthesis'
+    "id": "filtrul-axiologic",
+    "term": "The Christian-secular axiological and normative filter",
+    "stratum": "B",
+    "authors": "Nikolai Berdiaev, 1949/1996 · Dumitru Stăniloae, 1978 · Jürgen Habermas, 2006 · Charles Taylor, 2007",
+    "domain": "Constitutional Philosophy and Theology",
+    "definition": "The normative framework of European constitutional democracy (the post-secular society analyzed by Habermas, 2006), where there are real philosophical tensions and debates between conservative Christian ethics and modern secularism. However, these differences are peacefully mediated through dialogue, freedom of conscience and respect for the inalienable dignity of the person (Imago Dei), within the first ethical system of procedural cooperation (Lefebvre, 1982).",
+    "monographContext": "It stabilizes operational closure in Layer A, the first ethical system of cooperation in Layer B, and the Ego–Self axis in Layer C, resisting the diversion of these legitimate debates into a symbolic civil war of mutual annihilation.",
+    "polarity": "synthesis"
   },
   {
-    id: 'inchidere-operationala',
-    term: 'Închiderea operațională și autonomia funcțională',
-    stratum: 'A',
-    authors: 'Niklas Luhmann, 1995, 2004',
-    domain: 'Teoria sistemelor sociale',
-    definition: 'Proprietatea fundamentală a subsistemelor unei societăți moderne (justiția, administrația publică, educația, sănătatea, știința) de a funcționa autonom, ghidate exclusiv de propriile criterii normative interne (legal/ilegal, merit/incompetență, adevărat/fals), refuzând imixtiunea arbitrară a politicului de clan sau tranzacționarea informală a influenței.',
-    monographContext: 'Deficitul cronic de închidere operațională din România a menținut instituțiile formale permeabile la capturarea extractivă a rentei. Garantarea acestei autonomii (prin meritocrație, eliminarea interimatelor politice și digitalizare) reprezintă cheia rezilienței societale în Faza a III-a a protocolului.',
-    polarity: 'synthesis'
+    "id": "inchidere-operationala",
+    "term": "Operational closure and functional autonomy",
+    "stratum": "A",
+    "authors": "Niklas Luhmann, 1995, 2004",
+    "domain": "Social systems theory",
+    "definition": "The fundamental property of the subsystems of a modern society (justice, public administration, education, health, science) to function autonomously, guided exclusively by their own internal normative criteria (legal/illegal, merit/incompetence, true/false), refusing the arbitrary interference of clan politics or informal trading of influence.",
+    "monographContext": "Romania's chronic operational closure deficit has kept formal institutions permeable to extractive rent capture. Guaranteeing this autonomy (through meritocracy, the elimination of political interims and digitization) is the key to societal resilience in Phase III of the protocol.",
+    "polarity": "synthesis"
   },
   {
-    id: 'forme-fara-fond',
-    term: 'Forme fără fond și instituții extractive versus incluzive',
-    stratum: 'A',
-    authors: 'Titu Maiorescu, 1868 · Constantin Rădulescu-Motru, 1904 · Constantin Dobrogeanu-Gherea, 1910 · Eugen Lovinescu, 1924–1925 · Henri H. Stahl, 1980 · Daron Acemoglu și James A. Robinson, 2012 · North, Wallis și Weingast, 2009',
-    domain: 'Sociologie istorică și economie instituțională',
-    definition: 'Paradigmă analitică inaugurată de Titu Maiorescu (1868) și dezvoltată în sociologia modernizării românești (Rădulescu-Motru, 1904; Dobrogeanu-Gherea, 1910; Lovinescu, 1924–1925; Stahl, 1980). În timp ce Lovinescu a demonstrat că în culturile intrate târziu în sfera modernității sincronizarea operează printr-o evoluție inversă, de la formă spre fond, întreruperea violentă a acestui proces organic de către regimurile totalitare din secolul al XX-lea și capturarea tranziției postcomuniste au cronicizat disocierea dintre arhitectura constituțională occidentală adoptată formal — instituțiile incluzive — și persistența practicilor informale de capturare a rentei și blocare a meritocrației, specifice instituțiilor extractive dintr-o ordine socială cu acces limitat (North, Wallis & Weingast, 2009; Acemoglu & Robinson, 2012).',
-    monographContext: 'Constituie rădăcina istorică a neîncrederii cetățeanului român în discursul oficial și a scindării dintre Persona instituțională mimetică și Umbra colectivă.',
-    polarity: 'tension'
+    "id": "forme-fara-fond",
+    "term": "Bottomless forms and extractive versus inclusive institutions",
+    "stratum": "A",
+    "authors": "Titu Maiorescu, 1868 · Constantin Rădulescu-Motru, 1904 · Constantin Dobrogeanu-Gherea, 1910 · Eugen Lovinescu, 1924–1925 · Henri H. Stahl, 1980 · Daron Acemoglu și James A. Robinson, 2012 · North, Wallis și Weingast, 2009",
+    "domain": "Historical Sociology and Institutional Economics",
+    "definition": "Analytical paradigm inaugurated by Titu Maiorescu (1868) and developed in the sociology of Romanian modernization (Rădulescu-Motru, 1904; Dobrogeanu-Gherea, 1910; Lovinescu, 1924–1925; Stahl, 1980). While Lovinescu demonstrated that in cultures that entered the sphere of modernity late, synchronization operates through a reverse evolution, from form to substance, the violent interruption of this organic process by the totalitarian regimes of the 20th century and the capture of the post-communist transition chronicled the dissociation between the formally adopted Western constitutional architecture — inclusive institutions — and the persistence of informal practices of rent capture and blocking of meritocracy, specific to extractive institutions in a social order with limited access (North, Wallis & Weingast, 2009; Acemoglu & Robinson, 2012).",
+    "monographContext": "It constitutes the historical root of the Romanian citizen's distrust in the official discourse and the split between the mimetic institutional Persona and the collective Shadow.",
+    "polarity": "tension"
   },
   {
-    id: 'persona-si-umbra',
-    term: 'Persona instituțională mimetică și Umbra colectivă',
-    stratum: 'C',
-    authors: 'Carl Gustav Jung, 1928 · Joseph Henderson, 1984 · Thomas Singer și Samuel L. Kimbles, 2004 · Gail Kligman și Katherine Verdery, 2011',
-    domain: 'Psihologie analitică postjungiană și antropologie istorică',
-    definition: 'Scindarea din inconștientul cultural (Henderson, 1984) și din complexele culturale (Singer & Kimbles, 2004) între fațada conformistă de aliniere declarativă la standardele externe — Persona instituțională mimetică — și Umbra colectivă. În această Umbră sunt refulate strategiile informale de supraviețuire, politica duplicității (Kligman & Verdery, 2011) și traumele istorice neintegrate.',
-    monographContext: 'Explică de ce impostura elitelor interne compromite simbolic însăși ideea de modernizare europeană în ochii cetățeanului vulnerabilizat.',
-    polarity: 'tension'
+    "id": "persona-si-umbra",
+    "term": "The Mimetic Institutional Persona and the Collective Shadow",
+    "stratum": "C",
+    "authors": "Carl Gustav Jung, 1928 · Joseph Henderson, 1984 · Thomas Singer și Samuel L. Kimbles, 2004 · Gail Kligman și Katherine Verdery, 2011",
+    "domain": "Post-Jungian Analytical Psychology and Historical Anthropology",
+    "definition": "The split from the cultural unconscious (Henderson, 1984) and cultural complexes (Singer & Kimbles, 2004) between the conformist facade of declarative alignment to external standards—the Mimetic Institutional Persona—and the Collective Shadow. In this Shadow, informal survival strategies, politics of duplicity (Kligman & Verdery, 2011) and unintegrated historical traumas are repressed.",
+    "monographContext": "It explains why the imposture of the domestic elites symbolically compromises the very idea of ​​European modernization in the eyes of the vulnerable citizen.",
+    "polarity": "tension"
   },
   {
-    id: 'trauma-aleasa',
-    term: 'Incapacitatea de a ține doliu și trauma aleasă',
-    stratum: 'C',
-    authors: 'Alexander și Margarete Mitscherlich, 1967 · Vamık D. Volkan, 1997, 2004',
-    domain: 'Psihanaliză socială și psihopolitică',
-    definition: 'Articularea a două mecanisme psihodinamice colective: incapacitatea de a ține doliu (Die Unfähigkeit zu trauern, Mitscherlich & Mitscherlich, 1967), definită drept refuzul confruntării morale oneste cu propriile complicități interne din regimurile totalitare, și trauma aleasă (chosen trauma, Volkan, 1997, 2004). Aceasta din urmă desemnează reprezentarea mentală a unei nedreptăți istorice care fixează grupul într-o identitate transgenerațională de victimă inocentă și perpetuă.',
-    monographContext: 'Blochează maturizarea civică și favorizează evacuarea vinovăției istorice prin proiecții paranoide asupra unor „persecutori externi”.',
-    polarity: 'tension'
+    "id": "trauma-aleasa",
+    "term": "Inability to hold grief and chosen trauma",
+    "stratum": "C",
+    "authors": "Alexander și Margarete Mitscherlich, 1967 · Vamık D. Volkan, 1997, 2004",
+    "domain": "Social and psychopolitical psychoanalysis",
+    "definition": "The articulation of two collective psychodynamic mechanisms: the inability to mourn (Die Unfähigkeit zu trauern, Mitscherlich & Mitscherlich, 1967), defined as the refusal of honest moral confrontation with one's own internal complicities in totalitarian regimes, and chosen trauma (chosen trauma, Volkan, 1997, 2004). The latter denotes the mental representation of a historical injustice that fixes the group in a transgenerational identity of innocent and perpetual victim.",
+    "monographContext": "It blocks civic maturation and favors the venting of historical guilt through paranoid projections of \"external persecutors.\"",
+    "polarity": "tension"
   },
   {
-    id: 'axa-ego-sine',
-    term: 'Axa Ego–Sine colectivă: deflație și inflație',
-    stratum: 'C',
-    authors: 'Edward F. Edinger, 1972 · Martin E. P. Seligman, 1975 · Lucian Boia, 1997 · Katherine Verdery, 1991',
-    domain: 'Psihologie analitică și istoria mentalităților',
-    definition: 'Legătura structurală dintre conștiința colectivă (Ego) și nucleul arhetipal de sens, ordine morală și continuitate istorică (Sinele, Edinger, 1972). Când această axă este scindată prin traume neintegrate și instituții extractive, colectivitatea oscilează între deflație — neputință învățată (learned helplessness, Seligman, 1975), fatalism defensiv și autodevalorizare — și inflație compensatoare manifestată prin mitologii ale excepționalismului național, mesianism și protocronism (Verdery, 1991; Boia, 1997).',
-    monographContext: 'Refacerea coerenței pe axa Ego–Sine prin funcția transcendentă și individuare colectivă este condiția modernității organice.',
-    polarity: 'synthesis'
+    "id": "axa-ego-sine",
+    "term": "The Ego–Collective Self Axis: Deflation and Inflation",
+    "stratum": "C",
+    "authors": "Edward F. Edinger, 1972 · Martin E. P. Seligman, 1975 · Lucian Boia, 1997 · Katherine Verdery, 1991",
+    "domain": "Analytical psychology and the history of mentalities",
+    "definition": "The structural link between the collective consciousness (Ego) and the archetypal core of meaning, moral order and historical continuity (Self, Edinger, 1972). When this axis is split by unintegrated traumas and extractive institutions, the collectivity oscillates between deflation—learned helplessness (Seligman, 1975), defensive fatalism and self-devaluation—and compensatory inflation manifested through mythologies of national exceptionalism, messianism, and protochronism (Verdery, 1991; Boia, 1997).",
+    "monographContext": "The restoration of coherence on the Ego–Self axis through the transcendent function and collective individuation is the condition of organic modernity.",
+    "polarity": "synthesis"
   },
   {
-    id: 'familism-amoral',
-    term: 'Familism amoral versus capital social de punte',
-    stratum: 'A',
-    authors: 'Edward C. Banfield, 1958 · Robert D. Putnam, 2000',
-    domain: 'Sociologie politică',
-    definition: 'Concept sociologic formulat de Edward C. Banfield (1958) pentru a desemna replierea defensivă în care normele de cooperare și bună-credință se aplică exclusiv în cercul restrâns al familiei biologice și al clanului, sfera publică fiind tratată drept ostilă. El se opune capitalului social de punte (bridging social capital, Putnam, 2000), bazat pe încrederea generalizată între grupuri sociale diferite, și explică fragmentarea societății între supraviețuirea de clan în periferii și secesiunea în servicii private a păturilor urbane.',
-    monographContext: 'Erodează coeziunea societală românească simultan cu secesiunea tacită în servicii private a păturilor urbane prospere.',
-    polarity: 'tension'
+    "id": "familism-amoral",
+    "term": "Amoral familism versus bridging social capital",
+    "stratum": "A",
+    "authors": "Edward C. Banfield, 1958 · Robert D. Putnam, 2000",
+    "domain": "Political sociology",
+    "definition": "Sociological concept formulated by Edward C. Banfield (1958) to denote defensive retreat in which norms of cooperation and good faith apply exclusively within the narrow circle of biological family and clan, the public sphere being treated as hostile. He opposes bridging social capital (Putnam, 2000), based on generalized trust between different social groups, and explains the fragmentation of society between clan survival in the peripheries and secession into private services of urban layers.",
+    "monographContext": "It erodes the Romanian societal cohesion simultaneously with the tacit secession in private services of the prosperous urban layers.",
+    "polarity": "tension"
   },
   {
-    id: 'uzura-alostatica',
-    term: 'Alostazia și sarcina / uzura alostatică cronică',
-    stratum: 'B',
-    authors: 'Peter Sterling și Joseph Eyer, 1988 · Bruce S. McEwen și Eliot Stellar, 1993 · Bruce S. McEwen, 1998 · Robert M. Sapolsky, 2004, 2017',
-    domain: 'Neurobiologia stresului',
-    definition: 'Cadrul neurobiologic care distinge între alostazie — menținerea stabilității fiziologice prin schimbare adaptativă (Sterling & Eyer, 1988) — și sarcina sau uzura alostatică (allostatic load, McEwen & Stellar, 1993; McEwen, 1998), definită drept costul fiziologic cumulativ și deteriorarea tisulară și neurală produse de suprasolicitarea cronică a axei de răspuns la stres. În această analiză, conceptul arată cum insecuritatea socioeconomică, imprevizibilitatea legislativă și umilința birocratică din Stratul A epuizează rezerva neurocognitivă a cetățenilor înainte de intervenția propagandei externe.',
-    monographContext: 'Epuizează rezerva neurocognitivă a cetățeanului înainte de contactul cu propaganda digitală; reducerea ei este obiectivul primar din Faza I.',
-    polarity: 'tension'
+    "id": "uzura-alostatica",
+    "term": "Allostasis and pregnancy / chronic allostatic wear and tear",
+    "stratum": "B",
+    "authors": "Peter Sterling și Joseph Eyer, 1988 · Bruce S. McEwen și Eliot Stellar, 1993 · Bruce S. McEwen, 1998 · Robert M. Sapolsky, 2004, 2017",
+    "domain": "Neurobiology of stress",
+    "definition": "The neurobiological framework that distinguishes between allostasis — the maintenance of physiological stability through adaptive change (Sterling & Eyer, 1988) — and allostatic load (allostatic load, McEwen & Stellar, 1993; McEwen, 1998), defined as the cumulative physiological cost and tissue and neural damage produced by chronic overload of the stress response axis. In this analysis, the concept shows how socioeconomic insecurity, legislative unpredictability, and bureaucratic humiliation in Layer A deplete citizens' neurocognitive reserve before external propaganda intervenes.",
+    "monographContext": "It exhausts the citizen's neurocognitive reserve before contact with digital propaganda; its reduction is the primary objective of Phase I.",
+    "polarity": "tension"
   },
   {
-    id: 'axa-hpa-dlpf',
-    term: 'Hiperactivarea axei HPA, triada rețelelor cerebrale și inhibiția prefrontală',
-    stratum: 'B',
-    authors: 'Amy F. T. Arnsten, 2009 · Vinod Menon, 2011 · Robert M. Sapolsky, 2004, 2017 · Daniel Kahneman, 2011 · Keith E. Stanovich, 2009',
-    domain: 'Neuroștiințe cognitive',
-    definition: 'Mecanism neuroendocrin și de rețea cerebrală care operează pe două paliere temporale: pe termen lung, disfuncția cronică a axei hipotalamo-hipofizo-suprarenaliene (axa HPA — manifestată prin aplatizarea ritmului circadian al cortizolului, desensibilizarea receptorilor glucocorticoizi și o stare proinflamatorie sistemică) provoacă hipertrofia dendritică în amigdala bazolaterală, hiperactivarea rețelei de detecție a relevanței (Salience Network – SN), decuplarea rețelei executive centrale (Central Executive Network – CEN, Menon, 2011) și retracția dendritică în hipocamp și în stratul III al cortexului prefrontal dorsolateral (dlPFC) și ventromedial (vmPFC); pe termen scurt, peste această vulnerabilitate cronică, șocurile informaționale acute declanșează descărcări fazice de noradrenalină (receptorii alfa-1) și dopamină (receptorii D1) care induc inhibiția sinaptică catecolaminergică rapidă a memoriei de lucru (Arnsten, 2009; Sapolsky, 2004, 2017).',
-    monographContext: 'Blochează Sistemul 2 deliberativ, favorizează disraționalitatea (Stanovich, 2009) și comută creierul cetățeanului pe dominația exclusivă a Sistemului 1 reactiv.',
-    polarity: 'tension'
+    "id": "axa-hpa-dlpf",
+    "term": "Hyperactivation of the HPA axis, the triad of brain networks, and prefrontal inhibition",
+    "stratum": "B",
+    "authors": "Amy F. T. Arnsten, 2009 · Vinod Menon, 2011 · Robert M. Sapolsky, 2004, 2017 · Daniel Kahneman, 2011 · Keith E. Stanovich, 2009",
+    "domain": "Cognitive Neuroscience",
+    "definition": "Neuroendocrine and brain network mechanism operating on two temporal levels: in the long term, chronic dysfunction of the hypothalamic-pituitary-adrenal axis (HPA axis — manifested by flattening of the circadian rhythm of cortisol, desensitization of glucocorticoid receptors and a systemic pro-inflammatory state) causes dendritic hypertrophy in the basolateral amygdala, hyperactivation of the relevance detection network (Salience Network – SN), disconnection of the central executive network (Central Executive Network – CEN, Menon, 2011) and dendritic retraction in the hippocampus and in layer III of the dorsolateral (dlPFC) and ventromedial (vmPFC) prefrontal cortex; in the short term, over and above this chronic vulnerability, acute informational shocks trigger phasic discharges of noradrenaline (alpha-1 receptors) and dopamine (D1 receptors) that induce rapid catecholaminergic synaptic inhibition of working memory (Arnsten, 2009; Sapolsky, 2004, 2017).",
+    "monographContext": "It blocks the deliberative System 2, fosters irrationality (Stanovich, 2009) and switches the citizen's brain to the exclusive dominance of the reactive System 1.",
+    "polarity": "tension"
   },
   {
-    id: 'abaissement-du-niveau-mental',
-    term: 'Scăderea tensiunii conștiente: abaissement du niveau mental',
-    stratum: 'C',
-    authors: 'Pierre Janet · Carl Gustav Jung, 1934',
-    domain: 'Psihologie dinamică și analitică',
-    definition: 'Concept psihodinamic introdus de Pierre Janet și dezvoltat în psihologia analitică de Carl Gustav Jung (1934) pentru a desemna slăbirea capacității minții conștiente de a integra critic informațiile și de a-și regla impulsurile sub presiunea oboselii cronice și a afectelor negative. Această scădere a tensiunii conștiente coboară pragul controlului inhibitor și al filtrajului metacognitiv, permițând complexelor neintegrate din inconștient să invadeze conștiința.',
-    monographContext: 'Corespondentul psihodinamic din Stratul C al inhibiției prefrontale produse de uzura alostatică în Stratul B.',
-    polarity: 'tension'
+    "id": "abaissement-du-niveau-mental",
+    "term": "Decrease in conscious tension: abaissement du niveau mental",
+    "stratum": "C",
+    "authors": "Pierre Janet · Carl Gustav Jung, 1934",
+    "domain": "Dynamic and analytical psychology",
+    "definition": "Psychodynamic concept introduced by Pierre Janet and developed in analytical psychology by Carl Gustav Jung (1934) to denote the weakening of the conscious mind's ability to critically integrate information and regulate its impulses under the pressure of chronic fatigue and negative affect. This lowering of conscious tension lowers the threshold of inhibitory control and metacognitive filtering, allowing unintegrated complexes from the unconscious to invade consciousness.",
+    "monographContext": "The psychodynamic counterpart in Layer C of prefrontal inhibition produced by allostatic wear in Layer B.",
+    "polarity": "tension"
   },
   {
-    id: 'sistema',
-    term: 'Rețeaua sistema, siloviki, kompromat și modelul celor „patru Rusii”',
-    stratum: 'A',
-    authors: 'Alena Ledeneva, 2013 · Natalia Zubarevich, 2011 · Karen Dawisha, 2014 · Mark Galeotti, 2019',
-    domain: 'Economia politică a regimului rus',
-    definition: 'Mecanism informal și opac de guvernare cleptocratică (Ledeneva, 2013) în care instituțiile constituționale formale sunt subordonate rețelelor din structurile de forță și informații (siloviki). Loialitatea este menținută prin distribuirea discreționară a rentelor, șantaj instituționalizat cu materiale compromițătoare (kompromat) și exploatarea precarității periferiilor interne din modelul celor „patru Rusii” (Zubarevich, 2011) prin keynesianismul militar al economiei morții (deathonomics).',
-    monographContext: 'Democrațiile funcționale din vecinătate amenință existențial legitimitatea internă a rețelei sistema, motivând războiul cognitiv rus.',
-    polarity: 'tension'
+    "id": "sistema",
+    "term": "The system network, siloviki, kompromat and the model of the \"four Russias\"",
+    "stratum": "A",
+    "authors": "Alena Ledeneva, 2013 · Natalia Zubarevich, 2011 · Karen Dawisha, 2014 · Mark Galeotti, 2019",
+    "domain": "The political economy of the Russian regime",
+    "definition": "Informal and opaque mechanism of kleptocratic governance (Ledeneva, 2013) in which formal constitutional institutions are subordinated to networks of force and intelligence structures (siloviki). Loyalty is maintained through the discretionary distribution of rents, institutionalized blackmail with compromising materials (kompromat) and the exploitation of the precarity of the internal peripheries in the model of the \"four Russias\" (Zubarevich, 2011) through the military Keynesianism of death economics (deathonomics).",
+    "monographContext": "Functional neighboring democracies existentially threaten the internal legitimacy of the system network, motivating Russian cognitive warfare.",
+    "polarity": "tension"
   },
   {
-    id: 'triada-ilin-gumiliov-dughin',
-    term: 'Corpusul doctrinar revizionist: Ilin, Gumiliov și Dughin',
-    stratum: 'B',
-    authors: 'Ivan Ilin, 1925/1956 · Lev Gumiliov, 1989 · Michel Eltchaninoff, 2018 · Timothy Snyder, 2018 · Françoise Thom, 2018, 2022 · Aleksandr Dughin, 1997 · Carl Schmitt, 1932/1996',
-    domain: 'Istoria ideilor politice și geopolitică',
-    definition: 'Articularea doctrinară a trei piloni revizioniști: totalitarismul pretins inocent ontologic al lui Ivan Ilin (contopirea individului într-o totalitate condusă de un lider neîngrădit de lege — Gosudar) și determinismul biocosmic al „pasionarității” și al „supraetnosului” eurasiatic formulat de Lev Gumiliov. Acestora li se adaugă geopolitica neoeurasiatică a lui Aleksandr Dughin (1997), construită pe confruntarea dintre telurocrație („imperiul uscatului”) și talasocrație („imperiul mării”) și pe decizionismul amic–inamic al lui Carl Schmitt (1932/1996).',
-    monographContext: 'Oferă justificarea ideologică a agresiunii imperiale și a anihilării ordinii constituționale euroatlantice.',
-    polarity: 'tension'
+    "id": "triada-ilin-gumiliov-dughin",
+    "term": "The revisionist doctrinal corpus: Ilin, Gumiliov and Dughin",
+    "stratum": "B",
+    "authors": "Ivan Ilin, 1925/1956 · Lev Gumiliov, 1989 · Michel Eltchaninoff, 2018 · Timothy Snyder, 2018 · Françoise Thom, 2018, 2022 · Aleksandr Dughin, 1997 · Carl Schmitt, 1932/1996",
+    "domain": "History of political ideas and geopolitics",
+    "definition": "The doctrinal articulation of three revisionist pillars: the allegedly ontologically innocent totalitarianism of Ivan Ilin (the merging of the individual into a totality ruled by a leader unfettered by law — Gosudar) and the biocosmic determinism of Eurasian \"passionateness\" and \"supra-ethnicity\" formulated by Lev Gumiliov. To these is added the neo-Eurasian geopolitics of Aleksandr Dughin (1997), built on the confrontation between tellurocracy (\"empire of land\") and thalassocracy (\"empire of the sea\") and on the friend-enemy decisionism of Carl Schmitt (1932/1996).",
+    "monographContext": "It provides the ideological justification for imperial aggression and the annihilation of the Euro-Atlantic constitutional order.",
+    "polarity": "tension"
   },
   {
-    id: 'antilumea-epstein',
-    term: 'Antilumea rusă și inversiunea normativă',
-    stratum: 'B',
-    authors: 'Mihail Epstein, 2022, 2023',
-    domain: 'Filosofia culturii și semiotică politică',
-    definition: 'Sistem ideologic conceptualizat de Mihail Epstein ca Russkii Antimir, care nu propune un proiect civilizațional pozitiv, ci funcționează prin răsturnarea sistematică a semnificației fiecărui concept politic, juridic și moral: agresiunea este numită apărare a păcii, iar ocupația este numită suveranitate.',
-    monographContext: 'Nucleul operativ real al ideologiei putiniste, mascat la export prin camuflaj tradiționalist și suveranist în Figura 2.',
-    polarity: 'tension'
+    "id": "antilumea-epstein",
+    "term": "The Russian Antiworld and Normative Inversion",
+    "stratum": "B",
+    "authors": "Mihail Epstein, 2022, 2023",
+    "domain": "Philosophy of culture and political semiotics",
+    "definition": "Ideological system conceptualized by Mihail Epstein as Russkii Antimir, which does not propose a positive civilizational project, but works by systematically overturning the meaning of every political, legal and moral concept: aggression is called defense of peace, and occupation is called sovereignty.",
+    "monographContext": "The real operative nucleus of the Putinist ideology, masked for export by traditionalist and sovereignist camouflage in Figure 2.",
+    "polarity": "tension"
   },
   {
-    id: 'starea-bobok',
-    term: 'Starea Bobok și nihilismul cinic transgresiv',
-    stratum: 'B',
-    authors: 'Fiodor Dostoievski, 1873 · Françoise Thom, 2018 · Peter Pomerantsev, 2014, 2019',
-    domain: 'Politologie și psihologia propagandei',
-    definition: 'Cultivarea deliberată a cinismului transgresiv — rezumat de deviza „să nu ne mai rușinăm de nimic!” — și a relativismului epistemic absolut, menită să convingă audiența că adevărul nu există și că toate instituțiile democratice sunt doar măști ipocrite.',
-    monographContext: 'Înlocuiește persuasiunea ideologică clasică cu paralizia morală și acceptarea legii celui mai tare.',
-    polarity: 'tension'
+    "id": "starea-bobok",
+    "term": "The Bobok state and transgressive cynical nihilism",
+    "stratum": "B",
+    "authors": "Fiodor Dostoievski, 1873 · Françoise Thom, 2018 · Peter Pomerantsev, 2014, 2019",
+    "domain": "Political science and the psychology of propaganda",
+    "definition": "The deliberate cultivation of transgressive cynicism — summed up by the motto \"let's not be ashamed of anything!\" — and of absolute epistemic relativism, designed to convince the audience that truth does not exist and that all democratic institutions are only hypocritical masks.",
+    "monographContext": "It replaces classical ideological persuasion with moral paralysis and acceptance of the law of the fittest.",
+    "polarity": "tension"
   },
   {
-    id: 'dubla-falsificare-axiologica',
-    term: 'Dubla falsificare axiologică și parazitarea semiotică',
-    stratum: 'B',
-    authors: 'Vladimir Soloviov, 1900/1994 · Nikolai Berdiaev, 1949/1996 · Dumitru Stăniloae, 1978 · Pantelis Kalaitzidis, 2012 · Cyril Hovorun, 2018 · Aristotle Papanikolaou, 2012 · Kalaitzidis et al., 2022',
-    domain: 'Semiotică axiologică și teologie politică',
-    definition: 'Operațiune de camuflaj discursiv și parazitare semiotică a codurilor identitare autohtone, care falsifică mai întâi tradiția creștină ortodoxă a persoanei libere (Imago Dei și proairesis), substituind-o cu ideologia militaristă și etnofiletistă Russkii Mir. Concomitent, ea falsifică conceptul constituțional de suveranitate națională, pe care îl transformă într-o doctrină a dezarmării strategice, a decuplării de NATO și UE și a izolării în bilateralism asimetric.',
-    monographContext: 'Permite propagandei ruse să ocolească aversiunea istorică a românilor față de Moscova, așa cum este ilustrat în Figura 2.',
-    polarity: 'tension'
+    "id": "dubla-falsificare-axiologica",
+    "term": "Axiological double falsification and semiotic parasitism",
+    "stratum": "B",
+    "authors": "Vladimir Soloviov, 1900/1994 · Nikolai Berdiaev, 1949/1996 · Dumitru Stăniloae, 1978 · Pantelis Kalaitzidis, 2012 · Cyril Hovorun, 2018 · Aristotle Papanikolaou, 2012 · Kalaitzidis et al., 2022",
+    "domain": "Axiological semiotics and political theology",
+    "definition": "Operation of discursive camouflage and semiotic parasitism of autochthonous identity codes, which first falsifies the orthodox Christian tradition of the free person (Imago Dei and proairesis), substituting it with the militarist and ethnophiletist Russkii Mir ideology. At the same time, it falsifies the constitutional concept of national sovereignty, which it transforms into a doctrine of strategic disarmament, decoupling from NATO and the EU, and isolation in asymmetric bilateralism.",
+    "monographContext": "It allows Russian propaganda to bypass Romanians' historical aversion to Moscow, as illustrated in Figure 2.",
+    "polarity": "tension"
   },
   {
-    id: 'bucla-ooda',
-    term: 'Bucla decizională OODA, faza de Orientare și ghidarea implicită',
-    stratum: 'B',
-    authors: 'John Boyd, 1987/2018 · Frans P. B. Osinga, 2007',
-    domain: 'Cibernetică decizională și teorie strategică',
-    definition: 'Ciclu adaptativ cibernetic alcătuit din Observare, Orientare, Decizie și Acțiune (Boyd, 1987/2018; Osinga, 2007), în care faza de Orientare — formată din moștenirea culturală, experiența istorică, deducția distructivă / inducția creatoare și valorile morale — reprezintă centrul de greutate (Schwerpunkt) al întregului proces decizional. Dincolo de secvența în patru pași, arhitectura lui Boyd include legături directe de „ghidare și control implicit” (Implicit Guidance and Control), prin care Orientarea modelează direct Observarea și poate declanșa automat Acțiunea, ocolind etapa deliberativă a Deciziei.',
-    monographContext: 'Când faza de Orientare își pierde capacitatea de revizuire critică (distrugere–creație) și este capturată din exterior, buclele de ghidare implicită îl închid pe subiect într-un circuit autoreferențial care selectează doar observații confirmatorii și declanșează acțiuni impulsive pe Sistemul 1, conform Figurii 3.',
-    polarity: 'neutral'
+    "id": "bucla-ooda",
+    "term": "The OODA decision loop, the Orientation phase and default guidance",
+    "stratum": "B",
+    "authors": "John Boyd, 1987/2018 · Frans P. B. Osinga, 2007",
+    "domain": "Decisional Cybernetics and Strategic Theory",
+    "definition": "Cybernetic adaptive cycle consisting of Observation, Orientation, Decision and Action (Boyd, 1987/2018; Osinga, 2007), in which the Orientation phase — consisting of cultural heritage, historical experience, destructive deduction / creative induction and moral values ​​— represents the center of gravity (Schwerpunkt) of the entire decision-making process. Beyond the four-step sequence, Boyd's architecture includes direct \"Implicit Guidance and Control\" links, whereby Guidance directly shapes Observation and can automatically trigger Action, bypassing the deliberative stage of Decision.",
+    "monographContext": "When the Guidance phase loses its capacity for critical review (destruction–creation) and is captured from the outside, implicit guidance loops lock the subject into a self-referential circuit that selects only confirmatory observations and triggers impulsive actions on System 1, according to Figure 3.",
+    "polarity": "neutral"
   },
   {
-    id: 'control-reflexiv-rang-secund',
-    term: 'Controlul reflexiv de rang secund și cele două sisteme etice',
-    stratum: 'B',
-    authors: 'Vladimir Lefebvre, 1982, 2001 · Timothy L. Thomas, 2004',
-    domain: 'Psihologie matematică și cibernetică',
-    definition: 'Spre deosebire de controlul reflexiv de rang întâi (inducerea tactică în eroare asupra datelor punctuale), controlul reflexiv de rang secund îi furnizează țintei informații selectate strategic, false repere morale și impulsuri emoționale atent calibrate. Prin această intervenție, inițiatorul modifică arhitectura valorică din faza de Orientare a țintei și o comută din primul sistem etic al cooperării procedurale în al doilea sistem etic al confruntării intransigente și al anihilării oponentului (Lefebvre, 1982, 2001).',
-    monographContext: 'Determină cetățeanul capturat cognitiv să ajungă în mod aparent autonom exact la deciziile autodistructive urmărite de inițiatorul operațiunii. Din perspectiva principiului energiei libere și a inferenței active (Friston, 2010), el operează prin distorsionarea ponderării preciziei (aberrant precision-weighting: atribuirea unei hiperprecizii rigide convingerii apriorice conspirative și atenuarea erorilor de predicție factuale), iar în ecosistemul digital contemporan este automatizat la scară de masă de algoritmii comerciali de recomandare (deep reinforcement learning), menținând utilizatorul la Rangul 0 (reacție directă) și Rangul 1 (reprezentare naivă) de reflexivitate până la activarea reflecției metacognitive de Rangul 2 și Rangul 3 pe Traseul B.',
-    polarity: 'tension'
+    "id": "control-reflexiv-rang-secund",
+    "term": "Second-order reflexive control and the two ethical systems",
+    "stratum": "B",
+    "authors": "Vladimir Lefebvre, 1982, 2001 · Timothy L. Thomas, 2004",
+    "domain": "Mathematical and cybernetic psychology",
+    "definition": "Unlike first-order reflexive control (tactical misrepresentation of point data), second-order reflexive control provides the target with strategically selected information, false moral cues, and carefully calibrated emotional impulses. Through this intervention, the initiator changes the value architecture of the Target Orientation phase and switches it from the first ethical system of procedural cooperation to the second ethical system of uncompromising confrontation and annihilation of the opponent (Lefebvre, 1982, 2001).",
+    "monographContext": "It causes the cognitively captured citizen to seemingly autonomously arrive at exactly the self-destructive decisions sought by the originator of the operation. From the perspective of the principle of free energy and active inference (Friston, 2010), it operates by distorting precision weighting (aberrant precision-weighting: assigning rigid hyper-precision to conspiratorial a priori belief and mitigating factual prediction errors), and in the contemporary digital ecosystem it is automated on a mass scale by commercial recommendation algorithms (deep reinforcement learning), keeping the user at Rank 0 (direct reaction) and Rank 1 (naive representation) of reflexivity until activation of Rank 2 and Rank 3 metacognitive reflection on Path B.",
+    "polarity": "tension"
   },
   {
-    id: 'mediere-ternara-vs-binara',
-    term: 'Semioza ternară (triada interpretanților) versus semiotica binară a anihilării',
-    stratum: 'B',
-    authors: 'Charles Sanders Peirce, 1931–1958 · Iuri Lotman, 1990, 1992/2009 · Iuri Lotman și Boris Uspenski, 1985',
-    domain: 'Semiotica culturii și pragmatică',
-    definition: 'În arhitectura lui Charles Sanders Peirce (1931–1958), semioza autentică este o relație în trei termeni între semn, obiect și interpretant, acesta din urmă evoluând de la interpretantul afectiv (emoția primară) și interpretantul energetic (reacția imediată) la interpretantul logic (deliberarea critică și regula rațională de verificare în comunitate). Această structură corespunde graniței semiosferei ca filtru bilingv de traducere (Lotman, 1990) și culturilor ternare (Lotman, 1992/2009). În opoziție cu aceasta, semiotica binară a anihilării (Lotman & Uspenski, 1985) amputează interpretantul logic și zona neutră de mediere, încapsulând receptorul în reacția scurtcircuitată a interpretantului afectiv și energetic, în care oponentul este tratat ca un dușman ontologic ce trebuie exterminat.',
-    monographContext: 'Operațiunile cognitive exportă semiotica binară în democrații pentru a bloca accesul la interpretantul logic și a surpa pacea civilă.',
-    polarity: 'synthesis'
+    "id": "mediere-ternara-vs-binara",
+    "term": "Ternary semiosis (triad of interpretants) versus binary semiotics of annihilation",
+    "stratum": "B",
+    "authors": "Charles Sanders Peirce, 1931–1958 · Iuri Lotman, 1990, 1992/2009 · Iuri Lotman și Boris Uspenski, 1985",
+    "domain": "Semiotics of culture and pragmatics",
+    "definition": "In the architecture of Charles Sanders Peirce (1931–1958), authentic semiosis is a three-term relationship between sign, object, and interpretant, the latter evolving from the affective interpretant (primary emotion) and the energetic interpretant (immediate reaction) to the logical interpretant (critical deliberation and the rational rule of verification in the community). This structure corresponds to the boundary of the semiosphere as a bilingual translation filter (Lotman, 1990) and ternary cultures (Lotman, 1992/2009). In opposition to this, the binary semiotics of annihilation (Lotman & Uspenski, 1985) amputates the logical interpretant and the neutral zone of mediation, encapsulating the receiver in the short-circuited reaction of the affective and energetic interpretant, in which the opponent is treated as an ontological enemy to be exterminated.",
+    "monographContext": "Cognitive operations export binary semiotics to democracies to block access to the logical interpretant and disrupt civil peace.",
+    "polarity": "synthesis"
   },
   {
-    id: 'inchidere-cognitiva-seizing-freezing',
-    term: 'Nevoia de închidere cognitivă (seizing și freezing) și procesarea defensivă',
-    stratum: 'B',
-    authors: 'Arie W. Kruglanski și Donna M. Webster, 1996 · Arie W. Kruglanski, 2004 · Dan M. Kahan, 2013, 2017',
-    domain: 'Psihologie cognitivă și socială',
-    definition: 'Mecanism psihocognitiv declanșat de stres și ambiguitate acută, desfășurat în două secvențe: adoptarea precipitată și necritică a primei explicații simpliste care promite certitudine (seizing), urmată de înghețarea epistemică și impermeabilitatea la contraargumente (freezing). Această rigidizare este consolidată prin fuzionarea credinței cu identitatea și statutul emoțional în grupul de apartenență (Identity-Protective Cognition, Kahan, 2013).',
-    monographContext: 'Explică de ce confruntarea agresivă întărește defensiva amigdaliană și de ce Faza a II-a trebuie să înceapă cu validarea comunitară.',
-    polarity: 'tension'
+    "id": "inchidere-cognitiva-seizing-freezing",
+    "term": "The need for cognitive closure (seizing and freezing) and defensive processing",
+    "stratum": "B",
+    "authors": "Arie W. Kruglanski și Donna M. Webster, 1996 · Arie W. Kruglanski, 2004 · Dan M. Kahan, 2013, 2017",
+    "domain": "Cognitive and social psychology",
+    "definition": "Psychocognitive mechanism triggered by acute stress and ambiguity, unfolding in two sequences: hasty and uncritical adoption of the first simplistic explanation that promises certainty (seizing), followed by epistemic freezing and impermeability to counterarguments (freezing). This hardening is reinforced by merging belief with identity and emotional status in the group of belonging (Identity-Protective Cognition, Kahan, 2013).",
+    "monographContext": "It explains why aggressive confrontation strengthens amygdala defenses and why Phase II must begin with community validation.",
+    "polarity": "tension"
   },
   {
-    id: 'capturare-dopaminergica',
-    term: 'Capturarea dopaminergică: dezechilibrul căilor striatale D1 (Go) / D2 (No-Go) și migrarea spre striatul dorsal',
-    stratum: 'B',
-    authors: 'Wolfram Schultz, 1998, 2016 · Anna Lembke, 2021',
-    domain: 'Neurobiologia adicției și a atenției',
-    definition: 'Exploatarea mecanismului neurochimic al erorii de predicție a recompensei (reward prediction error) în nucleul accumbens prin administrarea de recompense variabile intermitente, derulare infinită și stimuli inflamatori care stârnesc indignarea morală. Vârfurile fazice de dopamină hiperactivează calea striatonigrală directă mediată de receptorii D1 („calea Go” de inițiere impulsivă a acțiunii) și, simultan, induc desensibilizarea și reducerea densității receptorilor postsinaptici D2 de pe calea striatopallidală indirectă („calea No-Go” de frânare inhibitorie, downregulation). Pe măsură ce expunerea se cronicizează, controlul comportamental migrează neuroanatomic din striatul ventral (nucleul accumbens) către striatul dorsal (nucleul caudat și putamenul), transformând căutarea recompensei într-un automatism compulsiv de tip stimul–răspuns însoțit de anhedonie și sevraj informațional.',
-    monographContext: 'Menține utilizatorul digital într-o stare de captivitate compulsivă a atenției, de reactivitate automată și de suprimare a latenței prefrontale.',
-    polarity: 'tension'
+    "id": "capturare-dopaminergica",
+    "term": "Dopaminergic capture: D1 (Go) / D2 (No-Go) striatal pathway imbalance and migration to the dorsal striatum",
+    "stratum": "B",
+    "authors": "Wolfram Schultz, 1998, 2016 · Anna Lembke, 2021",
+    "domain": "Neurobiology of addiction and attention",
+    "definition": "Exploiting the neurochemical mechanism of reward prediction error in the nucleus accumbens by administering variable intermittent rewards, infinite scrolling, and inflammatory stimuli that elicit moral outrage. Dopamine phasic peaks hyperactivate the direct striatonigral pathway mediated by D1 receptors (the “Go pathway” of impulsive action initiation) and simultaneously induce desensitization and reduction in the density of postsynaptic D2 receptors on the indirect striatopallidal pathway (“No-Go pathway” of inhibitory braking, downregulation). As exposure becomes chronic, behavioral control migrates neuroanatomically from the ventral striatum (nucleus accumbens) to the dorsal striatum (caudate nucleus and putamen), transforming reward seeking into a compulsive stimulus-response automatism accompanied by anhedonia and informational withdrawal.",
+    "monographContext": "It keeps the digital user in a state of compulsive attentional captivity, automatic reactivity, and prefrontal latency suppression.",
+    "polarity": "tension"
   },
   {
-    id: 'model-collapse-mad',
-    term: 'Colapsul și autofagia modelelor generative pe date sintetice',
-    stratum: 'A',
-    authors: 'Ilia Shumailov et al., 2024 · Sina Alemohammad et al., 2024',
-    domain: 'Inteligență artificială și informatică teoretică',
-    definition: 'Poluare cu date sintetice a infrastructurii epistemice digitale care operează în două stadii distincte dar convergente: pe termen scurt, la nivel neparametric (în timpul inferenței), inundarea paginilor web cu texte clonate produce contaminarea la momentul interogării a motoarelor de căutare și a sistemelor de generare augmentată prin regăsire (inference-time RAG poisoning); pe termen mediu, la nivel parametric (în timpul antrenării), ingestia recursivă a acestor date sintetice (LLM grooming) fără infuzie de date umane autentice induce degradarea matematică a distribuțiilor de probabilitate și îngustarea varianței modelelor generative, cunoscute drept Model Collapse (Shumailov et al., 2024) și Model Autophagy Disorder – MAD (Alemohammad et al., 2024). În bucla de retroacțiune epistemică om–mașină, această degradare tehnică se traduce în plan uman prin îngustarea orizontului informațional și deteriorarea hărții mentale predictive a cetățeanului (Friston, 2010).',
-    monographContext: 'Exploatat de rețelele Doppelgänger, Matrioșka și Pravda pentru a polua infrastructura epistemică digitală, motoarele de căutare și sistemele RAG.',
-    polarity: 'tension'
+    "id": "model-collapse-mad",
+    "term": "Collapse and autophagy of generative models on synthetic data",
+    "stratum": "A",
+    "authors": "Ilia Shumailov et al., 2024 · Sina Alemohammad et al., 2024",
+    "domain": "Artificial intelligence and theoretical computer science",
+    "definition": "Synthetic data pollution of the digital epistemic infrastructure operating in two distinct but convergent stages: short-term, non-parametric (inference-time) flooding of web pages with cloned texts produces query-time contamination of search engines and retrieval-augmented generation systems (inference-time RAG poisoning); in the medium term, at the parametric level (during training), the recursive ingestion of these synthetic data (LLM grooming) without the infusion of authentic human data induces the mathematical degradation of the probability distributions and the narrowing of the variance of the generative models, known as Model Collapse (Shumailov et al., 2024) and Model Autophagy Disorder – MAD (Alemohammad et al., 2024). In the human-machine epistemic feedback loop, this technical degradation translates into the human plane by narrowing the informational horizon and deteriorating the citizen's predictive mental map (Friston, 2010).",
+    "monographContext": "Exploited by Doppelgänger, Matryoshka and Pravda networks to pollute digital epistemic infrastructure, search engines and RAG systems.",
+    "polarity": "tension"
   },
   {
-    id: 'contagiune-complexa',
-    term: 'Contagiunea socială complexă în rețea',
-    stratum: 'B',
-    authors: 'Damon Centola, 2018, 2021 · Mark Granovetter, 1973',
-    domain: 'Sociologia rețelelor',
-    definition: 'Mecanism de difuziune în rețelele sociale teoretizat de Damon Centola (2018, 2021), prin care adoptarea unor credințe radicale, identități politice sau norme comportamentale cu cost ridicat necesită confirmări multiple și redundante prin „punți largi” (wide bridges) din vecinătatea socială imediată. Acest proces se distinge fundamental de contagiunea simplă a informației banale prin „legături slabe” (weak ties, Granovetter, 1973).',
-    monographContext: 'Roiurile coordonate de boți și microinfluenceri fabrică artificial iluzia unui consens social majoritar; în Faza a II-a, spațiile comunitare fizice generează contagiune complexă pozitivă.',
-    polarity: 'neutral'
+    "id": "contagiune-complexa",
+    "term": "Complex social contagion in the network",
+    "stratum": "B",
+    "authors": "Damon Centola, 2018, 2021 · Mark Granovetter, 1973",
+    "domain": "Sociology of networks",
+    "definition": "Diffusion mechanism in social networks theorized by Damon Centola (2018, 2021), whereby the adoption of radical beliefs, political identities or high-cost behavioral norms requires multiple and redundant confirmations through \"wide bridges\" in the immediate social vicinity. This process is fundamentally distinguished from the simple contagion of trivial information through \"weak ties\" (Granovetter, 1973).",
+    "monographContext": "Coordinated swarms of bots and micro-influencers artificially manufacture the illusion of a majority social consensus; in Phase II, physical community spaces generate positive complex contagion.",
+    "polarity": "neutral"
   },
   {
-    id: 'enantiodromie',
-    term: 'Legea enantiodromiei colective',
-    stratum: 'C',
-    authors: 'Heraclit · Carl Gustav Jung, 1921',
-    domain: 'Psihologie analitică',
-    definition: 'Principiu formulat de Heraclit și teoretizat în psihologia analitică de Carl Gustav Jung (1921), care descrie un tipar colectiv de reacție și un mecanism defensiv de compensare. Atunci când o societate lipsită de instituții previzibile (Stratul A) și epuizată de stres cronic (Stratul B) este menținută într-o atitudine oficială excesiv de unilaterală și ruptă de frustrările refulate în Umbră, ea basculează reactiv în extremul său opus.',
-    monographContext: 'Explică pendularea colectivă de la mimetismul prooccidental de fațadă (Persona instituțională) la respingerea radicală a modernității constituționale, fără a trata conceptele din Stratul C drept forțe oculte autonome.',
-    polarity: 'tension'
+    "id": "enantiodromie",
+    "term": "Law of collective enantiodromy",
+    "stratum": "C",
+    "authors": "Heraclit · Carl Gustav Jung, 1921",
+    "domain": "Analytical psychology",
+    "definition": "Principle formulated by Heraclitus and theorized in analytical psychology by Carl Gustav Jung (1921), which describes a collective reaction pattern and a defensive compensation mechanism. When a society lacking predictable institutions (Layer A) and exhausted by chronic stress (Layer B) is held in an excessively one-sided official stance and torn by frustrations repressed in the Shadow, it reactively swings to its opposite extreme.",
+    "monographContext": "It explains the collective swing from facade pro-Western mimicry (Institutional Persona) to radical rejection of constitutional modernity, without treating Layer C concepts as autonomous occult forces.",
+    "polarity": "tension"
   },
   {
-    id: 'arhetipul-trickster',
-    term: 'Arhetipul Tricksterului și conversia vitalității adaptative',
-    stratum: 'C',
-    authors: 'Carl Gustav Jung, 1916/1960, 1954/1968 · Paul Radin, 1956 · Marie-Louise von Franz, 1972/1995',
-    domain: 'Psihologie analitică și antropologie culturală',
-    definition: 'Ambivalența vitalității adaptative refugiate în zona informală a Umbrei colective: în formă regresivă, aceasta se manifestă ca „descurcăreală”, șmecherie cinică și ocolire a legii. În dimensiunea sa prospectivă, ea conține însă agilitate cognitivă, rezistență la îndoctrinare și inventivitate practică atunci când este mediată de funcția transcendentă (Jung, 1916/1960) și procesată prin cele trei filtre structurale (legea impersonală dreaptă în Stratul A, discernământul critic istoric și vigilența metacognitivă prefrontală în Stratul B).',
-    monographContext: 'Constituie, alături de memoria istorică defensivă, resursa latentă din Umbra colectivă românească ce poate fi convertită în modernitate organică, conform Figurii 4.',
-    polarity: 'synthesis'
+    "id": "arhetipul-trickster",
+    "term": "The Trickster Archetype and Adaptive Vitality Conversion",
+    "stratum": "C",
+    "authors": "Carl Gustav Jung, 1916/1960, 1954/1968 · Paul Radin, 1956 · Marie-Louise von Franz, 1972/1995",
+    "domain": "Analytical psychology and cultural anthropology",
+    "definition": "The ambivalence of adaptive vitality takes refuge in the informal zone of the collective Shadow: in regressive form, this manifests as \"getting around\", cynical trickery and circumvention of the law. In its prospective dimension, however, it contains cognitive agility, resistance to indoctrination, and practical inventiveness when mediated by the transcendent function (Jung, 1916/1960) and processed through the three structural filters (right impersonal law in Layer A, historical critical discernment, and prefrontal metacognitive vigilance in Layer B).",
+    "monographContext": "It constitutes, along with defensive historical memory, the latent resource from the Romanian collective Shadow that can be converted into organic modernity, according to Figure 4.",
+    "polarity": "synthesis"
   },
   {
-    id: 'matricea-cipolla',
-    term: 'Matricea comportamentală a lui Carlo M. Cipolla',
-    stratum: 'A',
-    authors: 'Carlo M. Cipolla, 1976/2011 · Douglass C. North, John Joseph Wallis și Barry R. Weingast, 2009 · Richard H. Thaler și Cass R. Sunstein, 2008 · David Laibson, 1997 · Ernst Fehr și Simon Gächter, 2002',
-    domain: 'Istorie economică și teoria deciziei',
-    definition: 'Sistem cartezian bidimensional (Cipolla, 1976/2011) care clasifică acțiunile umane și instituționale după câștigul sau pierderea proprie pe axa X și beneficiul sau dauna societală pe axa Y în patru cadrane: Cadranul I al cooperării inteligente (+X, +Y), Cadranul II al cetățeanului vulnerabil (-X, +Y, helpless), Cadranul IV al actorului extractiv (+X, -Y, bandits) și Cadranul III al autosabotajului colectiv (-X, -Y). Acest Cadran III este sistemic mai periculos decât Cadranul IV deoarece sfidează raționalitatea mijloc–scop.',
-    monographContext: 'Formalizează traiectoria prin care cetățeanul vulnerabil din Cadranul II (-X, +Y), supus cauzei primare endogene a spolierii interne din Cadranul IV (+X, -Y) — ale cărui facțiuni oligarhice amenințate de statul de drept european au interesul tactic de a încuraja haosul antiinstituțional —, este împins de catalizatorul extern al războiului cognitiv — prin scontarea hiperbolică a viitorului (Laibson, 1997) și deturnarea pedepsei altruiste (Fehr & Gächter, 2002) în revanșă simbolică autodistructivă (spiteful punishment) și în pedeapsă antisocială (antisocial punishment) — vertical în jos, în Cadranul III al autosabotajului colectiv (-X, -Y), în timp ce tranziția restaurativă spre Cadranul I (+X, +Y) se realizează prin consolidarea planșeului constituțional și înlăturarea barajului extractiv prin arhitectura alegerii instituționale (Richard H. Thaler și Cass R. Sunstein, 2008) din Figura 5.',
-    polarity: 'neutral'
+    "id": "matricea-cipolla",
+    "term": "Carlo M. Cipolla's Behavioral Matrix",
+    "stratum": "A",
+    "authors": "Carlo M. Cipolla, 1976/2011 · Douglass C. North, John Joseph Wallis și Barry R. Weingast, 2009 · Richard H. Thaler și Cass R. Sunstein, 2008 · David Laibson, 1997 · Ernst Fehr și Simon Gächter, 2002",
+    "domain": "Economic history and decision theory",
+    "definition": "Two-dimensional Cartesian system (Cipolla, 1976/2011) that classifies human and institutional actions according to personal gain or loss on the X-axis and societal benefit or damage on the Y-axis in four quadrants: Quadrant I of intelligent cooperation (+X, +Y), Quadrant II of the vulnerable citizen (-X, +Y, helpless), Quadrant IV of the extractive actor (+X, -Y, bandits) and Quadrant III of collective self-sabotage (-X, -Y). This Quadrant III is systemically more dangerous than Quadrant IV because it defies means–end rationality.",
+    "monographContext": "It formalizes the trajectory by which the vulnerable citizen of Quadrant II (-X, +Y), subject to the endogenous primary cause of internal spoliation in Quadrant IV (+X, -Y) — whose oligarchic factions threatened by the European rule of law have a tactical interest in encouraging anti-institutional chaos — is driven by the external catalyst of cognitive warfare — through the hyperbolic discounting of the future (Laibson, 1997) and diversion of altruistic punishment (Fehr & Gächter, 2002) into self-destructive symbolic revenge (spiteful punishment) and antisocial punishment (antisocial punishment) — vertically downwards, in Quadrant III of collective self-sabotage (-X, -Y), while the restorative transition to Quadrant I (+X, +Y) is achieved by strengthening the constitutional floor and removing the extractive dam through the institutional choice architecture (Richard H. Thaler and Cass R. Sunstein, 2008) in Figure 5.",
+    "polarity": "neutral"
   },
   {
-    id: 'puer-aeternus',
-    term: 'Sindromul Puer Aeternus colectiv și statul paternalist tutelar',
-    stratum: 'C',
-    authors: 'Marie-Louise von Franz, 1970/2000 · James Hillman, 1979 · Erich Neumann, 1949/1954',
-    domain: 'Psihologie analitică a culturii',
-    definition: 'Tipar colectiv de reacție și mecanism de apărare (von Franz, 1970/2000; Hillman, 1979) prin care o societate lipsită de instituții previzibile (Stratul A) și epuizată de stres cronic (Stratul B) își compensează insecuritatea refuzând angajamentul instituțional răbdător și metodic. În locul construcției graduale, colectivitatea caută refugiu în provizoratul perpetuu, gândirea magică, așteptarea pasivă a unui „salvator” providențial și regresia spre dependența de un stat paternalist tutelar (Neumann, 1949/1954).',
-    monographContext: 'Contribuie la blocajul decizional strategic și la paralizia instituțională a statului-țintă în momentele de criză.',
-    polarity: 'tension'
+    "id": "puer-aeternus",
+    "term": "The collective Puer Aeternus syndrome and the tutelary paternalistic state",
+    "stratum": "C",
+    "authors": "Marie-Louise von Franz, 1970/2000 · James Hillman, 1979 · Erich Neumann, 1949/1954",
+    "domain": "Analytical psychology of culture",
+    "definition": "Collective reaction pattern and defense mechanism (von Franz, 1970/2000; Hillman, 1979) whereby a society lacking predictable institutions (Layer A) and exhausted by chronic stress (Layer B) compensates for its insecurity by refusing patient and methodical institutional commitment. Instead of gradual construction, the collectivity seeks refuge in perpetual provisionality, magical thinking, passive waiting for a providential \"savior,\" and regression to dependence on a tutelary paternalistic state (Neumann, 1949/1954).",
+    "monographContext": "It contributes to strategic decision-making deadlock and institutional paralysis of the target state in times of crisis.",
+    "polarity": "tension"
   },
   {
-    id: 'bifurcare-track-a-track-b',
-    term: 'Bifurcarea neurocognitivă în criză: Traseul A reactiv versus Traseul B deliberativ',
-    stratum: 'B',
-    authors: 'Wilfred R. Bion, 1962, 1970 · Stephen W. Porges, 2011 · Julian F. Thayer și Richard D. Lane, 2009',
-    domain: 'Neurobiologia deciziei și psihanaliză epistemică',
-    definition: 'Model decizional care descrie opoziția, în punctul critic al unei crize acute (nodul de bifurcație decizională), între bucla reactivă dezadaptativă a Traseului A — dominată de hiperactivarea amigdaliană (descărcare simpatică luptă-sau-fugi) sau colapsul vagal dorsal nemielinizat (imobilizare disociativă și neputință învățată), îngustarea câmpului atențional și Sistemul 1 / Sistemul 2 motivat defensiv — și Traseul deliberativ adaptativ B. Acesta din urmă este susținut de inhibiția prefrontală descendentă (vmPFC/dlPFC activând interneuronii inhibitori GABAergici din amigdala centrală și bazolaterală), de complexul vagal ventral mielinizat (frâna vagală și sistemul de angajare socială, Porges, 2011), de variabilitatea ridicată a ritmului cardiac (HRV, indicele integrării neuroviscerale, Thayer & Lane, 2009) și de capacitatea negativă de a tolera incertitudinea (Bion, 1970).',
-    monographContext: 'În momentul șocului acut, deschiderea Traseului B se sprijină pe puntea de coreglare CERC și pe validatorii comunitari de proximitate, în timp ce pentru populația largă trecerea stabilă pe Traseul B devine posibilă prin decompresia alostatică și măsurile tehnice de limitare a amplificării algoritmice din Faza I (Figura 6).',
-    polarity: 'synthesis'
+    "id": "bifurcare-track-a-track-b",
+    "term": "The neurocognitive bifurcation in crisis: Reactive Pathway A versus deliberative Pathway B",
+    "stratum": "B",
+    "authors": "Wilfred R. Bion, 1962, 1970 · Stephen W. Porges, 2011 · Julian F. Thayer și Richard D. Lane, 2009",
+    "domain": "The neurobiology of decision and epistemic psychoanalysis",
+    "definition": "Decisional model describing the opposition, at the critical point of an acute crisis (decisional bifurcation node), between the maladaptive reactive loop of Pathway A—dominated by amygdala hyperactivation (fight-or-flight sympathetic discharge) or unmyelinated dorsal vagal collapse (dissociative immobilization and learned helplessness), attentional field narrowing, and defensively motivated System 1/System 2—and adaptive deliberative Pathway B. This from the latter is supported by descending prefrontal inhibition (vmPFC/dlPFC activating GABAergic inhibitory interneurons in the central and basolateral amygdala), myelinated ventral vagal complex (vagal brake and social engagement system, Porges, 2011), high heart rate variability (HRV, index of neurovisceral integration, Thayer & Lane, 2009) and negative uncertainty tolerance (Bion, 1970).",
+    "monographContext": "At the moment of acute shock, the opening of Pathway B relies on the CERC coregulatory bridge and the proximity community validators, while for the general population the stable transition to Pathway B becomes possible through allostatic decompression and the technical measures to limit algorithmic amplification in Phase I (Figure 6).",
+    "polarity": "synthesis"
   },
   {
-    id: 'prebunking-inoculare',
-    term: 'Pregătirea psihocognitivă preventivă (prebunking) și rezistența la persuasiune',
-    stratum: 'B',
-    authors: 'William J. McGuire, 1964 · Jon Roozenbeek și Sander van der Linden, 2019, 2022 · Hermann Ebbinghaus, 1885',
-    domain: 'Psihologie experimentală și educație cognitivă',
-    definition: 'Mecanism de consolidare preventivă a rezilienței epistemice fundamentat pe teoria rezistenței la persuasiune (McGuire, 1964) și operaționalizat digital drept prebunking (Roozenbeek & van der Linden, 2019, 2022), prin care populația este antrenată anticipat să recunoască tiparele formale de manipulare. Acest antrenament este însoțit de sesiuni periodice de consolidare mnezică calibrate pe curba uitării (Ebbinghaus, 1885) pentru transferul discernământului în memoria procedurală de lungă durată.',
-    monographContext: 'Al doilea pilon al Fazei a II-a din protocolul de reconstrucție a rezilienței.',
-    polarity: 'synthesis'
+    "id": "prebunking-inoculare",
+    "term": "Prebunking and resistance to persuasion",
+    "stratum": "B",
+    "authors": "William J. McGuire, 1964 · Jon Roozenbeek și Sander van der Linden, 2019, 2022 · Hermann Ebbinghaus, 1885",
+    "domain": "Experimental psychology and cognitive education",
+    "definition": "Preventive strengthening mechanism of epistemic resilience based on the theory of resistance to persuasion (McGuire, 1964) and digitally operationalized as prebunking (Roozenbeek & van der Linden, 2019, 2022), through which the population is trained in advance to recognize formal patterns of manipulation. This training is accompanied by periodic sessions of mnemonic consolidation calibrated on the forgetting curve (Ebbinghaus, 1885) for the transfer of discernment into long-term procedural memory.",
+    "monographContext": "The second pillar of Phase II of the resilience rebuilding protocol.",
+    "polarity": "synthesis"
   },
   {
-    id: 'guvernanta-policentrica-ostrom',
-    term: 'Guvernanța policentrică, acțiunea politică autonomă și autoeficacitatea percepută',
-    stratum: 'A',
-    authors: 'Vincent și Elinor Ostrom, 1990, 2010 · Albert Bandura, 1997',
-    domain: 'Științe politice și economie instituțională',
-    definition: 'Sistem instituțional în care centre multiple de decizie autonome — local, regional, național și european — cooperează și se echilibrează reciproc sub un cadru constituțional comun (Ostrom, 1990, 2010), redându-i cetățeanului capacitatea de acțiune politică autonomă (political agency) și sentimentul autoeficacității percepute (self-efficacy, Bandura, 1997).',
-    monographContext: 'Depășește în Faza a III-a atât hipercentralismul birocratic, cât și fiefurile baronilor locali.',
-    polarity: 'synthesis'
+    "id": "guvernanta-policentrica-ostrom",
+    "term": "Polycentric governance, autonomous political action, and perceived self-efficacy",
+    "stratum": "A",
+    "authors": "Vincent și Elinor Ostrom, 1990, 2010 · Albert Bandura, 1997",
+    "domain": "Political Science and Institutional Economics",
+    "definition": "Institutional system in which multiple autonomous decision-making centers — local, regional, national and European — cooperate and balance each other under a common constitutional framework (Ostrom, 1990, 2010), giving back to the citizen the capacity for autonomous political action (political agency) and the sense of perceived self-efficacy (Bandura, 1997).",
+    "monographContext": "It overcomes in Phase III both bureaucratic hypercentralism and the fiefdoms of local barons.",
+    "polarity": "synthesis"
   },
   {
-    id: 'modernitate-organica',
-    term: 'Sinteza modernității organice și suveranitatea democratică',
-    stratum: 'C',
-    authors: 'Titu Maiorescu, 1868 · Eugen Lovinescu, 1924–1925 · Ștefan Zeletin, 1925 · Jürgen Habermas, 1992',
-    domain: 'Filosofie socială și sinteză strategică',
-    definition: 'Starea de maturitate istorică și instituțională în care formele constituționale, juridice și de securitate occidentale încetează să mai fie împrumuturi mimetice de suprafață. Ele devin astfel expresia firească a unui fond cultural, asociativ și moral autohton regenerat, unind domnia legii impersonale (patriotismul constituțional, Habermas, 1992) cu etica demnității persoanei umane.',
-    monographContext: 'Rezoluția finală a monografiei și fundamentul suveranității democratice a României în secolul al XXI-lea, sintetizată în Figura 7.',
-    polarity: 'synthesis'
+    "id": "modernitate-organica",
+    "term": "The Synthesis of Organic Modernity and Democratic Sovereignty",
+    "stratum": "C",
+    "authors": "Titu Maiorescu, 1868 · Eugen Lovinescu, 1924–1925 · Ștefan Zeletin, 1925 · Jürgen Habermas, 1992",
+    "domain": "Social philosophy and strategic synthesis",
+    "definition": "The state of historical and institutional maturity in which Western constitutional, legal and security forms cease to be mimetic surface borrowings. They thus become the natural expression of a regenerated autochthonous cultural, associative and moral background, uniting the rule of impersonal law (constitutional patriotism, Habermas, 1992) with the ethics of the dignity of the human person.",
+    "monographContext": "The final resolution of the monograph and the foundation of Romania's democratic sovereignty in the 21st century, summarized in Figure 7.",
+    "polarity": "synthesis"
   },
   {
-    id: 'stratul-a',
-    term: 'Stratul A: Arhitectura instituțională, istorică și sociologică',
-    stratum: 'A',
-    authors: 'Titu Maiorescu, 1868 · Niklas Luhmann, 1995, 2004 · Daron Acemoglu și James A. Robinson, 2012',
-    domain: 'Sociologie instituțională și teoria sistemelor',
-    definition: 'Primul palier cauzal al modelului din monografie, care analizează structura statului, gradul de închidere operațională a justiției și administrației, raportul dintre instituțiile incluzive și rețelele extractive și polarizarea sociospațială.',
-    monographContext: 'Deficitele din Stratul A generează în mod determinist uzura alostatică din Stratul B și scindarea dintre Persona mimetică și Umbra colectivă din Stratul C, conform Figurii 1.',
-    polarity: 'neutral'
+    "id": "stratul-a",
+    "term": "Layer A: Institutional, historical and sociological architecture",
+    "stratum": "A",
+    "authors": "Titu Maiorescu, 1868 · Niklas Luhmann, 1995, 2004 · Daron Acemoglu și James A. Robinson, 2012",
+    "domain": "Institutional sociology and systems theory",
+    "definition": "The first causal level of the model in the monograph, which analyzes the structure of the state, the degree of operational closure of justice and administration, the relationship between inclusive institutions and extractive networks, and sociospatial polarization.",
+    "monographContext": "Deficits in Layer A deterministically generate the allostatic wear and tear in Layer B and the split between the mimetic Persona and the collective Shadow in Layer C, according to Figure 1.",
+    "polarity": "neutral"
   },
   {
-    id: 'stratul-b',
-    term: 'Stratul B: Procesarea neurocognitivă, semiotică și axiologică',
-    stratum: 'B',
-    authors: 'Bruce S. McEwen, 1998 · Robert M. Sapolsky, 2004, 2017 · John Boyd, 1987 · Vladimir Lefebvre, 1982 · Iuri Lotman, 1990',
-    domain: 'Neuroștiințe cognitive și cibernetică decizională',
-    definition: 'Al doilea palier cauzal al modelului, care articulează mecanismele neurobiologice ale stresului — axa HPA, amigdala bazolaterală și cortexul prefrontal — cu faza de Orientare din bucla OODA, controlul reflexiv și medierea semiotică ternară versus binară.',
-    monographContext: 'Constituie interfața micromecanismică în care insecuritatea instituțională internă se întâlnește cu vectorii algoritmici și semiotici ai războiului cognitiv extern.',
-    polarity: 'neutral'
+    "id": "stratul-b",
+    "term": "Layer B: Neurocognitive, semiotic and axiological processing",
+    "stratum": "B",
+    "authors": "Bruce S. McEwen, 1998 · Robert M. Sapolsky, 2004, 2017 · John Boyd, 1987 · Vladimir Lefebvre, 1982 · Iuri Lotman, 1990",
+    "domain": "Cognitive Neuroscience and Decisional Cybernetics",
+    "definition": "The second causal tier of the model, which articulates the neurobiological mechanisms of stress—the HPA axis, the basolateral amygdala, and the prefrontal cortex—with the Orientation phase of the OODA loop, reflexive control, and ternary versus binary semiotic mediation.",
+    "monographContext": "It constitutes the micro-mechanistic interface where internal institutional insecurity meets the algorithmic and semiotic vectors of external cognitive warfare.",
+    "polarity": "neutral"
   },
   {
-    id: 'stratul-c',
-    term: 'Stratul C: Inconștientul cultural și dinamica arhetipală',
-    stratum: 'C',
-    authors: 'Carl Gustav Jung, 1951/1968, 1954/1968 · Edward F. Edinger, 1972 · Singer și Kimbles, 2004 · Vamık D. Volkan, 1997',
-    domain: 'Psihologie analitică postjungiană și psihosociologie',
-    definition: 'Al treilea palier cauzal al arhitecturii monografice, care examinează complexele culturale, raportul dintre Persona instituțională și Umbra colectivă, starea axei Ego–Sine, traumele istorice neintegrate și arhetipurile activate în criză.',
-    monographContext: 'Explică de ce capturarea cognitivă capătă forța unei conversii identitare imune la simple argumente statistice sau verificări faptice.',
-    polarity: 'neutral'
+    "id": "stratul-c",
+    "term": "Layer C: The Cultural Unconscious and Archetypal Dynamics",
+    "stratum": "C",
+    "authors": "Carl Gustav Jung, 1951/1968, 1954/1968 · Edward F. Edinger, 1972 · Singer și Kimbles, 2004 · Vamık D. Volkan, 1997",
+    "domain": "Post-Jungian analytical psychology and psychosociology",
+    "definition": "The third causal level of the monographic architecture, which examines cultural complexes, the relationship between the institutional Persona and the collective Shadow, the state of the Ego–Self axis, unintegrated historical traumas, and archetypes activated in crisis.",
+    "monographContext": "It explains why cognitive capture takes on the force of an identity conversion immune to mere statistical argument or fact-checking.",
+    "polarity": "neutral"
   },
   {
-    id: 'institutii-extractive',
-    term: 'Instituții extractive și ordine socială cu acces limitat',
-    stratum: 'A',
-    authors: 'Daron Acemoglu și James A. Robinson, 2012 · North, Wallis și Weingast, 2009',
-    domain: 'Economie politică și neoinstituționalism',
-    definition: 'Aranjamente instituționale în care regulile formale ale statului de drept sunt subordonate de rețele politico-economice clientelare pentru extracția de rentă, distribuirea privilegiilor de grup și blocarea competiției meritocratice deschise.',
-    monographContext: 'Generează percepția cetățeanului că statul îi este ostil sau indiferent, erodând legitimitatea democratică și deschizând calea alunecării în Cadranul III al matricei lui Cipolla.',
-    polarity: 'tension'
+    "id": "institutii-extractive",
+    "term": "Extractive institutions and limited access social order",
+    "stratum": "A",
+    "authors": "Daron Acemoglu și James A. Robinson, 2012 · North, Wallis și Weingast, 2009",
+    "domain": "Political economy and neo-institutionalism",
+    "definition": "Institutional arrangements in which the formal rules of the rule of law are subsumed by clientelistic politico-economic networks for rent extraction, the distribution of group privileges, and the blocking of open meritocratic competition.",
+    "monographContext": "It generates the citizen's perception that the state is hostile or indifferent, eroding democratic legitimacy and paving the way for the slide into Quadrant III of Cipolla's matrix.",
+    "polarity": "tension"
   },
   {
-    id: 'russkii-mir-etnofiletism',
-    term: 'Doctrina Russkii Mir și erezia etnofiletismului',
-    stratum: 'B',
-    authors: 'Pantelis Kalaitzidis, 2012 · Kalaitzidis et al., 2022 · Aristotle Papanikolaou, 2012 · Cyril Hovorun, 2018',
-    domain: 'Teologie politică și studiul ideologiilor',
-    definition: 'Subordonarea universalității evanghelice și a demnității persoanei create după chipul divin față de naționalismul etnic și expansiunea imperială a statului rus, condamnată de Sinodul de la Constantinopol din 1872 drept erezie etnofiletistă și denunțată prin Declarația de la Volos din 2022.',
-    monographContext: 'Instrumentul principal prin care aparatul propagandistic al Kremlinului parazitează semiotic religiozitatea ortodoxă și conservatorismul în România, analizat în Subcapitolul 2.2.',
-    polarity: 'tension'
+    "id": "russkii-mir-etnofiletism",
+    "term": "The doctrine of Russkii Mir and the heresy of ethnophyletism",
+    "stratum": "B",
+    "authors": "Pantelis Kalaitzidis, 2012 · Kalaitzidis et al., 2022 · Aristotle Papanikolaou, 2012 · Cyril Hovorun, 2018",
+    "domain": "Political theology and the study of ideologies",
+    "definition": "The subordination of evangelical universality and the dignity of the person created in the divine image to ethnic nationalism and the imperial expansion of the Russian state, condemned by the Synod of Constantinople in 1872 as an ethnophyletic heresy and denounced by the Declaration of Volos in 2022.",
+    "monographContext": "The main tool by which the Kremlin's propaganda apparatus semiotically parasitizes Orthodox religiosity and conservatism in Romania, analyzed in Subchapter 2.2.",
+    "polarity": "tension"
   },
   {
-    id: 'spalare-informationala',
-    term: 'Reciclarea și disimularea sursei informaționale prin intermediari: rețelele Doppelgänger, Matrioșka și Pravda',
-    stratum: 'A',
-    authors: 'Thomas Rid, 2020 · Peter Pomerantsev, 2014, 2019 · Ilia Shumailov et al., 2024',
-    domain: 'Securitate cibernetică și analiză OSINT',
-    definition: 'Arhitectură transnațională în trei paliere de reciclare și disimulare a sursei informaționale (information laundering): laboratoarele strategice ale Kremlinului și agregatoarele Pravda, urmate de intermediarii ideologici și nucleele paraecleziale autohtone. Al treilea palier este infrastructura de distribuție digitală prin site-uri clonate (Doppelgänger), roiuri de boți (Matrioșka), manipularea corpusurilor de antrenare a modelelor lingvistice (LLM grooming) și microinfluenceri coordonați netransparent.',
-    monographContext: 'Ocolește aversiunea istorică directă a românilor față de Rusia și inundă modelele AI și motoarele de căutare cu date sintetice.',
-    polarity: 'tension'
+    "id": "spalare-informationala",
+    "term": "Recycling and disguising the information source through intermediaries: Doppelgänger, Matryoshka and Pravda networks",
+    "stratum": "A",
+    "authors": "Thomas Rid, 2020 · Peter Pomerantsev, 2014, 2019 · Ilia Shumailov et al., 2024",
+    "domain": "Cyber ​​security and OSINT analysis",
+    "definition": "Transnational architecture in three levels of recycling and dissimulation of the information source (information laundering): the Kremlin's strategic laboratories and Pravda aggregators, followed by ideological intermediaries and local paraecclesial nuclei. The third level is the digital distribution infrastructure through cloned sites (Doppelgänger), swarms of bots (Matryoshka), manipulation of linguistic model training corpora (LLM grooming) and non-transparently coordinated micro-influencers.",
+    "monographContext": "It bypasses Romanians' direct historical aversion to Russia and floods AI models and search engines with synthetic data.",
+    "polarity": "tension"
   },
   {
-    id: 'identificarea-cu-agresorul',
-    term: 'Identificarea cu agresorul geopolitic (stadiul Ferenczi și stadiul Anna Freud)',
-    stratum: 'C',
-    authors: 'Sándor Ferenczi, 1933/1949 · Anna Freud, 1936/1993 · René Girard, 1982',
-    domain: 'Psihanaliză clinică și psihopolitică',
-    definition: 'Mecanism de apărare inconștient care articulează două stadii secvențiale: (1) în stadiul descris de Sándor Ferenczi (1933/1949), pe fondul unei angoase existențiale de abandon (convingerea că propriul stat extractiv își va lăsa cetățenii fără apărare în caz de pericol extrem), victima își disociază frica și introiectează perspectiva și pretinsa inocență a agresorului implacabil („Rusia a fost provocată”); (2) în stadiul descris de Anna Freud (1936/1993), pentru a scăpa de umilința poziției pasive, subiectul inversează rolul din pasiv în activ, imitând retorica de forță a agresorului și redirecționând ostilitatea asupra victimei reale a agresiunii (Ucraina), transformată în țap ispășitor (Girard, 1982).',
-    monographContext: 'Explică paradoxul psihodinamic prin care segmente dintr-o națiune agresată istoric de Rusia ajung să justifice revizionismul Kremlinului și să atace victima agresiunii sub masca „păcii” și a „suveranității”.',
-    polarity: 'tension'
+    "id": "identificarea-cu-agresorul",
+    "term": "Identification with the geopolitical aggressor (Ferenczi stage and Anna Freud stage)",
+    "stratum": "C",
+    "authors": "Sándor Ferenczi, 1933/1949 · Anna Freud, 1936/1993 · René Girard, 1982",
+    "domain": "Clinical and psychopolitical psychoanalysis",
+    "definition": "Unconscious defense mechanism that articulates two sequential stages: (1) in the stage described by Sándor Ferenczi (1933/1949), against the background of an existential anxiety of abandonment (the belief that one's own extractive state will leave its citizens defenseless in case of extreme danger), the victim dissociates his fear and introjects the perspective and alleged innocence of the implacable aggressor (\"Russia has been provoked\"); (2) in the stage described by Anna Freud (1936/1993), in order to escape the humiliation of the passive position, the subject reverses the role from passive to active, imitating the rhetoric of force of the aggressor and redirecting the hostility on the real victim of the aggression (Ukraine), transformed into a scapegoat (Girard, 1982).",
+    "monographContext": "It explains the psychodynamic paradox whereby segments of a nation historically aggressed by Russia end up justifying Kremlin revisionism and attacking the victim of aggression under the guise of \"peace\" and \"sovereignty.\"",
+    "polarity": "tension"
   },
   {
-    id: 'grup-control-regional',
-    term: 'Grupul de control regional: Estonia, Polonia și Republica Moldova',
-    stratum: 'A',
-    authors: 'Analiza comparativă din Subcapitolul 2.3 al monografiei',
-    domain: 'Politici comparate de securitate și reziliență',
-    definition: 'Metodologie comparativă care examinează trei state din flancul estic expuse aceluiași vector cognitiv rus, fără a le idealiza, ci luând în calcul propriile lor tensiuni interne (vulnerabilitatea reziduală a minorității rusofone în Estonia, disputele constituționale privind justiția în Polonia și marjele electorale strânse sau rezistența rețelelor oligarhice la vetting în Republica Moldova). Ea demonstrează că reziliența rezultă din debirocratizare digitală (e-Estonia) și pregătire preventivă în Estonia, memorie istorică instituționalizată și consens strategic în Polonia și sancționarea fermă a fluxurilor financiare ilicite în Republica Moldova.',
-    monographContext: 'Infirmă teza fatalității culturale și izolează variabilele instituționale interne responsabile de vulnerabilitatea României.',
-    polarity: 'synthesis'
+    "id": "grup-control-regional",
+    "term": "Regional control group: Estonia, Poland and the Republic of Moldova",
+    "stratum": "A",
+    "authors": "Analiza comparativă din Subcapitolul 2.3 al monografiei",
+    "domain": "Comparative security and resilience policies",
+    "definition": "Comparative methodology that examines three states from the eastern flank exposed to the same Russian cognitive vector, without idealizing them, but taking into account their own internal tensions (the residual vulnerability of the Russian-speaking minority in Estonia, the constitutional disputes regarding justice in Poland and the narrow electoral margins or the resistance of oligarchic networks to vetting in the Republic of Moldova). It demonstrates that resilience results from digital debureaucratization (e-Estonia) and preventive preparedness in Estonia, institutionalized historical memory and strategic consensus in Poland, and firm sanctioning of illicit financial flows in the Republic of Moldova.",
+    "monographContext": "It refutes the thesis of cultural fatality and isolates the internal institutional variables responsible for Romania's vulnerability.",
+    "polarity": "synthesis"
   },
   {
-    id: 'sistemele-etice-lefebvre',
-    term: 'Cele două sisteme etice în algebra morală a lui Vladimir Lefebvre',
-    stratum: 'B',
-    authors: 'Vladimir Lefebvre, 1982, 2001',
-    domain: 'Psihologie matematică și teoria jocurilor',
-    definition: 'Model formal elaborat în Algebra conștiinței (Lefebvre, 1982, 2001) care distinge între două sisteme morale opuse pe baza modului în care evaluează compromisul și îndoiala morală (autocritica). În primul sistem etic, un subiect care experimentează îndoială morală și își recunoaște propriile limite evaluează cooperarea procedurală și compromisul instituțional între persoane libere ca pe o stare superioară de integritate morală. În schimb, al doilea sistem etic (bazat pe o algebră booleană inversă) percepe autocritica, îndoiala și compromisul drept o degradare a sinelui și o trădare, generând o mască de certitudine absolută și justificând anihilarea oponentului.',
-    monographContext: 'Controlul reflexiv de rang secund urmărește comutarea cetățeanului din primul în al doilea sistem etic pentru a face imposibil dialogul democratic.',
-    polarity: 'neutral'
+    "id": "sistemele-etice-lefebvre",
+    "term": "The two ethical systems in Vladimir Lefebvre's moral algebra",
+    "stratum": "B",
+    "authors": "Vladimir Lefebvre, 1982, 2001",
+    "domain": "Mathematical psychology and game theory",
+    "definition": "Formal model developed in the Algebra of Consciousness (Lefebvre, 1982, 2001) that distinguishes between two opposing moral systems based on how they evaluate compromise and moral doubt (self-criticism). In the first ethical system, a subject who experiences moral doubt and recognizes his own limits evaluates procedural cooperation and institutional compromise among free persons as a higher state of moral integrity. In contrast, the second ethical system (based on an inverse Boolean algebra) perceives self-criticism, doubt and compromise as self-degradation and betrayal, generating a mask of absolute certainty and justifying the annihilation of the opponent.",
+    "monographContext": "Second-order reflexive control seeks to switch the citizen from the first to the second ethical system in order to make democratic dialogue impossible.",
+    "polarity": "neutral"
   },
   {
-    id: 'proairesis',
-    term: 'Proairesis: discernământul moral și alegerea deliberată',
-    stratum: 'B',
-    authors: 'Aristotel · Epictet · Grigorie de Nyssa · Maxim Mărturisitorul · Dumitru Stăniloae, 1978',
-    domain: 'Etică clasică, teoria deciziei și teologie patristică',
-    definition: 'Capacitatea rațională și morală a persoanei libere de a suspenda reacția automată impulsivă și de a alege conștient între bine și rău; facultatea deliberativă prin care conștiința își exercită libertatea ontologică în fața stimulilor manipulatori și a determinărilor colectiviste.',
-    monographContext: 'Constituie fundamentul etic și patristic al Traseului deliberativ adaptativ B și al reconcilierii filtrului moral creștin-secular în Subcapitolele 2.2 și 6.2.',
-    polarity: 'synthesis'
+    "id": "proairesis",
+    "term": "Proairesis: Moral Discernment and Deliberate Choice",
+    "stratum": "B",
+    "authors": "Aristotel · Epictet · Grigorie de Nyssa · Maxim Mărturisitorul · Dumitru Stăniloae, 1978",
+    "domain": "Classical Ethics, Decision Theory, and Patristic Theology",
+    "definition": "The rational and moral capacity of the free person to suspend the impulsive automatic reaction and consciously choose between good and evil; the deliberative faculty through which consciousness exercises its ontological freedom in the face of manipulative stimuli and collectivist determinations.",
+    "monographContext": "It forms the ethical and patristic foundation of Adaptive Deliberative Track B and of reconciling the Christian-secular moral filter in Subchapters 2.2 and 6.2.",
+    "polarity": "synthesis"
   },
   {
-    id: 'cognitia-protectoare-a-identitatii',
-    term: 'Procesarea defensivă motivată de protejarea identității de grup',
-    stratum: 'B',
-    authors: 'Dan M. Kahan, 2013, 2017 · Ziva Kunda, 1990 · Keith E. Stanovich, 2009 · Marilynn B. Brewer, 1999 · Leon Festinger, 1957',
-    domain: 'Psihologie politică și știința comunicării',
-    definition: 'Mecanism psihocognitiv (Identity-Protective Cognition, Kahan, 2013, 2017), articulat cu raționamentul motivat (Kunda, 1990), disraționalitatea și raționalizarea motivată a Sistemului 2 (Motivated System 2 Reasoning / myside bias, Stanovich, 2009). În absența gândirii activ deschise (actively open-minded thinking) și a smereniei epistemice, chiar și subiecții cu o capacitate analitică ridicată își deturnează resursele Sistemului 2 nu pentru a verifica adevărul empiric al unei afirmații, ci în două direcții simetric disfuncționale pentru protejarea statutului emoțional în grupul de apartenență (in-group versus out-group, Brewer, 1999; Festinger, 1957): fie pentru a justifica secesiunea civică elitistă și disprețul față de periferii, fie pentru a construi raționalizări pseudosavante, esoterice și revizioniste radicale.',
-    monographContext: 'Transformă respingerea unui fals demonstrabil într-un act de loialitate tribală și explică eșecul campaniilor de verificare a faptelor purtate pe un ton arogant.',
-    polarity: 'tension'
+    "id": "cognitia-protectoare-a-identitatii",
+    "term": "Defensive processing motivated by protecting group identity",
+    "stratum": "B",
+    "authors": "Dan M. Kahan, 2013, 2017 · Ziva Kunda, 1990 · Keith E. Stanovich, 2009 · Marilynn B. Brewer, 1999 · Leon Festinger, 1957",
+    "domain": "Political psychology and communication science",
+    "definition": "Psychocognitive mechanism (Identity-Protective Cognition, Kahan, 2013, 2017), articulated with motivated reasoning (Kunda, 1990), irrationality and motivated rationalization of System 2 (Motivated System 2 Reasoning / myside bias, Stanovich, 2009). In the absence of actively open-minded thinking and epistemic humility, even subjects with high analytical ability divert their System 2 resources not to verify the empirical truth of a statement, but in two symmetrically dysfunctional directions to protect the emotional status of the in-group (in-group versus out-group, Brewer, 1999; Festinger, 1957): either to justify civic secession elitist and disdain for the fringes, either to construct pseudoscientific, esoteric and radical revisionist rationalizations.",
+    "monographContext": "It turns the rejection of a demonstrable fake into an act of tribal loyalty and explains the failure of arrogant fact-checking campaigns.",
+    "polarity": "tension"
   },
   {
-    id: 'proiectie-paranoida',
-    term: 'Proiecția paranoidă a Umbrei și mecanismul țapului ispășitor',
-    stratum: 'C',
-    authors: 'Vamık D. Volkan, 1997 · Thomas Singer și Samuel L. Kimbles, 2004 · Carl Gustav Jung, 1951/1968 · René Girard, 1982',
-    domain: 'Psihologie analitică și antropologie politică',
-    definition: 'Mecanism psihodinamic colectiv prin care comunitatea își atribuie sieși o inocență ontologică absolută (arhetipul victimei pure), evacuând conținuturile neintegrate din Umbra colectivă — complicitățile totalitare, corupția endogenă și subdezvoltarea — asupra unui „persecutor extern” omnipotent sau a unui țap ispășitor (Girard, 1982; Volkan, 1997).',
-    monographContext: 'Oferă o descărcare iluzorie a tensiunii psihice, dar orbește societatea față de cauzele instituționale interne reale ale suferinței sale.',
-    polarity: 'tension'
+    "id": "proiectie-paranoida",
+    "term": "Shadow's paranoid projection and the scapegoat mechanism",
+    "stratum": "C",
+    "authors": "Vamık D. Volkan, 1997 · Thomas Singer și Samuel L. Kimbles, 2004 · Carl Gustav Jung, 1951/1968 · René Girard, 1982",
+    "domain": "Analytical psychology and political anthropology",
+    "definition": "Collective psychodynamic mechanism by which the community ascribes to itself absolute ontological innocence (the archetype of the pure victim), evacuating the unintegrated contents of the collective Shadow—totalitarian complicity, endogenous corruption, and underdevelopment—on an omnipotent \"external persecutor\" or scapegoat (Girard, 1982; Volkan, 1997).",
+    "monographContext": "It provides an illusory discharge of psychic tension but blinds society to the real internal institutional causes of its suffering.",
+    "polarity": "tension"
   },
   {
-    id: 'functia-transcendenta',
-    term: 'Funcția transcendentă și medierea simbolică pe axa Ego–Sine',
-    stratum: 'C',
-    authors: 'Carl Gustav Jung, 1916/1960 · Edward F. Edinger, 1972',
-    domain: 'Psihologie analitică',
-    definition: 'Capacitatea unui sistem psihic (Jung, 1916/1960) de a menține în conștiință tensiunea dintre două tendințe opuse — teza modernizării instituționale prooccidentale și antiteza identitară a suveranității și tradiției autohtone — fără a suprima niciunul dintre poli, generând o sinteză integratoare superioară pe axa Ego–Sine (Edinger, 1972).',
-    monographContext: 'Mecanismul psihodinamic care permite conversia memoriei istorice defensive și a vitalității Tricksterului în modernitate organică, conform Figurii 4.',
-    polarity: 'synthesis'
+    "id": "functia-transcendenta",
+    "term": "Transcendent function and symbolic mediation on the Ego–Self axis",
+    "stratum": "C",
+    "authors": "Carl Gustav Jung, 1916/1960 · Edward F. Edinger, 1972",
+    "domain": "Analytical psychology",
+    "definition": "The ability of a psychic system (Jung, 1916/1960) to maintain in consciousness the tension between two opposing tendencies — the thesis of pro-Western institutional modernization and the identity antithesis of sovereignty and autochthonous tradition — without suppressing either pole, generating a superior integrative synthesis on the Ego–Self axis (Edinger, 1972).",
+    "monographContext": "The psychodynamic mechanism that enables the conversion of the Trickster's defensive historical memory and vitality into organic modernity, according to Figure 4.",
+    "polarity": "synthesis"
   },
   {
-    id: 'aparare-maniacala-izolationism',
-    term: 'Apărarea maniacală și iluzia suveranității izolaționiste',
-    stratum: 'C',
-    authors: 'Melanie Klein, 1946/1975 · Marie-Louise von Franz, 1970/2000',
-    domain: 'Psihanaliză și psihologie politică',
-    definition: 'Mecanism defensiv de negare a realității periculoase (Klein, 1946/1975) și fantezie compensatorie de autosuficiență prin care o colectivitate refugiată în tiparul defensiv Puer Aeternus (von Franz, 1970/2000) neagă amenințarea militară a unui imperiu revizionist și crede că războiul poate fi evitat prin dezarmare, abandonarea aliaților și retragerea într-o „neutralitate suverană” autarhică.',
-    monographContext: 'Servește obiectivul strategic al Kremlinului de a decupla statul-țintă de garanțiile colective NATO și UE și de a-l izola în bilateralism asimetric.',
-    polarity: 'tension'
+    "id": "aparare-maniacala-izolationism",
+    "term": "Manic defense and the illusion of isolationist sovereignty",
+    "stratum": "C",
+    "authors": "Melanie Klein, 1946/1975 · Marie-Louise von Franz, 1970/2000",
+    "domain": "Psychoanalysis and political psychology",
+    "definition": "Defensive mechanism of denial of dangerous reality (Klein, 1946/1975) and compensatory fantasy of self-sufficiency whereby a refugee collectivity in the Puer Aeternus defensive pattern (von Franz, 1970/2000) denies the military threat of a revisionist empire and believes that war can be avoided by disarming, abandoning allies and withdrawing into an autarchic \"sovereign neutrality\".",
+    "monographContext": "It serves the Kremlin's strategic objective to decouple the target state from NATO and EU collective guarantees and isolate it in asymmetric bilateralism.",
+    "polarity": "tension"
   },
   {
-    id: 'capacitate-negativa-bion',
-    term: 'Capacitatea negativă și reglarea neuroviscerală descendentă pe Traseul B',
-    stratum: 'B',
-    authors: 'Wilfred R. Bion, 1962, 1970 · Stephen W. Porges, 2011 · Julian F. Thayer și Richard D. Lane, 2009',
-    domain: 'Psihanaliză epistemică și neurobiologia deciziei',
-    definition: 'Aptitudinea psihică și metacognitivă formulată de John Keats și teoretizată în psihanaliză de Wilfred R. Bion (1962, 1970) de a tolera incertitudinea, ambiguitatea și lipsa unui răspuns imediat în mijlocul unei crize acute. La nivel neurofiziologic, această capacitate este susținută de intervenția inhibitoare descendentă (top-down regulation) a cortexului prefrontal ventromedial și dorsolateral (care activează interneuronii inhibitori GABAergici din amigdala centrală și bazolaterală), de complexul vagal ventral mielinizat (frâna vagală și sistemul de angajare socială din teoria polivagală, Porges, 2011) și de o variabilitate ridicată a ritmului cardiac (HRV, indicele integrării neuroviscerale, Thayer & Lane, 2009), prevenind atât reacția simpatică explozivă, cât și colapsul vagal dorsal nemielinizat.',
-    monographContext: 'Condiția decisivă în nodul de bifurcație pentru deschiderea Traseului deliberativ B în criză acută de către liderii instituționali, agențiile tehnice și validatorii comunitari de proximitate, ilustrată în Figura 6.',
-    polarity: 'synthesis'
+    "id": "capacitate-negativa-bion",
+    "term": "Negative potentiation and descending neurovisceral regulation of Pathway B",
+    "stratum": "B",
+    "authors": "Wilfred R. Bion, 1962, 1970 · Stephen W. Porges, 2011 · Julian F. Thayer și Richard D. Lane, 2009",
+    "domain": "Epistemic psychoanalysis and the neurobiology of decision",
+    "definition": "The psychic and metacognitive ability formulated by John Keats and theorized in psychoanalysis by Wilfred R. Bion (1962, 1970) to tolerate uncertainty, ambiguity, and the lack of an immediate response in the midst of an acute crisis. At the neurophysiological level, this capacity is supported by the top-down regulation of the ventromedial and dorsolateral prefrontal cortex (which activates GABAergic inhibitory interneurons in the central and basolateral amygdala), by the myelinated ventral vagal complex (vagal brake and social engagement system from the polyvagal theory, Porges, 2011) and by a high heart rate variability (HRV, the index of neurovisceral integration, Thayer & Lane, 2009 ), preventing both the burst sympathetic response and unmyelinated dorsal vagal collapse.",
+    "monographContext": "The decisive condition in the bifurcation node for the opening of Deliberative Path B in acute crisis by institutional leaders, technical agencies and proximity community validators, illustrated in Figure 6.",
+    "polarity": "synthesis"
   },
   {
-    id: 'protocolul-secvential-trei-faze',
-    term: 'Protocolul secvențial obligatoriu în trei faze',
-    stratum: 'A',
-    authors: 'Marc Lalonde, 1974 · G. E. Alan Dever, 1976 · Bruce S. McEwen, 1998 · Brendan Nyhan și Jason Reifler, 2010 · Dan M. Kahan, 2017 · Jon Roozenbeek et al., 2022',
-    domain: 'Arhitectură strategică de reziliență societală',
-    definition: 'Ordinea cauzală strictă a reconstrucției rezilienței pe determinanții sistemici Lalonde–Dever: Faza I de decompresie alostatică și igienă algoritmică (0–12 luni, cu triaj tactic de 0–72h), Faza II de validare comunitară, pregătire preventivă și filtru moral (1–3 ani) și Faza III de închidere operațională, policentricitate și individuare colectivă (3–10 ani).',
-    monographContext: 'Demonstrează de ce inversarea ordinii fazelor — lansarea de campanii de verificare factuală sau educație mediatică fără decompresie alostatică prealabilă — eșuează prin trei efecte perverse documentate experimental (Nyhan & Reifler, 2010; Kahan, 2017; Roozenbeek et al., 2022): efectul de bumerang identitar (worldview backfire), efectul de bumerang al familiarității (familiarity backfire, pe fondul memoriei de lucru prefrontale epuizate) și cinismul epistemic față de discursul oficial.',
-    polarity: 'synthesis'
+    "id": "protocolul-secvential-trei-faze",
+    "term": "The mandatory three-phase sequential protocol",
+    "stratum": "A",
+    "authors": "Marc Lalonde, 1974 · G. E. Alan Dever, 1976 · Bruce S. McEwen, 1998 · Brendan Nyhan și Jason Reifler, 2010 · Dan M. Kahan, 2017 · Jon Roozenbeek et al., 2022",
+    "domain": "Strategic Architecture of Societal Resilience",
+    "definition": "The strict causal order of resilience reconstruction on Lalonde–Dever systemic determinants: Phase I of allostatic decompression and algorithmic hygiene (0–12 months, with tactical triage of 0–72h), Phase II of community validation, preventive training and moral filter (1–3 years) and Phase III of operational closure, polycentricity and collective individuation (3–10 years).",
+    "monographContext": "It demonstrates why phase reversal—launching fact-checking or media education campaigns without prior allostatic decompression—fails through three experimentally documented perverse effects (Nyhan & Reifler, 2010; Kahan, 2017; Roozenbeek et al., 2022): the identity boomerang effect (worldview backfire), the familiarity backfire effect (on the background of prefrontal working memory exhausted) and epistemic cynicism towards the official discourse.",
+    "polarity": "synthesis"
   },
   {
-    id: 'curba-uitarii-ebbinghaus',
-    term: 'Curba uitării a lui Ebbinghaus și consolidarea mnezică spațiată',
-    stratum: 'B',
-    authors: 'Hermann Ebbinghaus, 1885 · Jon Roozenbeek și Sander van der Linden, 2022',
-    domain: 'Psihologia memoriei și pregătire psihocognitivă preventivă',
-    definition: 'Lege psihocognitivă care arată că reziliența cognitivă dobândită printr-o singură sesiune de pregătire preventivă se erodează exponențial în timp dacă nu este reactivată prin sesiuni periodice de consolidare mnezică calibrate pe curba uitării.',
-    monographContext: 'Impune proiectarea programelor educaționale din Faza a II-a ca antrenament recurent pentru transferul discernământului în memoria procedurală.',
-    polarity: 'synthesis'
+    "id": "curba-uitarii-ebbinghaus",
+    "term": "Ebbinghaus's forgetting curve and spaced mnesic consolidation",
+    "stratum": "B",
+    "authors": "Hermann Ebbinghaus, 1885 · Jon Roozenbeek și Sander van der Linden, 2022",
+    "domain": "Psychology of memory and preventive psychocognitive training",
+    "definition": "Psychocognitive law showing that cognitive resilience acquired through a single session of preemptive training erodes exponentially over time if not reactivated by periodic sessions of memory consolidation calibrated on the forgetting curve.",
+    "monographContext": "It mandates the design of Phase II educational programs as recurrent training for the transfer of discernment to procedural memory.",
+    "polarity": "synthesis"
   },
   {
-    id: 'individuare-colectiva',
-    term: 'Individuarea colectivă și reconcilierea fondului cu forma',
-    stratum: 'C',
-    authors: 'Carl Gustav Jung, 1928 · Edward F. Edinger, 1972 · Alexander și Margarete Mitscherlich, 1967',
-    domain: 'Psihologie analitică și filosofia istoriei',
-    definition: 'Procesul de maturizare istorică prin care o comunitate națională își integrează onest Umbra și traumele totalitare, depășește scindarea dintre Persona mimetică și realitatea informală și își reconstruiește coerența pe axa Ego–Sine.',
-    monographContext: 'Încununează Faza a III-a a protocolului, transformând instituțiile democratice din „forme fără fond” în expresia unei modernități organice.',
-    polarity: 'synthesis'
+    "id": "individuare-colectiva",
+    "term": "Collective individuation and the reconciliation of substance with form",
+    "stratum": "C",
+    "authors": "Carl Gustav Jung, 1928 · Edward F. Edinger, 1972 · Alexander și Margarete Mitscherlich, 1967",
+    "domain": "Analytical psychology and the philosophy of history",
+    "definition": "The process of historical maturation by which a national community honestly integrates its Shadow and totalitarian traumas, overcomes the split between mimetic Persona and informal reality, and rebuilds its coherence on the Ego–Self axis.",
+    "monographContext": "It crowns Phase III of the protocol, transforming democratic institutions from \"bottomless forms\" into the expression of an organic modernity.",
+    "polarity": "synthesis"
   },
   {
-    id: 'ipoteze-baza-grup-lucru-bion',
-    term: 'Ipotezele de bază (baD, baF, baP), valența și grupul de lucru',
-    stratum: 'C',
-    authors: 'Wilfred R. Bion, 1961',
-    domain: 'Psihodinamica grupurilor și sociologie clinică',
-    definition: 'Distincție fundamentală formulată de Wilfred R. Bion (1961) între „grupul de lucru” (work group — orientat spre testarea realității, cooperare rațională și rezolvarea metodică a sarcinilor, care necesită antrenament și proceduri) și regresia colectivă în „ipotezele de bază” (basic assumptions), care se declanșează instantaneu și involuntar prin „valență” (valency — disponibilitatea prerațională a indivizilor angoasați de a fuziona afectiv în contagiune): dependența pasivă față de o autoritate tutelară (baD), împerecherea mesianică în așteptarea unui salvator providențial (baP) și luptă-sau-fugi dominată de proiecții paranoide (baF). Întrucât promisiunea magică a salvatorului (baP) sau a statului tutelar (baD) dezamăgește inevitabil în contact cu realitatea structurală, colectivitatea basculează ciclic în furia paranoidă și agresivitatea luptă-sau-fugi (baF).',
-    monographContext: 'Explică în Subcapitolele 5.1 și 5.2 (și pe Planșa sinoptică de copertă) dinamica ciclică a regresiei colective pe Traseul A și condițiile constituirii unui grup de lucru rațional pe Traseul B.',
-    polarity: 'neutral'
+    "id": "ipoteze-baza-grup-lucru-bion",
+    "term": "Basic assumptions (baD, baF, baP), valence and working group",
+    "stratum": "C",
+    "authors": "Wilfred R. Bion, 1961",
+    "domain": "Group Psychodynamics and Clinical Sociology",
+    "definition": "Fundamental distinction formulated by Wilfred R. Bion (1961) between the \"work group\" (oriented towards reality testing, rational cooperation and methodical task solving, which requires training and procedures) and the collective regression into \"basic assumptions\" (basic assumptions), which is instantly and involuntarily triggered by \"valency\" (valency - the prerational readiness of distressed individuals to merge affectively in contagion): passive dependence on a tutelary authority (baD), messianic mating in anticipation of a providential savior (baP), and fight-or-flight dominated by paranoid projections (baF). As the magical promise of the savior (baP) or the tutelary state (baD) inevitably disappoints in contact with structural reality, the collectivity veers cyclically into paranoid rage and fight-or-flight (baF) aggression.",
+    "monographContext": "It explains in Subchapters 5.1 and 5.2 (and on the Synoptic Cover Plate) the cyclical dynamics of the collective regression on Route A and the conditions for the establishment of a rational working group on Route B.",
+    "polarity": "neutral"
   },
   {
-    id: 'vid-reprezentare-intermediere',
-    term: 'Vidul de reprezentare politică și intermedierea oportunistă',
-    stratum: 'A',
-    authors: 'Peter Mair, 2013 · Cas Mudde, 2004 · James S. Coleman, 1990 · William S. Robinson, 1950',
-    domain: 'Științe politice și sociologia partidelor',
-    definition: 'Veriga politologică intermediară care explică de ce uzura alostatică și hipercortizolemia (stări neurobiologice nespecifice) nu se cuplează mecanic cu propaganda externă: vulnerabilitatea politică apare atunci când partidele democratice tradiționale abandonează reprezentarea periferiilor și a categoriilor vulnerabile (Mair, 2013), lăsând un vid de reprezentare pe care actorii populiști oportuniști autohtoni (Mudde, 2004) și operațiunile externe de control reflexiv de rang secund îl exploatează pentru a deturna furia legitimă spre ținte false.',
-    monographContext: 'Asigură în Subcapitolul 1.3 și Figura 1 tranziția transformațională Micro–Macro fără salturi cauzale și cu respectarea clauzei lui William S. Robinson (1950) împotriva erorii ecologice.',
-    polarity: 'tension'
+    "id": "vid-reprezentare-intermediere",
+    "term": "The vacuum of political representation and opportunistic intermediation",
+    "stratum": "A",
+    "authors": "Peter Mair, 2013 · Cas Mudde, 2004 · James S. Coleman, 1990 · William S. Robinson, 1950",
+    "domain": "Political science and the sociology of parties",
+    "definition": "The intermediate political link that explains why allostatic attrition and hypercortisolemia (non-specific neurobiological states) do not mechanistically couple with external propaganda: political vulnerability occurs when traditional democratic parties abandon the representation of peripheries and vulnerable categories (Mair, 2013), leaving a vacuum of representation that opportunistic populist domestic actors (Mudde, 2004) and external operations of reflexive rank control second they exploit it to divert legitimate anger to false targets.",
+    "monographContext": "It ensures in Subchapter 1.3 and Figure 1 the Micro–Macro transformational transition without causal leaps and in compliance with William S. Robinson's (1950) clause against the ecological fallacy.",
+    "polarity": "tension"
   },
   {
-    id: 'coreglare-cerc-validatori',
-    term: 'Puntea de coreglare CERC și validatorii comunitari de proximitate',
-    stratum: 'B',
-    authors: 'Barbara Reynolds și Matthew W. Seeger, 2005 (CDC CERC) · Wilfred R. Bion, 1962, 1970 · Stephen W. Porges, 2011 · Julian F. Thayer și Richard D. Lane, 2009',
-    domain: 'Comunicare de criză și neurobiologia deciziei',
-    definition: 'Arhitectură policentrică de dezescaladare în primele 0–72 de ore ale unui șoc informațional acut, bazată pe principiile Crisis and Emergency Risk Communication (CDC CERC, Reynolds & Seeger, 2005: fii primul, fii corect, fii credibil, exprimă empatie, promovează acțiunea concretă și arată respect). Întrucât discursul politic partizan este afectat de neîncrederea față de Persona mimetică, coreglarea afectivă și deschiderea Traseului B se sprijină pe două paliere depolitizate: agențiile tehnice autonome care publică probe verificabile STIX/DISARM și validatorii comunitari de proximitate (medici, profesori, clerici canonici, lideri civici).',
-    monographContext: 'Rezolvă în Subcapitolele 5.2 și 6.1 (și în Figura 6) paradoxul reactivării cortexului prefrontal sub șoc acut.',
-    polarity: 'synthesis'
+    "id": "coreglare-cerc-validatori",
+    "term": "CERC coregulatory bridge and community proximity validators",
+    "stratum": "B",
+    "authors": "Barbara Reynolds și Matthew W. Seeger, 2005 (CDC CERC) · Wilfred R. Bion, 1962, 1970 · Stephen W. Porges, 2011 · Julian F. Thayer și Richard D. Lane, 2009",
+    "domain": "Crisis communication and the neurobiology of decision",
+    "definition": "Polycentric de-escalation architecture in the first 0–72 hours of an acute informational shock, based on the principles of Crisis and Emergency Risk Communication (CDC CERC, Reynolds & Seeger, 2005: be first, be fair, be credible, express empathy, promote concrete action and show respect). Since the partisan political discourse is affected by the mistrust of the mimetic Persona, the affective co-regulation and opening of Route B is supported on two depoliticized levels: the autonomous technical agencies that publish verifiable STIX/DISARM evidence and the proximity community validators (doctors, teachers, canonical clergy, civic leaders).",
+    "monographContext": "Resolves in Subchapters 5.2 and 6.1 (and Figure 6) the paradox of reactivation of the prefrontal cortex under acute shock.",
+    "polarity": "synthesis"
   },
   {
-    id: 'isonomie-fiscala-arhitectura-alegerii',
-    term: 'Isonomia fiscală, penalizarea în oglindă și arhitectura alegerii instituționale',
-    stratum: 'A',
-    authors: 'Richard H. Thaler și Cass R. Sunstein, 2008 · Niklas Luhmann, 2004 · Decizia CCR nr. 694/2015',
-    domain: 'Drept fiscal constituțional și economie instituțională',
-    definition: 'Mecanism de arhitectură a alegerii instituționale (institutional choice architecture, Thaler & Sunstein, 2008) și de închidere operațională (Luhmann, 2004) prin care statul elimină asimetria extractivă din raportul fiscal (art. 167, art. 182 și art. 281 din Legea nr. 207/2015 – CPF, în acord cu principiul simetriei fiscale din Decizia CCR nr. 694/2015), operând compensarea automată din oficiu a creanțelor reciproce (art. 167 CPF), virând din oficiu în același cont IBAN dobânzile și penalitățile în oglindă datorate cetățeanului sau întreprinderii (art. 182 CPF) și instituind răspunderea patrimonială solidară și regresul efectiv pentru actele fiscale anulate definitiv în care instanța constată reaua-credință sau grava neglijență (art. 281 CPF).',
-    monographContext: 'Sigilează în Subcapitolul 6.3 și Figura 5 planșeul constituțional orizontal dintre Cadranul II și Cadranul III din matricea lui Cipolla, reducând costul de oportunitate al onestității și atrăgând cetățenii în Cadranul I (+X, +Y).',
-    polarity: 'synthesis'
+    "id": "isonomie-fiscala-arhitectura-alegerii",
+    "term": "Fiscal isonomy, mirror penalization and the architecture of institutional choice",
+    "stratum": "A",
+    "authors": "Richard H. Thaler și Cass R. Sunstein, 2008 · Niklas Luhmann, 2004 · Decizia CCR nr. 694/2015",
+    "domain": "Constitutional tax law and institutional economics",
+    "definition": "Mechanism of institutional choice architecture (institutional choice architecture, Thaler & Sunstein, 2008) and operational closure (Luhmann, 2004) through which the state eliminates the extractive asymmetry from the fiscal report (art. 167, art. 182 and art. 281 of Law no. 207/2015 – CPF, in accordance with the principle of fiscal symmetry from CCR Decision no. 694/2015), operating the ex officio automatic compensation of mutual claims (art. 167 CPF), ex officio transferring to the same IBAN account the mirror interest and penalties owed to the citizen or the company (art. 182 CPF) and establishing joint and several patrimonial liability and the effective recourse for definitively annulled tax acts in which the court finds bad faith or gross negligence (art. 281 CPF).",
+    "monographContext": "It seals in Subchapter 6.3 and Figure 5 the horizontal constitutional floor between Quadrant II and Quadrant III in Cipolla's matrix, reducing the opportunity cost of honesty and drawing citizens into Quadrant I (+X, +Y).",
+    "polarity": "synthesis"
   }
 ];
 
 export const BIBLIOGRAPHY_DATA: BibliographyItem[] = [
-  { id: 'bib-1', authors: 'Acemoglu, D., & Robinson, J. A.', year: '2012', title: 'Why nations fail: The origins of power, prosperity, and poverty', publication: 'Crown Business', fullCitation: 'Acemoglu, D., & Robinson, J. A. (2012). Why nations fail: The origins of power, prosperity, and poverty. Crown Business.', domain: 'Sociologie instituțională' },
-  { id: 'bib-1b', authors: 'Acemoglu, D., & Robinson, J. A.', year: '2019', title: 'The narrow corridor: States, societies, and the fate of liberty', publication: 'Penguin Press', fullCitation: 'Acemoglu, D., & Robinson, J. A. (2019). The narrow corridor: States, societies, and the fate of liberty. Penguin Press.', domain: 'Sociologie instituțională' },
-  { id: 'bib-2', authors: 'Alemohammad, S., Casco-Rodriguez, J., Luzi, L., Humayun, A. I., Babaei, H., LeJeune, D., Siahkoohi, A., & Baraniuk, R. G.', year: '2024', title: 'Self-consuming generative models go MAD', publication: 'Proceedings of the Twelfth International Conference on Learning Representations (ICLR 2024)', fullCitation: 'Alemohammad, S., Casco-Rodriguez, J., Luzi, L., Humayun, A. I., Babaei, H., LeJeune, D., Siahkoohi, A., & Baraniuk, R. G. (2024). Self-consuming generative models go MAD. In Proceedings of the Twelfth International Conference on Learning Representations (ICLR 2024).', domain: 'Cibernetică și semiotică' },
-  { id: 'bib-3', authors: 'Arnsten, A. F. T.', year: '2009', title: 'Stress signalling pathways that impair prefrontal cortex structure and function', publication: 'Nature Reviews Neuroscience, 10(6), 410–422', fullCitation: 'Arnsten, A. F. T. (2009). Stress signalling pathways that impair prefrontal cortex structure and function. Nature Reviews Neuroscience, 10(6), 410–422.', domain: 'Neuroștiințe și psihobiologie' },
-  { id: 'bib-4', authors: 'Bandura, A.', year: '1997', title: 'Self-efficacy: The exercise of control', publication: 'W. H. Freeman', fullCitation: 'Bandura, A. (1997). Self-efficacy: The exercise of control. W. H. Freeman.', domain: 'Neuroștiințe și psihobiologie' },
-  { id: 'bib-5', authors: 'Banfield, E. C.', year: '1958', title: 'The moral basis of a backward society', publication: 'The Free Press', fullCitation: 'Banfield, E. C. (1958). The moral basis of a backward society. The Free Press.', domain: 'Sociologie instituțională' },
-  { id: 'bib-6', authors: 'Bădescu, G., Comșa, M., Gheorghiță, A., Stănuș, C., & Tufiș, C. D.', year: '2010', title: 'Implicarea civică și politică a tinerilor', publication: 'Editura Dobrogea', fullCitation: 'Bădescu, G., Comșa, M., Gheorghiță, A., Stănuș, C., & Tufiș, C. D. (2010). Implicarea civică și politică a tinerilor. Editura Dobrogea.', domain: 'Sociologie instituțională' },
-  { id: 'bib-7', authors: 'Bădescu, I.', year: '1984/2003', title: 'Sincronism european și cultură critică românească', publication: 'Editura Dacia', fullCitation: 'Bădescu, I. (1984/2003). Sincronism european și cultură critică românească. Editura Dacia. (Lucrarea originală publicată în 1984 la Editura Științifică și Enciclopedică).', domain: 'Sociologie instituțională' },
-  { id: 'bib-8', authors: 'Berdiaev, N.', year: '1949/1996', title: 'Împărăția Duhului și împărăția Cezarului (Trad. S. Lupan)', publication: 'Editura Amarcord', fullCitation: 'Berdiaev, N. (1996). Împărăția Duhului și împărăția Cezarului (Trad. S. Lupan). Editura Amarcord. (Lucrarea originală publicată postum în 1949).', domain: 'Psihologie analitică și memorie' },
-  { id: 'bib-8b', authors: 'Bion, W. R.', year: '1961', title: 'Experiences in groups and other papers', publication: 'Tavistock Publications', fullCitation: 'Bion, W. R. (1961). Experiences in groups and other papers. Tavistock Publications.', domain: 'Psihologie analitică și memorie' },
-  { id: 'bib-9', authors: 'Bion, W. R.', year: '1962', title: 'Learning from experience', publication: 'William Heinemann Medical Books', fullCitation: 'Bion, W. R. (1962). Learning from experience. William Heinemann Medical Books.', domain: 'Psihologie analitică și memorie' },
-  { id: 'bib-10', authors: 'Bion, W. R.', year: '1970', title: 'Attention and interpretation', publication: 'Tavistock Publications', fullCitation: 'Bion, W. R. (1970). Attention and interpretation. Tavistock Publications.', domain: 'Psihologie analitică și memorie' },
-  { id: 'bib-11', authors: 'Boia, L.', year: '1997', title: 'Istorie și mit în conștiința românească', publication: 'Editura Humanitas', fullCitation: 'Boia, L. (1997). Istorie și mit în conștiința românească. Editura Humanitas.', domain: 'Psihologie analitică și memorie' },
-  { id: 'bib-11b', authors: 'Boyd, J. R.', year: '1987/2018', title: 'A discourse on winning and losing (G. T. Hammond, Ed.)', publication: 'Air University Press', fullCitation: 'Boyd, J. R. (2018). A discourse on winning and losing (G. T. Hammond, Ed.). Air University Press. (Sinteza prelegerilor strategice susținute în 1987).', domain: 'Cibernetică și semiotică' },
-  { id: 'bib-12', authors: 'Brady, W. J., Wills, J. A., Jost, J. T., Tucker, J. A., & Van Bavel, J. J.', year: '2017', title: 'Emotion shapes the diffusion of moralized content in social networks', publication: 'Proceedings of the National Academy of Sciences, 114(28), 7313–7318', fullCitation: 'Brady, W. J., Wills, J. A., Jost, J. T., Tucker, J. A., & Van Bavel, J. J. (2017). Emotion shapes the diffusion of moralized content in social networks. Proceedings of the National Academy of Sciences, 114(28), 7313–7318.', domain: 'Neuroștiințe și psihobiologie' },
-  { id: 'bib-13', authors: 'Brewer, M. B.', year: '1999', title: 'The psychology of prejudice: Ingroup love and outgroup hate?', publication: 'Journal of Social Issues, 55(3), 429–444', fullCitation: 'Brewer, M. B. (1999). The psychology of prejudice: Ingroup love and outgroup hate? Journal of Social Issues, 55(3), 429–444.', domain: 'Neuroștiințe și psihobiologie' },
-  { id: 'bib-14', authors: 'Centola, D.', year: '2018', title: 'How behavior spreads: The science of complex contagions', publication: 'Princeton University Press', fullCitation: 'Centola, D. (2018). How behavior spreads: The science of complex contagions. Princeton University Press.', domain: 'Sociologie instituțională' },
-  { id: 'bib-15', authors: 'Centola, D.', year: '2021', title: 'Change: How to make big things happen', publication: 'Little, Brown Spark', fullCitation: 'Centola, D. (2021). Change: How to make big things happen. Little, Brown Spark.', domain: 'Sociologie instituțională' },
-  { id: 'bib-16', authors: 'Cipolla, C. M.', year: '1976/2011', title: 'The basic laws of human stupidity', publication: 'il Mulino', fullCitation: 'Cipolla, C. M. (2011). The basic laws of human stupidity. il Mulino. (Lucrarea originală difuzată în ediție privată în 1976 și publicată în Allegro ma non troppo în 1988).', domain: 'Sociologie instituțională' },
-  { id: 'bib-17', authors: 'Claverie, B., Baptiste, P., & du Cluzel, F. (Eds.)', year: '2022', title: 'Cognitive warfare: The future of cognitive dominance', publication: 'NATO Collaboration Support Office / Allied Command Transformation', fullCitation: 'Claverie, B., Baptiste, P., & du Cluzel, F. (Eds.). (2022). Cognitive warfare: The future of cognitive dominance. NATO Collaboration Support Office / Allied Command Transformation.', domain: 'Cibernetică și semiotică' },
-  { id: 'bib-18', authors: 'Coleman, J. S.', year: '1990', title: 'Foundations of social theory', publication: 'Belknap Press of Harvard University Press', fullCitation: 'Coleman, J. S. (1990). Foundations of social theory. Belknap Press of Harvard University Press.', domain: 'Sociologie instituțională' },
-  { id: 'bib-19', authors: 'Dawisha, K.', year: '2014', title: "Putin's kleptocracy: Who owns Russia?", publication: 'Simon & Schuster', fullCitation: "Dawisha, K. (2014). Putin's kleptocracy: Who owns Russia?. Simon & Schuster.", domain: 'Geopolitică și ideologie rusă' },
-  { id: 'bib-20', authors: 'Dever, G. E. A.', year: '1976', title: 'An epidemiological model for health policy analysis', publication: 'Social Indicators Research, 2(4), 453–466', fullCitation: 'Dever, G. E. A. (1976). An epidemiological model for health policy analysis. Social Indicators Research, 2(4), 453–466.', domain: 'Sociologie instituțională' },
-  { id: 'bib-21', authors: 'Dobrogeanu-Gherea, C.', year: '1910', title: 'Neoiobăgia: Studiu economico-sociologic al problemei noastre agrare', publication: 'Editura Librăriei Socec & Co.', fullCitation: 'Dobrogeanu-Gherea, C. (1910). Neoiobăgia: Studiu economico-sociologic al problemei noastre agrare. Editura Librăriei Socec & Co.', domain: 'Sociologie instituțională' },
-  { id: 'bib-22', authors: 'Dostoievski, F. M.', year: '1873', title: 'Bobok: Însemnările unei persoane', publication: 'Grajdanin, (6), 1873', fullCitation: 'Dostoievski, F. M. (1873). Bobok: Însemnările unei persoane. Grajdanin, (6), 1873.', domain: 'Geopolitică și ideologie rusă' },
-  { id: 'bib-23', authors: 'du Cluzel, F.', year: '2020', title: 'Cognitive warfare', publication: 'NATO Allied Command Transformation Innovation Hub', fullCitation: 'du Cluzel, F. (2020). Cognitive warfare. NATO Allied Command Transformation Innovation Hub.', domain: 'Cibernetică și semiotică' },
-  { id: 'bib-24', authors: 'Dughin, A.', year: '1997', title: 'Osnovy geopolitiki: Geopoliticeskoe budușcee Rossii [Bazele geopoliticii: Viitorul geopolitic al Rusiei]', publication: 'Arktogheia', fullCitation: 'Dughin, A. (1997). Osnovy geopolitiki: Geopoliticeskoe budușcee Rossii [Bazele geopoliticii: Viitorul geopolitic al Rusiei]. Arktogheia.', domain: 'Geopolitică și ideologie rusă' },
-  { id: 'bib-25', authors: 'Durkheim, É.', year: '1897/2005', title: 'Despre sinucidere (Trad. M. Calcan)', publication: 'Editura Institutul European', fullCitation: 'Durkheim, É. (2005). Despre sinucidere (Trad. M. Calcan). Editura Institutul European. (Lucrarea originală publicată în 1897).', domain: 'Sociologie instituțională' },
-  { id: 'bib-26', authors: 'Ebbinghaus, H.', year: '1885/1913', title: 'Memory: A contribution to experimental psychology', publication: 'Teachers College, Columbia University', fullCitation: 'Ebbinghaus, H. (1913). Memory: A contribution to experimental psychology (Trad. H. A. Ruger & C. E. Bussenius). Teachers College, Columbia University. (Lucrarea originală Über das Gedächtnis publicată în 1885).', domain: 'Neuroștiințe și psihobiologie' },
-  { id: 'bib-27', authors: 'Edinger, E. F.', year: '1972', title: 'Ego and archetype: Individuation and the religious function of the psyche', publication: "G. P. Putnam's Sons", fullCitation: "Edinger, E. F. (1972). Ego and archetype: Individuation and the religious function of the psyche. G. P. Putnam's Sons.", domain: 'Psihologie analitică și memorie' },
-  { id: 'bib-28', authors: 'Eltchaninoff, M.', year: '2018', title: 'Inside the mind of Vladimir Putin (Trad. J. Ferguson)', publication: 'Hurst & Company', fullCitation: 'Eltchaninoff, M. (2018). Inside the mind of Vladimir Putin (Trad. J. Ferguson). Hurst & Company.', domain: 'Geopolitică și ideologie rusă' },
-  { id: 'bib-30', authors: 'Epstein, M.', year: '2022', title: 'From totalitarianism to schizofascism and the Russian antiworld', publication: 'Studies in East European Thought, 74(4), 475–481', fullCitation: 'Epstein, M. (2022). From totalitarianism to schizofascism and the Russian antiworld. Studies in East European Thought, 74(4), 475–481.', domain: 'Geopolitică și ideologie rusă' },
-  { id: 'bib-29', authors: 'Epstein, M.', year: '2023', title: 'Russkii antimir: Politika na grani apokalipsisa [Antilumea rusă: Politica la limita apocalipsei]', publication: 'Franc-Tireur USA', fullCitation: 'Epstein, M. (2023). Russkii antimir: Politika na grani apokalipsisa [Antilumea rusă: Politica la limita apocalipsei]. Franc-Tireur USA.', domain: 'Geopolitică și ideologie rusă' },
-  { id: 'bib-31', authors: 'Ferenczi, S.', year: '1933/1949', title: 'Confusion of the tongues between the adults and the child', publication: 'International Journal of Psycho-Analysis, 30, 225–230', fullCitation: 'Ferenczi, S. (1949). Confusion of the tongues between the adults and the child. International Journal of Psycho-Analysis, 30, 225–230. (Comunicare susținută în 1932 și publicată în 1933).', domain: 'Psihologie analitică și memorie' },
-  { id: 'bib-31b', authors: 'Fehr, E., & Gächter, S.', year: '2002', title: 'Altruistic punishment in humans', publication: 'Nature, 415(6868), 137–140', fullCitation: 'Fehr, E., & Gächter, S. (2002). Altruistic punishment in humans. Nature, 415(6868), 137–140.', domain: 'Neuroștiințe și psihobiologie' },
-  { id: 'bib-32', authors: 'Festinger, L.', year: '1957', title: 'A theory of cognitive dissonance', publication: 'Stanford University Press', fullCitation: 'Festinger, L. (1957). A theory of cognitive dissonance. Stanford University Press.', domain: 'Neuroștiințe și psihobiologie' },
-  { id: 'bib-33', authors: 'Freud, A.', year: '1936/1993', title: 'The ego and the mechanisms of defence', publication: 'Karnac Books', fullCitation: 'Freud, A. (1993). The ego and the mechanisms of defence. Karnac Books. (Lucrarea originală publicată în 1936).', domain: 'Psihologie analitică și memorie' },
-  { id: 'bib-34', authors: 'Friston, K.', year: '2010', title: 'The free-energy principle: A unified brain theory?', publication: 'Nature Reviews Neuroscience, 11(2), 127–138', fullCitation: 'Friston, K. (2010). The free-energy principle: A unified brain theory? Nature Reviews Neuroscience, 11(2), 127–138.', domain: 'Neuroștiințe și psihobiologie' },
-  { id: 'bib-35', authors: 'Galeotti, M.', year: '2019', title: "The Vory: Russia's super mafia", publication: 'Yale University Press', fullCitation: "Galeotti, M. (2019). The Vory: Russia's super mafia. Yale University Press.", domain: 'Geopolitică și ideologie rusă' },
-  { id: 'bib-36', authors: 'Giles, K.', year: '2019', title: 'Moscow rules: What drives Russia to confront the West', publication: 'Brookings Institution Press / Chatham House', fullCitation: 'Giles, K. (2019). Moscow rules: What drives Russia to confront the West. Brookings Institution Press / Chatham House.', domain: 'Geopolitică și ideologie rusă' },
-  { id: 'bib-36b', authors: 'Girard, R.', year: '1982', title: 'Le Bouc émissaire', publication: 'Grasset', fullCitation: 'Girard, R. (1982). Le Bouc émissaire. Grasset.', domain: 'Psihologie analitică și memorie' },
-  { id: 'bib-37', authors: 'Granovetter, M. S.', year: '1973', title: 'The strength of weak ties', publication: 'American Journal of Sociology, 78(6), 1360–1380', fullCitation: 'Granovetter, M. S. (1973). The strength of weak ties. American Journal of Sociology, 78(6), 1360–1380.', domain: 'Sociologie instituțională' },
-  { id: 'bib-37a', authors: 'Gumiliov, L. N.', year: '1989', title: 'Etnoghenez i biosfera Zemli [Etnogeneza și biosfera Pământului]', publication: 'Ghidrometeoizdat', fullCitation: 'Gumiliov, L. N. (1989). Etnoghenez i biosfera Zemli [Etnogeneza și biosfera Pământului]. Ghidrometeoizdat.', domain: 'Geopolitică și ideologie rusă' },
-  { id: 'bib-37b', authors: 'Habermas, J.', year: '1992/1996', title: 'Between facts and norms: Contributions to a discourse theory of law and democracy (Faktizität und Geltung)', publication: 'MIT Press', fullCitation: 'Habermas, J. (1996). Between facts and norms: Contributions to a discourse theory of law and democracy (Trad. W. Rehg). MIT Press. (Lucrarea originală Faktizität und Geltung publicată în 1992).', domain: 'Sociologie instituțională' },
-  { id: 'bib-38', authors: 'Habermas, J.', year: '2006', title: 'Religion in the public sphere', publication: 'European Journal of Philosophy, 14(1), 1–25', fullCitation: 'Habermas, J. (2006). Religion in the public sphere. European Journal of Philosophy, 14(1), 1–25.', domain: 'Sociologie instituțională' },
-  { id: 'bib-39', authors: 'Hedström, P.', year: '2005', title: 'Dissecting the social: On the principles of analytical sociology', publication: 'Cambridge University Press', fullCitation: 'Hedström, P. (2005). Dissecting the social: On the principles of analytical sociology. Cambridge University Press.', domain: 'Sociologie instituțională' },
-  { id: 'bib-40', authors: 'Henderson, J. L.', year: '1984', title: 'Cultural attitudes in psychological perspective', publication: 'Inner City Books', fullCitation: 'Henderson, J. L. (1984). Cultural attitudes in psychological perspective. Inner City Books.', domain: 'Psihologie analitică și memorie' },
-  { id: 'bib-41', authors: 'Hillman, J. (Ed.)', year: '1979', title: 'Puer papers', publication: 'Spring Publications', fullCitation: 'Hillman, J. (Ed.). (1979). Puer papers. Spring Publications.', domain: 'Psihologie analitică și memorie' },
-  { id: 'bib-42', authors: 'Hovorun, C.', year: '2018', title: 'Political Orthodoxies: The unorthodoxies of the Church coerced', publication: 'Fortress Press', fullCitation: 'Hovorun, C. (2018). Political Orthodoxies: The unorthodoxies of the Church coerced. Fortress Press.', domain: 'Geopolitică și ideologie rusă' },
-  { id: 'bib-42b', authors: 'Ilin, I. A.', year: '1925/1956', title: 'O soprotivlenii zlu siloiu [Despre împotrivirea față de rău prin forță] · Nașî zadaci [Sarcinile noastre]', publication: 'Izd. Russkogo Obșce-Voinskogo Soiuza', fullCitation: 'Ilin, I. A. (1925/1956). O soprotivlenii zlu siloiu [Despre împotrivirea față de rău prin forță] (1925); Nașî zadaci [Sarcinile noastre] (Vol. 1–2, 1956). Izd. Russkogo Obșce-Voinskogo Soiuza.', domain: 'Geopolitică și ideologie rusă' },
-  { id: 'bib-43', authors: 'Ioanid, R.', year: '2000', title: 'The Holocaust in Romania: The destruction of Jews and Gypsies under the Antonescu regime, 1940–1944', publication: 'Ivan R. Dee / United States Holocaust Memorial Museum', fullCitation: 'Ioanid, R. (2000). The Holocaust in Romania: The destruction of Jews and Gypsies under the Antonescu regime, 1940–1944. Ivan R. Dee / United States Holocaust Memorial Museum.', domain: 'Psihologie analitică și memorie' },
-  { id: 'bib-44', authors: 'Ionescu, G.', year: '1964', title: 'Communism in Rumania, 1944–1962', publication: 'Oxford University Press', fullCitation: 'Ionescu, G. (1964). Communism in Rumania, 1944–1962. Oxford University Press.', domain: 'Sociologie instituțională' },
-  { id: 'bib-44b', authors: 'Janet, P.', year: '1903', title: 'Les obsessions et la psychasthénie (Vol. 1–2)', publication: 'Félix Alcan', fullCitation: 'Janet, P. (1903). Les obsessions et la psychasthénie (Vol. 1–2). Félix Alcan.', domain: 'Psihologie analitică și memorie' },
-  { id: 'bib-45a', authors: 'Jung, C. G.', year: '1916/1960', title: 'The transcendent function (Collected Works, Vol. 8)', publication: 'Princeton University Press', fullCitation: 'Jung, C. G. (1916/1960). The transcendent function (Trad. R. F. C. Hull). In The collected works of C. G. Jung (Vol. 8, pp. 67–91). Princeton University Press. (Eseu redactat în 1916).', domain: 'Psihologie analitică și memorie' },
-  { id: 'bib-48', authors: 'Jung, C. G.', year: '1921/1971', title: 'Psychological types (Vol. 6)', publication: 'Princeton University Press', fullCitation: 'Jung, C. G. (1921/1971). Psychological types (Trad. H. G. Baynes, rev. R. F. C. Hull). In The collected works of C. G. Jung (Vol. 6). Princeton University Press. (Lucrarea originală publicată în 1921).', domain: 'Psihologie analitică și memorie' },
-  { id: 'bib-46', authors: 'Jung, C. G.', year: '1928/1966', title: 'The relations between the ego and the unconscious (Vol. 7)', publication: 'Princeton University Press', fullCitation: 'Jung, C. G. (1928/1966). The relations between the ego and the unconscious (Trad. R. F. C. Hull). In The collected works of C. G. Jung (Vol. 7, pp. 123–241). Princeton University Press. (Lucrarea originală publicată în 1928).', domain: 'Psihologie analitică și memorie' },
-  { id: 'bib-45b', authors: 'Jung, C. G.', year: '1934/1960', title: 'A review of the complex theory (Collected Works, Vol. 8)', publication: 'Princeton University Press', fullCitation: 'Jung, C. G. (1934/1960). A review of the complex theory (Trad. R. F. C. Hull). In The collected works of C. G. Jung (Vol. 8, pp. 92–104). Princeton University Press. (Lucrarea originală publicată în 1934).', domain: 'Psihologie analitică și memorie' },
-  { id: 'bib-45c', authors: 'Jung, C. G.', year: '1936/1964', title: 'Wotan (Collected Works, Vol. 10)', publication: 'Princeton University Press', fullCitation: 'Jung, C. G. (1936/1964). Wotan (Trad. R. F. C. Hull). In The collected works of C. G. Jung (Vol. 10, pp. 179–193). Princeton University Press. (Articolul original publicat în 1936).', domain: 'Psihologie analitică și memorie' },
-  { id: 'bib-47a', authors: 'Jung, C. G.', year: '1951/1968', title: 'Aion: Researches into the phenomenology of the self (Vol. 9, Partea a II-a)', publication: 'Princeton University Press', fullCitation: 'Jung, C. G. (1951/1968). Aion: Researches into the phenomenology of the self (Trad. R. F. C. Hull). In The collected works of C. G. Jung (Vol. 9, Partea a II-a). Princeton University Press. (Lucrarea originală publicată în 1951).', domain: 'Psihologie analitică și memorie' },
-  { id: 'bib-47b', authors: 'Jung, C. G.', year: '1954/1968', title: 'On the psychology of the trickster-figure (Vol. 9, Partea I)', publication: 'Princeton University Press', fullCitation: 'Jung, C. G. (1954/1968). On the psychology of the trickster-figure (Trad. R. F. C. Hull). In The collected works of C. G. Jung (Vol. 9, Partea I, pp. 255–272). Princeton University Press. (Lucrarea originală publicată în 1954).', domain: 'Psihologie analitică și memorie' },
-  { id: 'bib-49', authors: 'Kahan, D. M.', year: '2013', title: 'Ideology, motivated reasoning, and cognitive reflection', publication: 'Judgment and Decision Making, 8(4), 407–424', fullCitation: 'Kahan, D. M. (2013). Ideology, motivated reasoning, and cognitive reflection. Judgment and Decision Making, 8(4), 407–424.', domain: 'Neuroștiințe și psihobiologie' },
-  { id: 'bib-50', authors: 'Kahan, D. M.', year: '2017', title: 'Misconceptions, misinformation, and the logic of identity-protective cognition', publication: 'Cultural Cognition Project Working Paper Series, (164), Yale Law School', fullCitation: 'Kahan, D. M. (2017). Misconceptions, misinformation, and the logic of identity-protective cognition. Cultural Cognition Project Working Paper Series, (164), Yale Law School.', domain: 'Neuroștiințe și psihobiologie' },
-  { id: 'bib-51', authors: 'Kahneman, D.', year: '2011', title: 'Thinking, fast and slow', publication: 'Farrar, Straus and Giroux', fullCitation: 'Kahneman, D. (2011). Thinking, fast and slow. Farrar, Straus and Giroux.', domain: 'Neuroștiințe și psihobiologie' },
-  { id: 'bib-52a', authors: 'Kalaitzidis, P.', year: '2012', title: 'Orthodoxy and political theology', publication: 'World Council of Churches Publications', fullCitation: 'Kalaitzidis, P. (2012). Orthodoxy and political theology. World Council of Churches Publications.', domain: 'Geopolitică și ideologie rusă' },
-  { id: 'bib-52b', authors: 'Kalaitzidis, P., Hovorun, C., Papanikolaou, A., & Gallaher, B.', year: '2022', title: 'A declaration on the „Russian World” (Russkii Mir) teaching', publication: 'Volos Academy for Theological Studies / Fordham University Orthodox Christian Studies Center', fullCitation: 'Kalaitzidis, P., Hovorun, C., Papanikolaou, A., & Gallaher, B. (2022). A declaration on the „Russian World” (Russkii Mir) teaching. Volos Academy for Theological Studies / Fordham University Orthodox Christian Studies Center.', domain: 'Geopolitică și ideologie rusă' },
-  { id: 'bib-53', authors: 'Klein, M.', year: '1946/1975', title: 'Notes on some schizoid mechanisms', publication: 'The Hogarth Press', fullCitation: 'Klein, M. (1975). Notes on some schizoid mechanisms. In Envy and gratitude and other works 1946–1963 (pp. 1–24). The Hogarth Press. (Lucrarea originală publicată în 1946).', domain: 'Psihologie analitică și memorie' },
-  { id: 'bib-53b', authors: 'Kligman, G., & Verdery, K.', year: '2011', title: 'Peasants under siege: The collectivization of Romanian agriculture, 1949–1962', publication: 'Princeton University Press', fullCitation: 'Kligman, G., & Verdery, K. (2011). Peasants under siege: The collectivization of Romanian agriculture, 1949–1962. Princeton University Press.', domain: 'Sociologie instituțională' },
-  { id: 'bib-54a', authors: 'Kruglanski, A. W.', year: '2004', title: 'The psychology of closed mindedness', publication: 'Psychology Press', fullCitation: 'Kruglanski, A. W. (2004). The psychology of closed mindedness. Psychology Press.', domain: 'Neuroștiințe și psihobiologie' },
-  { id: 'bib-54b', authors: 'Kruglanski, A. W., & Webster, D. M.', year: '1996', title: 'Motivated closing of the mind: „Seizing” and „freezing”', publication: 'Psychological Review, 103(2), 263–283', fullCitation: 'Kruglanski, A. W., & Webster, D. M. (1996). Motivated closing of the mind: „Seizing” and „freezing”. Psychological Review, 103(2), 263–283.', domain: 'Neuroștiințe și psihobiologie' },
-  { id: 'bib-55', authors: 'Kunda, Z.', year: '1990', title: 'The case for motivated reasoning', publication: 'Psychological Bulletin, 108(3), 480–498', fullCitation: 'Kunda, Z. (1990). The case for motivated reasoning. Psychological Bulletin, 108(3), 480–498.', domain: 'Neuroștiințe și psihobiologie' },
-  { id: 'bib-55b', authors: 'Laibson, D.', year: '1997', title: 'Golden eggs and hyperbolic discounting', publication: 'The Quarterly Journal of Economics, 112(2), 443–478', fullCitation: 'Laibson, D. (1997). Golden eggs and hyperbolic discounting. The Quarterly Journal of Economics, 112(2), 443–478.', domain: 'Sociologie instituțională' },
-  { id: 'bib-56', authors: 'Lalonde, M.', year: '1974', title: 'A new perspective on the health of Canadians: A working document', publication: 'Minister of Supply and Services Canada', fullCitation: 'Lalonde, M. (1974). A new perspective on the health of Canadians: A working document. Minister of Supply and Services Canada.', domain: 'Sociologie instituțională' },
-  { id: 'bib-57b', authors: 'Le Goff, J.', year: '1981', title: 'La naissance du Purgatoire [Nașterea Purgatoriului]', publication: 'Éditions Gallimard', fullCitation: 'Le Goff, J. (1981). La naissance du Purgatoire [Nașterea Purgatoriului]. Éditions Gallimard.', domain: 'Psihologie analitică și memorie' },
-  { id: 'bib-57', authors: 'Ledeneva, A. V.', year: '2013', title: 'Can Russia modernise? Sistema, power networks and informal governance', publication: 'Cambridge University Press', fullCitation: 'Ledeneva, A. V. (2013). Can Russia modernise? Sistema, power networks and informal governance. Cambridge University Press.', domain: 'Geopolitică și ideologie rusă' },
-  { id: 'bib-58a', authors: 'Lefebvre, V. A.', year: '1982', title: 'Algebra of conscience: A comparative analysis of Western and Soviet ethical systems', publication: 'D. Reidel Publishing Company', fullCitation: 'Lefebvre, V. A. (1982). Algebra of conscience: A comparative analysis of Western and Soviet ethical systems. D. Reidel Publishing Company.', domain: 'Cibernetică și semiotică' },
-  { id: 'bib-58b', authors: 'Lefebvre, V. A.', year: '2001', title: 'Algebra of conscience (Ed. a 2-a extinsă, cu o nouă parte despre controlul reflexiv)', publication: 'Kluwer Academic Publishers', fullCitation: 'Lefebvre, V. A. (2001). Algebra of conscience (Ed. a 2-a extinsă, cu o nouă parte despre controlul reflexiv). Kluwer Academic Publishers.', domain: 'Cibernetică și semiotică' },
-  { id: 'bib-59', authors: 'Lembke, A.', year: '2021', title: 'Dopamine nation: Finding balance in the age of indulgence', publication: 'Dutton', fullCitation: 'Lembke, A. (2021). Dopamine nation: Finding balance in the age of indulgence. Dutton.', domain: 'Neuroștiințe și psihobiologie' },
-  { id: 'bib-60', authors: 'Lipset, S. M., & Rokkan, S. (Eds.)', year: '1967', title: 'Party systems and voter alignments: Cross-national perspectives', publication: 'The Free Press', fullCitation: 'Lipset, S. M., & Rokkan, S. (Eds.). (1967). Party systems and voter alignments: Cross-national perspectives. The Free Press.', domain: 'Sociologie instituțională' },
-  { id: 'bib-61a', authors: 'Lotman, I. M.', year: '1990', title: 'Universe of the mind: A semiotic theory of culture', publication: 'I. B. Tauris', fullCitation: 'Lotman, I. M. (1990). Universe of the mind: A semiotic theory of culture (Trad. A. Shukman). I. B. Tauris.', domain: 'Cibernetică și semiotică' },
-  { id: 'bib-61b', authors: 'Lotman, I. M.', year: '1992/2009', title: 'Culture and explosion', publication: 'Mouton de Gruyter', fullCitation: 'Lotman, I. M. (2009). Culture and explosion (Trad. W. Clark). Mouton de Gruyter. (Lucrarea originală Kultura i vzrîv publicată în 1992).', domain: 'Cibernetică și semiotică' },
-  { id: 'bib-61c', authors: 'Lotman, I. M., & Uspenski, B. A.', year: '1985', title: 'Binary models in the dynamics of Russian culture (to the end of the eighteenth century)', publication: 'Cornell University Press', fullCitation: 'Lotman, I. M., & Uspenski, B. A. (1985). Binary models in the dynamics of Russian culture (to the end of the eighteenth century). In A. D. Nakhimovsky & A. Stone Nakhimovsky (Eds.), The semiotics of Russian cultural history (pp. 30–66). Cornell University Press.', domain: 'Cibernetică și semiotică' },
-  { id: 'bib-62', authors: 'Lovinescu, E.', year: '1924–1925/1997', title: 'Istoria civilizației române moderne (Vol. 1–3)', publication: 'Editura Minerva', fullCitation: 'Lovinescu, E. (1997). Istoria civilizației române moderne (Vol. 1–3). Editura Minerva. (Lucrarea originală publicată în 1924–1925).', domain: 'Sociologie instituțională' },
-  { id: 'bib-63a', authors: 'Luhmann, N.', year: '1995', title: 'Social systems', publication: 'Stanford University Press', fullCitation: 'Luhmann, N. (1995). Social systems (Trad. J. Bednarz Jr. & D. Baecker). Stanford University Press.', domain: 'Sociologie instituțională' },
-  { id: 'bib-63b', authors: 'Luhmann, N.', year: '2004', title: 'Law as a social system', publication: 'Oxford University Press', fullCitation: 'Luhmann, N. (2004). Law as a social system (Trad. K. A. Ziegert). Oxford University Press.', domain: 'Sociologie instituțională' },
-  { id: 'bib-64', authors: 'Maiorescu, T.', year: '1868/1984', title: 'În contra direcției de astăzi în cultura română', publication: 'Editura Minerva (Convorbiri literare, 1868)', fullCitation: 'Maiorescu, T. (1984). În contra direcției de astăzi în cultura română. În Critice (Vol. 1, pp. 147–156). Editura Minerva. (Studiul original publicat în Convorbiri literare în 1868).', domain: 'Sociologie instituțională' },
-  { id: 'bib-64a', authors: 'Mair, P.', year: '2013', title: 'Ruling the void: The hollowing of Western democracy', publication: 'Verso', fullCitation: 'Mair, P. (2013). Ruling the void: The hollowing of Western democracy. Verso.', domain: 'Sociologie instituțională' },
-  { id: 'bib-64b', authors: 'McEwen, B. S.', year: '1998', title: 'Protective and damaging effects of stress mediators', publication: 'New England Journal of Medicine, 338(3), 171–179', fullCitation: 'McEwen, B. S. (1998). Protective and damaging effects of stress mediators. New England Journal of Medicine, 338(3), 171–179.', domain: 'Neuroștiințe și psihobiologie' },
-  { id: 'bib-65', authors: 'McEwen, B. S., & Stellar, E.', year: '1993', title: 'Stress and the individual: Mechanisms leading to disease', publication: 'Archives of Internal Medicine, 153(18), 2093–2101', fullCitation: 'McEwen, B. S., & Stellar, E. (1993). Stress and the individual: Mechanisms leading to disease. Archives of Internal Medicine, 153(18), 2093–2101.', domain: 'Neuroștiințe și psihobiologie' },
-  { id: 'bib-66', authors: 'McGuire, W. J.', year: '1964', title: 'Inducing resistance to persuasion: Some contemporary approaches', publication: 'Advances in experimental social psychology (Vol. 1, pp. 191–229)', fullCitation: 'McGuire, W. J. (1964). Inducing resistance to persuasion: Some contemporary approaches. In L. Berkowitz (Ed.), Advances in experimental social psychology (Vol. 1, pp. 191–229). Academic Press.', domain: 'Neuroștiințe și psihobiologie' },
-  { id: 'bib-66b', authors: 'Menon, V.', year: '2011', title: 'Large-scale brain networks and psychopathology: A unifying triple network model', publication: 'Trends in Cognitive Sciences, 15(10), 483–506', fullCitation: 'Menon, V. (2011). Large-scale brain networks and psychopathology: A unifying triple network model. Trends in Cognitive Sciences, 15(10), 483–506.', domain: 'Neuroștiințe și psihobiologie' },
-  { id: 'bib-67', authors: 'Merton, R. K.', year: '1938', title: 'Social structure and anomie', publication: 'American Sociological Review, 3(5), 672–682', fullCitation: 'Merton, R. K. (1938). Social structure and anomie. American Sociological Review, 3(5), 672–682.', domain: 'Sociologie instituțională' },
-  { id: 'bib-67b', authors: 'Mudde, C.', year: '2004', title: 'The populist Zeitgeist', publication: 'Government and Opposition, 39(4), 541–563', fullCitation: 'Mudde, C. (2004). The populist Zeitgeist. Government and Opposition, 39(4), 541–563.', domain: 'Sociologie instituțională' },
-  { id: 'bib-68', authors: 'Mitscherlich, A., & Mitscherlich, M.', year: '1967/1975', title: 'The inability to mourn: Principles of collective behavior (Die Unfähigkeit zu trauern)', publication: 'Grove Press', fullCitation: 'Mitscherlich, A., & Mitscherlich, M. (1975). The inability to mourn: Principles of collective behavior (Trad. B. R. Placzek). Grove Press. (Lucrarea originală Die Unfähigkeit zu trauern publicată în 1967).', domain: 'Psihologie analitică și memorie' },
-  { id: 'bib-69', authors: 'Neumann, E.', year: '1949/1954', title: 'The origins and history of consciousness', publication: 'Pantheon Books / Bollingen Series', fullCitation: 'Neumann, E. (1954). The origins and history of consciousness (Trad. R. F. C. Hull). Pantheon Books / Bollingen Series. (Lucrarea originală publicată în 1949).', domain: 'Psihologie analitică și memorie' },
-  { id: 'bib-70', authors: 'North, D. C., Wallis, J. J., & Weingast, B. R.', year: '2009', title: 'Violence and social orders: A conceptual framework for interpreting recorded human history', publication: 'Cambridge University Press', fullCitation: 'North, D. C., Wallis, J. J., & Weingast, B. R. (2009). Violence and social orders: A conceptual framework for interpreting recorded human history. Cambridge University Press.', domain: 'Sociologie instituțională' },
-  { id: 'bib-70b', authors: 'Nyhan, B., & Reifler, J.', year: '2010', title: 'When corrections fail: The persistence of political misperceptions', publication: 'Political Behavior, 32(2), 303–330', fullCitation: 'Nyhan, B., & Reifler, J. (2010). When corrections fail: The persistence of political misperceptions. Political Behavior, 32(2), 303–330.', domain: 'Neuroștiințe și psihobiologie' },
-  { id: 'bib-71', authors: 'Osinga, F. P. B.', year: '2007', title: 'Science, strategy and war: The strategic theory of John Boyd', publication: 'Routledge', fullCitation: 'Osinga, F. P. B. (2007). Science, strategy and war: The strategic theory of John Boyd. Routledge.', domain: 'Cibernetică și semiotică' },
-  { id: 'bib-72a', authors: 'Ostrom, E.', year: '1990', title: 'Governing the commons: The evolution of institutions for collective action', publication: 'Cambridge University Press', fullCitation: 'Ostrom, E. (1990). Governing the commons: The evolution of institutions for collective action. Cambridge University Press.', domain: 'Sociologie instituțională' },
-  { id: 'bib-72b', authors: 'Ostrom, E.', year: '2010', title: 'Beyond markets and states: Polycentric governance of complex economic systems', publication: 'American Economic Review, 100(3), 641–672', fullCitation: 'Ostrom, E. (2010). Beyond markets and states: Polycentric governance of complex economic systems. American Economic Review, 100(3), 641–672.', domain: 'Sociologie instituțională' },
-  { id: 'bib-73', authors: 'Papanikolaou, A.', year: '2012', title: 'The mystical as political: Democracy and non-radical Orthodoxy', publication: 'University of Notre Dame Press', fullCitation: 'Papanikolaou, A. (2012). The mystical as political: Democracy and non-radical Orthodoxy. University of Notre Dame Press.', domain: 'Geopolitică și ideologie rusă' },
-  { id: 'bib-74', authors: 'Pariser, E.', year: '2011', title: 'The filter bubble: What the Internet is hiding from you', publication: 'Penguin Press', fullCitation: 'Pariser, E. (2011). The filter bubble: What the Internet is hiding from you. Penguin Press.', domain: 'Cibernetică și semiotică' },
-  { id: 'bib-75', authors: 'Peirce, C. S.', year: '1931–1958', title: 'Collected papers of Charles Sanders Peirce (Vol. 1–8)', publication: 'Harvard University Press', fullCitation: 'Peirce, C. S. (1931–1958). Collected papers of Charles Sanders Peirce (Vol. 1–8, C. Hartshorne, P. Weiss & A. W. Burks, Eds.). Harvard University Press.', domain: 'Cibernetică și semiotică' },
-  { id: 'bib-76a', authors: 'Pomerantsev, P.', year: '2014', title: 'Nothing is true and everything is possible: The surreal heart of the new Russia', publication: 'PublicAffairs', fullCitation: 'Pomerantsev, P. (2014). Nothing is true and everything is possible: The surreal heart of the new Russia. PublicAffairs.', domain: 'Geopolitică și ideologie rusă' },
-  { id: 'bib-76b', authors: 'Pomerantsev, P.', year: '2019', title: 'This is not propaganda: Adventures in the war against reality', publication: 'PublicAffairs', fullCitation: 'Pomerantsev, P. (2019). This is not propaganda: Adventures in the war against reality. PublicAffairs.', domain: 'Geopolitică și ideologie rusă' },
-  { id: 'bib-76c', authors: 'Popper, K. R.', year: '1934/2002', title: 'The logic of scientific discovery', publication: 'Routledge', fullCitation: 'Popper, K. R. (1934/2002). The logic of scientific discovery. Routledge. (Lucrarea originală Logik der Forschung publicată în 1934).', domain: 'Cibernetică și semiotică' },
-  { id: 'bib-77', authors: 'Porges, S. W.', year: '2011', title: 'The polyvagal theory: Neurophysiological foundations of emotions, attachment, communication, and self-regulation', publication: 'W. W. Norton & Company', fullCitation: 'Porges, S. W. (2011). The polyvagal theory: Neurophysiological foundations of emotions, attachment, communication, and self-regulation. W. W. Norton & Company.', domain: 'Neuroștiințe și psihobiologie' },
-  { id: 'bib-78', authors: 'Putnam, R. D.', year: '2000', title: 'Bowling alone: The collapse and revival of American community', publication: 'Simon & Schuster', fullCitation: 'Putnam, R. D. (2000). Bowling alone: The collapse and revival of American community. Simon & Schuster.', domain: 'Sociologie instituțională' },
-  { id: 'bib-79', authors: 'Radin, P.', year: '1956', title: 'The trickster: A study in American Indian mythology (Cu comentarii de K. Kerényi și C. G. Jung)', publication: 'Routledge & Kegan Paul', fullCitation: 'Radin, P. (1956). The trickster: A study in American Indian mythology (Cu comentarii de K. Kerényi și C. G. Jung). Routledge & Kegan Paul.', domain: 'Psihologie analitică și memorie' },
-  { id: 'bib-80', authors: 'Rădulescu-Motru, C.', year: '1904/1996', title: 'Cultura română și politicianismul', publication: 'Editura Scrisul Românesc', fullCitation: 'Rădulescu-Motru, C. (1996). Cultura română și politicianismul. Editura Scrisul Românesc. (Lucrarea originală publicată în 1904).', domain: 'Sociologie instituțională' },
-  { id: 'bib-80a', authors: 'Reynolds, B., & Seeger, M. W.', year: '2005', title: 'Crisis and emergency risk communication as an integrative model', publication: 'Journal of Health Communication, 10(1), 43–55', fullCitation: 'Reynolds, B., & Seeger, M. W. (2005). Crisis and emergency risk communication as an integrative model. Journal of Health Communication, 10(1), 43–55.', domain: 'Cibernetică și semiotică' },
-  { id: 'bib-80b', authors: 'Rid, T.', year: '2020', title: 'Active measures: The secret history of disinformation and political warfare', publication: 'Farrar, Straus and Giroux', fullCitation: 'Rid, T. (2020). Active measures: The secret history of disinformation and political warfare. Farrar, Straus and Giroux.', domain: 'Cibernetică și semiotică' },
-  { id: 'bib-80c', authors: 'Robinson, W. S.', year: '1950', title: 'Ecological correlations and the behavior of individuals', publication: 'American Sociological Review, 15(3), 351–357', fullCitation: 'Robinson, W. S. (1950). Ecological correlations and the behavior of individuals. American Sociological Review, 15(3), 351–357.', domain: 'Sociologie instituțională' },
-  { id: 'bib-81a', authors: 'Roozenbeek, J., & van der Linden, S.', year: '2019', title: 'Fake news game confers psychological resistance against online misinformation', publication: 'Palgrave Communications, 5(1), 65', fullCitation: 'Roozenbeek, J., & van der Linden, S. (2019). Fake news game confers psychological resistance against online misinformation. Palgrave Communications, 5(1), 65.', domain: 'Neuroștiințe și psihobiologie' },
-  { id: 'bib-81b', authors: 'Roozenbeek, J., van der Linden, S., Goldberg, B., Rathje, S., & Lewandowsky, S.', year: '2022', title: 'Psychological inoculation improves resilience against misinformation on social media', publication: 'Science Advances, 8(34), eabo6254', fullCitation: 'Roozenbeek, J., van der Linden, S., Goldberg, B., Rathje, S., & Lewandowsky, S. (2022). Psychological inoculation improves resilience against misinformation on social media. Science Advances, 8(34), eabo6254.', domain: 'Neuroștiințe și psihobiologie' },
-  { id: 'bib-81c', authors: 'Ryle, G.', year: '1949', title: 'The concept of mind', publication: 'Hutchinson', fullCitation: 'Ryle, G. (1949). The concept of mind. Hutchinson.', domain: 'Cibernetică și semiotică' },
-  { id: 'bib-82', authors: 'Sandu, D.', year: '2010', title: 'Lumile sociale ale migrației românești în străinătate', publication: 'Editura Polirom', fullCitation: 'Sandu, D. (2010). Lumile sociale ale migrației românești în străinătate. Editura Polirom.', domain: 'Sociologie instituțională' },
-  { id: 'bib-83a', authors: 'Sapolsky, R. M.', year: '2004', title: "Why zebras don't get ulcers: The acclaimed guide to stress, stress-related diseases, and coping (Ed. a 3-a)", publication: 'Henry Holt and Company', fullCitation: "Sapolsky, R. M. (2004). Why zebras don't get ulcers: The acclaimed guide to stress, stress-related diseases, and coping (Ed. a 3-a). Henry Holt and Company.", domain: 'Neuroștiințe și psihobiologie' },
-  { id: 'bib-83b', authors: 'Sapolsky, R. M.', year: '2017', title: 'Behave: The biology of humans at our best and worst', publication: 'Penguin Press', fullCitation: 'Sapolsky, R. M. (2017). Behave: The biology of humans at our best and worst. Penguin Press.', domain: 'Neuroștiințe și psihobiologie' },
-  { id: 'bib-84', authors: 'Schmitt, C.', year: '1932/1996', title: 'The concept of the political (Der Begriff des Politischen)', publication: 'University of Chicago Press', fullCitation: 'Schmitt, C. (1996). The concept of the political (Trad. G. Schwab). University of Chicago Press. (Lucrarea originală Der Begriff des Politischen publicată în 1932).', domain: 'Geopolitică și ideologie rusă' },
-  { id: 'bib-85', authors: 'Schmitt, O. J.', year: '2017', title: 'Corneliu Zelea Codreanu: Ascensiunea și căderea „Căpitanului”', publication: 'Editura Humanitas', fullCitation: 'Schmitt, O. J. (2017). Corneliu Zelea Codreanu: Ascensiunea și căderea „Căpitanului” (Trad. W. Tauwinkl). Editura Humanitas.', domain: 'Psihologie analitică și memorie' },
-  { id: 'bib-86a', authors: 'Schultz, W.', year: '1998', title: 'Predictive reward signal of dopamine neurons', publication: 'Journal of Neurophysiology, 80(1), 1–27', fullCitation: 'Schultz, W. (1998). Predictive reward signal of dopamine neurons. Journal of Neurophysiology, 80(1), 1–27.', domain: 'Neuroștiințe și psihobiologie' },
-  { id: 'bib-86b', authors: 'Schultz, W.', year: '2016', title: 'Dopamine reward prediction error coding', publication: 'Dialogues in Clinical Neuroscience, 18(1), 23–32', fullCitation: 'Schultz, W. (2016). Dopamine reward prediction error coding. Dialogues in Clinical Neuroscience, 18(1), 23–32.', domain: 'Neuroștiințe și psihobiologie' },
-  { id: 'bib-86c', authors: 'Seeley, W. W., Menon, V., Schatzberg, A. F., Keller, J., Glover, G. H., Kenna, H., Reiss, A. L., & Greicius, M. D.', year: '2007', title: 'Dissociable intrinsic connectivity networks for salience processing and executive control', publication: 'The Journal of Neuroscience, 27(9), 2349–2356', fullCitation: 'Seeley, W. W., Menon, V., Schatzberg, A. F., Keller, J., Glover, G. H., Kenna, H., Reiss, A. L., & Greicius, M. D. (2007). Dissociable intrinsic connectivity networks for salience processing and executive control. The Journal of Neuroscience, 27(9), 2349–2356.', domain: 'Neuroștiințe și psihobiologie' },
-  { id: 'bib-87', authors: 'Seligman, M. E. P.', year: '1975', title: 'Helplessness: On depression, development, and death', publication: 'W. H. Freeman', fullCitation: 'Seligman, M. E. P. (1975). Helplessness: On depression, development, and death. W. H. Freeman.', domain: 'Neuroștiințe și psihobiologie' },
-  { id: 'bib-88', authors: 'Shumailov, I., Shumaylov, Z., Zhao, Y., Papernot, N., Anderson, R., & Gal, Y.', year: '2024', title: 'AI models collapse when trained on recursively generated data', publication: 'Nature, 631(8022), 755–759', fullCitation: 'Shumailov, I., Shumaylov, Z., Zhao, Y., Papernot, N., Anderson, R., & Gal, Y. (2024). AI models collapse when trained on recursively generated data. Nature, 631(8022), 755–759.', domain: 'Cibernetică și semiotică' },
-  { id: 'bib-89', authors: 'Singer, T., & Kimbles, S. L. (Eds.)', year: '2004', title: 'The cultural complex: Contemporary Jungian perspectives on psyche and society', publication: 'Brunner-Routledge', fullCitation: 'Singer, T., & Kimbles, S. L. (Eds.). (2004). The cultural complex: Contemporary Jungian perspectives on psyche and society. Brunner-Routledge.', domain: 'Psihologie analitică și memorie' },
-  { id: 'bib-89b', authors: 'Skinner, B. F.', year: '1953', title: 'Science and human behavior', publication: 'Macmillan', fullCitation: 'Skinner, B. F. (1953). Science and human behavior. Macmillan.', domain: 'Neuroștiințe și psihobiologie' },
-  { id: 'bib-90', authors: 'Snyder, T.', year: '2018', title: 'The road to unfreedom: Russia, Europe, America', publication: 'Tim Duggan Books', fullCitation: 'Snyder, T. (2018). The road to unfreedom: Russia, Europe, America. Tim Duggan Books.', domain: 'Geopolitică și ideologie rusă' },
-  { id: 'bib-91', authors: 'Soloviov, V.', year: '1900/1994', title: 'Povestire despre Antihrist (Trei conversații despre război, progres și sfârșitul istoriei universale)', publication: 'Editura Institutul European', fullCitation: 'Soloviov, V. (1994). Povestire despre Antihrist (În Trei conversații despre război, progres și sfârșitul istoriei universale). Editura Institutul European. (Lucrarea originală publicată în 1900).', domain: 'Geopolitică și ideologie rusă' },
-  { id: 'bib-92', authors: 'Stahl, H. H.', year: '1980', title: 'Traditional Romanian village communities: The transition from the communal to the capitalist mode of production in the Danube region', publication: 'Cambridge University Press', fullCitation: 'Stahl, H. H. (1980). Traditional Romanian village communities: The transition from the communal to the capitalist mode of production in the Danube region (Trad. D. Chirot & H. C. R. Chirot). Cambridge University Press.', domain: 'Sociologie instituțională' },
-  { id: 'bib-93a', authors: 'Stanovich, K. E.', year: '2009', title: 'What intelligence tests miss: The psychology of rational thought', publication: 'Yale University Press', fullCitation: 'Stanovich, K. E. (2009). What intelligence tests miss: The psychology of rational thought. Yale University Press.', domain: 'Neuroștiințe și psihobiologie' },
-  { id: 'bib-93', authors: 'Stăniloae, D.', year: '1978', title: 'Teologia dogmatică ortodoxă (Vol. 1–3)', publication: 'Editura Institutului Biblic și de Misiune al Bisericii Ortodoxe Române', fullCitation: 'Stăniloae, D. (1978). Teologia dogmatică ortodoxă (Vol. 1–3). Editura Institutului Biblic și de Misiune al Bisericii Ortodoxe Române.', domain: 'Psihologie analitică și memorie' },
-  { id: 'bib-93b', authors: 'Sterling, P., & Eyer, J.', year: '1988', title: 'Allostasis: A new paradigm to explain arousal pathology', publication: 'Handbook of life stress, cognition and health (pp. 629–649), John Wiley & Sons', fullCitation: 'Sterling, P., & Eyer, J. (1988). Allostasis: A new paradigm to explain arousal pathology. In S. Fisher & J. Reason (Eds.), Handbook of life stress, cognition and health (pp. 629–649). John Wiley & Sons.', domain: 'Neuroștiințe și psihobiologie' },
-  { id: 'bib-94', authors: 'Sunstein, C. R.', year: '2017', title: '#Republic: Divided democracy in the age of social media', publication: 'Princeton University Press', fullCitation: 'Sunstein, C. R. (2017). #Republic: Divided democracy in the age of social media. Princeton University Press.', domain: 'Cibernetică și semiotică' },
-  { id: 'bib-95', authors: 'Taylor, C.', year: '2007', title: 'A secular age', publication: 'Belknap Press of Harvard University Press', fullCitation: 'Taylor, C. (2007). A secular age. Belknap Press of Harvard University Press.', domain: 'Sociologie instituțională' },
-  { id: 'bib-95b', authors: 'Thaler, R. H., & Sunstein, C. R.', year: '2008', title: 'Nudge: Improving decisions about health, wealth, and happiness', publication: 'Yale University Press', fullCitation: 'Thaler, R. H., & Sunstein, C. R. (2008). Nudge: Improving decisions about health, wealth, and happiness. Yale University Press.', domain: 'Sociologie instituțională' },
-  { id: 'bib-96', authors: 'Thayer, J. F., & Lane, R. D.', year: '2009', title: 'Claude Bernard and the heart–brain connection: Further elaboration of a model of neurovisceral integration', publication: 'Neuroscience & Biobehavioral Reviews, 33(2), 81–88', fullCitation: 'Thayer, J. F., & Lane, R. D. (2009). Claude Bernard and the heart–brain connection: Further elaboration of a model of neurovisceral integration. Neuroscience & Biobehavioral Reviews, 33(2), 81–88.', domain: 'Neuroștiințe și psihobiologie' },
-  { id: 'bib-97a', authors: 'Thom, F.', year: '2018', title: 'Comprendre le poutinisme', publication: 'Desclée De Brouwer', fullCitation: 'Thom, F. (2018). Comprendre le poutinisme. Desclée De Brouwer.', domain: 'Geopolitică și ideologie rusă' },
-  { id: 'bib-97b', authors: 'Thom, F.', year: '2022', title: "La marche à rebours: Regard sur l'histoire soviétique et russe", publication: 'Sorbonne Université Presses', fullCitation: "Thom, F. (2022). La marche à rebours: Regard sur l'histoire soviétique et russe. Sorbonne Université Presses.", domain: 'Geopolitică și ideologie rusă' },
-  { id: 'bib-98', authors: 'Thomas, T. L.', year: '2004', title: "Russia's reflexive control theory and the military", publication: 'The Journal of Slavic Military Studies, 17(2), 237–256', fullCitation: "Thomas, T. L. (2004). Russia's reflexive control theory and the military. The Journal of Slavic Military Studies, 17(2), 237–256.", domain: 'Cibernetică și semiotică' },
-  { id: 'bib-99', authors: 'Tismaneanu, V.', year: '2003', title: 'Stalinism for all seasons: A political history of Romanian communism', publication: 'University of California Press', fullCitation: 'Tismaneanu, V. (2003). Stalinism for all seasons: A political history of Romanian communism. University of California Press.', domain: 'Psihologie analitică și memorie' },
-  { id: 'bib-100', authors: 'Verdery, K.', year: '1991', title: "National ideology under socialism: Identity and cultural politics in Ceaușescu's Romania", publication: 'University of California Press', fullCitation: "Verdery, K. (1991). National ideology under socialism: Identity and cultural politics in Ceaușescu's Romania. University of California Press.", domain: 'Psihologie analitică și memorie' },
-  { id: 'bib-101a', authors: 'Volkan, V. D.', year: '1997', title: 'Bloodlines: From ethnic pride to ethnic terrorism', publication: 'Farrar, Straus and Giroux', fullCitation: 'Volkan, V. D. (1997). Bloodlines: From ethnic pride to ethnic terrorism. Farrar, Straus and Giroux.', domain: 'Psihologie analitică și memorie' },
-  { id: 'bib-101b', authors: 'Volkan, V. D.', year: '2004', title: 'Blind trust: Large groups and their leaders in times of crisis and terror', publication: 'Pitchstone Publishing', fullCitation: 'Volkan, V. D. (2004). Blind trust: Large groups and their leaders in times of crisis and terror. Pitchstone Publishing.', domain: 'Psihologie analitică și memorie' },
-  { id: 'bib-102b', authors: 'von Franz, M.-L.', year: '1970/2000', title: 'The problem of the Puer Aeternus (Ed. a 3-a)', publication: 'Inner City Books', fullCitation: 'von Franz, M.-L. (1970/2000). The problem of the Puer Aeternus (Ed. a 3-a). Inner City Books. (Lucrarea originală bazată pe prelegerile din 1959–1960 și publicată în 1970).', domain: 'Psihologie analitică și memorie' },
-  { id: 'bib-102a', authors: 'von Franz, M.-L.', year: '1972/1995', title: 'Shadow and evil in fairy tales (Ed. revizuită)', publication: 'Shambhala', fullCitation: 'von Franz, M.-L. (1972/1995). Shadow and evil in fairy tales (Ed. revizuită). Shambhala. (Lucrarea originală publicată în 1972).', domain: 'Psihologie analitică și memorie' },
-  { id: 'bib-103', authors: 'Vosoughi, S., Roy, D., & Aral, S.', year: '2018', title: 'The spread of true and false news online', publication: 'Science, 359(6380), 1146–1151', fullCitation: 'Vosoughi, S., Roy, D., & Aral, S. (2018). The spread of true and false news online. Science, 359(6380), 1146–1151.', domain: 'Cibernetică și semiotică' },
-  { id: 'bib-104', authors: 'Wallerstein, I.', year: '1974', title: 'The modern world-system I: Capitalist agriculture and the origins of the European world-economy in the sixteenth century', publication: 'Academic Press', fullCitation: 'Wallerstein, I. (1974). The modern world-system I: Capitalist agriculture and the origins of the European world-economy in the sixteenth century. Academic Press.', domain: 'Sociologie instituțională' },
-  { id: 'bib-105', authors: 'Wu, T.', year: '2016', title: 'The attention merchants: The epic scramble to get inside our heads', publication: 'Alfred A. Knopf', fullCitation: 'Wu, T. (2016). The attention merchants: The epic scramble to get inside our heads. Alfred A. Knopf.', domain: 'Cibernetică și semiotică' },
-  { id: 'bib-106', authors: 'Zeletin, Ș.', year: '1925/1991', title: 'Burghezia română: Originea și rolul ei istoric', publication: 'Editura Humanitas', fullCitation: 'Zeletin, Ș. (1991). Burghezia română: Originea și rolul ei istoric. Editura Humanitas. (Lucrarea originală publicată în 1925).', domain: 'Sociologie instituțională' },
-  { id: 'bib-106b', authors: 'Zubarevich, N.', year: '2011', title: 'Four Russias: Rethinking the post-Soviet map', publication: 'openDemocracy', fullCitation: 'Zubarevich, N. (2011). Four Russias: Rethinking the post-Soviet map. openDemocracy. https://www.opendemocracy.net/en/odr/four-russias-rethinking-post-soviet-map/', domain: 'Geopolitică și ideologie rusă' },
-  { id: 'bib-107', authors: 'Zuboff, S.', year: '2019', title: 'The age of surveillance capitalism: The fight for a human future at the new frontier of power', publication: 'PublicAffairs', fullCitation: 'Zuboff, S. (2019). The age of surveillance capitalism: The fight for a human future at the new frontier of power. PublicAffairs.', domain: 'Cibernetică și semiotică' }
+  {
+    "id": "bib-1",
+    "authors": "Acemoglu, D., & Robinson, J. A.",
+    "year": "2012",
+    "title": "Why nations fail: The origins of power, prosperity, and poverty",
+    "publication": "Crown Business",
+    "fullCitation": "Acemoglu, D., & Robinson, J. A. (2012). Why nations fail: The origins of power, prosperity, and poverty. Crown Business.",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-1b",
+    "authors": "Acemoglu, D., & Robinson, J. A.",
+    "year": "2019",
+    "title": "The narrow corridor: States, societies, and the fate of liberty",
+    "publication": "Penguin Press",
+    "fullCitation": "Acemoglu, D., & Robinson, J. A. (2019). The narrow corridor: States, societies, and the fate of liberty. Penguin Press.",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-2",
+    "authors": "Alemohammad, S., Casco-Rodriguez, J., Luzi, L., Humayun, A. I., Babaei, H., LeJeune, D., Siahkoohi, A., & Baraniuk, R. G.",
+    "year": "2024",
+    "title": "Self-consuming generative models go MAD",
+    "publication": "Proceedings of the Twelfth International Conference on Learning Representations (ICLR 2024)",
+    "fullCitation": "Alemohammad, S., Casco-Rodriguez, J., Luzi, L., Humayun, A. I., Babaei, H., LeJeune, D., Siahkoohi, A., & Baraniuk, R. G. (2024). Self-consuming generative models go MAD. In Proceedings of the Twelfth International Conference on Learning Representations (ICLR 2024).",
+    "domain": "Cybernetics & Semiotics"
+  },
+  {
+    "id": "bib-3",
+    "authors": "Arnsten, A. F. T.",
+    "year": "2009",
+    "title": "Stress signalling pathways that impair prefrontal cortex structure and function",
+    "publication": "Nature Reviews Neuroscience, 10(6), 410–422",
+    "fullCitation": "Arnsten, A. F. T. (2009). Stress signalling pathways that impair prefrontal cortex structure and function. Nature Reviews Neuroscience, 10(6), 410–422.",
+    "domain": "Neuroscience & Psychobiology"
+  },
+  {
+    "id": "bib-4",
+    "authors": "Bandura, A.",
+    "year": "1997",
+    "title": "Self-efficacy: The exercise of control",
+    "publication": "W. H. Freeman",
+    "fullCitation": "Bandura, A. (1997). Self-efficacy: The exercise of control. W. H. Freeman.",
+    "domain": "Neuroscience & Psychobiology"
+  },
+  {
+    "id": "bib-5",
+    "authors": "Banfield, E. C.",
+    "year": "1958",
+    "title": "The moral basis of a backward society",
+    "publication": "The Free Press",
+    "fullCitation": "Banfield, E. C. (1958). The moral basis of a backward society. The Free Press.",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-6",
+    "authors": "Bădescu, G., Comșa, M., Gheorghiță, A., Stănuș, C., & Tufiș, C. D.",
+    "year": "2010",
+    "title": "Implicarea civică și politică a tinerilor",
+    "publication": "Editura Dobrogea",
+    "fullCitation": "Bădescu, G., Comșa, M., Gheorghiță, A., Stănuș, C., & Tufiș, C. D. (2010). Implicarea civică și politică a tinerilor. Editura Dobrogea.",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-7",
+    "authors": "Bădescu, I.",
+    "year": "1984/2003",
+    "title": "Sincronism european și cultură critică românească",
+    "publication": "Editura Dacia",
+    "fullCitation": "Bădescu, I. (1984/2003). Sincronism european și cultură critică românească. Editura Dacia. (Lucrarea originală publicată în 1984 la Editura Științifică și Enciclopedică).",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-8",
+    "authors": "Berdiaev, N.",
+    "year": "1949/1996",
+    "title": "Împărăția Duhului și împărăția Cezarului (Trad. S. Lupan)",
+    "publication": "Editura Amarcord",
+    "fullCitation": "Berdiaev, N. (1996). Împărăția Duhului și împărăția Cezarului (Trad. S. Lupan). Editura Amarcord. (Lucrarea originală publicată postum în 1949).",
+    "domain": "Analytical Psychology & Memory"
+  },
+  {
+    "id": "bib-8b",
+    "authors": "Bion, W. R.",
+    "year": "1961",
+    "title": "Experiences in groups and other papers",
+    "publication": "Tavistock Publications",
+    "fullCitation": "Bion, W. R. (1961). Experiences in groups and other papers. Tavistock Publications.",
+    "domain": "Analytical Psychology & Memory"
+  },
+  {
+    "id": "bib-9",
+    "authors": "Bion, W. R.",
+    "year": "1962",
+    "title": "Learning from experience",
+    "publication": "William Heinemann Medical Books",
+    "fullCitation": "Bion, W. R. (1962). Learning from experience. William Heinemann Medical Books.",
+    "domain": "Analytical Psychology & Memory"
+  },
+  {
+    "id": "bib-10",
+    "authors": "Bion, W. R.",
+    "year": "1970",
+    "title": "Attention and interpretation",
+    "publication": "Tavistock Publications",
+    "fullCitation": "Bion, W. R. (1970). Attention and interpretation. Tavistock Publications.",
+    "domain": "Analytical Psychology & Memory"
+  },
+  {
+    "id": "bib-11",
+    "authors": "Boia, L.",
+    "year": "1997",
+    "title": "Istorie și mit în conștiința românească",
+    "publication": "Editura Humanitas",
+    "fullCitation": "Boia, L. (1997). Istorie și mit în conștiința românească. Editura Humanitas.",
+    "domain": "Analytical Psychology & Memory"
+  },
+  {
+    "id": "bib-11b",
+    "authors": "Boyd, J. R.",
+    "year": "1987/2018",
+    "title": "A discourse on winning and losing (G. T. Hammond, Ed.)",
+    "publication": "Air University Press",
+    "fullCitation": "Boyd, J. R. (2018). A discourse on winning and losing (G. T. Hammond, Ed.). Air University Press. (Sinteza prelegerilor strategice susținute în 1987).",
+    "domain": "Cybernetics & Semiotics"
+  },
+  {
+    "id": "bib-12",
+    "authors": "Brady, W. J., Wills, J. A., Jost, J. T., Tucker, J. A., & Van Bavel, J. J.",
+    "year": "2017",
+    "title": "Emotion shapes the diffusion of moralized content in social networks",
+    "publication": "Proceedings of the National Academy of Sciences, 114(28), 7313–7318",
+    "fullCitation": "Brady, W. J., Wills, J. A., Jost, J. T., Tucker, J. A., & Van Bavel, J. J. (2017). Emotion shapes the diffusion of moralized content in social networks. Proceedings of the National Academy of Sciences, 114(28), 7313–7318.",
+    "domain": "Neuroscience & Psychobiology"
+  },
+  {
+    "id": "bib-13",
+    "authors": "Brewer, M. B.",
+    "year": "1999",
+    "title": "The psychology of prejudice: Ingroup love and outgroup hate?",
+    "publication": "Journal of Social Issues, 55(3), 429–444",
+    "fullCitation": "Brewer, M. B. (1999). The psychology of prejudice: Ingroup love and outgroup hate? Journal of Social Issues, 55(3), 429–444.",
+    "domain": "Neuroscience & Psychobiology"
+  },
+  {
+    "id": "bib-14",
+    "authors": "Centola, D.",
+    "year": "2018",
+    "title": "How behavior spreads: The science of complex contagions",
+    "publication": "Princeton University Press",
+    "fullCitation": "Centola, D. (2018). How behavior spreads: The science of complex contagions. Princeton University Press.",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-15",
+    "authors": "Centola, D.",
+    "year": "2021",
+    "title": "Change: How to make big things happen",
+    "publication": "Little, Brown Spark",
+    "fullCitation": "Centola, D. (2021). Change: How to make big things happen. Little, Brown Spark.",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-16",
+    "authors": "Cipolla, C. M.",
+    "year": "1976/2011",
+    "title": "The basic laws of human stupidity",
+    "publication": "il Mulino",
+    "fullCitation": "Cipolla, C. M. (2011). The basic laws of human stupidity. il Mulino. (Lucrarea originală difuzată în ediție privată în 1976 și publicată în Allegro ma non troppo în 1988).",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-17",
+    "authors": "Claverie, B., Baptiste, P., & du Cluzel, F. (Eds.)",
+    "year": "2022",
+    "title": "Cognitive warfare: The future of cognitive dominance",
+    "publication": "NATO Collaboration Support Office / Allied Command Transformation",
+    "fullCitation": "Claverie, B., Baptiste, P., & du Cluzel, F. (Eds.). (2022). Cognitive warfare: The future of cognitive dominance. NATO Collaboration Support Office / Allied Command Transformation.",
+    "domain": "Cybernetics & Semiotics"
+  },
+  {
+    "id": "bib-18",
+    "authors": "Coleman, J. S.",
+    "year": "1990",
+    "title": "Foundations of social theory",
+    "publication": "Belknap Press of Harvard University Press",
+    "fullCitation": "Coleman, J. S. (1990). Foundations of social theory. Belknap Press of Harvard University Press.",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-19",
+    "authors": "Dawisha, K.",
+    "year": "2014",
+    "title": "Putin's kleptocracy: Who owns Russia?",
+    "publication": "Simon & Schuster",
+    "fullCitation": "Dawisha, K. (2014). Putin's kleptocracy: Who owns Russia?. Simon & Schuster.",
+    "domain": "Geopolitics & Russian Ideology"
+  },
+  {
+    "id": "bib-20",
+    "authors": "Dever, G. E. A.",
+    "year": "1976",
+    "title": "An epidemiological model for health policy analysis",
+    "publication": "Social Indicators Research, 2(4), 453–466",
+    "fullCitation": "Dever, G. E. A. (1976). An epidemiological model for health policy analysis. Social Indicators Research, 2(4), 453–466.",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-21",
+    "authors": "Dobrogeanu-Gherea, C.",
+    "year": "1910",
+    "title": "Neoiobăgia: Studiu economico-sociologic al problemei noastre agrare",
+    "publication": "Editura Librăriei Socec & Co.",
+    "fullCitation": "Dobrogeanu-Gherea, C. (1910). Neoiobăgia: Studiu economico-sociologic al problemei noastre agrare. Editura Librăriei Socec & Co.",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-22",
+    "authors": "Dostoievski, F. M.",
+    "year": "1873",
+    "title": "Bobok: Însemnările unei persoane",
+    "publication": "Grajdanin, (6), 1873",
+    "fullCitation": "Dostoievski, F. M. (1873). Bobok: Însemnările unei persoane. Grajdanin, (6), 1873.",
+    "domain": "Geopolitics & Russian Ideology"
+  },
+  {
+    "id": "bib-23",
+    "authors": "du Cluzel, F.",
+    "year": "2020",
+    "title": "Cognitive warfare",
+    "publication": "NATO Allied Command Transformation Innovation Hub",
+    "fullCitation": "du Cluzel, F. (2020). Cognitive warfare. NATO Allied Command Transformation Innovation Hub.",
+    "domain": "Cybernetics & Semiotics"
+  },
+  {
+    "id": "bib-24",
+    "authors": "Dughin, A.",
+    "year": "1997",
+    "title": "Osnovy geopolitiki: Geopoliticeskoe budușcee Rossii [Bazele geopoliticii: Viitorul geopolitic al Rusiei]",
+    "publication": "Arktogheia",
+    "fullCitation": "Dughin, A. (1997). Osnovy geopolitiki: Geopoliticeskoe budușcee Rossii [Bazele geopoliticii: Viitorul geopolitic al Rusiei]. Arktogheia.",
+    "domain": "Geopolitics & Russian Ideology"
+  },
+  {
+    "id": "bib-25",
+    "authors": "Durkheim, É.",
+    "year": "1897/2005",
+    "title": "Despre sinucidere (Trad. M. Calcan)",
+    "publication": "Editura Institutul European",
+    "fullCitation": "Durkheim, É. (2005). Despre sinucidere (Trad. M. Calcan). Editura Institutul European. (Lucrarea originală publicată în 1897).",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-26",
+    "authors": "Ebbinghaus, H.",
+    "year": "1885/1913",
+    "title": "Memory: A contribution to experimental psychology",
+    "publication": "Teachers College, Columbia University",
+    "fullCitation": "Ebbinghaus, H. (1913). Memory: A contribution to experimental psychology (Trad. H. A. Ruger & C. E. Bussenius). Teachers College, Columbia University. (Lucrarea originală Über das Gedächtnis publicată în 1885).",
+    "domain": "Neuroscience & Psychobiology"
+  },
+  {
+    "id": "bib-27",
+    "authors": "Edinger, E. F.",
+    "year": "1972",
+    "title": "Ego and archetype: Individuation and the religious function of the psyche",
+    "publication": "G. P. Putnam's Sons",
+    "fullCitation": "Edinger, E. F. (1972). Ego and archetype: Individuation and the religious function of the psyche. G. P. Putnam's Sons.",
+    "domain": "Analytical Psychology & Memory"
+  },
+  {
+    "id": "bib-28",
+    "authors": "Eltchaninoff, M.",
+    "year": "2018",
+    "title": "Inside the mind of Vladimir Putin (Trad. J. Ferguson)",
+    "publication": "Hurst & Company",
+    "fullCitation": "Eltchaninoff, M. (2018). Inside the mind of Vladimir Putin (Trad. J. Ferguson). Hurst & Company.",
+    "domain": "Geopolitics & Russian Ideology"
+  },
+  {
+    "id": "bib-30",
+    "authors": "Epstein, M.",
+    "year": "2022",
+    "title": "From totalitarianism to schizofascism and the Russian antiworld",
+    "publication": "Studies in East European Thought, 74(4), 475–481",
+    "fullCitation": "Epstein, M. (2022). From totalitarianism to schizofascism and the Russian antiworld. Studies in East European Thought, 74(4), 475–481.",
+    "domain": "Geopolitics & Russian Ideology"
+  },
+  {
+    "id": "bib-29",
+    "authors": "Epstein, M.",
+    "year": "2023",
+    "title": "Russkii antimir: Politika na grani apokalipsisa [Antilumea rusă: Politica la limita apocalipsei]",
+    "publication": "Franc-Tireur USA",
+    "fullCitation": "Epstein, M. (2023). Russkii antimir: Politika na grani apokalipsisa [Antilumea rusă: Politica la limita apocalipsei]. Franc-Tireur USA.",
+    "domain": "Geopolitics & Russian Ideology"
+  },
+  {
+    "id": "bib-31",
+    "authors": "Ferenczi, S.",
+    "year": "1933/1949",
+    "title": "Confusion of the tongues between the adults and the child",
+    "publication": "International Journal of Psycho-Analysis, 30, 225–230",
+    "fullCitation": "Ferenczi, S. (1949). Confusion of the tongues between the adults and the child. International Journal of Psycho-Analysis, 30, 225–230. (Comunicare susținută în 1932 și publicată în 1933).",
+    "domain": "Analytical Psychology & Memory"
+  },
+  {
+    "id": "bib-31b",
+    "authors": "Fehr, E., & Gächter, S.",
+    "year": "2002",
+    "title": "Altruistic punishment in humans",
+    "publication": "Nature, 415(6868), 137–140",
+    "fullCitation": "Fehr, E., & Gächter, S. (2002). Altruistic punishment in humans. Nature, 415(6868), 137–140.",
+    "domain": "Neuroscience & Psychobiology"
+  },
+  {
+    "id": "bib-32",
+    "authors": "Festinger, L.",
+    "year": "1957",
+    "title": "A theory of cognitive dissonance",
+    "publication": "Stanford University Press",
+    "fullCitation": "Festinger, L. (1957). A theory of cognitive dissonance. Stanford University Press.",
+    "domain": "Neuroscience & Psychobiology"
+  },
+  {
+    "id": "bib-33",
+    "authors": "Freud, A.",
+    "year": "1936/1993",
+    "title": "The ego and the mechanisms of defence",
+    "publication": "Karnac Books",
+    "fullCitation": "Freud, A. (1993). The ego and the mechanisms of defence. Karnac Books. (Lucrarea originală publicată în 1936).",
+    "domain": "Analytical Psychology & Memory"
+  },
+  {
+    "id": "bib-34",
+    "authors": "Friston, K.",
+    "year": "2010",
+    "title": "The free-energy principle: A unified brain theory?",
+    "publication": "Nature Reviews Neuroscience, 11(2), 127–138",
+    "fullCitation": "Friston, K. (2010). The free-energy principle: A unified brain theory? Nature Reviews Neuroscience, 11(2), 127–138.",
+    "domain": "Neuroscience & Psychobiology"
+  },
+  {
+    "id": "bib-35",
+    "authors": "Galeotti, M.",
+    "year": "2019",
+    "title": "The Vory: Russia's super mafia",
+    "publication": "Yale University Press",
+    "fullCitation": "Galeotti, M. (2019). The Vory: Russia's super mafia. Yale University Press.",
+    "domain": "Geopolitics & Russian Ideology"
+  },
+  {
+    "id": "bib-36",
+    "authors": "Giles, K.",
+    "year": "2019",
+    "title": "Moscow rules: What drives Russia to confront the West",
+    "publication": "Brookings Institution Press / Chatham House",
+    "fullCitation": "Giles, K. (2019). Moscow rules: What drives Russia to confront the West. Brookings Institution Press / Chatham House.",
+    "domain": "Geopolitics & Russian Ideology"
+  },
+  {
+    "id": "bib-36b",
+    "authors": "Girard, R.",
+    "year": "1982",
+    "title": "Le Bouc émissaire",
+    "publication": "Grasset",
+    "fullCitation": "Girard, R. (1982). Le Bouc émissaire. Grasset.",
+    "domain": "Analytical Psychology & Memory"
+  },
+  {
+    "id": "bib-37",
+    "authors": "Granovetter, M. S.",
+    "year": "1973",
+    "title": "The strength of weak ties",
+    "publication": "American Journal of Sociology, 78(6), 1360–1380",
+    "fullCitation": "Granovetter, M. S. (1973). The strength of weak ties. American Journal of Sociology, 78(6), 1360–1380.",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-37a",
+    "authors": "Gumiliov, L. N.",
+    "year": "1989",
+    "title": "Etnoghenez i biosfera Zemli [Etnogeneza și biosfera Pământului]",
+    "publication": "Ghidrometeoizdat",
+    "fullCitation": "Gumiliov, L. N. (1989). Etnoghenez i biosfera Zemli [Etnogeneza și biosfera Pământului]. Ghidrometeoizdat.",
+    "domain": "Geopolitics & Russian Ideology"
+  },
+  {
+    "id": "bib-37b",
+    "authors": "Habermas, J.",
+    "year": "1992/1996",
+    "title": "Between facts and norms: Contributions to a discourse theory of law and democracy (Faktizität und Geltung)",
+    "publication": "MIT Press",
+    "fullCitation": "Habermas, J. (1996). Between facts and norms: Contributions to a discourse theory of law and democracy (Trad. W. Rehg). MIT Press. (Lucrarea originală Faktizität und Geltung publicată în 1992).",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-38",
+    "authors": "Habermas, J.",
+    "year": "2006",
+    "title": "Religion in the public sphere",
+    "publication": "European Journal of Philosophy, 14(1), 1–25",
+    "fullCitation": "Habermas, J. (2006). Religion in the public sphere. European Journal of Philosophy, 14(1), 1–25.",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-39",
+    "authors": "Hedström, P.",
+    "year": "2005",
+    "title": "Dissecting the social: On the principles of analytical sociology",
+    "publication": "Cambridge University Press",
+    "fullCitation": "Hedström, P. (2005). Dissecting the social: On the principles of analytical sociology. Cambridge University Press.",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-40",
+    "authors": "Henderson, J. L.",
+    "year": "1984",
+    "title": "Cultural attitudes in psychological perspective",
+    "publication": "Inner City Books",
+    "fullCitation": "Henderson, J. L. (1984). Cultural attitudes in psychological perspective. Inner City Books.",
+    "domain": "Analytical Psychology & Memory"
+  },
+  {
+    "id": "bib-41",
+    "authors": "Hillman, J. (Ed.)",
+    "year": "1979",
+    "title": "Puer papers",
+    "publication": "Spring Publications",
+    "fullCitation": "Hillman, J. (Ed.). (1979). Puer papers. Spring Publications.",
+    "domain": "Analytical Psychology & Memory"
+  },
+  {
+    "id": "bib-42",
+    "authors": "Hovorun, C.",
+    "year": "2018",
+    "title": "Political Orthodoxies: The unorthodoxies of the Church coerced",
+    "publication": "Fortress Press",
+    "fullCitation": "Hovorun, C. (2018). Political Orthodoxies: The unorthodoxies of the Church coerced. Fortress Press.",
+    "domain": "Geopolitics & Russian Ideology"
+  },
+  {
+    "id": "bib-42b",
+    "authors": "Ilin, I. A.",
+    "year": "1925/1956",
+    "title": "O soprotivlenii zlu siloiu [Despre împotrivirea față de rău prin forță] · Nașî zadaci [Sarcinile noastre]",
+    "publication": "Izd. Russkogo Obșce-Voinskogo Soiuza",
+    "fullCitation": "Ilin, I. A. (1925/1956). O soprotivlenii zlu siloiu [Despre împotrivirea față de rău prin forță] (1925); Nașî zadaci [Sarcinile noastre] (Vol. 1–2, 1956). Izd. Russkogo Obșce-Voinskogo Soiuza.",
+    "domain": "Geopolitics & Russian Ideology"
+  },
+  {
+    "id": "bib-43",
+    "authors": "Ioanid, R.",
+    "year": "2000",
+    "title": "The Holocaust in Romania: The destruction of Jews and Gypsies under the Antonescu regime, 1940–1944",
+    "publication": "Ivan R. Dee / United States Holocaust Memorial Museum",
+    "fullCitation": "Ioanid, R. (2000). The Holocaust in Romania: The destruction of Jews and Gypsies under the Antonescu regime, 1940–1944. Ivan R. Dee / United States Holocaust Memorial Museum.",
+    "domain": "Analytical Psychology & Memory"
+  },
+  {
+    "id": "bib-44",
+    "authors": "Ionescu, G.",
+    "year": "1964",
+    "title": "Communism in Rumania, 1944–1962",
+    "publication": "Oxford University Press",
+    "fullCitation": "Ionescu, G. (1964). Communism in Rumania, 1944–1962. Oxford University Press.",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-44b",
+    "authors": "Janet, P.",
+    "year": "1903",
+    "title": "Les obsessions et la psychasthénie (Vol. 1–2)",
+    "publication": "Félix Alcan",
+    "fullCitation": "Janet, P. (1903). Les obsessions et la psychasthénie (Vol. 1–2). Félix Alcan.",
+    "domain": "Analytical Psychology & Memory"
+  },
+  {
+    "id": "bib-45a",
+    "authors": "Jung, C. G.",
+    "year": "1916/1960",
+    "title": "The transcendent function (Collected Works, Vol. 8)",
+    "publication": "Princeton University Press",
+    "fullCitation": "Jung, C. G. (1916/1960). The transcendent function (Trad. R. F. C. Hull). In The collected works of C. G. Jung (Vol. 8, pp. 67–91). Princeton University Press. (Eseu redactat în 1916).",
+    "domain": "Analytical Psychology & Memory"
+  },
+  {
+    "id": "bib-48",
+    "authors": "Jung, C. G.",
+    "year": "1921/1971",
+    "title": "Psychological types (Vol. 6)",
+    "publication": "Princeton University Press",
+    "fullCitation": "Jung, C. G. (1921/1971). Psychological types (Trad. H. G. Baynes, rev. R. F. C. Hull). In The collected works of C. G. Jung (Vol. 6). Princeton University Press. (Lucrarea originală publicată în 1921).",
+    "domain": "Analytical Psychology & Memory"
+  },
+  {
+    "id": "bib-46",
+    "authors": "Jung, C. G.",
+    "year": "1928/1966",
+    "title": "The relations between the ego and the unconscious (Vol. 7)",
+    "publication": "Princeton University Press",
+    "fullCitation": "Jung, C. G. (1928/1966). The relations between the ego and the unconscious (Trad. R. F. C. Hull). In The collected works of C. G. Jung (Vol. 7, pp. 123–241). Princeton University Press. (Lucrarea originală publicată în 1928).",
+    "domain": "Analytical Psychology & Memory"
+  },
+  {
+    "id": "bib-45b",
+    "authors": "Jung, C. G.",
+    "year": "1934/1960",
+    "title": "A review of the complex theory (Collected Works, Vol. 8)",
+    "publication": "Princeton University Press",
+    "fullCitation": "Jung, C. G. (1934/1960). A review of the complex theory (Trad. R. F. C. Hull). In The collected works of C. G. Jung (Vol. 8, pp. 92–104). Princeton University Press. (Lucrarea originală publicată în 1934).",
+    "domain": "Analytical Psychology & Memory"
+  },
+  {
+    "id": "bib-45c",
+    "authors": "Jung, C. G.",
+    "year": "1936/1964",
+    "title": "Wotan (Collected Works, Vol. 10)",
+    "publication": "Princeton University Press",
+    "fullCitation": "Jung, C. G. (1936/1964). Wotan (Trad. R. F. C. Hull). In The collected works of C. G. Jung (Vol. 10, pp. 179–193). Princeton University Press. (Articolul original publicat în 1936).",
+    "domain": "Analytical Psychology & Memory"
+  },
+  {
+    "id": "bib-47a",
+    "authors": "Jung, C. G.",
+    "year": "1951/1968",
+    "title": "Aion: Researches into the phenomenology of the self (Vol. 9, Partea a II-a)",
+    "publication": "Princeton University Press",
+    "fullCitation": "Jung, C. G. (1951/1968). Aion: Researches into the phenomenology of the self (Trad. R. F. C. Hull). In The collected works of C. G. Jung (Vol. 9, Partea a II-a). Princeton University Press. (Lucrarea originală publicată în 1951).",
+    "domain": "Analytical Psychology & Memory"
+  },
+  {
+    "id": "bib-47b",
+    "authors": "Jung, C. G.",
+    "year": "1954/1968",
+    "title": "On the psychology of the trickster-figure (Vol. 9, Partea I)",
+    "publication": "Princeton University Press",
+    "fullCitation": "Jung, C. G. (1954/1968). On the psychology of the trickster-figure (Trad. R. F. C. Hull). In The collected works of C. G. Jung (Vol. 9, Partea I, pp. 255–272). Princeton University Press. (Lucrarea originală publicată în 1954).",
+    "domain": "Analytical Psychology & Memory"
+  },
+  {
+    "id": "bib-49",
+    "authors": "Kahan, D. M.",
+    "year": "2013",
+    "title": "Ideology, motivated reasoning, and cognitive reflection",
+    "publication": "Judgment and Decision Making, 8(4), 407–424",
+    "fullCitation": "Kahan, D. M. (2013). Ideology, motivated reasoning, and cognitive reflection. Judgment and Decision Making, 8(4), 407–424.",
+    "domain": "Neuroscience & Psychobiology"
+  },
+  {
+    "id": "bib-50",
+    "authors": "Kahan, D. M.",
+    "year": "2017",
+    "title": "Misconceptions, misinformation, and the logic of identity-protective cognition",
+    "publication": "Cultural Cognition Project Working Paper Series, (164), Yale Law School",
+    "fullCitation": "Kahan, D. M. (2017). Misconceptions, misinformation, and the logic of identity-protective cognition. Cultural Cognition Project Working Paper Series, (164), Yale Law School.",
+    "domain": "Neuroscience & Psychobiology"
+  },
+  {
+    "id": "bib-51",
+    "authors": "Kahneman, D.",
+    "year": "2011",
+    "title": "Thinking, fast and slow",
+    "publication": "Farrar, Straus and Giroux",
+    "fullCitation": "Kahneman, D. (2011). Thinking, fast and slow. Farrar, Straus and Giroux.",
+    "domain": "Neuroscience & Psychobiology"
+  },
+  {
+    "id": "bib-52a",
+    "authors": "Kalaitzidis, P.",
+    "year": "2012",
+    "title": "Orthodoxy and political theology",
+    "publication": "World Council of Churches Publications",
+    "fullCitation": "Kalaitzidis, P. (2012). Orthodoxy and political theology. World Council of Churches Publications.",
+    "domain": "Geopolitics & Russian Ideology"
+  },
+  {
+    "id": "bib-52b",
+    "authors": "Kalaitzidis, P., Hovorun, C., Papanikolaou, A., & Gallaher, B.",
+    "year": "2022",
+    "title": "A declaration on the „Russian World” (Russkii Mir) teaching",
+    "publication": "Volos Academy for Theological Studies / Fordham University Orthodox Christian Studies Center",
+    "fullCitation": "Kalaitzidis, P., Hovorun, C., Papanikolaou, A., & Gallaher, B. (2022). A declaration on the „Russian World” (Russkii Mir) teaching. Volos Academy for Theological Studies / Fordham University Orthodox Christian Studies Center.",
+    "domain": "Geopolitics & Russian Ideology"
+  },
+  {
+    "id": "bib-53",
+    "authors": "Klein, M.",
+    "year": "1946/1975",
+    "title": "Notes on some schizoid mechanisms",
+    "publication": "The Hogarth Press",
+    "fullCitation": "Klein, M. (1975). Notes on some schizoid mechanisms. In Envy and gratitude and other works 1946–1963 (pp. 1–24). The Hogarth Press. (Lucrarea originală publicată în 1946).",
+    "domain": "Analytical Psychology & Memory"
+  },
+  {
+    "id": "bib-53b",
+    "authors": "Kligman, G., & Verdery, K.",
+    "year": "2011",
+    "title": "Peasants under siege: The collectivization of Romanian agriculture, 1949–1962",
+    "publication": "Princeton University Press",
+    "fullCitation": "Kligman, G., & Verdery, K. (2011). Peasants under siege: The collectivization of Romanian agriculture, 1949–1962. Princeton University Press.",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-54a",
+    "authors": "Kruglanski, A. W.",
+    "year": "2004",
+    "title": "The psychology of closed mindedness",
+    "publication": "Psychology Press",
+    "fullCitation": "Kruglanski, A. W. (2004). The psychology of closed mindedness. Psychology Press.",
+    "domain": "Neuroscience & Psychobiology"
+  },
+  {
+    "id": "bib-54b",
+    "authors": "Kruglanski, A. W., & Webster, D. M.",
+    "year": "1996",
+    "title": "Motivated closing of the mind: „Seizing” and „freezing”",
+    "publication": "Psychological Review, 103(2), 263–283",
+    "fullCitation": "Kruglanski, A. W., & Webster, D. M. (1996). Motivated closing of the mind: „Seizing” and „freezing”. Psychological Review, 103(2), 263–283.",
+    "domain": "Neuroscience & Psychobiology"
+  },
+  {
+    "id": "bib-55",
+    "authors": "Kunda, Z.",
+    "year": "1990",
+    "title": "The case for motivated reasoning",
+    "publication": "Psychological Bulletin, 108(3), 480–498",
+    "fullCitation": "Kunda, Z. (1990). The case for motivated reasoning. Psychological Bulletin, 108(3), 480–498.",
+    "domain": "Neuroscience & Psychobiology"
+  },
+  {
+    "id": "bib-55b",
+    "authors": "Laibson, D.",
+    "year": "1997",
+    "title": "Golden eggs and hyperbolic discounting",
+    "publication": "The Quarterly Journal of Economics, 112(2), 443–478",
+    "fullCitation": "Laibson, D. (1997). Golden eggs and hyperbolic discounting. The Quarterly Journal of Economics, 112(2), 443–478.",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-56",
+    "authors": "Lalonde, M.",
+    "year": "1974",
+    "title": "A new perspective on the health of Canadians: A working document",
+    "publication": "Minister of Supply and Services Canada",
+    "fullCitation": "Lalonde, M. (1974). A new perspective on the health of Canadians: A working document. Minister of Supply and Services Canada.",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-57b",
+    "authors": "Le Goff, J.",
+    "year": "1981",
+    "title": "La naissance du Purgatoire [Nașterea Purgatoriului]",
+    "publication": "Éditions Gallimard",
+    "fullCitation": "Le Goff, J. (1981). La naissance du Purgatoire [Nașterea Purgatoriului]. Éditions Gallimard.",
+    "domain": "Analytical Psychology & Memory"
+  },
+  {
+    "id": "bib-57",
+    "authors": "Ledeneva, A. V.",
+    "year": "2013",
+    "title": "Can Russia modernise? Sistema, power networks and informal governance",
+    "publication": "Cambridge University Press",
+    "fullCitation": "Ledeneva, A. V. (2013). Can Russia modernise? Sistema, power networks and informal governance. Cambridge University Press.",
+    "domain": "Geopolitics & Russian Ideology"
+  },
+  {
+    "id": "bib-58a",
+    "authors": "Lefebvre, V. A.",
+    "year": "1982",
+    "title": "Algebra of conscience: A comparative analysis of Western and Soviet ethical systems",
+    "publication": "D. Reidel Publishing Company",
+    "fullCitation": "Lefebvre, V. A. (1982). Algebra of conscience: A comparative analysis of Western and Soviet ethical systems. D. Reidel Publishing Company.",
+    "domain": "Cybernetics & Semiotics"
+  },
+  {
+    "id": "bib-58b",
+    "authors": "Lefebvre, V. A.",
+    "year": "2001",
+    "title": "Algebra of conscience (Ed. a 2-a extinsă, cu o nouă parte despre controlul reflexiv)",
+    "publication": "Kluwer Academic Publishers",
+    "fullCitation": "Lefebvre, V. A. (2001). Algebra of conscience (Ed. a 2-a extinsă, cu o nouă parte despre controlul reflexiv). Kluwer Academic Publishers.",
+    "domain": "Cybernetics & Semiotics"
+  },
+  {
+    "id": "bib-59",
+    "authors": "Lembke, A.",
+    "year": "2021",
+    "title": "Dopamine nation: Finding balance in the age of indulgence",
+    "publication": "Dutton",
+    "fullCitation": "Lembke, A. (2021). Dopamine nation: Finding balance in the age of indulgence. Dutton.",
+    "domain": "Neuroscience & Psychobiology"
+  },
+  {
+    "id": "bib-60",
+    "authors": "Lipset, S. M., & Rokkan, S. (Eds.)",
+    "year": "1967",
+    "title": "Party systems and voter alignments: Cross-national perspectives",
+    "publication": "The Free Press",
+    "fullCitation": "Lipset, S. M., & Rokkan, S. (Eds.). (1967). Party systems and voter alignments: Cross-national perspectives. The Free Press.",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-61a",
+    "authors": "Lotman, I. M.",
+    "year": "1990",
+    "title": "Universe of the mind: A semiotic theory of culture",
+    "publication": "I. B. Tauris",
+    "fullCitation": "Lotman, I. M. (1990). Universe of the mind: A semiotic theory of culture (Trad. A. Shukman). I. B. Tauris.",
+    "domain": "Cybernetics & Semiotics"
+  },
+  {
+    "id": "bib-61b",
+    "authors": "Lotman, I. M.",
+    "year": "1992/2009",
+    "title": "Culture and explosion",
+    "publication": "Mouton de Gruyter",
+    "fullCitation": "Lotman, I. M. (2009). Culture and explosion (Trad. W. Clark). Mouton de Gruyter. (Lucrarea originală Kultura i vzrîv publicată în 1992).",
+    "domain": "Cybernetics & Semiotics"
+  },
+  {
+    "id": "bib-61c",
+    "authors": "Lotman, I. M., & Uspenski, B. A.",
+    "year": "1985",
+    "title": "Binary models in the dynamics of Russian culture (to the end of the eighteenth century)",
+    "publication": "Cornell University Press",
+    "fullCitation": "Lotman, I. M., & Uspenski, B. A. (1985). Binary models in the dynamics of Russian culture (to the end of the eighteenth century). In A. D. Nakhimovsky & A. Stone Nakhimovsky (Eds.), The semiotics of Russian cultural history (pp. 30–66). Cornell University Press.",
+    "domain": "Cybernetics & Semiotics"
+  },
+  {
+    "id": "bib-62",
+    "authors": "Lovinescu, E.",
+    "year": "1924–1925/1997",
+    "title": "Istoria civilizației române moderne (Vol. 1–3)",
+    "publication": "Editura Minerva",
+    "fullCitation": "Lovinescu, E. (1997). Istoria civilizației române moderne (Vol. 1–3). Editura Minerva. (Lucrarea originală publicată în 1924–1925).",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-63a",
+    "authors": "Luhmann, N.",
+    "year": "1995",
+    "title": "Social systems",
+    "publication": "Stanford University Press",
+    "fullCitation": "Luhmann, N. (1995). Social systems (Trad. J. Bednarz Jr. & D. Baecker). Stanford University Press.",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-63b",
+    "authors": "Luhmann, N.",
+    "year": "2004",
+    "title": "Law as a social system",
+    "publication": "Oxford University Press",
+    "fullCitation": "Luhmann, N. (2004). Law as a social system (Trad. K. A. Ziegert). Oxford University Press.",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-64",
+    "authors": "Maiorescu, T.",
+    "year": "1868/1984",
+    "title": "În contra direcției de astăzi în cultura română",
+    "publication": "Editura Minerva (Convorbiri literare, 1868)",
+    "fullCitation": "Maiorescu, T. (1984). În contra direcției de astăzi în cultura română. În Critice (Vol. 1, pp. 147–156). Editura Minerva. (Studiul original publicat în Convorbiri literare în 1868).",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-64a",
+    "authors": "Mair, P.",
+    "year": "2013",
+    "title": "Ruling the void: The hollowing of Western democracy",
+    "publication": "Verso",
+    "fullCitation": "Mair, P. (2013). Ruling the void: The hollowing of Western democracy. Verso.",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-64b",
+    "authors": "McEwen, B. S.",
+    "year": "1998",
+    "title": "Protective and damaging effects of stress mediators",
+    "publication": "New England Journal of Medicine, 338(3), 171–179",
+    "fullCitation": "McEwen, B. S. (1998). Protective and damaging effects of stress mediators. New England Journal of Medicine, 338(3), 171–179.",
+    "domain": "Neuroscience & Psychobiology"
+  },
+  {
+    "id": "bib-65",
+    "authors": "McEwen, B. S., & Stellar, E.",
+    "year": "1993",
+    "title": "Stress and the individual: Mechanisms leading to disease",
+    "publication": "Archives of Internal Medicine, 153(18), 2093–2101",
+    "fullCitation": "McEwen, B. S., & Stellar, E. (1993). Stress and the individual: Mechanisms leading to disease. Archives of Internal Medicine, 153(18), 2093–2101.",
+    "domain": "Neuroscience & Psychobiology"
+  },
+  {
+    "id": "bib-66",
+    "authors": "McGuire, W. J.",
+    "year": "1964",
+    "title": "Inducing resistance to persuasion: Some contemporary approaches",
+    "publication": "Advances in experimental social psychology (Vol. 1, pp. 191–229)",
+    "fullCitation": "McGuire, W. J. (1964). Inducing resistance to persuasion: Some contemporary approaches. In L. Berkowitz (Ed.), Advances in experimental social psychology (Vol. 1, pp. 191–229). Academic Press.",
+    "domain": "Neuroscience & Psychobiology"
+  },
+  {
+    "id": "bib-66b",
+    "authors": "Menon, V.",
+    "year": "2011",
+    "title": "Large-scale brain networks and psychopathology: A unifying triple network model",
+    "publication": "Trends in Cognitive Sciences, 15(10), 483–506",
+    "fullCitation": "Menon, V. (2011). Large-scale brain networks and psychopathology: A unifying triple network model. Trends in Cognitive Sciences, 15(10), 483–506.",
+    "domain": "Neuroscience & Psychobiology"
+  },
+  {
+    "id": "bib-67",
+    "authors": "Merton, R. K.",
+    "year": "1938",
+    "title": "Social structure and anomie",
+    "publication": "American Sociological Review, 3(5), 672–682",
+    "fullCitation": "Merton, R. K. (1938). Social structure and anomie. American Sociological Review, 3(5), 672–682.",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-67b",
+    "authors": "Mudde, C.",
+    "year": "2004",
+    "title": "The populist Zeitgeist",
+    "publication": "Government and Opposition, 39(4), 541–563",
+    "fullCitation": "Mudde, C. (2004). The populist Zeitgeist. Government and Opposition, 39(4), 541–563.",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-68",
+    "authors": "Mitscherlich, A., & Mitscherlich, M.",
+    "year": "1967/1975",
+    "title": "The inability to mourn: Principles of collective behavior (Die Unfähigkeit zu trauern)",
+    "publication": "Grove Press",
+    "fullCitation": "Mitscherlich, A., & Mitscherlich, M. (1975). The inability to mourn: Principles of collective behavior (Trad. B. R. Placzek). Grove Press. (Lucrarea originală Die Unfähigkeit zu trauern publicată în 1967).",
+    "domain": "Analytical Psychology & Memory"
+  },
+  {
+    "id": "bib-69",
+    "authors": "Neumann, E.",
+    "year": "1949/1954",
+    "title": "The origins and history of consciousness",
+    "publication": "Pantheon Books / Bollingen Series",
+    "fullCitation": "Neumann, E. (1954). The origins and history of consciousness (Trad. R. F. C. Hull). Pantheon Books / Bollingen Series. (Lucrarea originală publicată în 1949).",
+    "domain": "Analytical Psychology & Memory"
+  },
+  {
+    "id": "bib-70",
+    "authors": "North, D. C., Wallis, J. J., & Weingast, B. R.",
+    "year": "2009",
+    "title": "Violence and social orders: A conceptual framework for interpreting recorded human history",
+    "publication": "Cambridge University Press",
+    "fullCitation": "North, D. C., Wallis, J. J., & Weingast, B. R. (2009). Violence and social orders: A conceptual framework for interpreting recorded human history. Cambridge University Press.",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-70b",
+    "authors": "Nyhan, B., & Reifler, J.",
+    "year": "2010",
+    "title": "When corrections fail: The persistence of political misperceptions",
+    "publication": "Political Behavior, 32(2), 303–330",
+    "fullCitation": "Nyhan, B., & Reifler, J. (2010). When corrections fail: The persistence of political misperceptions. Political Behavior, 32(2), 303–330.",
+    "domain": "Neuroscience & Psychobiology"
+  },
+  {
+    "id": "bib-71",
+    "authors": "Osinga, F. P. B.",
+    "year": "2007",
+    "title": "Science, strategy and war: The strategic theory of John Boyd",
+    "publication": "Routledge",
+    "fullCitation": "Osinga, F. P. B. (2007). Science, strategy and war: The strategic theory of John Boyd. Routledge.",
+    "domain": "Cybernetics & Semiotics"
+  },
+  {
+    "id": "bib-72a",
+    "authors": "Ostrom, E.",
+    "year": "1990",
+    "title": "Governing the commons: The evolution of institutions for collective action",
+    "publication": "Cambridge University Press",
+    "fullCitation": "Ostrom, E. (1990). Governing the commons: The evolution of institutions for collective action. Cambridge University Press.",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-72b",
+    "authors": "Ostrom, E.",
+    "year": "2010",
+    "title": "Beyond markets and states: Polycentric governance of complex economic systems",
+    "publication": "American Economic Review, 100(3), 641–672",
+    "fullCitation": "Ostrom, E. (2010). Beyond markets and states: Polycentric governance of complex economic systems. American Economic Review, 100(3), 641–672.",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-73",
+    "authors": "Papanikolaou, A.",
+    "year": "2012",
+    "title": "The mystical as political: Democracy and non-radical Orthodoxy",
+    "publication": "University of Notre Dame Press",
+    "fullCitation": "Papanikolaou, A. (2012). The mystical as political: Democracy and non-radical Orthodoxy. University of Notre Dame Press.",
+    "domain": "Geopolitics & Russian Ideology"
+  },
+  {
+    "id": "bib-74",
+    "authors": "Pariser, E.",
+    "year": "2011",
+    "title": "The filter bubble: What the Internet is hiding from you",
+    "publication": "Penguin Press",
+    "fullCitation": "Pariser, E. (2011). The filter bubble: What the Internet is hiding from you. Penguin Press.",
+    "domain": "Cybernetics & Semiotics"
+  },
+  {
+    "id": "bib-75",
+    "authors": "Peirce, C. S.",
+    "year": "1931–1958",
+    "title": "Collected papers of Charles Sanders Peirce (Vol. 1–8)",
+    "publication": "Harvard University Press",
+    "fullCitation": "Peirce, C. S. (1931–1958). Collected papers of Charles Sanders Peirce (Vol. 1–8, C. Hartshorne, P. Weiss & A. W. Burks, Eds.). Harvard University Press.",
+    "domain": "Cybernetics & Semiotics"
+  },
+  {
+    "id": "bib-76a",
+    "authors": "Pomerantsev, P.",
+    "year": "2014",
+    "title": "Nothing is true and everything is possible: The surreal heart of the new Russia",
+    "publication": "PublicAffairs",
+    "fullCitation": "Pomerantsev, P. (2014). Nothing is true and everything is possible: The surreal heart of the new Russia. PublicAffairs.",
+    "domain": "Geopolitics & Russian Ideology"
+  },
+  {
+    "id": "bib-76b",
+    "authors": "Pomerantsev, P.",
+    "year": "2019",
+    "title": "This is not propaganda: Adventures in the war against reality",
+    "publication": "PublicAffairs",
+    "fullCitation": "Pomerantsev, P. (2019). This is not propaganda: Adventures in the war against reality. PublicAffairs.",
+    "domain": "Geopolitics & Russian Ideology"
+  },
+  {
+    "id": "bib-76c",
+    "authors": "Popper, K. R.",
+    "year": "1934/2002",
+    "title": "The logic of scientific discovery",
+    "publication": "Routledge",
+    "fullCitation": "Popper, K. R. (1934/2002). The logic of scientific discovery. Routledge. (Lucrarea originală Logik der Forschung publicată în 1934).",
+    "domain": "Cybernetics & Semiotics"
+  },
+  {
+    "id": "bib-77",
+    "authors": "Porges, S. W.",
+    "year": "2011",
+    "title": "The polyvagal theory: Neurophysiological foundations of emotions, attachment, communication, and self-regulation",
+    "publication": "W. W. Norton & Company",
+    "fullCitation": "Porges, S. W. (2011). The polyvagal theory: Neurophysiological foundations of emotions, attachment, communication, and self-regulation. W. W. Norton & Company.",
+    "domain": "Neuroscience & Psychobiology"
+  },
+  {
+    "id": "bib-78",
+    "authors": "Putnam, R. D.",
+    "year": "2000",
+    "title": "Bowling alone: The collapse and revival of American community",
+    "publication": "Simon & Schuster",
+    "fullCitation": "Putnam, R. D. (2000). Bowling alone: The collapse and revival of American community. Simon & Schuster.",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-79",
+    "authors": "Radin, P.",
+    "year": "1956",
+    "title": "The trickster: A study in American Indian mythology (Cu comentarii de K. Kerényi și C. G. Jung)",
+    "publication": "Routledge & Kegan Paul",
+    "fullCitation": "Radin, P. (1956). The trickster: A study in American Indian mythology (Cu comentarii de K. Kerényi și C. G. Jung). Routledge & Kegan Paul.",
+    "domain": "Analytical Psychology & Memory"
+  },
+  {
+    "id": "bib-80",
+    "authors": "Rădulescu-Motru, C.",
+    "year": "1904/1996",
+    "title": "Cultura română și politicianismul",
+    "publication": "Editura Scrisul Românesc",
+    "fullCitation": "Rădulescu-Motru, C. (1996). Cultura română și politicianismul. Editura Scrisul Românesc. (Lucrarea originală publicată în 1904).",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-80a",
+    "authors": "Reynolds, B., & Seeger, M. W.",
+    "year": "2005",
+    "title": "Crisis and emergency risk communication as an integrative model",
+    "publication": "Journal of Health Communication, 10(1), 43–55",
+    "fullCitation": "Reynolds, B., & Seeger, M. W. (2005). Crisis and emergency risk communication as an integrative model. Journal of Health Communication, 10(1), 43–55.",
+    "domain": "Cybernetics & Semiotics"
+  },
+  {
+    "id": "bib-80b",
+    "authors": "Rid, T.",
+    "year": "2020",
+    "title": "Active measures: The secret history of disinformation and political warfare",
+    "publication": "Farrar, Straus and Giroux",
+    "fullCitation": "Rid, T. (2020). Active measures: The secret history of disinformation and political warfare. Farrar, Straus and Giroux.",
+    "domain": "Cybernetics & Semiotics"
+  },
+  {
+    "id": "bib-80c",
+    "authors": "Robinson, W. S.",
+    "year": "1950",
+    "title": "Ecological correlations and the behavior of individuals",
+    "publication": "American Sociological Review, 15(3), 351–357",
+    "fullCitation": "Robinson, W. S. (1950). Ecological correlations and the behavior of individuals. American Sociological Review, 15(3), 351–357.",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-81a",
+    "authors": "Roozenbeek, J., & van der Linden, S.",
+    "year": "2019",
+    "title": "Fake news game confers psychological resistance against online misinformation",
+    "publication": "Palgrave Communications, 5(1), 65",
+    "fullCitation": "Roozenbeek, J., & van der Linden, S. (2019). Fake news game confers psychological resistance against online misinformation. Palgrave Communications, 5(1), 65.",
+    "domain": "Neuroscience & Psychobiology"
+  },
+  {
+    "id": "bib-81b",
+    "authors": "Roozenbeek, J., van der Linden, S., Goldberg, B., Rathje, S., & Lewandowsky, S.",
+    "year": "2022",
+    "title": "Psychological inoculation improves resilience against misinformation on social media",
+    "publication": "Science Advances, 8(34), eabo6254",
+    "fullCitation": "Roozenbeek, J., van der Linden, S., Goldberg, B., Rathje, S., & Lewandowsky, S. (2022). Psychological inoculation improves resilience against misinformation on social media. Science Advances, 8(34), eabo6254.",
+    "domain": "Neuroscience & Psychobiology"
+  },
+  {
+    "id": "bib-81c",
+    "authors": "Ryle, G.",
+    "year": "1949",
+    "title": "The concept of mind",
+    "publication": "Hutchinson",
+    "fullCitation": "Ryle, G. (1949). The concept of mind. Hutchinson.",
+    "domain": "Cybernetics & Semiotics"
+  },
+  {
+    "id": "bib-82",
+    "authors": "Sandu, D.",
+    "year": "2010",
+    "title": "Lumile sociale ale migrației românești în străinătate",
+    "publication": "Editura Polirom",
+    "fullCitation": "Sandu, D. (2010). Lumile sociale ale migrației românești în străinătate. Editura Polirom.",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-83a",
+    "authors": "Sapolsky, R. M.",
+    "year": "2004",
+    "title": "Why zebras don't get ulcers: The acclaimed guide to stress, stress-related diseases, and coping (Ed. a 3-a)",
+    "publication": "Henry Holt and Company",
+    "fullCitation": "Sapolsky, R. M. (2004). Why zebras don't get ulcers: The acclaimed guide to stress, stress-related diseases, and coping (Ed. a 3-a). Henry Holt and Company.",
+    "domain": "Neuroscience & Psychobiology"
+  },
+  {
+    "id": "bib-83b",
+    "authors": "Sapolsky, R. M.",
+    "year": "2017",
+    "title": "Behave: The biology of humans at our best and worst",
+    "publication": "Penguin Press",
+    "fullCitation": "Sapolsky, R. M. (2017). Behave: The biology of humans at our best and worst. Penguin Press.",
+    "domain": "Neuroscience & Psychobiology"
+  },
+  {
+    "id": "bib-84",
+    "authors": "Schmitt, C.",
+    "year": "1932/1996",
+    "title": "The concept of the political (Der Begriff des Politischen)",
+    "publication": "University of Chicago Press",
+    "fullCitation": "Schmitt, C. (1996). The concept of the political (Trad. G. Schwab). University of Chicago Press. (Lucrarea originală Der Begriff des Politischen publicată în 1932).",
+    "domain": "Geopolitics & Russian Ideology"
+  },
+  {
+    "id": "bib-85",
+    "authors": "Schmitt, O. J.",
+    "year": "2017",
+    "title": "Corneliu Zelea Codreanu: Ascensiunea și căderea „Căpitanului”",
+    "publication": "Editura Humanitas",
+    "fullCitation": "Schmitt, O. J. (2017). Corneliu Zelea Codreanu: Ascensiunea și căderea „Căpitanului” (Trad. W. Tauwinkl). Editura Humanitas.",
+    "domain": "Analytical Psychology & Memory"
+  },
+  {
+    "id": "bib-86a",
+    "authors": "Schultz, W.",
+    "year": "1998",
+    "title": "Predictive reward signal of dopamine neurons",
+    "publication": "Journal of Neurophysiology, 80(1), 1–27",
+    "fullCitation": "Schultz, W. (1998). Predictive reward signal of dopamine neurons. Journal of Neurophysiology, 80(1), 1–27.",
+    "domain": "Neuroscience & Psychobiology"
+  },
+  {
+    "id": "bib-86b",
+    "authors": "Schultz, W.",
+    "year": "2016",
+    "title": "Dopamine reward prediction error coding",
+    "publication": "Dialogues in Clinical Neuroscience, 18(1), 23–32",
+    "fullCitation": "Schultz, W. (2016). Dopamine reward prediction error coding. Dialogues in Clinical Neuroscience, 18(1), 23–32.",
+    "domain": "Neuroscience & Psychobiology"
+  },
+  {
+    "id": "bib-86c",
+    "authors": "Seeley, W. W., Menon, V., Schatzberg, A. F., Keller, J., Glover, G. H., Kenna, H., Reiss, A. L., & Greicius, M. D.",
+    "year": "2007",
+    "title": "Dissociable intrinsic connectivity networks for salience processing and executive control",
+    "publication": "The Journal of Neuroscience, 27(9), 2349–2356",
+    "fullCitation": "Seeley, W. W., Menon, V., Schatzberg, A. F., Keller, J., Glover, G. H., Kenna, H., Reiss, A. L., & Greicius, M. D. (2007). Dissociable intrinsic connectivity networks for salience processing and executive control. The Journal of Neuroscience, 27(9), 2349–2356.",
+    "domain": "Neuroscience & Psychobiology"
+  },
+  {
+    "id": "bib-87",
+    "authors": "Seligman, M. E. P.",
+    "year": "1975",
+    "title": "Helplessness: On depression, development, and death",
+    "publication": "W. H. Freeman",
+    "fullCitation": "Seligman, M. E. P. (1975). Helplessness: On depression, development, and death. W. H. Freeman.",
+    "domain": "Neuroscience & Psychobiology"
+  },
+  {
+    "id": "bib-88",
+    "authors": "Shumailov, I., Shumaylov, Z., Zhao, Y., Papernot, N., Anderson, R., & Gal, Y.",
+    "year": "2024",
+    "title": "AI models collapse when trained on recursively generated data",
+    "publication": "Nature, 631(8022), 755–759",
+    "fullCitation": "Shumailov, I., Shumaylov, Z., Zhao, Y., Papernot, N., Anderson, R., & Gal, Y. (2024). AI models collapse when trained on recursively generated data. Nature, 631(8022), 755–759.",
+    "domain": "Cybernetics & Semiotics"
+  },
+  {
+    "id": "bib-89",
+    "authors": "Singer, T., & Kimbles, S. L. (Eds.)",
+    "year": "2004",
+    "title": "The cultural complex: Contemporary Jungian perspectives on psyche and society",
+    "publication": "Brunner-Routledge",
+    "fullCitation": "Singer, T., & Kimbles, S. L. (Eds.). (2004). The cultural complex: Contemporary Jungian perspectives on psyche and society. Brunner-Routledge.",
+    "domain": "Analytical Psychology & Memory"
+  },
+  {
+    "id": "bib-89b",
+    "authors": "Skinner, B. F.",
+    "year": "1953",
+    "title": "Science and human behavior",
+    "publication": "Macmillan",
+    "fullCitation": "Skinner, B. F. (1953). Science and human behavior. Macmillan.",
+    "domain": "Neuroscience & Psychobiology"
+  },
+  {
+    "id": "bib-90",
+    "authors": "Snyder, T.",
+    "year": "2018",
+    "title": "The road to unfreedom: Russia, Europe, America",
+    "publication": "Tim Duggan Books",
+    "fullCitation": "Snyder, T. (2018). The road to unfreedom: Russia, Europe, America. Tim Duggan Books.",
+    "domain": "Geopolitics & Russian Ideology"
+  },
+  {
+    "id": "bib-91",
+    "authors": "Soloviov, V.",
+    "year": "1900/1994",
+    "title": "Povestire despre Antihrist (Trei conversații despre război, progres și sfârșitul istoriei universale)",
+    "publication": "Editura Institutul European",
+    "fullCitation": "Soloviov, V. (1994). Povestire despre Antihrist (În Trei conversații despre război, progres și sfârșitul istoriei universale). Editura Institutul European. (Lucrarea originală publicată în 1900).",
+    "domain": "Geopolitics & Russian Ideology"
+  },
+  {
+    "id": "bib-92",
+    "authors": "Stahl, H. H.",
+    "year": "1980",
+    "title": "Traditional Romanian village communities: The transition from the communal to the capitalist mode of production in the Danube region",
+    "publication": "Cambridge University Press",
+    "fullCitation": "Stahl, H. H. (1980). Traditional Romanian village communities: The transition from the communal to the capitalist mode of production in the Danube region (Trad. D. Chirot & H. C. R. Chirot). Cambridge University Press.",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-93a",
+    "authors": "Stanovich, K. E.",
+    "year": "2009",
+    "title": "What intelligence tests miss: The psychology of rational thought",
+    "publication": "Yale University Press",
+    "fullCitation": "Stanovich, K. E. (2009). What intelligence tests miss: The psychology of rational thought. Yale University Press.",
+    "domain": "Neuroscience & Psychobiology"
+  },
+  {
+    "id": "bib-93",
+    "authors": "Stăniloae, D.",
+    "year": "1978",
+    "title": "Teologia dogmatică ortodoxă (Vol. 1–3)",
+    "publication": "Editura Institutului Biblic și de Misiune al Bisericii Ortodoxe Române",
+    "fullCitation": "Stăniloae, D. (1978). Teologia dogmatică ortodoxă (Vol. 1–3). Editura Institutului Biblic și de Misiune al Bisericii Ortodoxe Române.",
+    "domain": "Analytical Psychology & Memory"
+  },
+  {
+    "id": "bib-93b",
+    "authors": "Sterling, P., & Eyer, J.",
+    "year": "1988",
+    "title": "Allostasis: A new paradigm to explain arousal pathology",
+    "publication": "Handbook of life stress, cognition and health (pp. 629–649), John Wiley & Sons",
+    "fullCitation": "Sterling, P., & Eyer, J. (1988). Allostasis: A new paradigm to explain arousal pathology. In S. Fisher & J. Reason (Eds.), Handbook of life stress, cognition and health (pp. 629–649). John Wiley & Sons.",
+    "domain": "Neuroscience & Psychobiology"
+  },
+  {
+    "id": "bib-94",
+    "authors": "Sunstein, C. R.",
+    "year": "2017",
+    "title": "#Republic: Divided democracy in the age of social media",
+    "publication": "Princeton University Press",
+    "fullCitation": "Sunstein, C. R. (2017). #Republic: Divided democracy in the age of social media. Princeton University Press.",
+    "domain": "Cybernetics & Semiotics"
+  },
+  {
+    "id": "bib-95",
+    "authors": "Taylor, C.",
+    "year": "2007",
+    "title": "A secular age",
+    "publication": "Belknap Press of Harvard University Press",
+    "fullCitation": "Taylor, C. (2007). A secular age. Belknap Press of Harvard University Press.",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-95b",
+    "authors": "Thaler, R. H., & Sunstein, C. R.",
+    "year": "2008",
+    "title": "Nudge: Improving decisions about health, wealth, and happiness",
+    "publication": "Yale University Press",
+    "fullCitation": "Thaler, R. H., & Sunstein, C. R. (2008). Nudge: Improving decisions about health, wealth, and happiness. Yale University Press.",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-96",
+    "authors": "Thayer, J. F., & Lane, R. D.",
+    "year": "2009",
+    "title": "Claude Bernard and the heart–brain connection: Further elaboration of a model of neurovisceral integration",
+    "publication": "Neuroscience & Biobehavioral Reviews, 33(2), 81–88",
+    "fullCitation": "Thayer, J. F., & Lane, R. D. (2009). Claude Bernard and the heart–brain connection: Further elaboration of a model of neurovisceral integration. Neuroscience & Biobehavioral Reviews, 33(2), 81–88.",
+    "domain": "Neuroscience & Psychobiology"
+  },
+  {
+    "id": "bib-97a",
+    "authors": "Thom, F.",
+    "year": "2018",
+    "title": "Comprendre le poutinisme",
+    "publication": "Desclée De Brouwer",
+    "fullCitation": "Thom, F. (2018). Comprendre le poutinisme. Desclée De Brouwer.",
+    "domain": "Geopolitics & Russian Ideology"
+  },
+  {
+    "id": "bib-97b",
+    "authors": "Thom, F.",
+    "year": "2022",
+    "title": "La marche à rebours: Regard sur l'histoire soviétique et russe",
+    "publication": "Sorbonne Université Presses",
+    "fullCitation": "Thom, F. (2022). La marche à rebours: Regard sur l'histoire soviétique et russe. Sorbonne Université Presses.",
+    "domain": "Geopolitics & Russian Ideology"
+  },
+  {
+    "id": "bib-98",
+    "authors": "Thomas, T. L.",
+    "year": "2004",
+    "title": "Russia's reflexive control theory and the military",
+    "publication": "The Journal of Slavic Military Studies, 17(2), 237–256",
+    "fullCitation": "Thomas, T. L. (2004). Russia's reflexive control theory and the military. The Journal of Slavic Military Studies, 17(2), 237–256.",
+    "domain": "Cybernetics & Semiotics"
+  },
+  {
+    "id": "bib-99",
+    "authors": "Tismaneanu, V.",
+    "year": "2003",
+    "title": "Stalinism for all seasons: A political history of Romanian communism",
+    "publication": "University of California Press",
+    "fullCitation": "Tismaneanu, V. (2003). Stalinism for all seasons: A political history of Romanian communism. University of California Press.",
+    "domain": "Analytical Psychology & Memory"
+  },
+  {
+    "id": "bib-100",
+    "authors": "Verdery, K.",
+    "year": "1991",
+    "title": "National ideology under socialism: Identity and cultural politics in Ceaușescu's Romania",
+    "publication": "University of California Press",
+    "fullCitation": "Verdery, K. (1991). National ideology under socialism: Identity and cultural politics in Ceaușescu's Romania. University of California Press.",
+    "domain": "Analytical Psychology & Memory"
+  },
+  {
+    "id": "bib-101a",
+    "authors": "Volkan, V. D.",
+    "year": "1997",
+    "title": "Bloodlines: From ethnic pride to ethnic terrorism",
+    "publication": "Farrar, Straus and Giroux",
+    "fullCitation": "Volkan, V. D. (1997). Bloodlines: From ethnic pride to ethnic terrorism. Farrar, Straus and Giroux.",
+    "domain": "Analytical Psychology & Memory"
+  },
+  {
+    "id": "bib-101b",
+    "authors": "Volkan, V. D.",
+    "year": "2004",
+    "title": "Blind trust: Large groups and their leaders in times of crisis and terror",
+    "publication": "Pitchstone Publishing",
+    "fullCitation": "Volkan, V. D. (2004). Blind trust: Large groups and their leaders in times of crisis and terror. Pitchstone Publishing.",
+    "domain": "Analytical Psychology & Memory"
+  },
+  {
+    "id": "bib-102b",
+    "authors": "von Franz, M.-L.",
+    "year": "1970/2000",
+    "title": "The problem of the Puer Aeternus (Ed. a 3-a)",
+    "publication": "Inner City Books",
+    "fullCitation": "von Franz, M.-L. (1970/2000). The problem of the Puer Aeternus (Ed. a 3-a). Inner City Books. (Lucrarea originală bazată pe prelegerile din 1959–1960 și publicată în 1970).",
+    "domain": "Analytical Psychology & Memory"
+  },
+  {
+    "id": "bib-102a",
+    "authors": "von Franz, M.-L.",
+    "year": "1972/1995",
+    "title": "Shadow and evil in fairy tales (Ed. revizuită)",
+    "publication": "Shambhala",
+    "fullCitation": "von Franz, M.-L. (1972/1995). Shadow and evil in fairy tales (Ed. revizuită). Shambhala. (Lucrarea originală publicată în 1972).",
+    "domain": "Analytical Psychology & Memory"
+  },
+  {
+    "id": "bib-103",
+    "authors": "Vosoughi, S., Roy, D., & Aral, S.",
+    "year": "2018",
+    "title": "The spread of true and false news online",
+    "publication": "Science, 359(6380), 1146–1151",
+    "fullCitation": "Vosoughi, S., Roy, D., & Aral, S. (2018). The spread of true and false news online. Science, 359(6380), 1146–1151.",
+    "domain": "Cybernetics & Semiotics"
+  },
+  {
+    "id": "bib-104",
+    "authors": "Wallerstein, I.",
+    "year": "1974",
+    "title": "The modern world-system I: Capitalist agriculture and the origins of the European world-economy in the sixteenth century",
+    "publication": "Academic Press",
+    "fullCitation": "Wallerstein, I. (1974). The modern world-system I: Capitalist agriculture and the origins of the European world-economy in the sixteenth century. Academic Press.",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-105",
+    "authors": "Wu, T.",
+    "year": "2016",
+    "title": "The attention merchants: The epic scramble to get inside our heads",
+    "publication": "Alfred A. Knopf",
+    "fullCitation": "Wu, T. (2016). The attention merchants: The epic scramble to get inside our heads. Alfred A. Knopf.",
+    "domain": "Cybernetics & Semiotics"
+  },
+  {
+    "id": "bib-106",
+    "authors": "Zeletin, Ș.",
+    "year": "1925/1991",
+    "title": "Burghezia română: Originea și rolul ei istoric",
+    "publication": "Editura Humanitas",
+    "fullCitation": "Zeletin, Ș. (1991). Burghezia română: Originea și rolul ei istoric. Editura Humanitas. (Lucrarea originală publicată în 1925).",
+    "domain": "Institutional Sociology"
+  },
+  {
+    "id": "bib-106b",
+    "authors": "Zubarevich, N.",
+    "year": "2011",
+    "title": "Four Russias: Rethinking the post-Soviet map",
+    "publication": "openDemocracy",
+    "fullCitation": "Zubarevich, N. (2011). Four Russias: Rethinking the post-Soviet map. openDemocracy. https://www.opendemocracy.net/en/odr/four-russias-rethinking-post-soviet-map/",
+    "domain": "Geopolitics & Russian Ideology"
+  },
+  {
+    "id": "bib-107",
+    "authors": "Zuboff, S.",
+    "year": "2019",
+    "title": "The age of surveillance capitalism: The fight for a human future at the new frontier of power",
+    "publication": "PublicAffairs",
+    "fullCitation": "Zuboff, S. (2019). The age of surveillance capitalism: The fight for a human future at the new frontier of power. PublicAffairs.",
+    "domain": "Cybernetics & Semiotics"
+  }
 ];
 
-export const MASTER_STYLE_PROMPT = `Creează o experiență video în modul Cinematic urmând o rigoare academică strictă (temperatură 0.3: ton analitic, sobru, calm, clinic, fără speculații sau metafore gratuite). Nu menționa și nu afișa niciun fel de date statistice, procente sau scoruri numerice; explică toate ideile exclusiv ca dinamici structurale și cauzale. Structurează prezentarea progresiv, dublând fiecare concept teoretic cu explicația sa practică/empirică, de la definirea cadrului sistemic și a blocajelor până la sinteza și soluția finală.
-
-Regulă vizuală obligatorie: Folosește exclusiv un stil de ilustrație editorială 2D / gravură vectorială curată și diagrame de sistem pe un fundal alb-crem cald texturat (#F6F5EE). Toate liniile, contururile și textul principal vor fi în negru-cărbune (#222426) și nuanțe de gri-ardezie (#6E7376, #8C9BA5). Folosește strict galben-muștar (#E5B822) ca accent pentru concepte-cheie, sinteză și soluții, și roșu-vermilion (#F01E1E) exclusiv pentru tensiuni, crize sau bucle de blocaj. Interzis să folosești alte culori, efecte 3D sau desene de tip whiteboard.`;
+export const MASTER_STYLE_PROMPT = "Create a Cinematic mode video experience following strict academic rigor (0.3 temperature: analytical tone, sober, calm, clinical, no speculation or gratuitous metaphors). Do not state or display any statistical data, percentages or numerical scores; it explains all ideas exclusively as structural and causal dynamics. It structures the presentation progressively, doubling each theoretical concept with its practical/empirical explanation, from the definition of the systemic framework and bottlenecks to the final synthesis and solution.\n\nMandatory visual rule: Use exclusively a 2D editorial illustration style / clean vector engraving and system diagrams on a textured warm cream-white background (#F6F5EE). All lines, outlines and main text will be in charcoal black (#222426) and shades of slate gray (#6E7376, #8C9BA5). Use strictly mustard-yellow (#E5B822) as an accent for key concepts, synthesis, and solutions, and vermilion-red (#F01E1E) exclusively for tensions, crises, or deadlock loops. Prohibited to use other colors, 3D effects or whiteboard designs.";
 
 export const CHAPTER_EXECUTIVE_SUMMARIES: ChapterExecutiveSummary[] = [
   {
-    chapterNumber: 0,
-    chapterTitle: 'Introducere',
-    executiveSynthesis: [
+    "chapterNumber": 0,
+    "chapterTitle": "Introduction",
+    "executiveSynthesis": [
       {
-        id: 'exec-0-1',
-        title: 'Mecanismul diagnosticat: Al șaselea domeniu operațional',
-        takeaway:
-          'Războiul cognitiv depășește propaganda informațională punctuală, vizând alterarea arhitecturii de procesare a realității și paralizia capacității decizionale sub pragul articolului 5 al NATO.',
-        implication:
-          'Apărarea națională nu se mai poate limita la securizarea infrastructurii fizice și cibernetice, ci trebuie să protejeze integritatea proceselor cognitive și a încrederii constituționale.'
+        "id": "exec-0-1",
+        "title": "Diagnosed mechanism: Sixth operational domain",
+        "takeaway": "Cognitive warfare goes beyond point-in-time information propaganda, aiming to alter the architecture of reality processing and paralyze decision-making capacity below the threshold of Article 5 of NATO.",
+        "implication": "National defense can no longer be limited to securing physical and cyber infrastructure, but must protect the integrity of cognitive processes and constitutional trust."
       },
       {
-        id: 'exec-0-2',
-        title: 'Vulnerabilitatea sistemică: Cauzalitatea recursivă pe trei straturi',
-        takeaway:
-          'Operațiunile ostile acționează ca un catalizator exogen oportunist care parazitează vulnerabilitățile endogene preexistente din trei paliere: instituțiile extractive în Stratul A, rezerva neurocognitivă epuizată de stres sau deturnată prin raționalizare motivată în Stratul B și tiparele culturale defensive în Stratul C.',
-        implication:
-          'Campaniile izolate de comunicare strategică sau verificare a faptelor eșuează inevitabil dacă ignoră cauzele instituționale și neurobiologice ale vulnerabilității.'
+        "id": "exec-0-2",
+        "title": "Systemic vulnerability: Three-layer recursive causality",
+        "takeaway": "Hostile operations act as an opportunistic exogenous catalyst that preys on preexisting endogenous vulnerabilities at three levels: extractive institutions in Layer A, neurocognitive reserve depleted by stress or hijacked by reasoned rationalization in Layer B, and defensive cultural patterns in Layer C.",
+        "implication": "Isolated strategic communication or fact-checking campaigns inevitably fail if they ignore the institutional and neurobiological causes of vulnerability."
       },
       {
-        id: 'exec-0-3',
-        title: 'Decizia strategică: Abordarea sistemică integrată',
-        takeaway:
-          'Reziliența societală impune tratarea sincronizată a determinanților instituționali, informaționali, asociativi și neurobiologici într-o ordine cauzală strictă.',
-        implication:
-          'Instituțiile de securitate și de politici publice trebuie să acționeze coordonat după un model unificat care leagă reforma statului de igiena spațiului digital și de coeziunea socială.'
+        "id": "exec-0-3",
+        "title": "Strategic decision: The integrated systemic approach",
+        "takeaway": "Societal resilience requires the synchronized treatment of institutional, informational, associative and neurobiological determinants in a strict causal order.",
+        "implication": "Security and public policy institutions must act in a coordinated manner according to a unified model that links state reform to digital space hygiene and social cohesion."
       }
     ]
   },
   {
-    chapterNumber: 1,
-    chapterTitle: 'Capitolul 1: Vulnerabilitățile structurale ale societății românești și eroziunea rezilienței endogene',
-    executiveSynthesis: [
+    "chapterNumber": 1,
+    "chapterTitle": "Chapter 1: The structural vulnerabilities of Romanian society and the erosion of endogenous resilience",
+    "executiveSynthesis": [
       {
-        id: 'exec-1-1',
-        title: 'Mecanismul diagnosticat: Forme fără fond și uzură alostatică',
-        takeaway:
-          'Deficitul de închidere operațională, instituțiile extractive și polarizarea sociospațială induc uzură alostatică cronică și inhibarea biologică a cortexului prefrontal dorsolateral (dlPFC, cu comutare pe Sistemul 1) în mediile vulnerabile, în timp ce în păturile urbane retrase în servicii private deturnează Sistemul 2 în disraționalitate și raționalizare motivată (Stanovich, 2009; Kahan, 2017).',
-        implication:
-          'Pe fondul vidului de reprezentare politică (Mair, 2013), insecuritatea cotidiană din periferii și conformismul defensiv din bulele urbane compromit procesarea analitică a informației înainte de contactul cu propaganda externă.'
+        "id": "exec-1-1",
+        "title": "Diagnosed mechanism: Bottomless forms and allostatic wear",
+        "takeaway": "Deficit of operational closure, extractive institutions, and sociospatial polarization induce chronic allostatic wear and biological inhibition of the dorsolateral prefrontal cortex (dlPFC, with System 1 switching) in vulnerable environments, while in deprived urban strata it diverts System 2 into irrationality and motivated rationalization (Stanovich, 2009; Kahan, 2017).",
+        "implication": "Against the background of the vacuum of political representation (Mair, 2013), everyday insecurity in the peripheries and defensive conformity in urban bubbles compromise the analytical processing of information before contact with external propaganda."
       },
       {
-        id: 'exec-1-2',
-        title: 'Vulnerabilitatea sistemică: Familism amoral și hiperconectivitatea diasporei',
-        takeaway:
-          'Distrugerea capitalului social de punte prin replierea în familism amoral, secesiunea păturilor urbane prospere și imersiunea algoritmică a diasporei pe platformele de clipuri video scurte creează bule informaționale închise la scară transnațională.',
-        implication:
-          'Pe fondul eșecului partidelor democratice tradiționale de a reprezenta aceste comunități, faliile demografice și trauma dezrădăcinării lasă un vid politic pe care actorii oportuniști și operațiunile de control reflexiv de rang secund îl exploatează direct pentru mobilizare antisistem.'
+        "id": "exec-1-2",
+        "title": "Systemic vulnerability: Amoral familism and the hyperconnectivity of diaspora",
+        "takeaway": "The destruction of bridging social capital by retreating into amoral familism, the secession of affluent urban strata, and the algorithmic immersion of the diaspora on short video platforms create closed information bubbles on a transnational scale.",
+        "implication": "Amidst the failure of traditional democratic parties to represent these communities, demographic faults and the trauma of uprooting leave a political vacuum that opportunistic actors and second-rate reflexive control operations directly exploit for anti-system mobilization."
       },
       {
-        id: 'exec-1-3',
-        title: 'Decizia strategică: Debirocratizarea ca securitate cognitivă',
-        takeaway:
-          'Reducerea stresului alostatic prin servicii publice echitabile, predictibilitate fiscală și digitalizare transparentă, după modelul e-Estonia, este precondiția neurobiologică a oricărei reziliențe.',
-        implication:
-          'Guvernul și administrația publică trebuie să trateze calitatea interacțiunii dintre cetățean și stat drept pilonul primar al apărării în al șaselea domeniu operațional.'
+        "id": "exec-1-3",
+        "title": "Strategic decision: Debureaucratization as cognitive security",
+        "takeaway": "Allostatic stress reduction through equitable public services, fiscal predictability and transparent digitization, following the e-Estonia model, is the neurobiological precondition of any resilience.",
+        "implication": "Government and public administration must treat the quality of interaction between the citizen and the state as the primary pillar of defense in the sixth operational domain."
       }
     ]
   },
   {
-    chapterNumber: 2,
-    chapterTitle: 'Capitolul 2: Arhitectura ideologiei putiniste și camuflajul discursiv suveranist',
-    executiveSynthesis: [
+    "chapterNumber": 2,
+    "chapterTitle": "Chapter 2: The architecture of Putinist ideology and the discursive camouflage of sovereignty",
+    "executiveSynthesis": [
       {
-        id: 'exec-2-1',
-        title: 'Mecanismul diagnosticat: Antilumea, starea Bobok și dubla falsificare',
-        takeaway:
-          'Regimul cleptocratic rus funcționează prin inversiunea normativă a Antilumii și cinismul transgresiv al stării Bobok, camuflate la export sub masca apărării tradiției și a suveranității.',
-        implication:
-          'Pentru a ocoli rusofobia istorică a românilor, actorul ostil parazitează semiotic dezbaterile legitime și codurile identitare autohtone prin rețele de reciclare și disimulare a sursei informaționale prin intermediari (information laundering).'
+        "id": "exec-2-1",
+        "title": "Diagnosed mechanism: Antiworld, Bobok state and double falsification",
+        "takeaway": "The Russian kleptocratic regime operates through the normative inversion of the Antiworld and the transgressive cynicism of the Bobok state, camouflaged for export under the guise of defending tradition and sovereignty.",
+        "implication": "In order to circumvent the historical Russophobia of Romanians, the hostile actor semiotically parasitizes legitimate debates and autochthonous identity codes through networks of recycling and concealment of the informational source through intermediaries (information laundering)."
       },
       {
-        id: 'exec-2-2',
-        title: 'Vulnerabilitatea sistemică: Rețele paraecleziale și contagiune complexă',
-        takeaway:
-          'Erezia etnofiletistă Russkii Mir și falsul suveranism izolaționist se propagă prin nuclee informale paraecleziale, canale de Telegram și microinfluenceri, utilizând contagiunea socială complexă.',
-        implication:
-          'Religiozitatea ritualistă de fațadă și nemulțumirea față de impostura elitelor locale sunt deturnate prin proiecție paranoidă și identificare cu agresorul împotriva UE și NATO.'
+        "id": "exec-2-2",
+        "title": "Systemic Vulnerability: Paraecclesial Networks and Complex Contagion",
+        "takeaway": "The Russkii Mir ethnophiletist heresy and isolationist false sovereignty propagates through informal para-ecclesiastical cores, Telegram channels and micro-influencers, using complex social contagion.",
+        "implication": "Facade ritualistic religiosity and dissatisfaction with the imposture of local elites are diverted by paranoid projection and identification with the aggressor against the EU and NATO."
       },
       {
-        id: 'exec-2-3',
-        title: 'Decizia strategică: Modelul grupului de control regional și parteneriatul axiologic',
-        takeaway:
-          'Comparația cu Estonia, Polonia și Republica Moldova demonstrează că reziliența rezultă din sancționarea fluxurilor ilicite, memoria istorică instituționalizată și apărarea antropologiei patristice a persoanei.',
-        implication:
-          'Autoritățile trebuie să destructureze rețelele financiare de reciclare și disimulare a sursei informaționale prin intermediari și să susțină dialogul dintre cultura constituțională și teologia ortodoxă canonică.'
+        "id": "exec-2-3",
+        "title": "Strategic decision: The regional control group model and the axiological partnership",
+        "takeaway": "The comparison with Estonia, Poland and the Republic of Moldova demonstrates that resilience results from the sanctioning of illicit flows, institutionalized historical memory and the defense of patristic anthropology of the person.",
+        "implication": "The authorities must deconstruct the financial networks of recycling and concealment of the information source through intermediaries and support the dialogue between constitutional culture and canonical Orthodox theology."
       }
     ]
   },
   {
-    chapterNumber: 3,
-    chapterTitle: 'Capitolul 3: Mecanismul capturării cognitive și colonizarea deciziei în al șaselea domeniu operațional',
-    executiveSynthesis: [
+    "chapterNumber": 3,
+    "chapterTitle": "Chapter 3: The Mechanism of Cognitive Capture and Decision Colonization in the Sixth Operational Domain",
+    "executiveSynthesis": [
       {
-        id: 'exec-3-1',
-        title: 'Mecanismul diagnosticat: Colonizarea fazei de Orientare OODA și semioza binară',
-        takeaway:
-          'Controlul reflexiv de rang secund — automatizat astăzi prin algoritmii de recomandare și bazat pe distorsionarea ponderării preciziei (aberrant precision-weighting, Friston) care atribuie hiperprecizie dogmei conspirative și atenuează erorile de predicție factuale — țintește faza de Orientare din bucla OODA, menținând cetățeanul la Rangul 0/1 de reflexivitate și comutându-l din primul sistem etic al cooperării în al doilea sistem etic al confruntării binare.',
-        implication:
-          'Odată alterată matricea de Orientare, cetățeanul respinge spontan verificările faptice pentru a-și proteja identitatea și statutul în interiorul grupului de apartenență.'
+        "id": "exec-3-1",
+        "title": "Diagnosed mechanism: Colonization of the OODA Orientation phase and binary semiosis",
+        "takeaway": "Second-order reflexive control—automated today by recommendation algorithms and based on aberrant precision-weighting (Friston) that attributes hyperprecision to conspiratorial dogma and mitigates factual prediction errors—targets the Orientation phase of the OODA loop, keeping the citizen at Rank 0/1 reflexivity and switching him from the first ethical system of cooperation to the second ethical system of confrontation binary.",
+        "implication": "Once the Orientation matrix is ​​altered, the citizen spontaneously rejects fact checks to protect his identity and status within the group he belongs to."
       },
       {
-        id: 'exec-3-2',
-        title: 'Vulnerabilitatea sistemică: Capturarea dopaminergică și poluarea cu date sintetice în două stadii',
-        takeaway:
-          'Algoritmii de retenție exploatează mecanismul neurochimic al erorii de predicție a recompensei în nucleul accumbens prin recompense variabile intermitente, în timp ce rețelele Doppelgänger, Matrioșka și Pravda contaminează neparametric la momentul interogării motoarele de căutare și sistemele RAG (inference-time RAG poisoning) și degradează parametric modelele AI la reantrenare (Model Collapse / MAD).',
-        implication:
-          'Se creează o buclă de retroacțiune epistemică om–mașină în care suprimarea latenței prefrontale și contaminarea infrastructurii digitale blochează deliberarea democratică.'
+        "id": "exec-3-2",
+        "title": "Systemic vulnerability: Dopaminergic capture and pollution with two-stage synthetic data",
+        "takeaway": "Retention algorithms exploit the neurochemical mechanism of reward prediction error in the nucleus accumbens through intermittent variable rewards, while Doppelgänger, Matryoshka and Pravda networks non-parametrically pollute search engines and RAG systems (inference-time RAG poisoning) and parametrically degrade AI models upon retraining (Model Collapse / MAD).",
+        "implication": "A man–machine epistemic feedback loop is created in which prefrontal latency suppression and digital infrastructure contamination block democratic deliberation."
       },
       {
-        id: 'exec-3-3',
-        title: 'Decizia strategică: Audit algoritmic și pași tehnici de încetinire a viralității',
-        takeaway:
-          'Restabilirea latenței temporale pentru Sistemul 2 necesită dezactivarea amplificării algoritmice a indignării morale și etichetarea criptografică a datelor sintetice.',
-        implication:
-          'ANCOM (în calitate de DSC care certifică notificatorii de încredere și cercetătorii agreați conform art. 40 DSA) și DNSC sesizează de urgență Comisia Europeană pentru activarea mecanismelor de atenuare a riscurilor sistemice (art. 34–35 DSA și AI Act) în raport cu marile platforme (VLOPs), impunând mecanisme de încetinire a viralității în perioadele de criză.'
+        "id": "exec-3-3",
+        "title": "Strategic decision: Algorithmic audit and technical steps to slow virality",
+        "takeaway": "Restoring temporal latency for System 2 requires disabling the algorithmic amplification of moral outrage and cryptographically tagging the synthetic data.",
+        "implication": "ANCOM (as DSC that certifies trusted notifiers and approved researchers according to art. 40 DSA) and DNSC urgently notify the European Commission for the activation of systemic risk mitigation mechanisms (art. 34–35 DSA and AI Act) in relation to large platforms (VLOPs), imposing mechanisms to slow down virality in times of crisis."
       }
     ]
   },
   {
-    chapterNumber: 4,
-    chapterTitle: 'Capitolul 4: Cronicizarea polarizării și dinamica autodistrugerii sociale',
-    executiveSynthesis: [
+    "chapterNumber": 4,
+    "chapterTitle": "Chapter 4: Chronicling polarization and the dynamics of social self-destruction",
+    "executiveSynthesis": [
       {
-        id: 'exec-4-1',
-        title: 'Mecanismul diagnosticat: Enantiodromia suveranistă și proiecția Umbrei',
-        takeaway:
-          'Saturația față de Persona instituțională mimetică într-o societate lipsită de instituții previzibile și epuizată de stres cronic generează o pendulare reactivă de tip enantiodromic, răsturnând conformismul prooccidental de fațadă în respingerea radicală a ordinii constituționale.',
-        implication:
-          'Conținuturile neintegrate din Umbra colectivă sunt evacuate prin proiecție paranoidă asupra unui „persecutor extern”, mascând responsabilitatea rețelelor extractive interne.'
+        "id": "exec-4-1",
+        "title": "Diagnosed Mechanism: Sovereign Enantiodromy and Shadow Projection",
+        "takeaway": "The saturation of the mimetic institutional Persona in a society devoid of predictable institutions and exhausted by chronic stress generates an enantiodromous reactive pendulum, overturning the pro-Western facade conformism in the radical rejection of the constitutional order.",
+        "implication": "Unintegrated contents of the collective Shadow are vented by paranoid projection onto an \"external persecutor\", masking the responsibility of internal extractive networks."
       },
       {
-        id: 'exec-4-2',
-        title: 'Vulnerabilitatea sistemică: Alunecarea în Cadranul III al matricei lui Cipolla',
-        takeaway:
-          'Pe fondul cauzei primare endogene — spolierea exercitată de actorii extractivi interni din Cadranul IV (+X, -Y) și interesul tactic al facțiunilor oligarhice de a încuraja haosul antiinstituțional pentru a-și salva impunitatea —, catalizatorul extern al războiului cognitiv exploatează scontarea hiperbolică a viitorului, revanșa simbolică autodistructivă și pedeapsa antisocială a cetățeanului vulnerabil din Cadranul II (-X, +Y), împingându-l în Cadranul III al autosabotajului colectiv (-X, -Y).',
-        implication:
-          'Conform celei de-a treia legi fundamentale a lui Cipolla, Cadranul III este mai periculos decât Cadranul IV deoarece sfidează raționalitatea utilitaristă, transformând victima în agentul propriei sale ruine.'
+        "id": "exec-4-2",
+        "title": "Systemic Vulnerability: Slipping into Quadrant III of Cipolla's Matrix",
+        "takeaway": "Against the background of the endogenous primary cause — the spoliation exercised by internal extractive actors in Quadrant IV (+X, -Y) and the tactical interest of oligarchic factions in encouraging anti-institutional chaos to save their impunity — the external catalyst of cognitive warfare exploits the hyperbolic discounting of the future, the symbolic self-destructive revenge and the antisocial punishment of the vulnerable citizen in Quadrant II (-X, +Y), pushing him into Quadrant III of collective self-sabotage (-X, -Y).",
+        "implication": "According to Cipolla's Third Fundamental Law, Quadrant III is more dangerous than Quadrant IV because it defies utilitarian rationality, turning the victim into the agent of his own ruin."
       },
       {
-        id: 'exec-4-3',
-        title: 'Decizia strategică: Activarea celor trei filtre de conversie în modernitate organică',
-        takeaway:
-          'Resursele latente din Umbra colectivă — memoria istorică defensivă și vitalitatea adaptativă a arhetipului Tricksterului — nu trebuie reprimate arogant, ci convertite prin funcția transcendentă.',
-        implication:
-          'Statul trebuie să activeze cele trei filtre structurale: legea impersonală dreaptă în Stratul A — activată incremental încă din primele etape prin „insule de închidere operațională și predictibilitate administrativă” (Ostrom, 1990; Acemoglu & Robinson, 2019) și prin arhitectura alegerii instituționale (Thaler & Sunstein, 2008) —, alături de discernământul critic și vigilența metacognitivă în Stratul B, pentru a readuce societatea în Cadranul I (+X, +Y).'
+        "id": "exec-4-3",
+        "title": "The strategic decision: Activating the three conversion filters in organic modernity",
+        "takeaway": "The latent resources of the collective Shadow—the defensive historical memory and adaptive vitality of the Trickster archetype—must not be arrogantly repressed, but converted through transcendent function.",
+        "implication": "The state must activate the three structural filters: the just impersonal law in Layer A—incrementally activated from the early stages through “islands of operational closure and administrative predictability” (Ostrom, 1990; Acemoglu & Robinson, 2019) and through the architecture of institutional choice (Thaler & Sunstein, 2008)—along with critical discernment and metacognitive vigilance in Layer B, to return society to Quadrant I (+X, +Y)."
       }
     ]
   },
   {
-    chapterNumber: 5,
-    chapterTitle: 'Capitolul 5: Comportamentul decizional în criză acută: Matricea lui Cipolla și bifurcația neurocognitivă',
-    executiveSynthesis: [
+    "chapterNumber": 5,
+    "chapterTitle": "Chapter 5: Decisional Behavior in Acute Crisis: Cipolla's Matrix and the Neurocognitive Bifurcation",
+    "executiveSynthesis": [
       {
-        id: 'exec-5-1',
-        title: 'Mecanismul diagnosticat: Sindromul Puer Aeternus și apărarea maniacală',
-        takeaway:
-          'În momentele de criză strategică, o societate epuizată de imprevizibilitate instituțională și stres cronic își compensează insecuritatea prin tiparul defensiv Puer Aeternus, așteptarea magică a unui „salvator” providențial și iluzia neutralității izolaționiste.',
-        implication:
-          'Nostalgia defensivă după dependența pasivă de un stat paternalist tutelar paralizează voința politică și capacitatea de descurajare strategică a statului-țintă.'
+        "id": "exec-5-1",
+        "title": "Diagnosed mechanism: Puer Aeternus syndrome and manic defense",
+        "takeaway": "In moments of strategic crisis, a society exhausted by institutional unpredictability and chronic stress compensates for its insecurity with the Puer Aeternus defensive pattern, the magical expectation of a providential \"savior\" and the illusion of isolationist neutrality.",
+        "implication": "Defensive nostalgia for passive dependence on a tutelary paternalistic state paralyzes the political will and strategic deterrence capacity of the target state."
       },
       {
-        id: 'exec-5-2',
-        title: 'Vulnerabilitatea sistemică: Bifurcația dintre Traseul A reactiv și Traseul B deliberativ',
-        takeaway:
-          'Sub șoc informațional acut, absența reglării prefrontale deviază procesarea pe Traseul reactiv A — bucla amigdaliană, efectul de tunel cognitiv indus dopaminergic și contagiunea fricii — blocând Traseul deliberativ adaptativ B.',
-        implication:
-          'Pe Traseul A, corpul electoral și instituțiile intră în paralizie decizională fără tragerea unui singur foc de armă, îndeplinind obiectivul terminal al războiului cognitiv.'
+        "id": "exec-5-2",
+        "title": "Systemic vulnerability: The bifurcation between the reactive Pathway A and the deliberative Pathway B",
+        "takeaway": "Under acute informational shock, the absence of prefrontal regulation diverts processing into reactive Pathway A—the amygdala loop, dopaminergic-induced cognitive tunneling, and fear contagion—blocking adaptive deliberative Pathway B.",
+        "implication": "On Route A, the electorate and institutions go into decisional paralysis without firing a single shot, fulfilling the terminal goal of cognitive warfare."
       },
       {
-        id: 'exec-5-3',
-        title: 'Decizia strategică: Responsabilitatea liderilor în șocul acut și decompresia din Faza I',
-        takeaway:
-          'În momentul șocului acut (0–72h), deschiderea Traseului deliberativ B prin capacitate negativă (Bion, 1970) și comunicare CDC CERC se sprijină pe o arhitectură policentrică pe două paliere: agențiile tehnice depolitizate (cu probatoriu STIX/DISARM) și validatorii comunitari de proximitate (medici, profesori, clerici canonici, jurnaliști independenți).',
-        implication:
-          'Pentru populația largă epuizată biologic, trecerea stabilă și autonomă pe Traseul B devine posibilă pe măsură ce puntea de coreglare din primele 72 de ore este consolidată prin decompresia alostatică și măsurile tehnice de limitare a amplificării algoritmice din Faza I a protocolului.'
+        "id": "exec-5-3",
+        "title": "Strategic Decision: Leaders' Responsibility in Acute Shock and Phase I Decompression",
+        "takeaway": "At the moment of the acute shock (0–72h), the opening of the deliberative Path B through negative capacity (Bion, 1970) and CDC CERC communication relies on a polycentric architecture on two levels: the depoliticized technical agencies (with STIX/DISARM proving ground) and the proximity community validators (doctors, teachers, canonical clerics, independent journalists).",
+        "implication": "For the broad biologically depleted population, stable and autonomous transition to Pathway B becomes possible as the coregulatory bridge of the first 72 hours is strengthened by the allostatic decompression and technical algorithmic amplification-limiting measures of Phase I of the protocol."
       }
     ]
   },
   {
-    chapterNumber: 6,
-    chapterTitle: 'Capitolul 6: Protocolul secvențial de reconstrucție a rezilienței cognitive societale',
-    executiveSynthesis: [
+    "chapterNumber": 6,
+    "chapterTitle": "Chapter 6: The Sequential Protocol for Reconstructing Societal Cognitive Resilience",
+    "executiveSynthesis": [
       {
-        id: 'exec-6-1',
-        title: 'Mecanismul diagnosticat: Secvențialitatea cauzală obligatorie pe modelul Lalonde–Dever',
-        takeaway:
-          'Protocolul de reconstrucție trebuie executat strict secvențial: Faza I de triaj cognitiv și financiar acut (0–72h) și decompresie alostatică structurală (0–12 luni), Faza II de validare comunitară, gândire activ deschisă și pregătire preventivă (1–3 ani) și Faza III de închidere operațională, isonomie fiscală și policentricitate în „coridorul îngust” (3–10 ani).',
-        implication:
-          'Inversarea fazelor — lansarea de campanii de educație mediatică peste o populație aflată în uzură alostatică și capturare algoritmică — declanșează trei efecte perverse documentate experimental (Nyhan & Reifler, 2010; Kahan, 2017; Roozenbeek et al., 2022): efectul de bumerang identitar (worldview backfire), efectul de bumerang al familiarității (familiarity backfire, pe fondul memoriei de lucru prefrontale inhibate) și cinismul epistemic față de discursul oficial.'
+        "id": "exec-6-1",
+        "title": "Diagnosed Mechanism: Mandatory Causal Sequentiality on the Lalonde–Dever Model",
+        "takeaway": "The reconstruction protocol must be executed strictly sequentially: Phase I of acute cognitive and financial triage (0–72h) and structural allostatic decompression (0–12 months), Phase II of community validation, active open thinking and preventive preparation (1–3 years) and Phase III of operational closure, fiscal isonomy and polycentricity in the “narrow corridor” (3–10 years).",
+        "implication": "Phase reversal—launching media education campaigns over a population in allostatic attrition and algorithmic capture—triggers three experimentally documented perverse effects (Nyhan & Reifler, 2010; Kahan, 2017; Roozenbeek et al., 2022): the worldview backfire, the familiarity backfire, and epistemic cynicism towards official discourse."
       },
       {
-        id: 'exec-6-2',
-        title: 'Vulnerabilitatea sistemică: Erodarea rezilienței pe curba uitării și hipercentralismul',
-        takeaway:
-          'Reziliența cognitivă dobândită printr-o singură sesiune de pregătire preventivă se erodează pe curba uitării a lui Ebbinghaus, iar hipercentralismul birocratic sau fiefurile clientelare mențin neputința învățată.',
-        implication:
-          'Fără consolidare mnezică periodică și fără descentralizare policentrică menită să redea capacitatea de acțiune politică autonomă și autoeficacitatea percepută, societatea rămâne vulnerabilă la recidive autoritare.'
+        "id": "exec-6-2",
+        "title": "Systemic Vulnerability: Eroding Resilience on the Forgetting Curve and Hypercentralism",
+        "takeaway": "Cognitive resilience acquired through a single session of preemptive training erodes on Ebbinghaus's forgetting curve, and bureaucratic hypercentralism or clientelistic fiefdoms perpetuate learned helplessness.",
+        "implication": "Without periodic mnestic consolidation and without polycentric decentralization designed to restore the capacity for autonomous political action and perceived self-efficacy, society remains vulnerable to authoritarian relapses."
       },
       {
-        id: 'exec-6-3',
-        title: 'Decizia strategică: Operaționalizarea instituțională și sinteza modernității organice',
-        takeaway:
-          'Articularea responsabilităților între DNSC, ANCOM, CSAT, CNA, Ministerul Educației, Biserica Ortodoxă Română, universități și administrația locală unește legea impersonală dreaptă cu etica demnității persoanei.',
-        implication:
-          'Sinteza modernității organice rezolvă definitiv anomalia istorică a „formelor fără fond”, transformând România într-un pilon de suveranitate democratică în NATO și Uniunea Europeană.'
+        "id": "exec-6-3",
+        "title": "Strategic decision: Institutional operationalization and the synthesis of organic modernity",
+        "takeaway": "The articulation of responsibilities between DNSC, ANCOM, CSAT, CNA, the Ministry of Education, the Romanian Orthodox Church, universities and the local administration unites the just impersonal law with the ethics of the dignity of the person.",
+        "implication": "The synthesis of organic modernity definitively resolves the historical anomaly of \"bottomless forms\", transforming Romania into a pillar of democratic sovereignty in NATO and the European Union."
       }
     ]
   }
@@ -1089,41 +2234,30 @@ export const CHAPTER_EXECUTIVE_SUMMARIES: ChapterExecutiveSummary[] = [
 
 export const OPERATIONAL_PROTOCOL_TABLE: InstitutionalProtocolRow[] = [
   {
-    id: 'op-faza-1',
-    phaseCode: 'Faza I',
-    phaseTitle: 'Decompresia alostatică, neutralizarea circuitelor de finanțare (Follow the Money) și încetinirea tehnică a viralității',
-    horizon: 'Dublu orizont: 0–72 de ore (triaj tactic acut) · 0–12 luni (decompresie structurală)',
-    targetObjective:
-      'Oprirea buclei reactive dezadaptative a Traseului A, scăderea hipercortizolemiei bazale pe axa HPA, întreruperea capturării dopaminergice în nucleul accumbens și blocarea fluxurilor financiare și criptografice ale operațiunilor informaționale.',
-    concreteIntervention:
-      'Execuție secvențială pe trei pași de urmărire și blocare financiară și tehnică, sub garanțiile constituționale de proporționalitate ale art. 30 și art. 53 din Constituția României și ale art. 14, 17 și 20 din Regulamentul DSA (motivare tehnică transparentă, cale de atac efectivă în contencios și intangibilitatea opiniilor politice legitime). În primul pas, standardizarea probatorie STIX/DISARM prin DNSC și hub-ul regional EDMO/BROD este dublată de comunicarea strategică CDC CERC (Reynolds & Seeger, 2005) și de asocierea sistematică a Ordinelor de a acționa împotriva conținutului ilegal (art. 7–8 din Legea nr. 50/2024 / art. 9 din DSA) emise de autoritățile sectoriale relevante (inclusiv CNA pentru conținutul audiovizual online, AEP/BEC, DNSC sau parchete) și transmise procedural prin punctul unic de contact ANCOM (fără decizii de fond pe conținut) cu Ordinele obligatorii de furnizare a informațiilor financiare și a identității plătitorilor (art. 9 din Legea nr. 50/2024 / art. 10 din DSA) către VLOPs. În al doilea pas, AEP și BEC realizează verificarea în timp real a codului mandatarului financiar (CMF) și blocarea publicității politice nemarcate sau finanțate din țări terțe (Legea nr. 334/2006, O.U.G. nr. 1/2025 — art. 16–17 adoptată specific pentru alegerile prezidențiale din mai 2025 și Regulamentul (UE) 2024/900 TTPA aplicabil din 10 octombrie 2025 — art. 5 alin. 2, art. 11–12 și art. 16, distinct de art. 13, 15 și 17). În al treilea pas, ONPCSB dispune în regim de competență exclusivă suspendarea operativă în timp real pe 24–72h a tranzacțiilor suspecte și blocarea conversiilor din criptoactive în monedă fiduciară (off-ramp) (art. 33–34 din Legea nr. 129/2019), urmate de sesizarea PICCJ pentru sechestru asigurător, sub supravegherea sectorială și prudențială a BNR și ASF prin interogarea registrului central electronic pentru conturi de plăți și conturi bancare (art. 61¹ din Legea nr. 207/2015 – CPF coroborat cu art. 33 alin. 4–5 din Legea nr. 129/2019 și Legea nr. 86/2025), aplicarea O.U.G. nr. 10/2025 (mecanismul național pentru Regulamentul TFR (UE) 2023/1113 – Travel Rule și supravegherea furnizorilor de servicii de criptoactive (CASP) privind combaterea spălării banilor și a finanțării terorismului conform art. 32¹ din Legea nr. 129/2019) și a Regulamentului MiCA (UE) 2023/1114, completate pe orizontul de 0–12 luni de debirocratizarea digitală după modelul e-Estonia.',
-    responsibleActors:
-      'ANCOM în calitate de Coordonator al Serviciilor Digitale (DSC, Legea nr. 50/2024), Consiliul Național al Audiovizualului (CNA), DNSC, AEP și BEC, ONPCSB, BNR, ASF și PICCJ, celulele de criză din CSAT, MAI și MApN, în coordonare directă cu Comisia Europeană și European Digital Media Observatory (EDMO / hub-ul regional BROD).'
+    "id": "op-faza-1",
+    "phaseCode": "Phase I",
+    "phaseTitle": "Allostatic decompression, neutralization of financing circuits (Follow the Money) and technical slowing of virality",
+    "horizon": "Dual horizon: 0–72 hours (acute tactical triage) · 0–12 months (structural decompression)",
+    "targetObjective": "Stopping the maladaptive reactive loop of Pathway A, decreasing basal hypercortisolemia on the HPA axis, interrupting dopaminergic capture in the nucleus accumbens, and blocking the financial and cryptographic flows of informational operations.",
+    "concreteIntervention": "Sequential execution on three steps of tracking and financial and technical blocking, under the constitutional proportionality guarantees of art. 30 and art. 53 of the Romanian Constitution and art. 14, 17 and 20 of the DSA Regulation (transparent technical reasoning, effective appeal in litigation and the intangibility of legitimate political opinions). In the first step, STIX/DISARM evidentiary standardization through DNSC and the EDMO/BROD regional hub is doubled by CDC CERC strategic communication (Reynolds & Seeger, 2005) and the systematic association of Orders to act against illegal content (art. 7–8 of Law no. 50/2024 / art. 9 of DSA) issued by the relevant sector authorities (including CNA for online audiovisual content, AEP/BEC, DNSC or prosecutors' offices) and procedurally transmitted through the ANCOM single point of contact (without substantive decisions on the content) with the mandatory Orders for the provision of financial information and the identity of the payers (art. 9 of Law no. 50/2024 / art. 10 of the DSA) to VLOPs. In the second step, AEP and BEC carry out the real-time verification of the financial trustee code (CMF) and the blocking of unmarked or funded political advertising from third countries (Law no. 334/2006, O.U.G. no. 1/2025 — art. 16–17 adopted specifically for the presidential elections of May 2025 and Regulation (EU) 2024/900 TTPA applicable of October 10, 2025 — art. 11–16, distinct from art. 15 and 17. In the third step, ONPCSB orders, under exclusive jurisdiction, the operational suspension in real time for 24-72 hours of suspicious transactions and the blocking of conversions from crypto-assets to fiduciary currency (off-ramp) (art. 33-34 of Law no. 129/2019), followed by notification to the PICCJ for insurance seizure, under the sectoral and prudential supervision of the BNR and ASF by querying the electronic central register for payment accounts and bank accounts (art. 61¹ of Law no. 207/2015 – CPF in conjunction with art. 33 par. 4–5 of Law no. 129/2019 and Law no. 86/2025), the application of O.U.G. no. 10/2025 (the national mechanism for the TFR Regulation (EU) 2023/1113 – Travel Rule and the supervision of crypto-asset service providers (CASP) regarding the fight against money laundering and terrorist financing according to art. 32¹ of Law no. 129/2019) and MiCA Regulation (EU) 2023/1114, completed over the 0-12 month horizon of digital debureaucratization according to the e-Estonia model.",
+    "responsibleActors": "ANCOM as Coordinator of Digital Services (DSC, Law no. 50/2024), the National Broadcasting Council (CNA), DNSC, AEP and BEC, ONPCSB, BNR, ASF and PICCJ, the crisis cells of CSAT, MAI and MApN, in direct coordination with the European Commission and the European Digital Media Observatory (EDMO / BROD regional hub)."
   },
   {
-    id: 'op-faza-2',
-    phaseCode: 'Faza II',
-    phaseTitle: 'Pregătirea psihocognitivă preventivă, validarea comunitară și reconcilierea morală',
-    horizon: 'Orizont operațional mediu: 1–3 ani',
-    targetObjective:
-      'Reconstrucția fazei de Orientare din bucla OODA, comutarea stabilă pe Traseul deliberativ adaptativ B și neutralizarea dublei falsificări axiologice a doctrinei Russkii Mir.',
-    concreteIntervention:
-      'Auditarea independentă a algoritmilor de recomandare de către cercetătorii agreați (art. 40 din DSA) și sesizarea timpurie a manipulării prin notificatorii de încredere certificați, aplicarea directă a Regulamentului (UE) 2024/1083 privind libertatea mass-mediei (European Media Freedom Act – EMFA: transparența beneficiarilor reali ai presei la art. 6, independența editorială la art. 4–5, dialogul structurat cu VLOPs la art. 18 și alocarea obiectivă și transparentă a publicității de stat la art. 25), alături de campanii naționale de pregătire psihocognitivă preventivă cu sesiuni periodice de consolidare mnezică calibrate pe curba uitării a lui Ebbinghaus. În paralel, se reface infrastructura asociativă de proximitate pentru contagiune complexă pozitivă și se consolidează parteneriatul civic-teologic întemeiat pe principiul Imago Dei și discernământul moral.',
-    responsibleActors:
-      'ANCOM (DSC), Consiliul Național al Audiovizualului (CNA), DNSC, Comisia Europeană, hub-ul regional EDMO/BROD, cercetătorii agreați și notificatorii de încredere certificați, mass-media de interes public, Biserica Ortodoxă Română și celelalte culte recunoscute, alături de facultățile de teologie.'
+    "id": "op-faza-2",
+    "phaseCode": "Phase II",
+    "phaseTitle": "Preventive psychocognitive training, community validation, and moral reconciliation",
+    "horizon": "Average operational horizon: 1–3 years",
+    "targetObjective": "The reconstruction of the Orientation phase from the OODA loop, the stable switch to the adaptive deliberative Route B and the neutralization of the double axiological falsification of the Russkii Mir doctrine.",
+    "concreteIntervention": "Independent auditing of recommendation algorithms by approved researchers (art. 40 of the DSA) and early notification of manipulation by certified trusted notifiers, direct application of Regulation (EU) 2024/1083 on media freedom (European Media Freedom Act – EMFA: transparency of the real beneficiaries of the media in art. 6, editorial independence in art. 4–5, structured dialogue with VLOPs in art. 18 and the objective and transparent allocation of state advertising to art. 25), along with national preventive psychocognitive training campaigns with periodic memory consolidation sessions calibrated on Ebbinghaus's forgetting curve. In parallel, the associative proximity infrastructure for positive complex contagion is restored and the civic-theological partnership based on the Imago Dei principle and moral discernment is strengthened.",
+    "responsibleActors": "ANCOM (DSC), the National Broadcasting Council (CNA), DNSC, the European Commission, the EDMO/BROD regional hub, approved researchers and certified reliable notifiers, public interest media, the Romanian Orthodox Church and the other recognized cults, along with the theological faculties."
   },
   {
-    id: 'op-faza-3',
-    phaseCode: 'Faza III',
-    phaseTitle: 'Închiderea operațională a statului de drept, isonomia fiscală, guvernanța policentrică și auditul dublu',
-    horizon: 'Orizont strategic: 3–10 ani',
-    targetObjective:
-      'Eliminarea rădăcinii istorice a „formelor fără fond”, consolidarea barierei instituționale în matricea lui Cipolla prin arhitectura alegerii (Thaler & Sunstein) pentru atragerea în Cadranul I al cooperării inteligente și susținerea instituțională a patriotismului constituțional matur.',
-    concreteIntervention:
-      'Protocolul se structurează pe patru piloni macrostructurali: închiderea justiției, meritocrația administrativă (prin eliminarea numirilor temporare discreționare de la art. 509–510 din O.U.G. nr. 57/2019 și încetarea mandatelor provizorii în lanț ale administratorilor și directorilor din companiile de stat prevăzute la art. 29¹ și art. 64¹ din O.U.G. nr. 109/2011, modificată prin Legea nr. 187/2023, sub supravegherea AMEPIP), isonomia fiscală și guvernanța policentrică (prin formule obiective de echilibrare a bugetelor locale la art. 32–33 din Legea nr. 273/2006, limitarea Fondului de rezervă de la art. 30 din Legea nr. 500/2002 exclusiv la urgențe imprevizibile și valorificarea remitențelor sociale și instituționale ale diasporei, Sandu, 2010). În cadrul acestor piloni, protocolul instituie două studii de caz paradigmatice de arhitectură a alegerii instituționale (institutional choice architecture, Thaler & Sunstein, 2008): reforma de lege ferenda a art. 167 și art. 182 din Legea nr. 207/2015 privind Codul de procedură fiscală (penalizarea în oglindă a statului, compensarea automată din oficiu a creanțelor fiscale reciproce conform art. 167 CPF și virarea din oficiu a dobânzilor și penalităților în același cont IBAN conform art. 182 CPF, în deplin acord cu principiul simetriei fiscale consacrat de Decizia CCR nr. 694/2015) și propunerea de completare a art. 281 CPF privind răspunderea patrimonială solidară și regresul efectiv atunci când instanța constată definitiv că actul fiscal anulat a fost emis cu rea-credință sau gravă neglijență, distinctă de răspunderea patrimonială internă a funcționarilor față de instituție reglementată de art. 499–500 din Codul administrativ; respectiv reforma de lege ferenda a guvernanței cooperativelor agricole din Legea nr. 566/2004 (modificarea art. 31 și art. 33–35 coroborate cu art. 16 alin. 4 și art. 29 și facilitățile din art. 76–76¹: director executiv independent recrutat competitiv, interdicția rudelor și afinilor până la gradul al III-lea și protejarea rambursărilor de TVA), care reconstruiește capitalul social de punte (Putnam, 2000). Întregul protocol este supus unui mecanism dublu de audit periodic independent: Auditul public extern al performanței realizat bienal de Curtea de Conturi (art. 2 lit. b și d și art. 28 alin. 2 din Legea nr. 94/1992; Legea nr. 500/2002) și Auditul științific și civic realizat de consorțiile universitare acreditate în calitate de „cercetători agreați” (art. 40 din DSA / EDMO) pe Cadrul european al competențelor digitale (DigComp), pe metodologiile Institutului Național pentru Educație Audiovizuală KAVI și prin simulări decizionale participative.',
-    responsibleActors:
-      'Parlamentul României, Ministerul Finanțelor și Trezoreria Statului, Curtea de Conturi a României, sistemul judiciar și administrativ, Ministerul Educației, consorțiile universitare acreditate (cercetători agreați conform art. 40 DSA / EDMO), cooperativele agricole și administrația publică locală.'
+    "id": "op-faza-3",
+    "phaseCode": "Phase III",
+    "phaseTitle": "Operational closure of the rule of law, fiscal isonomy, polycentric governance and double auditing",
+    "horizon": "Strategic horizon: 3–10 years",
+    "targetObjective": "Eliminating the historical root of \"bottomless forms\", strengthening the institutional barrier in Cipolla's matrix through the architecture of choice (Thaler & Sunstein) for drawing into Quadrant I of intelligent cooperation and institutional support of mature constitutional patriotism.",
+    "concreteIntervention": "The protocol is structured on four macrostructural pillars: the closure of justice, administrative meritocracy (by eliminating temporary discretionary appointments from art. 509–510 of O.U.G. no. 57/2019 and the termination of the chain provisional mandates of administrators and directors in state companies provided for in art. 29¹ and art. 64¹ of O.U.G. no. 109/2011, amended by Law no. 187/2023, under the supervision of AMEPIP), fiscal isonomy and polycentric governance (through objective formulas for balancing local budgets in art. 32–33 of Law no. 273/2006, the limitation of the Reserve Fund from art. 30 of Law no. 500/2002 exclusively to unpredictable emergencies and capitalizing on the social and institutional remittances of the diaspora, Sandu, 2010). Within these pillars, the protocol establishes two paradigmatic case studies of the architecture of institutional choice (institutional choice architecture, Thaler & Sunstein, 2008): the law reform of ferenda of art. 167 and art. 182 of Law no. 207/2015 regarding the Fiscal Procedure Code (penalization in the mirror of the state, automatic automatic compensation of mutual tax claims according to art. 167 CPF and ex officio transfer of interest and penalties to the same IBAN account according to art. 182 CPF, in full agreement with the principle of fiscal symmetry enshrined in CCR Decision no. 694/2015) and the proposal to supplement art. 281 CPF regarding the joint patrimonial liability and effective recourse when the court definitively finds that the annulled tax act was issued in bad faith or with gross negligence, distinct from the internal patrimonial liability of the officials towards the institution regulated by art. 499–500 of the Administrative Code; respectively the Ferenda law reform of the governance of agricultural cooperatives from Law no. 566/2004 (amending art. 31 and art. 33–35 in conjunction with art. 16 para. 4 and art. 29 and the facilities in art. 76–76¹: competitively recruited independent executive director, prohibition of relatives and relatives up to the third degree and protection of VAT refunds), which rebuilds the bridging social capital (Putnam, 2000). The entire protocol is subject to a dual independent periodic audit mechanism: the external public audit of the performance carried out biennially by the Court of Accounts (art. 2 letters b and d and art. 28 para. 2 of Law no. 94/1992; Law no. 500/2002) and the scientific and civic audit carried out by university consortia accredited as \"approved researchers\" (art. 40 of DSA / EDMO) on The European framework of digital skills (DigComp), on the methodologies of the National Institute for Audiovisual Education KAVI and through participatory decision-making simulations.",
+    "responsibleActors": "The Parliament of Romania, the Ministry of Finance and the State Treasury, the Court of Accounts of Romania, the judicial and administrative system, the Ministry of Education, accredited university consortia (researchers approved according to art. 40 DSA / EDMO), agricultural cooperatives and local public administration."
   }
 ];
-
-

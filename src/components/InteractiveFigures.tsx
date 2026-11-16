@@ -20,81 +20,81 @@ export const FIGURE_METADATA: Record<
 > = {
   1: {
     id: 1,
-    title: 'Figura 1. Arhitectura cauzală pe trei straturi a vulnerabilității societale endogene',
+    title: 'Figure 1. Three-layer causal architecture of endogenous societal vulnerability',
     subtitle:
-      'Articularea modelului Macro–Micro–Macro al lui Coleman și Hedström cu determinanții sistemici Lalonde–Dever',
-    chapterRef: 'Capitolul 1 · Subcapitolul 1.3',
+      'Articulating Coleman and Hedström\'s Macro–Micro–Macro model with Lalonde–Dever systemic determinants',
+    chapterRef: 'Chapter 1 · Subchapter 1.3',
     caption:
-      'Deficitele structurale din Stratul A — deficitul de servicii publice, închiderea operațională incompletă a instituțiilor, mediul socioeconomic precar și vidul de reprezentare politică (Mair, 2013; Mudde, 2004) — induc în Stratul B două regimuri complementare de vulnerabilitate neurocognitivă care se întrepătrund transversal în societate: pe de o parte, stresul alostatic cronic (aplatizarea ritmului circadian al cortizolului, desensibilizarea receptorilor glucocorticoizi, inflamație sistemică și retracție dendritică în dlPFC), peste care șocurile acute adaugă inhibiția sinaptică catecolaminergică rapidă (Arnsten, 2009), comutând procesarea pe Sistemul 1 reactiv; pe de altă parte, recrutarea unui Sistem 2 biologic intact în disraționalitate și raționalizare motivată (Stanovich, 2009; Kahan, 2017) în două direcții simetric disfuncționale (secesiunea civică elitistă în bula de statut sau construirea unor raționalizări pseudosavante, esoterice și revizioniste radicale). Prin cele trei mecanisme transformaționale Micro–Macro (sincronizarea afectivă, contagiunea complexă prin punți largi și intermedierea politică oportunistă), aceste procese se sedimentează în Stratul C sub forma fatalismului defensiv, a neputinței învățate și a neîncrederii cronice în ordinea constituțională, oferind vectorului de război cognitiv un teren vulnerabil pe care îl poate exploata direct și amplifica.',
+      'The structural deficits in Layer A — the lack of public services, the incomplete operational closure of institutions, the precarious socioeconomic environment and the vacuum of political representation (Mair, 2013; Mudde, 2004) — induce in Layer B two complementary regimes of neurocognitive vulnerability that intertwine transversally in society: on the one hand, chronic allostatic stress (flattening the circadian rhythm of cortisol, desensitization of receptors glucocorticoids, systemic inflammation and dendritic retraction in the dlPFC), over which acute shocks add rapid catecholaminergic synaptic inhibition (Arnsten, 2009), switching processing to reactive System 1; on the other hand, the recruitment of an intact biological System 2 in dysrationality and motivated rationalization (Stanovich, 2009; Kahan, 2017) in two symmetrically dysfunctional directions (elitist civic secession in the status bubble or the construction of pseudoscientific, esoteric and radical revisionist rationalizations). Through the three Micro-Macro transformational mechanisms (affective synchronization, complex contagion through wide bridges and opportunistic political intermediation), these processes are sedimented in Layer C in the form of defensive fatalism, learned helplessness and chronic distrust of the constitutional order, offering the vector of cognitive warfare a vulnerable ground that it can directly exploit and amplify.',
     methodologicalNote:
-      'Modelul cauzal Macro–Micro–Macro (Coleman, 1990; Hedström, 2005), fundamentat pe criteriul falsificabilității (Popper, 1934/2002) și pe clauza anti-eroare ecologică (Robinson, 1950), articulează determinanții instituționali, sociospațiali și vidul de reprezentare politică din Stratul A cu dubla vulnerabilitate neurocognitivă din Stratul B și cu structurile defensive ale inconștientului cultural din Stratul C.'
+      'The Macro–Micro–Macro causal model (Coleman, 1990; Hedström, 2005), grounded in the criterion of falsifiability (Popper, 1934/2002) and the ecological anti-error clause (Robinson, 1950), articulates the institutional, socio-spatial determinants and political representation vacuum of Layer A with the double neurocognitive vulnerability of Layer B and the defensive structures of the cultural unconscious in Layer C.'
   },
   2: {
     id: 2,
-    title: 'Figura 2. Mecanismul dublei falsificări axiologice și al parazitării semiotice',
+    title: 'Figure 2. The mechanism of double axiological falsification and semiotic parasitism',
     subtitle:
-      'Opoziția structurală dintre sinteza creștin-seculară europeană și ideologia revizionistă a Antilumii',
-    chapterRef: 'Capitolul 2 · Subcapitolul 2.2',
+      'The structural opposition between the European Christian-secular synthesis and the revisionist ideology of the Antiworld',
+    chapterRef: 'Chapter 2 · Subchapter 2.2',
     caption:
-      'În jumătatea stângă este reprezentată sinteza creștin-seculară europeană, în care principiul demnității umane inalienabile, întemeiat pe conceptul de Imago Dei și pe universalismul drepturilor fundamentale, susține filtrul moral și constituțional al statului de drept, generând modernitate organică și libertate responsabilă. În jumătatea dreaptă este ilustrată operațiunea de disimulare a ideologiei revizioniste a Antilumii (Epstein, 2022), care proiectează la suprafață un camuflaj tradiționalist ortodox și suveranist pentru a ocoli aversiunea istorică a populației-țintă față de Rusia, mascând nucleul operativ real bazat pe inversiune normativă și cinism transgresiv, a cărui finalitate strategică este subordonarea imperială și dezintegrarea coeziunii normative a societății vizate.',
+      'In the left half, the Christian-secular European synthesis is represented, in which the principle of inalienable human dignity, based on the concept of Imago Dei and the universalism of fundamental rights, supports the moral and constitutional filter of the rule of law, generating organic modernity and responsible freedom. In the right half is illustrated the operation to conceal the revisionist ideology of the Antiworld (Epstein, 2022), which projects on the surface an orthodox traditionalist and sovereignist camouflage to bypass the historical aversion of the target population towards Russia, masking the real operative core based on normative inversion and transgressive cynicism, whose strategic finality is imperial subordination and the disintegration of the normative cohesion of the targeted society.',
     methodologicalNote:
-      'Modelul semiotic comparativ evidențiază contrastul dintre antropologia persoanei libere din sinteza creștin-seculară europeană și operațiunea de disimulare axiologică prin care ideologia Antilumii maschează inversiunea normativă sub un camuflaj tradiționalist.'
+      'The comparative semiotic model highlights the contrast between the anthropology of the free person in the European Christian-secular synthesis and the operation of axiological dissimulation through which Antiworld ideology masks the normative inversion under a traditionalist camouflage.'
   },
   3: {
     id: 3,
     title:
-      'Figura 3. Mecanismul cibernetic și semiotic al capturării cognitive în al șaselea domeniu operațional',
+      'Figure 3. The cybernetic and semiotic mechanism of cognitive capture in the sixth operational domain',
     subtitle:
-      'Integrarea buclei decizionale OODA a lui Boyd, a controlului reflexiv al lui Lefebvre și a semioticii culturii a lui Lotman și Peirce',
-    chapterRef: 'Capitolul 3 · Subcapitolele 3.1–3.3',
+      'Integrating Boyd\'s OODA decision loop, Lefebvre\'s reflexive control, and Lotman and Peirce\'s semiotics of culture',
+    chapterRef: 'Chapter 3 · Subchapters 3.1–3.3',
     caption:
-      'Fluxul informațional brut din faza de Observare, poluat cu date sintetice în două stadii — contaminarea neparametrică la momentul interogării a motoarelor de căutare și a sistemelor RAG (inference-time RAG poisoning) pe termen scurt, urmată de degradarea parametrică la reantrenare (Model Collapse și Model Autophagy Disorder – MAD) pe termen mediu — și amplificat algoritmic prin capturarea erorii de predicție a recompensei și a receptorilor dopaminergici D2, intră în faza de Orientare, unde modelele mentale și culturale ale subiectului sunt țintite de controlul reflexiv de rang secund și automatizate prin algoritmi de recomandare (DRL), care mențin ținta la Rangul 0 și Rangul 1 de reflexivitate (Lefebvre, 1982, 2001) și distorsionează ponderarea preciziei (aberrant precision-weighting, Friston, 2010: atribuirea unei hiperprecizii rigide convingerii conspirative și atenuarea erorilor de predicție factuale). Această intervenție compromite filtrul axiologic al primului sistem etic, blochează calea medierii ternare și a discernământului rațional prefrontal și deviază procesarea pe traseul celui de-al doilea sistem etic și al logicii binare a anihilării. Rezultatul este o fază de Decizie dominată de selecția emoțională indusă, închiderea cognitivă și procesarea defensivă motivată de protejarea identității de grup, care se traduce în faza de Acțiune, prin contagiune socială complexă pe punți largi (Centola, 2018), în polarizare socială acută și conflict antiinstituțional.',
+      'The raw information flow from the Observation phase, polluted with synthetic data in two stages—non-parametric contamination at the time of querying search engines and RAG (inference-time RAG poisoning) systems in the short term, followed by parametric degradation upon retraining (Model Collapse and Model Autophagy Disorder – MAD) in the medium term—and algorithmically amplified by capturing reward prediction error and dopamine D2 receptors, enters the phase of Orientation, where the subject\'s mental and cultural models are targeted by second-order reflexive control and automated by recommendation algorithms (DRLs), which maintain the target at Rank 0 and Rank 1 reflexivity (Lefebvre, 1982, 2001) and distort precision-weighting (aberrant precision-weighting, Friston, 2010: assigning rigid hyperprecision to conspiratorial belief and mitigating prediction errors factual). This intervention compromises the axiological filter of the first ethical system, blocks the path of ternary mediation and prefrontal rational discernment, and diverts processing down the path of the second ethical system and the binary logic of annihilation. The result is a Decision phase dominated by induced emotional selection, cognitive closure and defensive processing motivated by the protection of group identity, which translates into the Action phase, through complex social contagion on wide bridges (Centola, 2018), in acute social polarization and anti-institutional conflict.',
     methodologicalNote:
-      'Modelul cibernetic integrează bucla decizională OODA (Boyd, 1987/2018) cu teoria controlului reflexiv (Lefebvre, 1982, 2001) și cu semiotica ternară (Peirce, 1931–1958; Lotman, 1990), demonstrând cum capturarea fazei de Orientare suprimă compromisul democratic.'
+      'The cybernetic model integrates the OODA decision loop (Boyd, 1987/2018) with reflexive control theory (Lefebvre, 1982, 2001) and ternary semiotics (Peirce, 1931–1958; Lotman, 1990), demonstrating how capturing the Orientation phase suppresses democratic compromise.'
   },
   4: {
     id: 4,
-    title: 'Figura 4. Conversia funcțională a resurselor latente din Umbra colectivă',
+    title: 'Figure 4. Functional conversion of latent resources in the collective Shadow',
     subtitle:
-      'Arhitectura de mediere instituțională și metacognitivă pe axa Ego–Sine și conversia fluxurilor psihodinamice',
-    chapterRef: 'Capitolul 4 · Subcapitolul 4.2',
+      'Institutional and metacognitive mediating architecture on the Ego–Self axis and the conversion of psychodynamic flows',
+    chapterRef: 'Chapter 4 · Subchapter 4.2',
     caption:
-      'În stânga sunt reprezentate energiile psihodinamice refulate în Stratul C: memoria istorică defensivă și vitalitatea adaptativă necanalizată asociată arhetipului Tricksterului. În absența medierii, aceste resurse alunecă pe traseul inferior, marcat cu roșu, în enantiodromie, cinism și revoltă distructivă împotriva regulilor democratice. Atunci când sunt procesate prin cele trei filtre centrale din Straturile A și B — cadrul legii impersonale drepte cu închidere operațională (activat incremental prin insulele de închidere operațională și predictibilitate administrativă în termenii lui Ostrom, 1990 și Acemoglu & Robinson, 2019), discernământul critic și vigilența metacognitivă prefrontală — ele sunt convertite pe axa Ego–Sine în modernitate organică, încredere și cooperare instituțională autonomă.',
+      'On the left are the repressed psychodynamic energies in Layer C: the defensive historical memory and unchanneled adaptive vitality associated with the Trickster archetype. In the absence of mediation, these resources slide down the lower, red-marked path into enantiodromy, cynicism, and destructive revolt against democratic rules. When processed through the three central filters of Layers A and B—the framework of impersonal righteous law with operational closure (incrementally activated by islands of operational closure and administrative predictability in Ostrom, 1990 and Acemoglu & Robinson, 2019), critical discernment, and prefrontal metacognitive vigilance—they are converted on the Ego–Self axis into organic modernity, trust, and autonomous institutional cooperation.',
     methodologicalNote:
-      'Diagrama ilustrează condițiile structurale prin care resursele refulate în Umbra colectivă, respectiv memoria istorică defensivă și vitalitatea adaptativă a arhetipului Tricksterului, încetează să alimenteze revolta distructivă împotriva regulilor democratice și sunt convertite în modernitate organică.'
+      'The diagram illustrates the structural conditions by which the resources repressed in the collective Shadow, namely the defensive historical memory and the adaptive vitality of the Trickster archetype, cease to fuel the destructive revolt against democratic rules and are converted into organic modernity.'
   },
   5: {
     id: 5,
-    title: 'Figura 5. Matricea comportamentală a lui Carlo M. Cipolla în războiul cognitiv',
+    title: 'Figure 5. Carlo M. Cipolla\'s behavioral matrix in cognitive warfare',
     subtitle:
-      'Dinamica spolierii sistemice (+X, -Y), a vulnerabilizării (-X, +Y) și a autosabotajului colectiv (-X, -Y)',
-    chapterRef: 'Capitolul 4 · Subcapitolul 4.3',
+      'Dynamics of systemic spoliation (+X, -Y), vulnerability (-X, +Y) and collective self-sabotage (-X, -Y)',
+    chapterRef: 'Chapter 4 · Subchapter 4.3',
     caption:
-      'Cauza primară endogenă este presiunea de spoliere sistemică exercitată de actorii extractivi interni din Cadranul IV (+X, -Y) asupra cetățeanului vulnerabil din Cadranul II (-X, +Y) pe două bariere ortogonale: barajul extractiv vertical (care blochează mobilitatea meritocratică orizontală spre Cadranul I) și planșeul de protecție constituțională și epistemică orizontală fisurat. Pe acest fond de uzură alostatică și resentiment legitim — și în convergență tactică cu facțiunile oligarhice interne care încurajează haosul antiinstituțional pentru a-și salva impunitatea în fața statului de drept european —, intervenția catalizatorului extern de război cognitiv exploatează scontarea hiperbolică a viitorului (hyperbolic discounting, Laibson, 1997) și deturnarea pedepsei altruiste în revanșă simbolică autodistructivă și pedeapsă antisocială (spiteful and antisocial punishment; Fehr & Gächter, 2002), împingându-l pe cetățeanul vulnerabil vertical în jos, prin planșeul fisurat, în Cadranul III al autosabotajului colectiv (-X, -Y), unde acțiunile sale antiinstituționale distrug simultan bunul public și propria sa securitate socioeconomică; în oglindă, înlăturarea barajului extractiv și consolidarea planșeului constituțional prin arhitectura alegerii instituționale (Thaler & Sunstein, 2008) deschid traiectoria restaurativă spre Cadranul I al cooperării inteligente (+X, +Y).',
+      'The primary endogenous cause is the systemic spoliation pressure exerted by internal extractive actors in Quadrant IV (+X, -Y) on the vulnerable citizen in Quadrant II (-X, +Y) on two orthogonal barriers: the vertical extractive dam (blocking horizontal meritocratic mobility to Quadrant I) and the cracked horizontal constitutional and epistemic floor of protection. Against this background of allostatic attrition and legitimate resentment—and in tactical convergence with internal oligarchic factions that encourage anti-institutional chaos to save their impunity before the European rule of law—the intervention of the external catalyst of cognitive warfare exploits hyperbolic discounting of the future (Laibson, 1997) and the diversion of altruistic punishment into symbolic self-destructive revenge and antisocial punishment (spiteful and antisocial punishment; Fehr & Gächter, 2002), pushing the vulnerable citizen vertically down through the cracked floor into Quadrant III of collective self-sabotage (-X, -Y), where his anti-institutional actions simultaneously destroy the public good and his own socioeconomic security; in the mirror, the removal of the extractive dam and the consolidation of the constitutional floor through the architecture of institutional choice (Thaler & Sunstein, 2008) open the restorative trajectory towards Quadrant I of intelligent cooperation (+X, +Y).',
     methodologicalNote:
-      'Adaptarea matricei bidimensionale a lui Carlo M. Cipolla (1976/2011) evidențiază mecanismul prin care presiunea de spoliere sistemică exercitată de actorii extractivi (+X, -Y) și fisurarea planșeului constituțional de protecție împing cetățeanul vulnerabil (-X, +Y), sub impulsul capturării cognitive externe, în cadranul comportamentului autodistructiv și al autosabotajului colectiv (-X, -Y), în timp ce arhitectura alegerii instituționale (Thaler & Sunstein, 2008) deschide tranziția spre Cadranul I (+X, +Y).'
+      'The adaptation of the two-dimensional matrix of Carlo M. Cipolla (1976/2011) highlights the mechanism by which the systemic spoliation pressure exerted by extractive actors (+X, -Y) and the cracking of the constitutional floor of protection push the vulnerable citizen (-X, +Y), under the impulse of external cognitive capture, into the quadrant of self-destructive behavior and collective self-sabotage (-X, -Y), while the architecture of choice institutional (Thaler & Sunstein, 2008) opens the transition to Quadrant I (+X, +Y).'
   },
   6: {
     id: 6,
-    title: 'Figura 6. Modelul comparativ al procesării cognitive în criză acută: Track A vs. Track B',
+    title: 'Figure 6. Comparative model of cognitive processing in acute crisis: Track A vs. Track B',
     subtitle:
-      'Divergența dintre bucla reactivă defensivă Track A și traseul deliberativ adaptativ Track B',
-    chapterRef: 'Capitolul 5 · Subcapitolul 5.2',
+      'Divergence between the Track A defensive reactive loop and the Track B adaptive deliberative pathway',
+    chapterRef: 'Chapter 5 · Subchapter 5.2',
     caption:
-      'Nodul unic de bifurcație superior, declanșat de stresul acut și policriză, desprinde divergent procesarea reactivă defensivă Track A, în stânga, de procesarea deliberativă adaptativă Track B, în dreapta. Pe Traseul A, anxietatea cronică, inhibiția prefrontală (Sistemul 1 sub epuizare alostatică) sau raționalizarea motivată (Sistemul 2 deturnat în bulele urbane fie spre secesiune civică elitistă, fie spre justificări pseudosavante și revizioniste) și nevoia de închidere cognitivă (seizing și freezing) îi împing pe subiecți spre conformismul de fațadă al Personei mimetice, spre regresia în ipotezele de bază ale lui Bion (baD, baP, baF) și spre proiecția ostilă a Umbrei colective, într-o buclă de autoamplificare algoritmică (R). Pe Traseul B — deschis în momentul șocului acut prin puntea de calm instituțional CDC CERC (Reynolds & Seeger, 2005), probatoriul tehnic verificabil și validatorii comunitari de proximitate, și stabilizat la nivelul populației prin decompresia alostatică și măsurile tehnice de limitare a amplificării algoritmice din Faza I —, procesarea parcurge cele cinci etape adaptative: (1) capacitatea negativă de acceptare a incertitudinii, (2) reactivarea Sistemului 2 în regim de gândire activ deschisă la Rangul 2 și Rangul 3 de reflexivitate (Lefebvre), (3) conversia constructivă a agilității arhetipului Tricksterului, (4) discernământul critic în mediere ternară și constituirea comunității ca „grup de lucru” rațional (Bion, 1961) și (5) acțiunea suverană pe axa Ego–Sine.',
+      'The single upper bifurcation node, triggered by acute stress and polycrisis, divergently separates Track A defensive reactive processing, left, from Track B adaptive deliberative processing, right. On Route A, chronic anxiety, prefrontal inhibition (System 1 under allostatic exhaustion) or motivated rationalization (System 2 hijacked in urban bubbles either to elitist civic secession or to pseudoscientific and revisionist justifications) and the need for cognitive closure (seizing and freezing) push subjects toward the facade conformism of the Mimetic Person, toward regression into Bion\'s basic assumptions (baD, baP, baF) and towards the hostile projection of the collective Shadow, in an algorithmic self-amplification loop (R). On Pathway B—opened at the moment of the acute shock through the CDC CERC institutional calm bridge (Reynolds & Seeger, 2005), the verifiable technical proving ground and the proximity community validators, and stabilized at the population level by allostatic decompression and the technical measures to limit algorithmic amplification in Phase I—processing goes through the five adaptive stages: (1) negative uncertainty tolerance, (2) reactivation of the System 2 in the mode of active thinking open to Rank 2 and Rank 3 of reflexivity (Lefebvre), (3) the constructive conversion of the agility of the Trickster archetype, (4) critical discernment in ternary mediation and the constitution of the community as a rational "working group" (Bion, 1961) and (5) sovereign action on the Ego–Self axis.',
     methodologicalNote:
-      'Modelul sistemic al procesării cognitive în criză, fundamentat pe lucrările lui Kruglanski, Kahneman, Stanovich, Kahan, Bion și pe psihologia analitică, evidențiază bifurcarea dintre bucla reactivă de autoamplificare și traseul deliberativ adaptativ deschis prin arhitectura policentrică de coreglare CERC și integrat pe axa Ego–Sine.'
+      'The systemic model of cognitive processing in crisis, based on the works of Kruglanski, Kahneman, Stanovich, Kahan, Bion and analytical psychology, highlights the bifurcation between the reactive self-amplification loop and the adaptive deliberative path opened by the polycentric architecture of CERC co-regulation and integrated on the Ego–Sine axis.'
   },
   7: {
     id: 7,
-    title: 'Figura 7. Protocolul secvențial în trei faze al reconstrucției rezilienței societale',
+    title: 'Figure 7. Three-phase sequential protocol of societal resilience reconstruction',
     subtitle:
-      'Ordinea obligatorie a intervențiilor pe determinanții Lalonde–Dever și palierele Straturilor A, B și C',
-    chapterRef: 'Capitolul 6 · Subcapitolele 6.1–6.4',
+      'Mandatory order of interventions on Lalonde–Dever determinants and Tiers A, B and C levels',
+    chapterRef: 'Chapter 6 · Subchapters 6.1–6.4',
     caption:
-      'Diagrama evidențiază ordinea cauzală obligatorie a intervențiilor fundamentate pe determinanții modelului Lalonde–Dever: Faza I, dedicată decompresiei alostatice și reglementării ecosistemului digital, creează condițiile neurobiologice pentru Faza a II-a, axată pe pregătirea psihocognitivă preventivă prin prebunking, consolidarea mnezică Ebbinghaus și reconcilierea filtrului moral creștin-secular. Aceasta susține la rândul ei Faza a III-a, care vizează închiderea operațională a statului de drept, guvernanța policentrică și individuarea colectivă, culminând în arhitectura suveranității democratice și a modernității organice.',
+      'The diagram highlights the mandatory causal order of interventions based on the determinants of the Lalonde–Dever model: Phase I, dedicated to allostatic decompression and regulation of the digital ecosystem, creates the neurobiological conditions for Phase II, focused on preventive psychocognitive training through prebunking, Ebbinghaus mnesic consolidation and reconciliation of the Christian-secular moral filter. This in turn supports Phase III, which aims at the operational closure of the rule of law, polycentric governance and collective individuation, culminating in the architecture of democratic sovereignty and organic modernity.',
     methodologicalNote:
-      'Arhitectura secvențială a reconstrucției rezilienței cognitive și instituționale demonstrează de ce intervențiile educaționale din Faza II și reformele structurale din Faza III depind cauzal de realizarea prealabilă a Fazei I, constând în decompresia alostatică a populației și reglementarea ecosistemului digital.'
+      'The sequential architecture of the reconstruction of cognitive and institutional resilience demonstrates why the educational interventions of Phase II and the structural reforms of Phase III are causally dependent on the prior achievement of Phase I, consisting in the allostatic decompression of the population and the regulation of the digital ecosystem.'
   }
 };
 
@@ -237,7 +237,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
         <div className="flex flex-wrap items-center justify-between gap-2 mb-2">
           <div className="flex flex-wrap items-center gap-2.5">
             <span className="bg-[#E5B822] text-[#222426] border border-[#222426] px-2.5 py-0.5 font-mono text-xs font-bold">
-              FIGURA 0{meta.id}
+              FIGURE 0{meta.id}
             </span>
             <span className="text-xs font-mono text-[#6E7376]">
               {meta.chapterRef}
@@ -250,13 +250,13 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
         <p className="text-xs sm:text-sm text-[#6E7376] mt-1">{meta.subtitle}</p>
         <div className="mt-3 pt-2.5 border-t border-[#8C9BA5] flex flex-wrap items-center justify-between gap-2">
           <SocialShareButtons
-            url={`https://laurentiustaicu.github.io/diagnosticul-razboiului-cognitiv-romania/share/figura-${meta.id}.html`}
-            title={`${meta.title} (Diagnosticul războiului cognitiv în România)`}
-            label={`Distribuie Figura ${meta.id} pe`}
+            url={`https://laurentiustaicu.github.io/cognitive-warfare-diagnosis-romania/share/figura-${meta.id}.html`}
+            title={`${meta.title} (Diagnosis of Cognitive Warfare in Romania)`}
+            label={`Share Figure ${meta.id} on`}
             compact={!showSelector}
           />
           <div className="flex md:hidden items-center gap-1 text-[11px] font-mono">
-            <span className="text-[#6E7376] mr-1">Afișare mobilă</span>
+            <span className="text-[#6E7376] mr-1">Mobile display</span>
             <button
               type="button"
               onClick={() => setMobileSvgMode('fit')}
@@ -266,7 +266,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   : 'bg-[#F6F5EE] text-[#222426] border-[#8C9BA5]'
               }`}
             >
-              Adaptat la ecran
+              Adapted to the screen
             </button>
             <button
               type="button"
@@ -277,7 +277,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   : 'bg-[#F6F5EE] text-[#222426] border-[#8C9BA5]'
               }`}
             >
-              Lupă panoramabilă
+              Panning magnifier
             </button>
           </div>
         </div>
@@ -290,7 +290,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
         <div>
           <div className="flex flex-wrap items-center justify-between gap-3 bg-[#F6F5EE] px-5 py-3 border-b border-[#8C9BA5]">
             <span className="text-xs font-mono uppercase tracking-wider font-semibold text-[#222426]">
-              Regim sistemic pe Straturile A, B și C
+              Systemic regime on Layers A, B and C
             </span>
             <div className="flex flex-wrap items-center gap-2">
               <button
@@ -302,7 +302,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     : 'bg-[#F6F5EE] text-[#222426] border-[#8C9BA5]'
                 }`}
               >
-                Vulnerabilitate endogenă și cuplare ostilă
+                Endogenous vulnerability and hostile coupling
               </button>
               <button
                 type="button"
@@ -313,7 +313,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     : 'bg-[#F6F5EE] text-[#222426] border-[#8C9BA5]'
                 }`}
               >
-                Filtru axiologic și închidere operațională
+                Axiological filter and operational closure
               </button>
             </div>
           </div>
@@ -346,7 +346,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 textAnchor="middle"
                 className="font-sans text-[12.5px] font-bold fill-[#222426]"
               >
-                Stratul A · Determinanți structurali și instituționali
+                Layer A · Structural and institutional determinants
               </text>
 
               {/* Node A1: Det. I · Servicii publice (x=95, y=52, width=240, height=82, center=215,93) */}
@@ -370,7 +370,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-mono text-[10px] font-bold fill-[#6E7376]"
                 >
-                  Câmp Lalonde–Dever · Servicii publice
+                  Lalonde–Dever Field · Public Services
                 </text>
                 <text
                   x="215"
@@ -378,7 +378,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[12.5px] font-semibold fill-[#222426]"
                 >
-                  {fig1Mode === 'vulnerable' ? 'Deficit de închidere operațională' : 'Servicii publice integre'}
+                  {fig1Mode === 'vulnerable' ? 'Deficit of operational closure' : 'Honest public services'}
                 </text>
                 <text
                   x="215"
@@ -386,7 +386,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[11px] fill-[#6E7376]"
                 >
-                  {fig1Mode === 'vulnerable' ? 'instituții extractive și captură' : 'închidere operațională fermă'}
+                  {fig1Mode === 'vulnerable' ? 'extractive institutions and capture' : 'firm operational closure'}
                 </text>
               </g>
 
@@ -432,7 +432,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-mono text-[10px] font-bold fill-[#6E7376]"
                 >
-                  Câmp Lalonde–Dever · Mediu socioeconomic
+                  Lalonde–Dever Field · Socioeconomic Environment
                 </text>
                 <text
                   x="525"
@@ -440,7 +440,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[12.5px] font-semibold fill-[#222426]"
                 >
-                  {fig1Mode === 'vulnerable' ? 'Precaritate și polarizare' : 'Coeziune sociospațială'}
+                  {fig1Mode === 'vulnerable' ? 'Precarity and polarization' : 'Sociospatial cohesion'}
                 </text>
                 <text
                   x="525"
@@ -448,7 +448,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[11px] fill-[#6E7376]"
                 >
-                  {fig1Mode === 'vulnerable' ? 'disparități și secesiune tacită' : 'capital social și echilibru'}
+                  {fig1Mode === 'vulnerable' ? 'disparities and tacit secession' : 'social capital and balance'}
                 </text>
               </g>
 
@@ -488,7 +488,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 textAnchor="middle"
                 className="font-mono text-[9.5px] font-bold fill-[#222426]"
               >
-                1. Tranziție Macro → Micro (Mecanisme situaționale Coleman)
+                1. Macro → Micro Transition (Situational Mechanisms Coleman)
               </text>
 
               {/* STRATUL B CONTAINER (x=75..665, y=216..384, height=168) */}
@@ -508,7 +508,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 textAnchor="middle"
                 className="font-sans text-[12.5px] font-bold fill-[#222426]"
               >
-                Stratul B · Mecanisme neurocognitive și cibernetice
+                Layer B · Neurocognitive and cybernetic mechanisms
               </text>
               <text
                 x="370"
@@ -516,7 +516,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 textAnchor="middle"
                 className="font-mono text-[10.5px] font-bold fill-[#6E7376]"
               >
-                2. Nivel Micro (Formarea acțiunii) · Câmp Lalonde–Dever: Rezervă neurobiologică
+                2. Micro Level (Action Formation) · Lalonde–Dever Field: Neurobiological reserve
               </text>
 
               {/* Node B1: Romb (center 215, 302) */}
@@ -537,7 +537,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[12px] font-bold fill-[#222426]"
                 >
-                  {fig1Mode === 'vulnerable' ? 'Stres alostatic' : 'Reglare executivă'}
+                  {fig1Mode === 'vulnerable' ? 'Allostatic stress' : 'Executive regulation'}
                 </text>
                 <text
                   x="215"
@@ -545,7 +545,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[11px] fill-[#6E7376]"
                 >
-                  {fig1Mode === 'vulnerable' ? 'Sistemul 1 amigdalian' : 'Latență prefrontală'}
+                  {fig1Mode === 'vulnerable' ? 'Amygdalar System 1' : 'Prefrontal latency'}
                 </text>
               </g>
 
@@ -595,7 +595,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 textAnchor="middle"
                 className="font-mono text-[9.5px] font-semibold fill-[#6E7376]"
               >
-                Buclă cibernetică
+                Cyber ​​loop
               </text>
 
               {/* Node B2: Romb (center 525, 302) */}
@@ -616,7 +616,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[11.5px] font-bold fill-[#222426]"
                 >
-                  {fig1Mode === 'vulnerable' ? 'Inhibiție dlPFC și' : 'Sistemul 2 activ'}
+                  {fig1Mode === 'vulnerable' ? 'dlPFC inhibition and' : 'Active System 2'}
                 </text>
                 <text
                   x="525"
@@ -624,7 +624,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[10.5px] fill-[#6E7376]"
                 >
-                  {fig1Mode === 'vulnerable' ? 'disraționalitate S2' : 'Mediere rațională'}
+                  {fig1Mode === 'vulnerable' ? 'irrationality S2' : 'Rational mediation'}
                 </text>
               </g>
 
@@ -664,7 +664,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 textAnchor="middle"
                 className="font-mono text-[9.5px] font-bold fill-[#222426]"
               >
-                3. Tranziție Micro → Macro (Agregare transformațională)
+                3. Transition Micro → Macro (Transformational Aggregation)
               </text>
 
               {/* STRATUL C CONTAINER (x=75..665, y=446..606, height=160) */}
@@ -685,7 +685,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 textAnchor="middle"
                 className="font-sans text-[12.5px] font-bold fill-[#222426]"
               >
-                Stratul C · Arhitectură psihoculturală și inconștient
+                Layer C · Psychocultural Architecture and the Unconscious
               </text>
 
               {/* Node C1: Elipsă Persona mimetică (cx=215, cy=508, rx=95, ry=38) */}
@@ -709,7 +709,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[12.5px] font-bold fill-[#222426]"
                 >
-                  Persona mimetică
+                  Mimetic persona
                 </text>
                 <text
                   x="215"
@@ -717,7 +717,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[11px] fill-[#6E7376]"
                 >
-                  „forme fără fond”
+                  "bottomless shapes"
                 </text>
               </g>
 
@@ -738,7 +738,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 textAnchor="middle"
                 className="font-mono text-[10px] font-bold fill-[#6E7376]"
               >
-                Axa Ego–Sine
+                Ego–Self axis
               </text>
 
               {/* Node C2: Elipsă Umbra colectivă (cx=525, cy=508, rx=95, ry=38) */}
@@ -762,7 +762,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[12.5px] font-bold fill-[#222426]"
                 >
-                  {fig1Mode === 'vulnerable' ? 'Umbra colectivă' : 'Integrare psihodinamică'}
+                  {fig1Mode === 'vulnerable' ? 'The collective shadow' : 'Psychodynamic integration'}
                 </text>
                 <text
                   x="525"
@@ -770,7 +770,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[11px] fill-[#6E7376]"
                 >
-                  {fig1Mode === 'vulnerable' ? 'neputință învățată' : 'asumare critică'}
+                  {fig1Mode === 'vulnerable' ? 'learned helplessness' : 'critical assumption'}
                 </text>
               </g>
 
@@ -796,8 +796,8 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   className="font-sans text-[10.5px] font-bold fill-[#222426]"
                 >
                   {fig1Mode === 'resilient'
-                    ? 'Câmp Lalonde–Dever · Filtru moral creștin-secular integru'
-                    : 'Câmp Lalonde–Dever · Filtru moral creștin-secular scurtcircuitat'}
+                    ? 'Lalonde–Dever Field · Integral Christian-Secular Moral Filter'
+                    : 'Lalonde–Dever Field · Short-circuited Christian-secular moral filter'}
                 </text>
               </g>
 
@@ -864,7 +864,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 textAnchor="middle"
                 className="font-mono text-[8.5px] font-bold fill-[#222426]"
               >
-                Recursivitate
+                Recursion
               </text>
               <text
                 x="36"
@@ -908,7 +908,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[13.5px] font-bold fill-[#F01E1E]"
                 >
-                  Vector de
+                  Vector of
                 </text>
                 <text
                   x="835"
@@ -916,7 +916,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[13.5px] font-bold fill-[#F01E1E]"
                 >
-                  război cognitiv
+                  cognitive warfare
                 </text>
               </g>
 
@@ -1006,7 +1006,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-mono text-[10px] font-bold fill-[#222426]"
                   >
-                    Închidere operațională
+                    Operational closure
                   </text>
                 </g>
               )}
@@ -1017,32 +1017,32 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
               <p className="text-xs sm:text-sm text-[#222426] leading-relaxed">
                 {fig1SelectedNode === 'servicii' &&
                   (fig1Mode === 'vulnerable'
-                    ? 'Stratul A (Câmpul Lalonde–Dever: Sistemul instituțional și serviciile publice — regim vulnerabil): Organizarea sistemului instituțional și a serviciilor publice. Atunci când justiția, administrația, educația și sănătatea suferă de un deficit de închidere operațională (Luhmann) și sunt permeabile la rețelele clientelare extractive, cetățeanul percepe regulile formale ca pe un paravan ipocrit (tranziția Macro → Micro prin mecanisme situaționale Coleman, 1990).'
-                    : 'Stratul A (Câmpul Lalonde–Dever: Sistemul instituțional și serviciile publice — regim rezilient): Închiderea operațională a justiției și administrației (Luhmann, 1995, 2004), isonomia fiscală, debirocratizarea digitală proactivă (modelul e-Estonia) și calitatea predictibilă a serviciilor de bază elimină arbitrariul birocratic și consolidează legitimitatea ordinii constituționale.')}
+                    ? 'Layer A (Lalonde–Dever Field: Institutional system and public services — vulnerable regime): Organization of the institutional system and public services. When justice, administration, education and health suffer from a lack of operational closure (Luhmann) and are permeable to extractive clientelistic networks, the citizen perceives formal rules as a hypocritical screen (Macro → Micro transition through situational mechanisms Coleman, 1990).'
+                    : 'Layer A (Lalonde–Dever Field: Institutional system and public services — resilient regime): Operational closure of justice and administration (Luhmann, 1995, 2004), fiscal isonomy, proactive digital de-bureaucratization (e-Estonia model) and predictable quality of basic services eliminate bureaucratic arbitrariness and strengthen the legitimacy of the constitutional order.')}
                 {fig1SelectedNode === 'mediu' &&
                   (fig1Mode === 'vulnerable'
-                    ? 'Stratul A (Câmpul Lalonde–Dever: Mediul socioeconomic și sociospațial — regim vulnerabil): Polarizarea severă dintre centrele metropolitane și periferiile dezindustrializate sau rurale, adâncită de emigrația masivă, distruge capitalul social de punte (Putnam, 2000) prin familism amoral (Banfield) la un pol și secesiune tacită în servicii private la celălalt pol.'
-                    : 'Stratul A (Câmpul Lalonde–Dever: Mediul socioeconomic și sociospațial — regim rezilient): Guvernanța policentrică (Ostrom, 1990), egalizarea matematică obiectivă a bugetelor locale, infrastructura asociativă de proximitate (școli, biblioteci, cooperative profesionalizate conform Legii nr. 566/2004) și rețelele cu „punți largi” (Centola, 2018) refac coeziunea teritorială și capitalul social de punte (Putnam, 2000).')}
+                    ? 'Layer A (Lalonde–Dever Field: Socioeconomic and sociospatial environment—vulnerable regime): Severe polarization between metropolitan centers and deindustrialized or rural peripheries, deepened by mass emigration, destroys bridging social capital (Putnam, 2000) through amoral familism (Banfield) at one pole and tacit secession into private services at the other.'
+                    : 'Layer A (Lalonde–Dever Field: Socioeconomic and sociospatial environment — resilient regime): Polycentric governance (Ostrom, 1990), objective mathematical equalization of local budgets, proximity associative infrastructure (schools, libraries, professionalized cooperatives according to Law no. 566/2004) and networks with "broad bridges" (Centola, 2018) restore territorial cohesion and bridging social capital (Putnam, 2000).')}
                 {fig1SelectedNode === 'alostazie' &&
                   (fig1Mode === 'vulnerable'
-                    ? 'Stratul B (Nivelul Micro al formării acțiunii · Câmpul Lalonde–Dever: Rezerva neurobiologică — regim vulnerabil): Alostazia (Sterling & Eyer, 1988), sarcina / uzura alostatică (McEwen & Stellar, 1993; McEwen, 1998) și modelul triadei rețelelor cerebrale (Menon, 2011; Seeley et al., 2007; Sapolsky, Arnsten). Expunerea cronică la insecuritate și umilință birocratică induce disfuncția axei HPA (aplatizarea curbei circadiene a cortizolului, desensibilizarea receptorilor glucocorticoizi și inflamație sistemică), provocând hipertrofia amigdalei bazolaterale, hiperactivarea rețelei de detecție a relevanței (Salience Network – SN), perturbarea rețelei modului implicit (Default Mode Network – DMN) și retracția dendritică în hipocamp și în cortexul prefrontal dorsolateral (dlPFC), peste care șocurile acute adaugă inhibiția sinaptică catecolaminergică rapidă.'
-                    : 'Stratul B (Nivelul Micro al formării acțiunii · Câmpul Lalonde–Dever: Rezerva neurobiologică — regim rezilient): Decompresia alostatică structurală, reglarea axei HPA, restaurarea tonusului vagal ventral mielinizat (frâna vagală și sistemul de angajare socială, Porges, 2011; Thayer & Lane, 2009) și refacerea arborizației dendritice în hipocamp și în cortexul prefrontal dorsolateral (dlPFC) restabilesc echilibrul triadei rețelelor cerebrale (CEN, SN și DMN, Menon, 2011).')}
+                    ? 'Layer B (Micro level of action formation · Lalonde–Dever field: Neurobiological reserve — vulnerable regime): Allostasis (Sterling & Eyer, 1988), allostatic load/wear (McEwen & Stellar, 1993; McEwen, 1998) and the triad model of brain networks (Menon, 2011; Seeley et al., 2007; Sapolsky, Arnsten). Chronic exposure to insecurity and bureaucratic humiliation induces HPA axis dysfunction (flattening of the circadian cortisol curve, glucocorticoid receptor desensitization, and systemic inflammation), causing hypertrophy of the basolateral amygdala, hyperactivation of the Salience Network (SN), disruption of the Default Mode Network (DMN), and dendritic retraction in the hippocampus and dorsolateral prefrontal cortex (dlPFC), over which acute shocks add fast catecholaminergic synaptic inhibition.'
+                    : 'Layer B (Micro Level of Action Formation · Lalonde–Dever Field: Neurobiological reserve—resilient mode): Structural allostatic decompression, regulation of the HPA axis, restoration of myelinated ventral vagal tone (vagal brake and social engagement system, Porges, 2011; Thayer & Lane, 2009), and restoration of dendritic arborization in the hippocampus and dorsolateral prefrontal cortex (dlPFC) restore balance to the triad of brain networks (CEN, SN and DMN, Menon, 2011).')}
                 {fig1SelectedNode === 'reactiv' &&
                   (fig1Mode === 'vulnerable'
-                    ? 'Stratul B (Regim vulnerabil): Cele două regimuri complementare de vulnerabilitate neurocognitivă pe Sistemul 1 și Sistemul 2. În regim vulnerabil se activează două mecanisme care se întrepătrund transversal în societate: (a) comutarea pe Sistemul 1 amigdalian prin remodelarea și inhibiția funcțiilor executive ale cortexului prefrontal dorsolateral (dlPFC) sub stres alostatic cronic (atât în periferiile defavorizate, cât și în mediul urban supus epuizării profesionale) și (b) deturnarea unui Sistem 2 biologic intact în disraționalitate și raționalizare motivată (Stanovich, 2009; Kahan, 2017) în două direcții simetric disfuncționale: secesiunea civică elitistă în servicii private sau construirea unor raționalizări pseudosavante, esoterice și revizioniste radicale.'
-                    : 'Stratul B (Regim rezilient): Cuplarea funcțională dintre Sistemul 1 (reglat emoțional prin complexul vagal ventral și inhibiția GABAergică a amigdalei) și Sistemul 2 deliberativ, susținută de gândirea activ deschisă (actively open-minded thinking, Stanovich, 2009), vigilență metacognitivă la Rangul 2/3 de reflexivitate și reziliență împotriva capturării dopaminergice și a erorilor de ponderare a preciziei (Friston, 2010).')}
+                    ? 'Layer B (Vulnerable Regime): The two complementary regimes of neurocognitive vulnerability on System 1 and System 2. In the vulnerable regime, two mechanisms are activated that intersect transversely in society: (a) switching to amygdala System 1 by remodeling and inhibiting the executive functions of the dorsolateral prefrontal cortex (dlPFC) under chronic allostatic stress (both in disadvantaged peripheries and in urban environments subject to professional exhaustion) and (b) hijacking a System 2 biologically intact in dysrationality and motivated rationalization (Stanovich, 2009; Kahan, 2017) in two symmetrically dysfunctional directions: elitist civic secession in private services or the construction of pseudoscientific, esoteric and radical revisionist rationalizations.'
+                    : 'Layer B (Resilient Regime): Functional coupling between System 1 (emotionally regulated by the ventral vagal complex and GABAergic inhibition of the amygdala) and deliberative System 2, supported by actively open-minded thinking (Stanovich, 2009), metacognitive vigilance at Rank 2/3 reflexivity, and resilience against dopaminergic capture and precision weighting errors (Friston, 2010).')}
                 {fig1SelectedNode === 'persona' &&
                   (fig1Mode === 'vulnerable'
-                    ? 'Stratul C (Tranziția Micro → Macro prin cele trei mecanisme transformaționale — sincronizarea afectivă, contagiunea complexă prin punți largi și intermedierea politică în vidul de reprezentare, cu respectarea clauzei lui William S. Robinson (1950) împotriva erorii ecologice și a criteriului falsificabilității al lui Karl Popper (1934/2002) — regim vulnerabil): Persona instituțională mimetică („forme fără fond”, Maiorescu). Copierea formală a instituțiilor occidentale fără asimilarea conținutului lor normativ creează o fațadă birocratică vulnerabilă, deconectată de nevoile reale ale cetățenilor.'
-                    : 'Stratul C (Regim rezilient): Depășirea sindromului „formelor fără fond” prin modernitate organică și integrarea critică a resurselor vitale din Umbra colectivă pe axa Ego–Sine (Jung, 1916/1960; Edinger, 1972). Instituțiile democratice încetează să mai fie percepute ca fațade mimetice și devin expresia autentică a autonomiei civice și a solidarității societale.')}
+                    ? 'Layer C (Micro → Macro transition through the three transformational mechanisms — affective synchronization, complex contagion through wide bridges and political intermediation in the vacuum of representation, respecting William S. Robinson\'s (1950) clause against the ecological fallacy and Karl Popper\'s (1934/2002) falsifiability criterion — vulnerable regime): Mimetic institutional persona ("bottomless forms", Maiorescu). The formal copying of Western institutions without assimilating their normative content creates a vulnerable bureaucratic facade, disconnected from the real needs of citizens.'
+                    : 'Layer C (Resilient Regime): Overcoming the "bottomless forms" syndrome through organic modernity and the critical integration of vital resources from the collective Shadow on the Ego–Self axis (Jung, 1916/1960; Edinger, 1972). Democratic institutions cease to be perceived as mimetic facades and become the authentic expression of civic autonomy and societal solidarity.')}
                 {fig1SelectedNode === 'fatalism' &&
                   (fig1Mode === 'vulnerable'
-                    ? 'Stratul C (Regim vulnerabil): Expresia în inconștientul cultural. Scăderea tensiunii conștiente (abaissement du niveau mental, Janet și Jung) și blocarea axei Ego–Sine (Edinger) produc oscilația între neputința învățată (Seligman), ipotezele de bază regresive (Bion) și inflația defensivă compensatoare.'
-                    : 'Stratul C (Regim rezilient): Activarea funcției transcendente (Jung, 1916/1960), a capacității negative (Bion, 1970) și a Grupului de Lucru ancorat în realitate (Bion, 1961) pe axa Ego–Sine, înlocuind neputința învățată și proiecția paranoidă cu discernământ moral (proairesis) și responsabilitate istorică.')}
+                    ? 'Layer C (Vulnerable Regime): Expression in the cultural unconscious. The lowering of conscious tension (abaissement du niveau mental, Janet and Jung) and the blocking of the Ego–Self axis (Edinger) produce the oscillation between learned helplessness (Seligman), regressive basic assumptions (Bion) and compensatory defensive inflation.'
+                    : 'Layer C (Resilient Regime): Activation of transcendent function (Jung, 1916/1960), negative capacity (Bion, 1970) and reality-anchored Work Group (Bion, 1961) on the Ego–Self axis, replacing learned helplessness and paranoid projection with moral discernment (proairesis) and historical responsibility.')}
                 {fig1SelectedNode === 'filtru-moral' &&
-                  'Stratul C (Câmpul Lalonde–Dever: Filtrul valorilor morale creștin-seculare și stilul de viață asociativ): În stare integră, antropologia patristică a demnității umane (Imago Dei) reconciliată cu universalismul secular protejează conștiința civică. În condiții de război cognitiv, actorul ostil scurtcircuitează acest filtru prin instrumentalizarea etnofiletistă și inversiunea normativă.'}
+                  'Layer C (Lalonde–Dever Field: Filter of Christian-Secular Moral Values ​​and Associative Lifestyle): In its intact state, patristic anthropology of human dignity (Imago Dei) reconciled with secular universalism protects the civic conscience. In conditions of cognitive warfare, the hostile actor short-circuits this filter through ethnophyletic instrumentalization and normative inversion.'}
                 {fig1SelectedNode === 'vector' &&
-                  'Vectorul de război cognitiv extern nu creează din nimic vulnerabilitățile societății-țintă, ci se grefează parazitar pe faliile și vulnerabilitățile preexistente din Straturile A, B și C, atunci când eșecul de reprezentare al partidelor tradiționale (Mair, 2013) lasă un vid politic pe care intermediarii populiști (Mudde, 2004) și operațiunile de control reflexiv îl deturnează spre ținte false.'}
+                  'The vector of external cognitive warfare does not create the vulnerabilities of the target society out of nothing, but is grafted parasitically on the faults and pre-existing vulnerabilities of Layers A, B and C, when the failure of representation of traditional parties (Mair, 2013) leaves a political vacuum that populist intermediaries (Mudde, 2004) and reflexive control operations divert to false targets.'}
               </p>
             </div>
           </div>
@@ -1056,7 +1056,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
         <div>
           <div className="flex flex-wrap items-center justify-between gap-3 bg-[#F6F5EE] px-5 py-3 border-b border-[#8C9BA5]">
             <span className="text-xs font-mono uppercase tracking-wider font-semibold text-[#222426]">
-              Regim semiotic și axiologic
+              Semiotic and axiological regime
             </span>
             <div className="flex flex-wrap items-center gap-2">
               <button
@@ -1068,7 +1068,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     : 'bg-[#F6F5EE] text-[#222426] border-[#8C9BA5]'
                 }`}
               >
-                Mod 1: Disimulare și parazitare semiotică activă
+                Mode 1: Disguise and active semiotic parasitism
               </button>
               <button
                 type="button"
@@ -1079,7 +1079,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     : 'bg-[#F6F5EE] text-[#222426] border-[#8C9BA5]'
                 }`}
               >
-                Mod 2: Deconstrucție prin discernământ patristic (proairesis) și memorie istorică
+                Mode 2: Deconstruction through patristic discernment (proairesis) and historical memory
               </button>
             </div>
           </div>
@@ -1107,7 +1107,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 textAnchor="middle"
                 className="font-sans text-[16px] font-bold fill-[#222426]"
               >
-                Sinteza creștin-seculară
+                Christian-secular synthesis
               </text>
               <text
                 x="170"
@@ -1115,7 +1115,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 textAnchor="middle"
                 className="font-sans text-[16px] font-bold fill-[#222426]"
               >
-                europeană
+                EuropEan
               </text>
 
               {/* Right Column Header (center x=710) */}
@@ -1125,7 +1125,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 textAnchor="middle"
                 className="font-sans text-[16px] font-bold fill-[#222426]"
               >
-                Ideologia revizionistă
+                Revisionist ideology
               </text>
               <text
                 x="710"
@@ -1133,7 +1133,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 textAnchor="middle"
                 className="font-sans text-[16px] font-bold fill-[#222426]"
               >
-                a Antilumii
+                of the Antiworld
               </text>
 
               {/* LEFT COLUMN NODES (x=45, width=250, center=170) */}
@@ -1155,7 +1155,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[13.5px] font-bold fill-[#222426]"
                 >
-                  Demnitate umană inalienabilă
+                  Inalienable human dignity
                 </text>
                 <text
                   x="170"
@@ -1163,7 +1163,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[11px] fill-[#6E7376]"
                 >
-                  Imago Dei, proairesis și drepturi universale
+                  Imago Dei, proairesis and universal rights
                 </text>
 
                 {/* Arrow L1 -> L2 */}
@@ -1202,7 +1202,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[13.5px] font-bold fill-[#222426]"
                 >
-                  Filtru moral și constituțional
+                  Moral and constitutional filter
                 </text>
                 <text
                   x="170"
@@ -1210,7 +1210,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[10.5px] fill-[#6E7376]"
                 >
-                  Dezbateri legitime în Primul sistem etic
+                  Legitimate debates in the First Ethical System
                 </text>
                 <text
                   x="170"
@@ -1257,7 +1257,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[13.5px] font-bold fill-[#222426]"
                 >
-                  Modernitate organică și libertate
+                  Organic modernity and freedom
                 </text>
                 <text
                   x="170"
@@ -1265,7 +1265,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[11px] fill-[#6E7376]"
                 >
-                  Autonomie suverană în alianțele euroatlantice
+                  Sovereign autonomy in Euro-Atlantic alliances
                 </text>
               </g>
 
@@ -1296,7 +1296,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[9.5px] font-bold fill-[#F01E1E]"
                   >
-                    Parazitare semiotică a
+                    Semiotic parasitism a
                   </text>
                   <text
                     x="420"
@@ -1304,7 +1304,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[9.5px] font-bold fill-[#F01E1E]"
                   >
-                    dezbaterilor legitime
+                    legitimate debates
                   </text>
                 </g>
               ) : (
@@ -1369,7 +1369,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[9.5px] font-bold fill-[#222426]"
                   >
-                    Scutul discernământului (proairesis)
+                    Shield of discernment (proairesis)
                   </text>
                   <text
                     x="420"
@@ -1377,7 +1377,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[9.5px] font-bold fill-[#222426]"
                   >
-                    și al memoriei istorice
+                    and of historical memory
                   </text>
                 </g>
               )}
@@ -1402,8 +1402,8 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 className="font-sans text-[10.5px] font-bold fill-[#222426]"
               >
                 {fig2Mode === 'camouflage'
-                  ? 'Camuflaj discursiv de suprafață (Falsificare mimetică · Soloviov)'
-                  : 'Camuflaj demascat prin discernământ patristic și istoric'}
+                  ? 'Surface Discursive Camouflage (Mimetic Falsification · Solovyov)'
+                  : 'Camouflage unmasked by patristic and historical discernment'}
               </text>
 
               {/* Sub-casetă 1: Falsificarea I (x=547, y=126, width=160, height=72, center=627, bottom=198) */}
@@ -1427,7 +1427,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[10.5px] font-bold fill-[#222426]"
                 >
-                  Falsificarea I: Etnofiletismul
+                  Falsification I: Ethnophyletism
                 </text>
                 <text
                   x="627"
@@ -1435,7 +1435,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[10px] font-semibold fill-[#F01E1E]"
                 >
-                  Russkii Mir (Sinod 1872)
+                  Russkii Mir (Synod 1872)
                 </text>
                 <text
                   x="627"
@@ -1443,7 +1443,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[9px] fill-[#6E7376]"
                 >
-                  Religie militaristă vs. Imago Dei
+                  Militaristic Religion vs. Image of God
                 </text>
               </g>
 
@@ -1468,7 +1468,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[10.5px] font-bold fill-[#222426]"
                 >
-                  Falsificarea II: Falsul
+                  Forgery II: The Fake
                 </text>
                 <text
                   x="795"
@@ -1476,7 +1476,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[10px] font-semibold fill-[#F01E1E]"
                 >
-                  suveranism izolaționist
+                  isolationist sovereignty
                 </text>
                 <text
                   x="795"
@@ -1484,7 +1484,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[9px] fill-[#6E7376]"
                 >
-                  Dezarmare strategică vs. alianțe
+                  Strategic disarmament vs. ALLIANCE
                 </text>
               </g>
 
@@ -1528,7 +1528,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[13px] font-bold fill-[#222426]"
                 >
-                  Inversiune normativă (Antimir) și cinism (Bobok)
+                  Normative inversion (Antimir) and cynicism (Bobok)
                 </text>
                 <text
                   x="710"
@@ -1536,7 +1536,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[10.5px] fill-[#6E7376]"
                 >
-                  Epstein (2022) · Dostoievski (1873) · Nihilism transgresiv
+                  Epstein (2022) · Dostoevsky (1873) · Transgressive nihilism
                 </text>
               </g>
 
@@ -1570,7 +1570,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[11.5px] font-bold fill-[#222426]"
                 >
-                  3 paliere de disimulare a sursei
+                  3 levels of source concealment
                 </text>
                 <text
                   x="710"
@@ -1578,7 +1578,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-mono text-[9.5px] fill-[#6E7376]"
                 >
-                  (Kremlin → Intermediari → Doppelgänger/TikTok)
+                  (Kremlin → Intermediaries → Doppelgänger/TikTok)
                 </text>
               </g>
 
@@ -1617,7 +1617,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[13.5px] font-bold fill-[#222426]"
                 >
-                  Subordonare imperială și anomie
+                  Imperial subordination and anomie
                 </text>
                 <text
                   x="710"
@@ -1625,7 +1625,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[10.5px] fill-[#6E7376]"
                 >
-                  Decuplare de NATO/UE și bilateralism asimetric
+                  Decoupling from NATO/EU and asymmetric bilateralism
                 </text>
               </g>
             </svg>
@@ -1635,12 +1635,12 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 <div className="flex flex-wrap items-center gap-1.5">
                   {(
                     [
-                      { id: 'sinteza-stanga', label: '1. Sinteza creștin-seculară' },
-                      { id: 'falsificare-ortodoxie', label: '2. Falsificarea I (Russkii Mir)' },
-                      { id: 'falsificare-suveranitate', label: '3. Falsificarea II (Fals suveranism)' },
-                      { id: 'nucleu-antimir', label: '4. Nucleul Antimir & Bobok' },
-                      { id: 'retele-spalare', label: '5. Rețele de disimulare (3 paliere)' },
-                      { id: 'subordonare', label: '6. Subordonare imperială' }
+                      { id: 'sinteza-stanga', label: '1. Christian-secular synthesis' },
+                      { id: 'falsificare-ortodoxie', label: '2. Falsification I (Russkii Mir)' },
+                      { id: 'falsificare-suveranitate', label: '3. Falsification II (False sovereignism)' },
+                      { id: 'nucleu-antimir', label: '4. Antimir & Bobok Core' },
+                      { id: 'retele-spalare', label: '5. Networks of concealment (3 levels)' },
+                      { id: 'subordonare', label: '6. Imperial subordination' }
                     ] as const
                   ).map((btn) => (
                     <button
@@ -1659,17 +1659,17 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
               </div>
               <p className="text-xs sm:text-sm text-[#222426] leading-relaxed">
                 {fig2Inspect === 'sinteza-stanga' &&
-                  'Sinteza creștin-seculară europeană unește antropologia patristică a persoanei libere create după chipul divin (Imago Dei și discernământul proairesis — Berdiaev, Stăniloae, Kalaitzidis) cu domnia legii impersonale și autonomia judecății critice în societatea postseculară (Habermas, Taylor, Lefebvre). Dezbaterile dintre etica conservatoare și secularismul modern se rezolvă pașnic în primul sistem etic, generând modernitate organică.'}
+                  'The Christian-secular European synthesis unites the patristic anthropology of the free person created in the divine image (Imago Dei and the discernment of proairesis — Berdiaev, Stăniloae, Kalaitzidis) with the rule of impersonal law and the autonomy of critical judgment in the post-secular society (Habermas, Taylor, Lefebvre). The debates between conservative ethics and modern secularism are resolved peacefully in the first ethical system, generating organic modernity.'}
                 {fig2Inspect === 'falsificare-ortodoxie' &&
-                  'Falsificarea I: Etnofiletismul Russkii Mir. Pentru a ocoli aversiunea istorică a românilor față de imperialismul rus (cele 12 invazii, răpirea Basarabiei în 1812 și reanexarea celor trei județe din sudul Basarabiei — Cahul, Ismail și Bolgrad — în 1878, Tezaurul și Gulagul), propaganda proiectează o mască pseudoortodoxă care substituie universalismul hristic (Imago Dei) cu religia militaristă de stat a „Lumii Ruse” — o falsificare mimetică (Soloviov, 1900/1994) condamnată ca erezie etnofiletistă la Sinodul de la Constantinopol din 1872.'}
+                  'Forgery I: Ethnophyletism Russkii Mir. To circumvent the Romanians\' historical aversion to Russian imperialism (the 12 invasions, the seizure of Bessarabia in 1812 and the re-annexation of the three southern counties of Bessarabia — Cahul, Ismail and Bolgrad — in 1878, the Treasury and the Gulag), the propaganda projects a pseudo-orthodox mask that substitutes Christian universalism (Imago Dei) with the militaristic state religion of the "Russian World" — a mimetic falsification (Soloviov, 1900/1994) condemned as an ethnophyletic heresy at the Synod of Constantinople in 1872.'}
                 {fig2Inspect === 'falsificare-suveranitate' &&
-                  'Falsificarea II: Falsul suveranism izolaționist. Sub sloganul apărării suveranității naționale împotriva instituțiilor europene, operațiunea parazitează dezbaterile legitime din democrația constituțională pentru a promova ieșirea din arhitectura de securitate NATO și UE, transformând patriotismul într-un instrument de dezarmare strategică a statului-țintă.'}
+                  'Falsification II: False Isolationist Sovereignism. Under the slogan of defending national sovereignty against European institutions, the operation parasitises legitimate debates in constitutional democracy to promote exit from the NATO and EU security architecture, turning patriotism into a tool for strategic disarmament of the target state.'}
                 {fig2Inspect === 'nucleu-antimir' &&
-                  'Nucleul operativ real: Inversiunea normativă a Antilumii (Antimir — Epstein, 2022) și cinismul stării Bobok (Dostoievski, 1873). Sub camuflajul tradiționalist, regimul operativ real răstoarnă semnificația conceptelor fundamentale (războiul de agresiune este numit „pace”, suveranitatea statelor vecine este tratată drept „anomalie”) și cultivă convingerea cinică că adevărul și legea sunt simple ficțiuni ipocrite.'}
+                  'The real operative nucleus: The normative inversion of the Antiworld (Antimir — Epstein, 2022) and the cynicism of the Bobok state (Dostoevsky, 1873). Under traditionalist camouflage, the real operative regime reverses the meaning of fundamental concepts (war of aggression is called "peace", the sovereignty of neighboring states is treated as "anomaly") and cultivates the cynical belief that truth and law are mere hypocritical fictions.'}
                 {fig2Inspect === 'retele-spalare' &&
-                  'Arhitectura în 3 paliere de reciclare și disimulare a sursei informaționale prin intermediari (information laundering): (1) laboratoarele ideologice și platformele strategice ale Kremlinului (RT, Sputnik, Fondul Culturii Strategice, Katehon și agregatoarele din rețeaua Pravda); (2) intermediarii ideologici, actorii politici oportuniști și nucleele informale paraecleziale autohtone; (3) infrastructura de distribuție digitală prin site-uri clonate (Doppelgänger), roiuri de boți (Matrioșka), contaminarea corpusurilor modelelor lingvistice (LLM grooming) și rețele de microinfluenceri pe TikTok și Telegram.'}
+                  'The architecture in 3 levels of recycling and dissimulation of the information source through intermediaries (information laundering): (1) the ideological laboratories and strategic platforms of the Kremlin (RT, Sputnik, Fundul Culturii Strategice, Katehon and the aggregators of the Pravda network); (2) ideological intermediaries, opportunistic political actors, and informal autochthonous paraecclesial nuclei; (3) digital distribution infrastructure through cloned sites (Doppelgänger), swarms of bots (Matryoshka), contamination of linguistic model corpora (LLM grooming) and micro-influencer networks on TikTok and Telegram.'}
                 {fig2Inspect === 'subordonare' &&
-                  'Finalitatea strategică: Subordonarea imperială și anomia. Prin compromiterea coeziunii normative interne și decuplarea României de garanțiile colective occidentale, statul-țintă este împins într-o zonă gri de insecuritate și bilateralism asimetric în fața agresiunii revizioniste.'}
+                  'Strategic Finality: Imperial Subordination and Anomie. By compromising internal normative cohesion and decoupling Romania from Western collective guarantees, the target state is pushed into a gray area of ​​insecurity and asymmetrical bilateralism in the face of revisionist aggression.'}
               </p>
             </div>
           </div>
@@ -1683,7 +1683,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
         <div>
           <div className="flex flex-wrap items-center justify-between gap-3 bg-[#F6F5EE] px-5 py-3 border-b border-[#8C9BA5]">
             <span className="text-xs font-mono uppercase tracking-wider font-semibold text-[#222426]">
-              Faza de Orientare în bucla decizională OODA
+              Orientation phase in the OODA decision loop
             </span>
             <div className="flex flex-wrap items-center gap-2">
               <button
@@ -1695,7 +1695,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     : 'bg-[#F6F5EE] text-[#222426] border-[#8C9BA5]'
                 }`}
               >
-                Compresie binară prin control reflexiv
+                Binary compression by reflexive control
               </button>
               <button
                 type="button"
@@ -1706,7 +1706,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     : 'bg-[#F6F5EE] text-[#222426] border-[#8C9BA5]'
                 }`}
               >
-                Compromis democratic și mediere ternară
+                Democratic compromise and ternary mediation
               </button>
             </div>
           </div>
@@ -1736,7 +1736,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[11px] font-bold tracking-wider fill-[#6E7376]"
                 >
-                  PRIMUL SISTEM ETIC
+                  THE FIRST ETHICAL SYSTEM
                 </text>
                 <rect
                   x="18"
@@ -1760,7 +1760,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[13px] font-bold fill-[#222426]"
                 >
-                  Primul sistem etic
+                  The first ethical system
                 </text>
                 <text
                   x="109"
@@ -1768,7 +1768,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[11.5px] font-semibold fill-[#222426]"
                 >
-                  Compromis democratic
+                  Democratic compromise
                 </text>
                 <text
                   x="109"
@@ -1776,7 +1776,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[11px] fill-[#6E7376]"
                 >
-                  și mediere ternară
+                  and ternary mediation
                 </text>
                 <text
                   x="109"
@@ -1784,7 +1784,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[10.5px] fill-[#6E7376]"
                 >
-                  concurent legitim
+                  legitimate competitor
                 </text>
               </g>
 
@@ -1809,7 +1809,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 textAnchor="middle"
                 className="font-sans text-[11px] font-bold tracking-wider fill-[#6E7376]"
               >
-                BUCLA CIBERNETICĂ OODA · BOYD
+                OODA CYBER LOOP · BOYD
               </text>
 
               {/* TOP LEFT BOX ABOVE OBSERVARE: Poluare sintetică (MAD) și capturare D2 (x=222, y=55, width=148, height=56, ends at x=370, center=296) */}
@@ -1834,7 +1834,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[11px] font-bold fill-[#222426]"
                 >
-                  Poluare sintetică (MAD)
+                  Synthetic pollution (MAD)
                 </text>
                 <text
                   x="296"
@@ -1842,7 +1842,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[10px] fill-[#6E7376]"
                 >
-                  și capturare D2
+                  and capture D2
                 </text>
               </g>
               <line
@@ -1878,7 +1878,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[12px] font-bold fill-[#222426]"
                 >
-                  Control reflexiv
+                  Reflexive control
                 </text>
                 <text
                   x="474"
@@ -1886,7 +1886,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[12px] font-bold fill-[#222426]"
                 >
-                  de rang secund
+                  of second rank
                 </text>
               </g>
 
@@ -1911,7 +1911,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     fig3ReflexiveActive ? 'fill-[#F01E1E]' : 'fill-[#6E7376]'
                   }`}
                 >
-                  Injecție de control reflexiv
+                  Reflexive control injection
                 </text>
               </g>
 
@@ -1980,7 +1980,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[12px] font-bold fill-[#222426]"
                 >
-                  Observare
+                  Observation
                 </text>
                 <text
                   x="296"
@@ -1988,7 +1988,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[10.5px] fill-[#6E7376]"
                 >
-                  flux de date
+                  data flow
                 </text>
               </g>
 
@@ -2034,7 +2034,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[12px] font-bold fill-[#222426]"
                 >
-                  Orientare
+                  Orientation
                 </text>
                 <text
                   x="474"
@@ -2042,7 +2042,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[10px] fill-[#6E7376]"
                 >
-                  modele mentale
+                  mental models
                 </text>
                 <text
                   x="474"
@@ -2112,7 +2112,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[12px] font-bold fill-[#222426]"
                 >
-                  Decizie
+                  Decision
                 </text>
                 <text
                   x="602"
@@ -2120,7 +2120,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[10px] fill-[#6E7376]"
                 >
-                  {fig3ReflexiveActive ? 'emoțională' : 'deliberativă'}
+                  {fig3ReflexiveActive ? 'emotional' : 'deliberative'}
                 </text>
               </g>
 
@@ -2180,7 +2180,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[12px] font-bold fill-[#222426]"
                 >
-                  Acțiune
+                  Action
                 </text>
                 <text
                   x="710"
@@ -2188,7 +2188,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[10px] fill-[#6E7376]"
                 >
-                  comportament
+                  behavior
                 </text>
               </g>
 
@@ -2216,7 +2216,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 textAnchor="middle"
                 className="font-mono text-[9.5px] font-semibold fill-[#6E7376]"
               >
-                Buclă cibernetică de feedback
+                Cybernetic feedback loop
               </text>
 
               {/* Arrow connecting Acțiune (x=752, y=226) to Right Zone (Binary Wall at x=810, y=202) across 58px corridor */}
@@ -2263,7 +2263,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[9.5px] font-bold fill-[#222426]"
                 >
-                  Contagiune complexă
+                  Complex contagion
                 </text>
                 <text
                   x="731"
@@ -2271,7 +2271,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-mono text-[8.5px] fill-[#6E7376]"
                 >
-                  (punți largi · Centola)
+                  (wide decks · Centola)
                 </text>
               </g>
 
@@ -2297,7 +2297,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[11px] font-bold tracking-wider fill-[#F01E1E]"
                 >
-                  AL DOILEA SISTEM ETIC
+                  THE SECOND ETHICAL SYSTEM
                 </text>
 
                 {/* Binary Node Top: Noi / Victime */}
@@ -2320,7 +2320,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[12px] font-bold fill-[#F01E1E]"
                   >
-                    Noi / Victime
+                    Us / Victims
                   </text>
                   <text
                     x="888"
@@ -2328,7 +2328,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[10.5px] fill-[#6E7376]"
                   >
-                    puritate morală
+                    moral purity
                   </text>
                 </g>
 
@@ -2354,7 +2354,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[9.5px] font-bold fill-[#F01E1E]"
                 >
-                  Zid de fractură identitară
+                  Identity fracture wall
                 </text>
 
                 {/* Binary Node Bottom: Ei / Dușmani */}
@@ -2377,7 +2377,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[12px] font-bold fill-[#F01E1E]"
                   >
-                    Ei / Dușmani
+                    They / Enemies
                   </text>
                   <text
                     x="888"
@@ -2385,7 +2385,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[10.5px] fill-[#6E7376]"
                   >
-                    țapi ispășitori
+                    scapegoats
                   </text>
                 </g>
               </g>
@@ -2394,29 +2394,29 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
             <div className="mt-4 pt-4 border-t border-[#222426] bg-[#F6F5EE] p-3.5">
               <p className="text-xs sm:text-sm text-[#222426] leading-relaxed">
                 {fig3SelectedStage === 'primul-sistem' &&
-                  'Primul sistem etic (Lefebvre, 1982, 2001). Cadrul axiologic al democrației constituționale în care compromisul legal și dialogul sunt privite ca virtuți cardinale, iar adversarul politic rămâne un concurent legitim în interiorul statului de drept.'}
+                  'The first ethical system (Lefebvre, 1982, 2001). The axiological framework of constitutional democracy in which legal compromise and dialogue are regarded as cardinal virtues, and the political opponent remains a legitimate competitor within the rule of law.'}
                 {fig3SelectedStage === 'poluare-mad' &&
-                  'Poluarea sintetică în două stadii — pe termen scurt, contaminarea neparametrică la momentul interogării a motoarelor de căutare și a sistemelor RAG (inference-time RAG poisoning), iar pe termen mediu, degradarea parametrică la reantrenare (Model Collapse / Model Autophagy Disorder – MAD, Shumailov et al., 2024; Alemohammad et al., 2024) — și capturarea dopaminergică prin dezechilibrul căilor striatale D1 (Go) și D2 (No-Go) și migrarea spre striatul dorsal (Subcapitolul 3.3). Ecosistemul informațional este saturat cu conținut generat sintetic și optimizat prin scheme de condiționare cu recompense variabile intermitente (Skinner, 1953) pentru a exploata eroarea de predicție a recompensei (Schultz, 1998, 2016) și a slăbi frâna inhibitorie a receptorilor D2 (Lembke, 2021), compromițând calitatea datelor încă de la intrarea în faza de Observare.'}
+                  'Synthetic pollution in two stages — in the short term, non-parametric contamination at the time of querying search engines and RAG systems (inference-time RAG poisoning), and in the medium term, parametric degradation upon retraining (Model Collapse / Model Autophagy Disorder – MAD, Shumailov et al., 2024; Alemohammad et al., 2024) — and dopaminergic capture by imbalance of striatal D1 (Go) pathways and D2 (No-Go) and migration to the dorsal striatum (Subsection 3.3). The informational ecosystem is saturated with synthetically generated content and optimized by conditioning schemes with variable intermittent rewards (Skinner, 1953) to exploit the reward prediction error (Schultz, 1998, 2016) and weaken the inhibitory brake of D2 receptors (Lembke, 2021), compromising the quality of the data right from entering the Observation phase.'}
                 {fig3SelectedStage === 'observare' &&
-                  'Faza de Observare. Fluxul informațional brut este capturat algoritmic prin optimizarea retenției pe platformele digitale, inundat de dezinformare și conținut sintetic menit să provoace reacții afective primare.'}
+                  'Observation phase. The raw information flow is algorithmically captured by optimizing retention on digital platforms, flooded with misinformation and synthetic content designed to elicit primal affective reactions.'}
                 {fig3SelectedStage === 'orientare' &&
                   (fig3ReflexiveActive
-                    ? 'Faza de Orientare (Schwerpunkt-ul lui John Boyd, 1987/2018; Osinga, 2007) — regim de capturare reflexivă. Sub control reflexiv activ și asediu dopaminergic, capacitatea de „distrugere și creație” conceptuală (Destruction and Creation: deducție analitică și inducție sintetică) este paralizată, ținta fiind menținută la Rangul 0/1 de reflexivitate și împinsă pe bucle de „ghidare și control implicit” (Implicit Guidance and Control) care ocolesc deliberarea prefrontală (Orientare → Acțiune directă).'
-                    : 'Faza de Orientare (Schwerpunkt-ul lui John Boyd, 1987/2018; Osinga, 2007) — regim de compromis democratic. Ancorată în Primul sistem etic (Lefebvre, 1982) și în medierea ternară a interpretantului logic (Peirce, 1931–1958), Orientarea operează la Rangul 2 și Rangul 3 de reflexivitate strategică, permițând dezasamblarea critică a cadrelor mentale rigide și recunoașterea arhitecturii de manipulare înainte de luarea deciziei.')}
+                    ? 'Orientation Phase (Schwerpunkt of John Boyd, 1987/2018; Osinga, 2007) — regime of reflexive capture. Under active reflexive control and dopaminergic siege, the capacity for conceptual "Destruction and Creation: Analytical Deduction and Synthetic Induction" is paralyzed, the target being held at Rank 0/1 reflexivity and pushed on "Implicit Guidance and Control" loops that bypass prefrontal deliberation (Orientation → Direct Action).'
+                    : 'Orientation Phase (Schwerpunkt of John Boyd, 1987/2018; Osinga, 2007) — regime of democratic compromise. Anchored in the First Ethical System (Lefebvre, 1982) and the ternary mediation of the logical interpretant (Peirce, 1931–1958), Orientation operates at Rank 2 and Rank 3 of strategic reflexivity, enabling the critical disassembly of rigid mental frames and the recognition of manipulation architecture prior to decision making.')}
                 {fig3SelectedStage === 'reflexiv' &&
-                  'Controlul reflexiv de rang secund (Lefebvre), automatizat astăzi prin algoritmii de recomandare (deep reinforcement learning). Nu livrează simple știri false, ci operează prin distorsionarea ponderării preciziei (aberrant precision-weighting, Friston, 2010: atribuirea unei hiperprecizii rigide convingerii apriorice conspirative și atenuarea erorilor de predicție factuale) și menține ținta la Rangul 0/1 de reflexivitate, determinând-o să aleagă singură opțiunea dorită de agresor crezând că acționează suveran.'}
+                  'Second-order reflexive control (Lefebvre), automated today through recommendation algorithms (deep reinforcement learning). It does not deliver simple fake news, but operates by distorting precision-weighting (aberrant precision-weighting, Friston, 2010: attributing rigid hyper-precision to conspiratorial a priori belief and mitigating factual prediction errors) and keeps the target at Rank 0/1 reflexivity, causing it to choose the option desired by the aggressor by itself, believing that it is acting sovereign.'}
                 {fig3SelectedStage === 'decizie' &&
                   (fig3ReflexiveActive
-                    ? 'Faza de Decizie sub capturare reflexivă. Inhibarea deliberării prefrontale produce adoptarea precipitată și necritică a unei explicații simpliste (seizing) și înghețarea epistemică (freezing, Kruglanski), ori scurtcircuitarea completă a etapei de Decizie prin buclele de ghidare și control implicit (Boyd, 1987/2018).'
-                    : 'Faza de Decizie în regim de compromis democratic. Susținută de funcția executivă a cortexului prefrontal dorsolateral (dlPFC), de gândirea activ deschisă (Stanovich, 2009) și de capacitatea negativă de a tolera complexitatea (Bion, 1970), Decizia formulează ipoteze verificabile și păstrează adversarul politic în cadrul legitim al statului de drept.')}
+                    ? 'Decision phase under reflexive capture. The inhibition of prefrontal deliberation produces the hasty and uncritical adoption of a simplistic explanation (seizing) and epistemic freezing (freezing, Kruglanski), or the complete short-circuiting of the Decision stage through implicit guidance and control loops (Boyd, 1987/2018).'
+                    : 'The Decision Phase in a democratic compromise regime. Supported by the executive function of the dorsolateral prefrontal cortex (dlPFC), active open thinking (Stanovich, 2009), and the negative capacity to tolerate complexity (Bion, 1970), Decision formulates testable hypotheses and keeps the political opponent within the legitimate framework of the rule of law.')}
                 {fig3SelectedStage === 'actiune' &&
                   (fig3ReflexiveActive
-                    ? 'Faza de Acțiune sub capturare reflexivă. Traducerea reflexului afectiv și a interpretantului energetic (Peirce) în comportamente polarizante, boicot instituțional sau conflict social antisistem, alimentând bucla cibernetică de reacție.'
-                    : 'Faza de Acțiune în regim de compromis democratic. Cooperare instituțională, participare civică deliberativă și verificarea empirică a deciziilor în raport cu realitatea comună, consolidând încrederea orizontală și suveranitatea democratică.')}
+                    ? 'Action phase under reflexive capture. The translation of the affective reflex and the energetic interpretant (Peirce) into polarizing behaviors, institutional boycott or anti-system social conflict, feeding the cybernetic feedback loop.'
+                    : 'The Action Phase in a democratic compromise regime. Institutional cooperation, deliberative civic participation and empirical verification of decisions against shared reality, strengthening horizontal trust and democratic sovereignty.')}
                 {fig3SelectedStage === 'contagiune' &&
-                  'Contagiunea complexă prin punți largi (wide bridges, Centola, 2018). Adoptarea comportamentelor politice riscante și a polarizării extreme necesită întărire socială convergentă din surse multiple; roiurile de boți și microinfluencerii coordonați fabrică artificial iluzia unui consens majoritar de proximitate.'}
+                  'Complex contagion through wide bridges (wide bridges, Centola, 2018). The adoption of risky political behaviors and extreme polarization requires convergent social reinforcement from multiple sources; swarms of bots and coordinated micro-influencers artificially manufacture the illusion of a majority consensus of proximity.'}
                 {fig3SelectedStage === 'binar' &&
-                  'Compresia în sistemul binar fracturat (al doilea sistem etic). Prăbușirea nuanțelor și a spațiului de mediere într-o dihotomie maniheică între poporul pur (victime) și trădători (dușmani ce trebuie anihilați).'}
+                  'Compression in the fractured binary system (the second ethical system). The collapse of nuances and the space of mediation in a Manichean dichotomy between the pure people (victims) and traitors (enemies to be annihilated).'}
               </p>
             </div>
           </div>
@@ -2430,7 +2430,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
         <div>
           <div className="flex flex-wrap items-center justify-between gap-3 bg-[#F6F5EE] px-5 py-3 border-b border-[#8C9BA5]">
             <span className="text-xs font-mono uppercase tracking-wider font-semibold text-[#222426]">
-              Traseu psihodinamic
+              Psychodynamic route
             </span>
             <div className="flex flex-wrap items-center gap-2">
               <button
@@ -2445,7 +2445,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     : 'bg-[#F6F5EE] text-[#222426] border-[#8C9BA5]'
                 }`}
               >
-                Conversie în modernitate organică
+                Conversion to organic modernity
               </button>
               <button
                 type="button"
@@ -2459,7 +2459,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     : 'bg-[#F6F5EE] text-[#222426] border-[#8C9BA5]'
                 }`}
               >
-                Alunecare în enantiodromie și cinism
+                Slipping into enantiodromy and cynicism
               </button>
             </div>
           </div>
@@ -2482,7 +2482,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 textAnchor="middle"
                 className="font-sans text-[12px] font-bold tracking-wider fill-[#6E7376]"
               >
-                STRATUL C · UMBRA COLECTIVĂ
+                LAYER C · COLLECTIVE SHADOW
               </text>
               <text
                 x="405"
@@ -2490,7 +2490,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 textAnchor="middle"
                 className="font-sans text-[12px] font-bold tracking-wider fill-[#6E7376]"
               >
-                FILTRE DE CONVERSIE · STRATURILE A ȘI B
+                CONVERSION FILTERS · LAYERS A AND B
               </text>
               <text
                 x="822"
@@ -2498,7 +2498,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 textAnchor="middle"
                 className="font-sans text-[12px] font-bold tracking-wider fill-[#6E7376]"
               >
-                SINTEZA AXEI EGO–SINE
+                SYNTHESIS OF THE EGO-SELF AXIS
               </text>
 
               {/* Converging Bézier curves from Left Column (x=240) to Middle Filters (x=294) */}
@@ -2639,7 +2639,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[11px] font-bold fill-[#222426]"
                 >
-                  Funcția
+                  function
                 </text>
                 <text
                   x="611"
@@ -2647,7 +2647,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[11px] font-bold fill-[#222426]"
                 >
-                  transcendentă
+                  transcendental
                 </text>
                 <text
                   x="611"
@@ -2677,7 +2677,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[12px] font-bold fill-[#222426]"
                 >
-                  Resurse latente în Umbră
+                  Latent Shadow Resources
                 </text>
                 <text
                   x="135"
@@ -2685,7 +2685,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[10.5px] fill-[#6E7376]"
                 >
-                  Potențial psihodinamic neintegrat
+                  Unintegrated psychodynamic potential
                 </text>
               </g>
 
@@ -2706,7 +2706,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[12px] font-bold fill-[#222426]"
                 >
-                  Memorie istorică defensivă
+                  Defensive historical memory
                 </text>
                 <text
                   x="135"
@@ -2714,7 +2714,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[10.5px] fill-[#6E7376]"
                 >
-                  Scepticism față de hegemonie
+                  Skepticism towards hegemony
                 </text>
               </g>
 
@@ -2735,7 +2735,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[12px] font-bold fill-[#222426]"
                 >
-                  Vitalitate adaptativă
+                  Adaptive vitality
                 </text>
                 <text
                   x="135"
@@ -2743,7 +2743,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[10.5px] fill-[#6E7376]"
                 >
-                  Ambivalența arhetipului Trickster
+                  The Ambivalence of the Trickster Archetype
                 </text>
               </g>
 
@@ -2769,7 +2769,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[12px] font-bold fill-[#222426]"
                 >
-                  Lege impersonală dreaptă
+                  Just impersonal law
                 </text>
                 <text
                   x="405"
@@ -2777,7 +2777,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[10px] fill-[#6E7376]"
                 >
-                  Insule de închidere operațională
+                  Operational closure islands
                 </text>
               </g>
 
@@ -2802,7 +2802,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[12px] font-bold fill-[#222426]"
                 >
-                  Discernământ critic
+                  Critical discernment
                 </text>
                 <text
                   x="405"
@@ -2810,7 +2810,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[10.5px] fill-[#6E7376]"
                 >
-                  Asumarea adevărului istoric
+                  The assumption of historical truth
                 </text>
               </g>
 
@@ -2835,7 +2835,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[12px] font-bold fill-[#222426]"
                 >
-                  Vigilență metacognitivă
+                  Metacognitive vigilance
                 </text>
                 <text
                   x="405"
@@ -2843,7 +2843,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[10.5px] fill-[#6E7376]"
                 >
-                  Reglare executivă prefrontală
+                  Prefrontal executive regulation
                 </text>
               </g>
 
@@ -2875,7 +2875,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[12px] font-bold fill-[#222426]"
                 >
-                  Modernitate organică
+                  Organic modernity
                 </text>
                 <text
                   x="822"
@@ -2883,7 +2883,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[10.5px] fill-[#6E7376]"
                 >
-                  Interiorizarea normei și încredere
+                  Norm internalization and trust
                 </text>
               </g>
 
@@ -2927,7 +2927,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[12px] font-bold fill-[#222426]"
                 >
-                  Cooperare instituțională
+                  Institutional cooperation
                 </text>
                 <text
                   x="822"
@@ -2935,7 +2935,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[10.5px] fill-[#6E7376]"
                 >
-                  Capital social de punte și autonomie
+                  Bridging social capital and autonomy
                 </text>
               </g>
 
@@ -2955,7 +2955,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[10.5px] font-bold fill-[#F01E1E]"
                 >
-                  Incapacitate de doliu, proiecție paranoidă și enantiodromie
+                  Grief incapacity, paranoid projection, and enantiodromy
                 </text>
 
                 <g onClick={() => setFig4ActiveNode('anomizare')} className="cursor-pointer">
@@ -2975,7 +2975,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[12px] font-bold fill-[#F01E1E]"
                   >
-                    Capturare în revoltă distructivă
+                    Capture in destructive riot
                   </text>
                 </g>
               </g>
@@ -2986,13 +2986,13 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
               <div className="flex items-center gap-2">
                 <span className="inline-block w-6 h-0.5 bg-[#F01E1E] border-b border-dashed border-[#F01E1E] shrink-0" />
                 <span className="text-[#222426]">
-                  Regresie în enantiodromie și revoltă distructivă
+                  Regression in enantiodromy and destructive rebellion
                 </span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="inline-block w-6 h-1 bg-[#E5B822] shrink-0" />
                 <span className="text-[#222426]">
-                  Conversie în modernitate organică pe axa Ego–Sine
+                  Conversion into organic modernity on the Ego–Self axis
                 </span>
               </div>
             </div>
@@ -3000,25 +3000,25 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
             <div className="mt-3 pt-4 border-t border-[#222426] bg-[#F6F5EE] p-3.5">
               <p className="text-xs sm:text-sm text-[#222426] leading-relaxed">
                 {fig4ActiveNode === 'umbra-bruta' &&
-                  'Umbra colectivă (Jung, 1951/1968; Edinger, 1972; von Franz, 1972/1995). Nu conține doar pulsiuni distructive, ci și resurse vitale de energie psihică, instincte legitime de conservare și potențialități de înnoire excluse de Persona instituțională mimetică.'}
+                  'The collective shadow (Jung, 1951/1968; Edinger, 1972; von Franz, 1972/1995). It contains not only destructive drives, but also vital resources of psychic energy, legitimate instincts of preservation, and potentialities of renewal excluded by the mimetic institutional Persona.'}
                 {fig4ActiveNode === 'memorie' &&
-                  'Memoria istorică defensivă. Neîncrederea cetățeanului român în discursurile oficiale pompoase își are rădăcina într-un reflex istoric sănătos de autoconservare, format în secolele de rezistență în fața imperiilor hegemonice.'}
+                  'Defensive historical memory. The distrust of the Romanian citizen in pompous official speeches has its root in a healthy historical reflex of self-preservation, formed in the centuries of resistance in the face of hegemonic empires.'}
                 {fig4ActiveNode === 'trickster' &&
-                  'Ambivalența arhetipului Tricksterului (Jung, 1954/1968; Radin, 1956). În forma sa regresivă se manifestă ca șmecherie cinică și ocolire a legii, dar în dimensiunea sa prospectivă conține agilitate cognitivă, adaptare rapidă și rezistență la îndoctrinarea dogmatică.'}
+                  'Ambivalence of the Trickster archetype (Jung, 1954/1968; Radin, 1956). In its regressive form it manifests as cynical trickery and circumvention of the law, but in its prospective dimension it contains cognitive agility, rapid adaptation and resistance to dogmatic indoctrination.'}
                 {fig4ActiveNode === 'filtru-lege' &&
-                  'Primul filtru (Stratul A): Cadrul legii impersonale drepte și „insulele de închidere operațională” (Luhmann, 1995, 2004; Ostrom, 1990; Acemoglu & Robinson, 2019). Această formulare rezolvă paradoxul temporal dintre Subcapitolele 4.2 și 6.3: conversia energiilor din Umbră nu așteaptă perfecționarea integrală a statului la capătul Fazei a III-a, ci este inițiată și consolidată treptat prin insule de predictibilitate administrativă (debirocratizarea din Faza I, achiziții transparente, cooperative funcționale), care generează încrederea civică necesară pentru a susține ulterior reforma macrostructurală în „coridorul îngust”.'}
+                  'The first filter (Layer A): The Impersonal Right Law Framework and “islands of operational closure” (Luhmann, 1995, 2004; Ostrom, 1990; Acemoglu & Robinson, 2019). This formulation resolves the temporal paradox between Subchapters 4.2 and 6.3: the conversion of Shadow energies does not wait for the full perfection of the state at the end of Phase III, but is initiated and gradually consolidated by islands of administrative predictability (debureaucratization of Phase I, transparent procurement, functional cooperatives), which generate the necessary civic trust to later support macrostructural reform in the "narrow corridor".'}
                 {fig4ActiveNode === 'filtru-istorie' &&
-                  'Al doilea filtru (Stratul B). Discernământul critic și asumarea adevărului istoric, care deconstruiesc proiecțiile paranoide prin separarea tradiției spirituale autentice de falsificările etnofiletiste și totalitare.'}
+                  'The second filter (Layer B). Critical discernment and the assumption of historical truth, which deconstruct paranoid projections by separating authentic spiritual tradition from ethnophyletic and totalitarian falsifications.'}
                 {fig4ActiveNode === 'filtru-meta' &&
-                  'Al treilea filtru (Stratul B). Vigilența metacognitivă, susținută de reglarea executivă a cortexului prefrontal, care îi permite cetățeanului să își recunoască propriile vulnerabilități afective înainte ca acestea să fie instrumentalizate prin control reflexiv.'}
+                  'The third filter (Layer B). Metacognitive vigilance, supported by the executive regulation of the prefrontal cortex, which enables the citizen to recognize his own affective vulnerabilities before they are instrumentalized by reflexive control.'}
                 {fig4ActiveNode === 'functie-transcendenta' &&
-                  'Funcția transcendentă (Jung, 1916/1960; Edinger, 1972). Mecanismul psihodinamic care mediază tensiunea dintre conștiința normativă formală (Ego/Persona) și energiile refulate în Umbră, generând o atitudine simbolică nouă pe axa Ego–Sine, capabilă să susțină modernitatea organică fără a reprima fondul autohton.'}
+                  'The transcendent function (Jung, 1916/1960; Edinger, 1972). The psychodynamic mechanism that mediates the tension between the formal normative consciousness (Ego/Persona) and the energies repressed in the Shadow, generating a new symbolic attitude on the Ego-Self axis, capable of supporting organic modernity without repressing the autochthonous background.'}
                 {fig4ActiveNode === 'modernitate' &&
-                  'Modernitate organică și încredere (Sinteza axei Ego–Sine). Funcția transcendentă (Jung, 1916/1960) integrează potențialul din Umbră în conștiința civică, înlocuind conformismul de fațadă cu interiorizarea autentică a normelor.'}
+                  'Organic Modernity and Trust (Synthesis of the Ego–Self Axis). The transcendent function (Jung, 1916/1960) integrates the Shadow potential into civic consciousness, replacing facade conformity with authentic internalization of norms.'}
                 {fig4ActiveNode === 'cooperare' &&
-                  'Cooperare instituțională autonomă. Refacerea capitalului social de punte (Putnam, 2000) și transformarea naționalismului reactiv în patriotism constituțional responsabil.'}
+                  'Autonomous institutional cooperation. Restoring bridging social capital (Putnam, 2000) and transforming reactive nationalism into responsible constitutional patriotism.'}
                 {fig4ActiveNode === 'anomizare' &&
-                  'Traseul inferior fără filtru: Incapacitatea de a ține doliu (Mitscherlich & Mitscherlich, 1967/1975; Volkan, 1997, 2004), proiecția paranoidă și alunecarea în enantiodromie. Atunci când cele trei filtre lipsesc sau energiile din Umbră sunt reprimate arogant, acestea sunt capturate de vectorii de război cognitiv în revoltă distructivă împotriva regulilor democratice.'}
+                  'The unfiltered lower pathway: The inability to hold grief (Mitscherlich & Mitscherlich, 1967/1975; Volkan, 1997, 2004), paranoid projection, and the slide into enantiodromy. When the three filters are missing or the Shadow energies are arrogantly repressed, they are captured by cognitive warfare vectors in destructive revolt against democratic rules.'}
               </p>
             </div>
           </div>
@@ -3032,7 +3032,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
         <div>
           <div className="flex flex-wrap items-center justify-between gap-3 bg-[#F6F5EE] px-5 py-3 border-b border-[#8C9BA5]">
             <span className="text-xs font-mono uppercase tracking-wider font-semibold text-[#222426]">
-              Traiectorie în matricea lui Cipolla
+              Trajectory in Cipolla's matrix
             </span>
             <div className="flex flex-wrap items-center gap-2">
               <button
@@ -3047,7 +3047,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     : 'bg-[#F6F5EE] text-[#222426] border-[#8C9BA5]'
                 }`}
               >
-                Prăbușire în autosabotaj colectiv · Cadranul III
+                Collapse into collective self-sabotage · Quadrant III
               </button>
               <button
                 type="button"
@@ -3061,7 +3061,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     : 'bg-[#F6F5EE] text-[#222426] border-[#8C9BA5]'
                 }`}
               >
-                Tranziție spre cooperare inteligentă · Cadranul I
+                Transition to intelligent cooperation · Quadrant I
               </button>
             </div>
           </div>
@@ -3109,7 +3109,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[14.5px] font-bold fill-[#6E7376]"
                 >
-                  Cadranul II · Cetățeni vulnerabili
+                  Quadrant II · Vulnerable citizens
                 </text>
                 <text
                   x="265"
@@ -3117,7 +3117,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[12px] fill-[#6E7376]"
                 >
-                  Pierdere proprie · Beneficiu societal
+                  Own loss · Societal benefit
                 </text>
                 <text
                   x="265"
@@ -3125,7 +3125,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[12px] fill-[#6E7376]"
                 >
-                  Uzură alostatică și neputință învățată
+                  Allostatic wear and learned helplessness
                 </text>
               </g>
 
@@ -3150,7 +3150,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[14.5px] font-bold fill-[#222426]"
                 >
-                  Cadranul I · Cooperare inteligentă
+                  Quadrant I · Intelligent cooperation
                 </text>
                 <text
                   x="655"
@@ -3158,7 +3158,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[12px] fill-[#222426]"
                 >
-                  Beneficiu propriu · Beneficiu colectiv
+                  Own benefit · Collective benefit
                 </text>
                 <text
                   x="655"
@@ -3166,7 +3166,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[12px] fill-[#6E7376]"
                 >
-                  Modernitate organică și stat de drept
+                  Organic modernity and the rule of law
                 </text>
               </g>
 
@@ -3191,7 +3191,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[14.5px] font-bold fill-[#F01E1E]"
                 >
-                  Cadranul III · Autosabotaj colectiv
+                  Quadrant III · Collective self-sabotage
                 </text>
                 <text
                   x="265"
@@ -3199,7 +3199,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[12px] font-semibold fill-[#F01E1E]"
                 >
-                  Iraționalitate autodistructivă
+                  Self-destructive irrationality
                 </text>
                 <text
                   x="265"
@@ -3207,7 +3207,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[11.5px] fill-[#6E7376]"
                 >
-                  Pierdere proprie · Daună societală
+                  Personal loss · Societal damage
                 </text>
               </g>
 
@@ -3232,7 +3232,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[14.5px] font-bold fill-[#222426]"
                 >
-                  Cadranul IV · Elite extractive
+                  Quadrant IV · Extractive elites
                 </text>
                 <text
                   x="655"
@@ -3240,7 +3240,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[12px] fill-[#6E7376]"
                 >
-                  Câștig propriu · Daună societală
+                  Own gain · Societal damage
                 </text>
                 <text
                   x="655"
@@ -3248,7 +3248,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[11.5px] font-semibold fill-[#222426]"
                 >
-                  1. Spoliere endogenă · 2. Catalizator extern rus
+                  1. Endogenous spoliation · 2. Russian external catalyst
                 </text>
               </g>
 
@@ -3284,7 +3284,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 textAnchor="middle"
                 className="font-mono text-[11.5px] font-bold fill-[#222426]"
               >
-                +Y · Beneficiu societal
+                +Y · Societal benefit
               </text>
 
               <rect x="395" y="550" width="130" height="22" fill="#F6F5EE" />
@@ -3294,7 +3294,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 textAnchor="middle"
                 className="font-mono text-[11.5px] font-bold fill-[#222426]"
               >
-                -Y · Daună societală
+                -Y · Societal damage
               </text>
 
               <rect x="72" y="247" width="145" height="22" fill="#F6F5EE" />
@@ -3304,7 +3304,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 textAnchor="start"
                 className="font-mono text-[11px] font-bold fill-[#222426]"
               >
-                -X · Pierdere proprie
+                -X · Own loss
               </text>
 
               <rect x="703" y="247" width="145" height="22" fill="#F6F5EE" />
@@ -3314,7 +3314,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 textAnchor="end"
                 className="font-mono text-[11px] font-bold fill-[#222426]"
               >
-                +X · Câștig propriu
+                +X · Own profit
               </text>
 
               {/* Diagonal Dashed Vector: Presiune de spoliere sistemică din (+X, -Y) spre (-X, +Y) */}
@@ -3344,7 +3344,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[10.5px] font-bold fill-[#222426]"
                 >
-                  Presiune de spoliere sistemică
+                  Systemic spoilage pressure
                 </text>
               </g>
 
@@ -3375,7 +3375,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[9.5px] font-semibold fill-[#6E7376]"
                   >
-                    Iluzia pedepsirii spoliatorilor
+                    The illusion of punishing the looters
                   </text>
 
                   {/* Traiectorie orizontală blocată de T-bar în #F01E1E la y=168 */}
@@ -3411,7 +3411,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[9.5px] font-bold fill-[#F01E1E]"
                   >
-                    Baraj extractiv (mobilitate blocată)
+                    Extractive dam (blocked mobility)
                   </text>
 
                   {/* PLAFON ORIZONTAL FISURAT pe segmentul x=202..452 cu breșă deschisă la x=220..244 (în jurul lui x=232) */}
@@ -3466,7 +3466,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[9.5px] font-bold fill-[#F01E1E]"
                   >
-                    Planșeu constituțional de protecție fisurat
+                    Cracked protective constitutional floor
                   </text>
 
                   {/* DINAMICA 2: Vectorul descendent masiv în #F01E1E la x=232 */}
@@ -3494,7 +3494,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[10px] font-bold fill-[#F01E1E]"
                   >
-                    Prăbușire în autosabotaj (-X, -Y)
+                    Crash into self-sabotage (-X, -Y)
                   </text>
                   <text
                     x="232"
@@ -3502,7 +3502,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[9px] font-semibold fill-[#6E7376]"
                   >
-                    Scontare hiperbolică și revanșă punitivă
+                    Hyperbolic discounting and punitive payback
                   </text>
                 </g>
               ) : (
@@ -3539,7 +3539,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[10px] font-bold fill-[#222426]"
                   >
-                    Planșeu constituțional de protecție consolidat
+                    Consolidated floor of constitutional protection
                   </text>
                   <line
                     x1="265"
@@ -3573,7 +3573,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[10.5px] font-bold fill-[#222426]"
                   >
-                    Tranziție spre cooperare inteligentă
+                    Transition to intelligent cooperation
                   </text>
                 </g>
               )}
@@ -3582,13 +3582,13 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
             <div className="mt-4 pt-4 border-t border-[#222426] bg-[#F6F5EE] p-3.5">
               <p className="text-xs sm:text-sm text-[#222426] leading-relaxed">
                 {fig5SelectedQuadrant === 'I' &&
-                  'Cadranul I (+X, +Y, cooperare inteligentă). Cetățenii, antreprenorii și instituțiile incluzive își urmăresc propriul interes legitim prin muncă, inovație și respectarea legii impersonale, generând simultan valoare adăugată și încredere pentru întreaga comunitate (ordinea socială cu acces deschis, North, Wallis & Weingast, 2009). Tranziția restaurativă din Cadranul II spre Cadranul I este deschisă prin înlăturarea barajului extractiv și consolidarea planșeului constituțional prin arhitectura alegerii instituționale (Thaler & Sunstein, 2008).'}
+                  'Quadrant I (+X, +Y, intelligent cooperation). Inclusive citizens, entrepreneurs, and institutions pursue their own legitimate interest through work, innovation, and impersonal law-abiding, simultaneously generating added value and trust for the entire community (open access social order, North, Wallis & Weingast, 2009). The restorative transition from Quadrant II to Quadrant I is opened by removing the extractive dam and strengthening the constitutional floor through the architecture of institutional choice (Thaler & Sunstein, 2008).'}
                 {fig5SelectedQuadrant === 'II' &&
-                  'Cadranul II (-X, +Y, cetățenii vulnerabili / naivii, helpless). Indivizii cinstiți care muncesc, plătesc taxe și susțin funcționarea societății (+Y), dar care, din cauza asimetriei informaționale și a precarității serviciilor publice, înregistrează o pierdere netă de bunăstare, sănătate și demnitate (-X).'}
+                  'Quadrant II (-X, +Y, vulnerable / naïve, helpless citizens). Honest individuals who work, pay taxes and support the functioning of society (+Y), but who, due to information asymmetry and the precariousness of public services, experience a net loss of well-being, health and dignity (-X).'}
                 {fig5SelectedQuadrant === 'IV' &&
-                  'Cadranul IV (+X, -Y, elitele extractive / banditismul, bandits). Rețelele politico-economice clientelare și birocrațiile parazitare interne (1. Spoliere endogenă) — ale căror facțiuni oligarhice amenințate de statul de drept european au interesul tactic de a încuraja haosul antiinstituțional pentru a-și salva impunitatea (+X) —, precum și agresorul geopolitic extern (2. Catalizator extern rus), care își însușesc câștiguri substanțiale (+X) prin spolierea bugetelor publice și degradarea instituțiilor (-Y).'}
+                  'Quadrant IV (+X, -Y, extractive elites / banditry, bandits). Clientel political-economic networks and domestic parasitic bureaucracies (1. Endogenous Spoliation) — whose oligarchic factions threatened by the European rule of law have a tactical interest in encouraging anti-institutional chaos to save their impunity (+X) — as well as the external geopolitical aggressor (2. Russian External Catalyst), who appropriate substantial gains (+X) by spoliating public budgets and degrading institutions (-Y).'}
                 {fig5SelectedQuadrant === 'III' &&
-                  'Cadranul III (-X, -Y, autosabotajul social / iraționalitatea autodistructivă). În matricea lui Cipolla operează două bariere ortogonale: (1) pe orizontală, între Cadranul II și Cadranul I, oligarhia clientelară ridică un baraj extractiv vertical (T-bar) împotriva mobilității meritocratice; (2) pe verticală, între Cadranul II și Cadranul III, statul eșuează în menținerea planșeului constituțional de protecție. Sub efectul scontării hiperbolice a viitorului (hyperbolic discounting, Laibson, 1997) și al deturnării pedepsei altruiste (Fehr & Gächter, 2002) în revanșă simbolică autodistructivă (spiteful punishment) și în pedeapsă antisocială (antisocial punishment), cetățeanul vulnerabil este împins prin planșeul constituțional de protecție fisurat în Cadranul III, unde votul punitiv extrem distruge simultan bunul public (-Y) și propria securitate socioeconomică (-X).'}
+                  'Quadrant III (-X, -Y, social self-sabotage / self-destructive irrationality). In Cipolla\'s matrix, two orthogonal barriers operate: (1) horizontally, between Quadrant II and Quadrant I, the clientelistic oligarchy erects a vertical extractive dam (T-bar) against meritocratic mobility; (2) vertically, between Quadrant II and Quadrant III, the state fails to maintain the constitutional floor of protection. Under the effect of hyperbolic discounting of the future (Laibson, 1997) and the diversion of altruistic punishment (Fehr & Gächter, 2002) into self-destructive symbolic revenge (spiteful punishment) and antisocial punishment (antisocial punishment), the vulnerable citizen is pushed through the cracked constitutional floor of protection into Quadrant III, where extreme punitive voting simultaneously destroys the public good (-Y) and one\'s own socioeconomic security (-X).'}
               </p>
             </div>
           </div>
@@ -3602,7 +3602,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
         <div>
           <div className="flex flex-wrap items-center justify-between gap-3 bg-[#F6F5EE] px-5 py-3 border-b border-[#8C9BA5]">
             <span className="text-xs font-mono uppercase tracking-wider font-semibold text-[#222426]">
-              Regim de coreglare în șoc acut
+              Regime of coregulation in acute shock
             </span>
             <div className="flex flex-wrap items-center gap-2">
               <button
@@ -3618,7 +3618,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     : 'bg-[#F6F5EE] text-[#222426] border-[#8C9BA5]'
                 }`}
               >
-                Simulare: Șoc acut fără coreglare (Dominanța buclei Track A)
+                Simulation: Acute shock without correction (Track A loop dominance)
               </button>
               <button
                 type="button"
@@ -3633,7 +3633,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     : 'bg-[#F6F5EE] text-[#222426] border-[#8C9BA5]'
                 }`}
               >
-                Simulare: Coreglare instituțională CERC și Faza I (Activarea Track B)
+                Simulation: CERC Institutional Co-alignment and Phase I (Activation of Track B)
               </button>
             </div>
           </div>
@@ -3670,7 +3670,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[13px] font-bold fill-[#222426]"
                 >
-                  Nod unic de bifurcație cognitivă
+                  Single node of cognitive bifurcation
                 </text>
                 <text
                   x="460"
@@ -3678,7 +3678,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[11px] fill-[#6E7376]"
                 >
-                  Stres material acut și policriză
+                  Acute material stress and polycrisis
                 </text>
               </g>
 
@@ -3710,7 +3710,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[9.5px] font-bold fill-[#F01E1E]"
                 >
-                  Track A: Procesare defensivă
+                  Track A: Defensive processing
                 </text>
 
                 {/* Header bar Track A (y=158..184) */}
@@ -3730,7 +3730,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[11px] font-bold fill-[#F01E1E]"
                 >
-                  Track A · Procesare defensivă și reactivă
+                  Track A · Defensive and reactive processing
                 </text>
 
                 {/* A1: Anxietate cronică (y=190..240) */}
@@ -3758,7 +3758,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[11.5px] font-bold fill-[#222426]"
                   >
-                    Anxietate cronică
+                    Chronic anxiety
                   </text>
                   <text
                     x="230"
@@ -3766,7 +3766,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[9.5px] fill-[#6E7376]"
                   >
-                    Inhibiție dlPFC (S1) / Raționalizare motivată (S2)
+                    dlPFC Inhibition (S1) / Reasoning Rationale (S2)
                   </text>
                 </g>
 
@@ -3806,7 +3806,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[11.5px] font-bold fill-[#222426]"
                   >
-                    Nevoia de închidere cognitivă
+                    The need for cognitive closure
                   </text>
                   <text
                     x="230"
@@ -3814,7 +3814,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[9.5px] fill-[#6E7376]"
                   >
-                    Intoleranță la ambiguitate și urgență
+                    Intolerance of ambiguity and urgency
                   </text>
                 </g>
 
@@ -3854,7 +3854,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[11.5px] font-bold fill-[#222426]"
                   >
-                    Persona mimetică
+                    Mimetic persona
                   </text>
                   <text
                     x="230"
@@ -3862,7 +3862,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[10px] fill-[#6E7376]"
                   >
-                    Conformism formal și „forme fără fond”
+                    Formal conformism and "forms without substance"
                   </text>
                 </g>
 
@@ -3900,7 +3900,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[9px] font-bold fill-[#F01E1E]"
                 >
-                  Tensiune și compensare
+                  Voltage and compensation
                 </text>
 
                 {/* A4: Umbra colectivă (y=426..476) */}
@@ -3928,7 +3928,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[11.5px] font-bold fill-[#F01E1E]"
                   >
-                    Umbra colectivă
+                    The collective shadow
                   </text>
                   <text
                     x="230"
@@ -3936,7 +3936,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[9.5px] fill-[#6E7376]"
                   >
-                    Puer Aeternus, ipoteze de bază (Bion) și proiecție
+                    Puer Aeternus, basic hypotheses (Bion) and projection
                   </text>
                 </g>
 
@@ -3976,7 +3976,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[11.5px] font-bold fill-[#F01E1E]"
                   >
-                    Buclă de feedback algoritmic
+                    Algorithmic feedback loop
                   </text>
                   <text
                     x="230"
@@ -3984,7 +3984,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[10px] fill-[#6E7376]"
                   >
-                    Amplificare virală și polarizare emoțională
+                    Viral amplification and emotional polarization
                   </text>
                 </g>
 
@@ -4028,7 +4028,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[7.5px] font-bold fill-[#F01E1E]"
                 >
-                  Autoamplificare
+                  Self-amplification
                 </text>
                 <text
                   x="36"
@@ -4065,7 +4065,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[8.5px] font-bold fill-[#222426]"
                 >
-                  Recuperare ingeniozitate
+                  Recovery ingenuity
                 </text>
                 <text
                   x="465"
@@ -4073,7 +4073,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[8.5px] fill-[#6E7376]"
                 >
-                  integrare Trickster
+                  Trickster integration
                 </text>
               </g>
 
@@ -4120,7 +4120,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[10px] font-bold fill-[#222426]"
                   >
-                    Punte: Calm instituțional CERC și măsuri Faza I
+                    Bridge: CERC institutional calm and Phase I measures
                   </text>
                 </g>
 
@@ -4174,7 +4174,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-mono text-[8.5px] font-bold fill-[#222426]"
                 >
-                  || Latență deliberativă
+                  || Deliberative Latency
                 </text>
 
                 {/* Header bar Track B (y=158..184) */}
@@ -4194,7 +4194,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[11px] font-bold fill-[#222426]"
                 >
-                  Track B · Procesare adaptativă și deliberativă
+                  Track B · Adaptive and Deliberative Processing
                 </text>
 
                 {/* B1: Acceptarea incertitudinii (y=190..234) */}
@@ -4222,7 +4222,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[11px] font-bold fill-[#222426]"
                   >
-                    1. Acceptarea incertitudinii
+                    1. Acceptance of uncertainty
                   </text>
                   <text
                     x="690"
@@ -4230,7 +4230,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[9.5px] fill-[#6E7376]"
                   >
-                    Capacitate negativă și suspendarea urgenței
+                    Negative capacity and emergency suspension
                   </text>
                 </g>
 
@@ -4278,7 +4278,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[11px] font-bold fill-[#222426]"
                   >
-                    2. Sistemul 2 și gândire activ deschisă
+                    2. System 2 and active open thinking
                   </text>
                   <text
                     x="690"
@@ -4286,7 +4286,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[9.5px] fill-[#6E7376]"
                   >
-                    Reglare prefrontală și Rangul 2+ (Lefebvre)
+                    Prefrontal Regulation and Rank 2+ (Lefebvre)
                   </text>
                 </g>
 
@@ -4334,7 +4334,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[11px] font-bold fill-[#222426]"
                   >
-                    3. Toleranța disonanței
+                    3. Tolerance of dissonance
                   </text>
                   <text
                     x="690"
@@ -4342,7 +4342,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[9px] font-medium fill-[#222426]"
                   >
-                    Integrarea ingeniozității Trickster
+                    Integrating Trickster Ingenuity
                   </text>
                 </g>
 
@@ -4390,7 +4390,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[11px] font-bold fill-[#222426]"
                   >
-                    4. Discernământ critic
+                    4. Critical discernment
                   </text>
                   <text
                     x="690"
@@ -4398,7 +4398,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[9.5px] fill-[#6E7376]"
                   >
-                    Mediere ternară și Grup de lucru (Bion)
+                    Ternary Mediation and Working Group (Bion)
                   </text>
                 </g>
 
@@ -4445,7 +4445,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[12px] font-bold fill-[#222426]"
                   >
-                    5. Acțiune suverană și autonomă
+                    5. Sovereign and autonomous action
                   </text>
                   <text
                     x="690"
@@ -4453,7 +4453,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[10px] font-medium fill-[#222426]"
                   >
-                    Cooperare instituțională pe axa Ego–Sine
+                    Institutional cooperation on the Ego–Self axis
                   </text>
                 </g>
 
@@ -4483,7 +4483,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[8.5px] font-bold fill-[#6E7376]"
                 >
-                  Coerență psihodinamică
+                  Psychodynamic coherence
                 </text>
 
                 {/* Baza: Axa Ego–Sine (cy=582) */}
@@ -4502,7 +4502,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[11px] font-bold fill-[#222426]"
                 >
-                  Axa Ego–Sine · Individuare colectivă
+                  Ego–Self axis · Collective individuation
                 </text>
 
                 {/* Buclă de consolidare a rezilienței */}
@@ -4529,7 +4529,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[8px] font-bold fill-[#6E7376]"
                 >
-                  Consolidare
+                  Consolidation
                 </text>
                 <text
                   x="870"
@@ -4537,7 +4537,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[8px] fill-[#6E7376]"
                 >
-                  reziliență
+                  resilience
                 </text>
               </g>
             </svg>
@@ -4545,35 +4545,35 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
             <div className="mt-4 pt-4 border-t border-[#222426] bg-[#F6F5EE] p-3.5">
               <p className="text-xs sm:text-sm text-[#222426] leading-relaxed">
                 {fig6SelectedStep === 'bifurcatie' &&
-                  'Nodul unic de bifurcație (stresul material acut și policriza). Reprezintă punctul de incidență al șocului cognitiv și socioeconomic. În absența unei pauze metacognitive și a rezervei neurobiologice, presiunea crizei împinge procesarea în mod automat spre reacția defensivă din Track A.'}
+                  'Single bifurcation node (acute material stress and polycrisis). It represents the point of incidence of cognitive and socioeconomic shock. In the absence of a metacognitive pause and neurobiological reserve, the pressure of the crisis automatically pushes processing into the Track A defensive reaction.'}
                 {fig6SelectedStep === 'punte-cerc' &&
-                  'Puntea de coreglare instituțională CERC și măsurile Fazei I. Deoarece un cetățean aflat în plin șoc acut și în revoltă față de Persona instituțională mimetică nu își poate activa singur capacitatea negativă și nici nu ascultă retorica politică partizană, deschiderea Traseului B în fereastra de 0–72 de ore se sprijină pe o arhitectură policentrică de dezescaladare pe două paliere (protocolul CDC CERC, Reynolds & Seeger, 2005): (1) palierul tehnic-probatoriu depolitizat (DNSC, ANCOM, AEP, ONPCSB și hub-ul regional EDMO/BROD, cu dovezi verificabile STIX/DISARM și măsuri tehnice de limitare a amplificării algoritmice) și (2) palierul validatorilor comunitari și epistemici de proximitate (medici, profesori, clerici canonici ancorați în discernământul proairesis, lideri civici și jurnaliști independenți), stabilizată ulterior prin decompresia alostatică din Faza I.'}
+                  'The CERC Institutional Corregulatory Bridge and Phase I Measures Because a citizen in acute shock and revolt against the Mimetic Institutional Persona cannot activate their own negative capacity nor listen to partisan political rhetoric, the opening of Path B in the 0–72 hour window rests on a two-tier polycentric de-escalation architecture (CDC CERC protocol, Reynolds & Seeger, 2005): (1) tier technical-evidentiary depoliticized (DNSC, ANCOM, AEP, ONPCSB and the EDMO/BROD regional hub, with STIX/DISARM verifiable evidence and technical measures to limit algorithmic amplification) and (2) the level of proximity community and epistemic validators (doctors, teachers, canonical clerics anchored in proairesis discernment, civic leaders and independent journalists), subsequently stabilized by Phase I allostatic decompression.'}
                 {fig6SelectedStep === 'anxietate' &&
-                  'Anxietatea cronică, inhibiția dlPFC și raționalizarea motivată (Track A). În comunitățile defavorizate (marcate de precaritate), starea de alertă activează amigdala și rețeaua de detecție a relevanței (SN, Menon, 2011), decuplând cortexul prefrontal dorsolateral (dlPFC) și comutând procesarea pe Sistemul 1; simetric, în bulele urbane educate, Sistemul 2 intact este deturnat în raționalizarea motivată a indignării tribale (Stanovich, 2009; Kahan, 2017).'}
+                  'Chronic anxiety, dlPFC inhibition, and motivated rationalization (Track A). In disadvantaged communities (marked by precariousness), alertness activates the amygdala and the relevance detection network (SN, Menon, 2011), uncoupling the dorsolateral prefrontal cortex (dlPFC) and switching processing to System 1; symmetrically, in educated urban bubbles, intact System 2 is hijacked in the motivated rationalization of tribal outrage (Stanovich, 2009; Kahan, 2017).'}
                 {fig6SelectedStep === 'nfcc' &&
-                  'Nevoia de închidere cognitivă (NFCC, Need for Cognitive Closure). Sub presiunea anxietății, individul manifestă o intoleranță acută la ambiguitate (seizing) și o urgență extremă de a adopta concluzii categorice, rapide și simplificatoare (freezing), refuzând orice nuanță sau complexitate.'}
+                  'Need for cognitive closure (NFCC, Need for Cognitive Closure). Under the pressure of anxiety, the individual shows an acute intolerance of ambiguity (seizing) and an extreme urgency to adopt categorical, quick and simplifying conclusions (freezing), refusing any nuance or complexity.'}
                 {fig6SelectedStep === 'persona' &&
-                  'Persona mimetică (Track A). Conformismul formal de fațadă și copierea modelelor externe neintegrate („forme fără fond”). Individul adoptă discursuri și aparențe gata fabricate pentru a simula apartenența și a reduce disonanța, fără o asimilare critică reală.'}
+                  'Mimetic Persona (Track A). Formal facade conformism and copying of non-integrated external models ("bottomless forms"). The individual adopts ready-made discourses and appearances to simulate belonging and reduce dissonance, without real critical assimilation.'}
                 {fig6SelectedStep === 'umbra' &&
-                  'Umbra colectivă, arhetipul Puer Aeternus și ipotezele de bază regresive (Bion, 1961). Sub tensiunea Personei mimetice, comunitatea regresează din starea de „grup de lucru” în ipotezele de bază de dependență (baD), speranță mesianică (baP) sau luptă–fugă (baF), proiectând ostilitatea asupra țapilor ispășitori.'}
+                  'The Collective Shadow, the Puer Aeternus Archetype, and the Regressive Basic Assumptions (Bion, 1961). Under the strain of the Mimetic Persona, the community regresses from the "workgroup" state into the basic assumptions of dependency (baD), messianic hope (baP), or fight-flight (baF), projecting hostility onto scapegoats.'}
                 {fig6SelectedStep === 'bucla_algoritmica' &&
-                  'Bucla de feedback algoritmic și închiderea fizică (R). Resentimentul umbrei este capturat de algoritmii de optimizare a atenției și de operatorii de război cognitiv, amplificând polarizarea. Săgeata buclei se întoarce fizic la Anxietate cronică ca reacție pozitivă (buclă de autoamplificare – R), autoamplificând criza.'}
+                  'Algorithmic feedback loop and physical closure (R). Shadow resentment is captured by attention optimization algorithms and cognitive warfare operators, amplifying polarization. The arrow of the loop physically returns to Chronic Anxiety as a positive reaction (self-reinforcing loop – R), self-amplifying the crisis.'}
                 {fig6SelectedStep === 'b1' &&
-                  '1. Acceptarea incertitudinii (Track B). Punctul de intrare în procesarea adaptativă constă în capacitatea negativă (Bion, 1962, 1970) — rezistența la impulsul de a închide prematur cogniția (rezistență la NFCC) și acceptarea calmă a stării de necunoscut fără panică. În plin șoc acut (0–72h), această pauză metacognitivă este deschisă de arhitectura policentrică pe două paliere (agențiile tehnice depolitizate cu probatoriu STIX/DISARM și validatorii comunitari de proximitate, conform principiilor CDC CERC, Reynolds & Seeger, 2005), care oferă populației un cadru extern de siguranță epistemică.'}
+                  '1. Acceptance of uncertainty (Track B). The entry point into adaptive processing is negative capacity (Bion, 1962, 1970)—resistance to the urge to shut down cognition prematurely (resistance to NFCC) and calm acceptance of the unknown without panic. In the midst of acute shock (0–72h), this metacognitive break is opened by the two-tier polycentric architecture (the depoliticized technical agencies with STIX/DISARM evidence and the proximity community validators, according to CDC CERC principles, Reynolds & Seeger, 2005), which provides the population with an external framework of epistemic safety.'}
                 {fig6SelectedStep === 'b2' &&
-                  '2. Sistemul 2 și gândirea activ deschisă (Track B). Susținută de decompresia alostatică și de măsurile tehnice de limitare a amplificării algoritmice din Faza I, reglarea executivă a rețelei prefrontale (dlPFC și vmPFC) reia controlul asupra impulsurilor amigdaliene. Cuplată cu gândirea activ deschisă (actively open-minded thinking), cu smerenia epistemică și cu Rangul 2+ de reflexivitate strategică (Lefebvre), ea previne raționalizarea motivată și permite analiza logică și contextualizarea istorică.'}
+                  '2. System 2 and active open thinking (Track B). Supported by allostatic decompression and Phase I algorithmic gain-limiting technical measures, executive regulation of the prefrontal network (dlPFC and vmPFC) regains control over amygdala impulses. Coupled with actively open-minded thinking, epistemic humility and Rank 2+ strategic reflexivity (Lefebvre), it prevents motivated rationalization and allows for logical analysis and historical contextualization.'}
                 {fig6SelectedStep === 'b3' &&
-                  '3. Toleranța disonanței și integrarea ingeniozității Trickster (Track B). Individul tolerează contradicțiile inerente realității și recuperează creativ conținuturile umbrei colective — ingeniozitatea adaptativă, adaptabilitatea și umorul subversiv (figura arhetipală a Tricksterului) transformate din resentiment distructiv în resursă de supraviețuire și inovație.'}
+                  '3. Dissonance Tolerance and Trickster Ingenuity Integration (Track B). The individual tolerates the contradictions inherent in reality and creatively recovers the contents of the collective shadow—adaptive ingenuity, adaptability, and subversive humor (the archetypal figure of the Trickster) transformed from destructive resentment into a resource for survival and innovation.'}
                 {fig6SelectedStep === 'b4' &&
-                  '4. Discernământ critic și Grup de lucru (Track B). Medierea semiotică ternară (semn–obiect–interpretant) și discernământul moral extrag comunitatea din captivitatea ipotezelor de bază și o reconstituie ca „grup de lucru” rațional orientat spre realitate (Bion, 1961).'}
+                  '4. Critical Discernment and Working Group (Track B). Ternary semiotic mediation (sign–object–interpreter) and moral discernment extract the community from the captivity of basic assumptions and reconstitute it as a rational reality-oriented "working group" (Bion, 1961).'}
                 {fig6SelectedStep === 'b5' &&
-                  '5. Acțiune suverană și Axa Ego–Sine (Track B). Punctul culminant al procesării adaptative: acțiune civică responsabilă, autonomie decizională și coerență profundă pe axa Ego–Sine, producând reziliență sistemică autentică.'}
+                  '5. Sovereign Action and the Ego–Self Axis (Track B). The culmination of adaptive processing: responsible civic action, decisional autonomy, and deep coherence on the Ego–Self axis, producing genuine systemic resilience.'}
                 {(fig6SelectedStep === 'trackA' ||
                   (!fig6SelectedStep && fig6ActiveTrack === 'A')) &&
-                  'Track A (procesare defensivă): o traiectorie închisă într-o buclă de autoamplificare (R), guvernată de anxietate, intoleranță la ambiguitate (NFCC), conformism mimetic și regresie în ipotezele de bază ale umbrei colective, exploatată de platformele digitale.'}
+                  'Track A (defensive processing): a closed trajectory in a self-reinforcing (R) loop, governed by anxiety, intolerance of ambiguity (NFCC), mimetic conformity, and regression into the underlying assumptions of the collective shadow, exploited by digital platforms.'}
                 {(fig6SelectedStep === 'trackB' ||
                   (!fig6SelectedStep && fig6ActiveTrack === 'B')) &&
-                  'Track B (procesare adaptativă): o succesiune deliberată de transformări cognitive și psihosociale, deschisă prin puntea de coreglare instituțională CERC și consolidată pe axa Ego–Sine.'}
+                  'Track B (adaptive processing): a deliberate sequence of cognitive and psychosocial transformations, opened through the CERC institutional coregulatory bridge and reinforced on the Ego–Self axis.'}
               </p>
             </div>
           </div>
@@ -4587,7 +4587,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
         <div>
           <div className="flex flex-wrap items-center justify-between gap-3 bg-[#F6F5EE] px-5 py-3 border-b border-[#8C9BA5]">
             <span className="text-xs font-mono uppercase tracking-wider font-semibold text-[#222426]">
-              Fazele reconstrucției rezilienței
+              Resilience rebuilding phases
             </span>
             <div className="flex flex-wrap items-center gap-2">
               {([1, 2, 3] as const).map((ph) => (
@@ -4604,10 +4604,10 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   }`}
                 >
                   {ph === 1
-                    ? 'Faza I · Decompresie și igienă digitală'
+                    ? 'Phase I · Decompression and digital hygiene'
                     : ph === 2
-                      ? 'Faza II · Prebunking și validare morală'
-                      : 'Faza III · Stat de drept și individuare'}
+                      ? 'Phase II · Prebunking and moral validation'
+                      : 'Phase III · Rule of law and individuality'}
                 </button>
               ))}
             </div>
@@ -4645,7 +4645,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[13.5px] font-bold fill-[#222426]"
                 >
-                  Arhitectura suveranității democratice și sinteza modernității organice
+                  The Architecture of Democratic Sovereignty and the Synthesis of Organic Modernity
                 </text>
                 <text
                   x="480"
@@ -4653,7 +4653,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[11px] fill-[#6E7376]"
                 >
-                  Închidere operațională a statului de drept · Discernământ critic · Axa Ego–Sine consolidată
+                  Operational Closure of the Rule of Law · Critical Discernment · Enhanced Ego–Self Axis
                 </text>
               </g>
 
@@ -4736,7 +4736,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[12px] font-bold fill-[#222426]"
                 >
-                  Faza I · Decompresie și
+                  Phase I · Decompression and
                 </text>
                 <text
                   x="155"
@@ -4744,7 +4744,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[12px] font-bold fill-[#222426]"
                 >
-                  igienă digitală
+                  digital hygiene
                 </text>
                 <text
                   x="155"
@@ -4752,7 +4752,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[9.5px] fill-[#6E7376]"
                 >
-                  0–72h triaj acut · 0–12 luni structural
+                  0–72h acute triage · 0–12 months structural
                 </text>
               </g>
 
@@ -4781,7 +4781,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[11px] font-bold fill-[#222426]"
                 >
-                  1.1 Triaj acut 0–72h: CERC și măsuri DSA
+                  1.1 Acute triage 0–72h: CERC and DSA measures
                 </text>
                 <text
                   x="155"
@@ -4789,7 +4789,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[9.5px] fill-[#6E7376]"
                 >
-                  STIX/DISARM și încetinirea viralității
+                  STIX/DISARM and slowing virality
                 </text>
               </g>
 
@@ -4818,7 +4818,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[11px] font-bold fill-[#222426]"
                 >
-                  1.2 Blocarea finanțării ilicite (24–72h)
+                  1.2 Blocking illicit funding (24–72h)
                 </text>
                 <text
                   x="155"
@@ -4826,7 +4826,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[9.5px] fill-[#6E7376]"
                 >
-                  Art. 9–10 DSA, CNA/AEP, ONPCSB și Reg. conturi/MiCA
+                  Art. 9–10 DSA, CNA/AEP, ONPCSB and Reg. accounts/MiCA
                 </text>
               </g>
 
@@ -4855,7 +4855,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[11px] font-bold fill-[#222426]"
                 >
-                  1.3 Decompresie alostatică (0–12 luni)
+                  1.3 Allostatic decompression (0–12 months)
                 </text>
                 <text
                   x="155"
@@ -4863,7 +4863,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[9.5px] fill-[#6E7376]"
                 >
-                  Debirocratizare e-Estonia și servicii de bază
+                  Debureaucratizing e-Estonia and basic services
                 </text>
               </g>
 
@@ -4906,7 +4906,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[9.5px] font-bold fill-[#222426]"
                 >
-                  Poarta 1: Deblocare dlPFC
+                  Gate 1: Unblocking dlPFC
                 </text>
                 <text
                   x="317"
@@ -4914,7 +4914,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[8.5px] fill-[#6E7376]"
                 >
-                  fără efect de bumerang
+                  no boomerang effect
                 </text>
               </g>
 
@@ -4944,7 +4944,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[12px] font-bold fill-[#222426]"
                 >
-                  Faza II · Prebunking și
+                  Phase II · Prebunking and
                 </text>
                 <text
                   x="480"
@@ -4952,7 +4952,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[12px] font-bold fill-[#222426]"
                 >
-                  validare morală
+                  moral validation
                 </text>
                 <text
                   x="480"
@@ -4960,7 +4960,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[10px] fill-[#6E7376]"
                 >
-                  Orizont operațional · 1–3 ani
+                  Operational horizon · 1–3 years
                 </text>
               </g>
 
@@ -4989,7 +4989,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[11px] font-bold fill-[#222426]"
                 >
-                  2.1 Validare comunitară și punți largi
+                  2.1 Community Validation and Broad Bridges
                 </text>
                 <text
                   x="480"
@@ -4997,7 +4997,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[9.5px] fill-[#6E7376]"
                 >
-                  Infrastructură asociativă și contagiune pozitivă
+                  Associative infrastructure and positive contagion
                 </text>
               </g>
 
@@ -5026,7 +5026,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[11px] font-bold fill-[#222426]"
                 >
-                  2.2 Prebunking și consolidare Ebbinghaus
+                  2.2 Prebunking and Ebbinghaus consolidation
                 </text>
                 <text
                   x="480"
@@ -5034,7 +5034,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[9.5px] fill-[#6E7376]"
                 >
-                  Antrenament metacognitiv și gândire activ deschisă
+                  Metacognitive training and active open thinking
                 </text>
               </g>
 
@@ -5063,7 +5063,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[11px] font-bold fill-[#222426]"
                 >
-                  2.3 Parteneriat axiologic creștin-secular
+                  2.3 Christian-secular axiological partnership
                 </text>
                 <text
                   x="480"
@@ -5071,7 +5071,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[9.5px] fill-[#6E7376]"
                 >
-                  Imago Dei, discernământ moral și autonomie
+                  Imago Dei, moral discernment and autonomy
                 </text>
               </g>
 
@@ -5114,7 +5114,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[9.5px] font-bold fill-[#222426]"
                 >
-                  Poarta 2: Presiune civică
+                  Gate 2: Civic pressure
                 </text>
                 <text
                   x="642"
@@ -5122,7 +5122,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[8.5px] fill-[#6E7376]"
                 >
-                  în Coridorul îngust
+                  in the Narrow Corridor
                 </text>
               </g>
 
@@ -5152,7 +5152,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[12px] font-bold fill-[#222426]"
                 >
-                  Faza III · Stat de drept și
+                  Phase III · Rule of law and
                 </text>
                 <text
                   x="805"
@@ -5160,7 +5160,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[12px] font-bold fill-[#222426]"
                 >
-                  individuare
+                  individuation
                 </text>
                 <text
                   x="805"
@@ -5168,7 +5168,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[10px] fill-[#6E7376]"
                 >
-                  Orizont strategic · 3–10 ani
+                  Strategic horizon · 3–10 years
                 </text>
               </g>
 
@@ -5197,7 +5197,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[11px] font-bold fill-[#222426]"
                 >
-                  3.1 Închidere operațională și isonomie fiscală
+                  3.1 Operational Closure and Fiscal Equity
                 </text>
                 <text
                   x="805"
@@ -5205,7 +5205,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[9.5px] fill-[#6E7376]"
                 >
-                  Justiție, meritocrație și simetrie fiscală (CCR 694/2015)
+                  Justice, meritocracy and fiscal symmetry (CCR 694/2015)
                 </text>
               </g>
 
@@ -5234,7 +5234,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[11px] font-bold fill-[#222426]"
                 >
-                  3.2 Guvernanță policentrică (Ostrom)
+                  3.2 Polycentric governance (Ostrom)
                 </text>
                 <text
                   x="805"
@@ -5242,7 +5242,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[9.5px] fill-[#6E7376]"
                 >
-                  Descentralizare și profesionalizare Legea 566/2004
+                  Decentralization and professionalization Law 566/2004
                 </text>
               </g>
 
@@ -5271,7 +5271,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[11px] font-bold fill-[#222426]"
                 >
-                  3.3 Individuare colectivă și dublu audit
+                  3.3 Collective identification and double auditing
                 </text>
                 <text
                   x="805"
@@ -5279,7 +5279,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[9.5px] fill-[#6E7376]"
                 >
-                  Axa Ego–Sine, Curtea de Conturi și art. 40 DSA
+                  Ego-Self axis, Court of Accounts and art. 40 DSA
                 </text>
               </g>
 
@@ -5333,7 +5333,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[12px] font-bold fill-[#222426]"
                 >
-                  Fundament: Cei 4 determinanți ai modelului Lalonde–Dever (Stratul A, B și C)
+                  Foundation: The 4 Determinants of the Lalonde–Dever Model (Layer A, B and C)
                 </text>
                 <text
                   x="480"
@@ -5341,7 +5341,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[10.5px] fill-[#6E7376]"
                 >
-                  Rezervă neurobiologică · Mediu digital și sociospațial · Stil de viață · Sistem instituțional
+                  Neurobiological Reserve · Digital and Sociospatial Environment · Lifestyle · Institutional System
                 </text>
               </g>
             </svg>
@@ -5349,37 +5349,37 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
             <div className="mt-4 pt-4 border-t border-[#222426] bg-[#F6F5EE] p-3.5">
               <p className="text-xs sm:text-sm text-[#222426] leading-relaxed">
                 {fig7SelectedNode === 'faza1' &&
-                  'Faza I · Dublu orizont: 0–72h (triaj tactic acut) · 0–12 luni (decompresie structurală). Oprește bucla reactivă din Track A prin trei piloni: (1.1) triajul acut 0–72h prin comunicare CDC CERC (Reynolds & Seeger, 2005), standardizare STIX/DISARM și măsuri tehnice DSA de limitare a amplificării algoritmice; (1.2) blocarea fluxurilor financiare ilicite (Follow the Money) în 24–72h (art. 9–10 DSA, CNA/AEP/CMF, ONPCSB, registrul central de conturi și MiCA); și (1.3) decompresia alostatică structurală 0–12 luni prin debirocratizare e-Estonia și servicii de bază.'}
+                  'Phase I · Double horizon: 0–72h (acute tactical triage) · 0–12 months (structural decompression). Stop the reactive loop in Track A through three pillars: (1.1) 0–72h acute triage through CDC CERC communication (Reynolds & Seeger, 2005), STIX/DISARM standardization, and DSA technical measures to limit algorithmic amplification; (1.2) blocking illicit financial flows (Follow the Money) within 24–72h (art. 9–10 DSA, CNA/AEP/CMF, ONPCSB, central account register and MiCA); and (1.3) structural allostatic decompression 0–12 months through e-Estonia debureaucratization and basic services.'}
                 {fig7SelectedNode === 'faza1-1' &&
-                  '1.1 Triaj acut 0–72h: CERC și măsuri DSA. În primele 72 de ore ale unei crize hibride, oprirea contagiunii amigdaliene se realizează prin protocolul de comunicare empatică și verificabilă CDC CERC (Reynolds & Seeger, 2005), standardizarea probatorie a indicatorilor de manipulare în format STIX/DISARM (DNSC și EDMO/BROD) și activarea măsurilor tehnice de urgență împotriva amplificării algoritmice artificiale (art. 34–35 DSA).'}
+                  '1.1 Acute triage 0–72h: CERC and DSA measures. In the first 72 hours of a hybrid crisis, stopping amygdala contagion is achieved through the CDC CERC empathetic and verifiable communication protocol (Reynolds & Seeger, 2005), the evidentiary standardization of manipulation indicators in STIX/DISARM format (DNSC and EDMO/BROD), and the activation of emergency technical measures against artificial algorithmic amplification (Art. 34–35 DSA).'}
                 {fig7SelectedNode === 'faza1-2' &&
-                  '1.2 Blocarea fluxurilor financiare ilicite (Follow the Money, 24–72h). Cuplarea obligatorie a ordinelor de a acționa împotriva conținutului ilegal (art. 9 din DSA / art. 7–8 din Legea nr. 50/2024) cu ordinele de furnizare a informațiilor privind identitatea plătitorilor (art. 10 din DSA / art. 9 din Legea nr. 50/2024) emise de autoritățile sectoriale relevante (CNA pentru audiovizualul online, AEP/BEC, DNSC, parchete) și coordonate procedural prin ANCOM ca DSC; verificarea în timp real a codului mandatarului financiar (CMF) și aplicarea Regulamentului (UE) 2024/900 (TTPA, art. 5 alin. 2, art. 11–12 și 16, aplicabil din 10 octombrie 2025, alături de art. 16–17 din O.U.G. nr. 1/2025 adoptată specific pentru scrutinul prezidențial din mai 2025) prin AEP/BEC; și suspendarea operativă în 24–72h a tranzacțiilor suspecte și a conversiilor din criptoactive în monedă fiduciară (off-ramp) dispusă exclusiv de ONPCSB (art. 33–34 din Legea nr. 129/2019), urmată de sesizarea PICCJ și interogarea registrului central electronic pentru conturi de plăți și conturi bancare (art. 61¹ din Legea nr. 207/2015 – CPF și art. 33 alin. 4–5 din Legea nr. 129/2019, actualizată prin Legea nr. 86/2025), sub supravegherea prudențială a BNR și ASF prin aplicarea O.U.G. nr. 10/2025 (mecanismul național pentru Regulamentul TFR (UE) 2023/1113 – Travel Rule și supravegherea furnizorilor de servicii de criptoactive (CASP) privind combaterea spălării banilor și a finanțării terorismului conform art. 32¹ din Legea nr. 129/2019), alături de Regulamentul (UE) 2023/1114 (MiCA).'}
+                  '1.2 Blocking illicit financial flows (Follow the Money, 24–72h). Mandatory coupling of orders to act against illegal content (art. 9 of DSA / art. 7–8 of Law no. 50/2024) with orders to provide information regarding the identity of payers (art. 10 of DSA / art. 9 of Law no. 50/2024) issued by the relevant sectoral authorities (CNA for online audiovisual, AEP/BEC, DNSC, prosecutors) and procedurally coordinated by ANCOM as DSC; the real-time verification of the code of the financial trustee (CMF) and the application of Regulation (EU) 2024/900 (TTPA, art. 5 par. 2, art. 11–12 and 16, applicable from October 10, 2025, together with art. 16–17 of O.U.G. no. 1/2025 adopted specifically for the presidential election of May 2025) through AEP/BEC; and the operative suspension within 24-72h of suspicious transactions and conversions from crypto-assets to fiat currency (off-ramp) ordered exclusively by ONPCSB (art. 33-34 of Law no. 129/2019), followed by notification to the PICCJ and querying the electronic central register for payment accounts and bank accounts (art. 61¹ of Law no. 207/2015 – CPF and 33 para. 4-5 of Law no. 129/2019, under the prudential supervision of the BNR and ASF. no. 10/2025 (the national mechanism for TFR Regulation (EU) 2023/1113 – Travel Rule and the supervision of crypto-asset service providers (CASP) regarding the fight against money laundering and terrorist financing according to art. 32¹ of Law no. 129/2019), together with Regulation (EU) 2023/1114 (MiCA).'}
                 {fig7SelectedNode === 'faza1-3' &&
-                  '1.3 Decompresie alostatică (0–12 luni). Reducerea poverii alostatice cotidiene și refacerea rezervei prefrontale (dlPFC) a cetățenilor prin simplificare administrativă radicală după modelul e-Estonia (principiul Once-Only, interoperabilitate fără ghișeu) și prin garantarea predictibilității serviciilor publice esențiale în comunitățile vulnerabile.'}
+                  '1.3 Allostatic decompression (0–12 months). Reducing the everyday allostatic burden and restoring the prefrontal reserve (dlPFC) of citizens through radical administrative simplification according to the e-Estonia model (Once-Only principle, interoperability without a counter) and by guaranteeing the predictability of essential public services in vulnerable communities.'}
                 {fig7SelectedNode === 'poarta1' &&
-                  'Poarta cauzală 1: Deblocarea dlPFC (prevenirea celor trei mecanisme de eșec ale fact-checking-ului prematur). Explică de ce ordinea Faza I → Faza II nu poate fi inversată: chiar dacă efectul de bumerang strict factual este variabil pe teme neutre, în condiții de epuizare alostatică acută, neîncredere instituțională și miză identitară ridicată, administrarea prematură a campaniilor de fact-checking declanșează trei mecanisme disfuncționale (Nyhan & Reifler, 2010; Kahan, 2017; Roozenbeek et al., 2022): (1) efectul de bumerang identitar și de viziune asupra lumii (worldview backfire), prin care corecția este percepută ca o agresiune simbolică a unor instituții extractive; (2) efectul de familiaritate al mitului repetat (familiarity backfire) sub stres și oboseală cognitivă; și (3) cinismul epistemic generalizat față de discursul oficial.'}
+                  'Causal gate 1: Unlocking the dlPFC (preventing the three failure mechanisms of premature fact-checking). It explains why the order Phase I → Phase II cannot be reversed: even if the strictly factual boomerang effect is variable on neutral themes, under conditions of acute allostatic exhaustion, institutional distrust and high identity stakes, the premature administration of fact-checking campaigns triggers three dysfunctional mechanisms (Nyhan & Reifler, 2010; Kahan, 2017; Roozenbeek et al., 2022): (1) the identity and worldview backfire boomerang effect, whereby the correction is perceived as a symbolic aggression of some extractive institutions; (2) the familiarity effect of the repeated myth (familiarity backfire) under stress and cognitive fatigue; and (3) generalized epistemic cynicism toward official discourse.'}
                 {fig7SelectedNode === 'faza2' &&
-                  'Faza II · Orizont operațional mediu, 1–3 ani. Odată ce cortexul prefrontal își recapătă disponibilitatea funcțională, Faza a II-a reconstruiește faza de Orientare din bucla OODA prin trei piloni: (2.1) validarea comunitară empatică și rețelele cu punți largi; (2.2) pregătirea preventivă prebunking calibrată pe curba uitării a lui Ebbinghaus; și (2.3) parteneriatul axiologic creștin-secular.'}
+                  'Phase II · Medium operational horizon, 1–3 years. Once the prefrontal cortex regains functional availability, Phase II rebuilds the Orientation phase of the OODA loop through three pillars: (2.1) empathic community validation and wide-bridge networks; (2.2) prebunking preventive training calibrated on the Ebbinghaus forgetting curve; and (2.3) Christian-secular axiological partnership.'}
                 {fig7SelectedNode === 'faza2-1' &&
-                  '2.1 Validare comunitară și punți largi (1–3 ani). Reconstrucția încrederii orizontale în infrastructura asociativă de proximitate (școli, parohii, biblioteci, centre comunitare, cooperative) și formarea unor rețele cu „punți largi” (wide bridges, Centola, 2018) capabile să susțină contagiunea complexă a normelor de cooperare și să extragă comunitatea din ipotezele de bază regresive (Bion, 1961).'}
+                  '2.1 Community validation and broad bridges (1–3 years). The reconstruction of horizontal trust in the proximity associative infrastructure (schools, parishes, libraries, community centers, cooperatives) and the formation of networks with "wide bridges" (wide bridges, Centola, 2018) capable of supporting the complex contagion of cooperative norms and extracting the community from regressive basic assumptions (Bion, 1961).'}
                 {fig7SelectedNode === 'faza2-2' &&
-                  '2.2 Prebunking și consolidare Ebbinghaus (1–3 ani). Inocularea psihologică preventivă împotriva tehnicilor de manipulare (prebunking, McGuire, 1964; Roozenbeek & van der Linden, 2019, 2022), susținută de sesiuni periodice de rapel calibrate pe curba uitării a lui Ebbinghaus (1885/1913) și de antrenarea gândirii activ deschise (actively open-minded thinking, Stanovich, 2009) împotriva raționalizării motivate.'}
+                  '2.2 Prebunking and Ebbinghaus consolidation (1–3 years). Preventive psychological inoculation against manipulation techniques (prebunking, McGuire, 1964; Roozenbeek & van der Linden, 2019, 2022), supported by periodic reminder sessions calibrated on the forgetting curve of Ebbinghaus (1885/1913) and the training of actively open-minded thinking (Stanovich, 2009) against motivated rationalization.'}
                 {fig7SelectedNode === 'faza2-3' &&
-                  '2.3 Parteneriat axiologic creștin-secular (1–3 ani). Reconcilierea comunicativă (Habermas, 2006; Taylor, 2007) între etica creștină a demnității inalienabile a persoanei (Imago Dei, proairesis) și universalismul constituțional secular, protejând autonomia funcțională a ambelor sfere împotriva parazitării lor ca ideologie militaristă de stat (Hovorun, 2018; Kalaitzidis et al., 2022) sau falsificare mimetică (Soloviov, 1900/1994).'}
+                  '2.3 Christian-secular axiological partnership (1–3 years). Communicative reconciliation (Habermas, 2006; Taylor, 2007) between the Christian ethic of the inalienable dignity of the person (Imago Dei, proairesis) and secular constitutional universalism, protecting the functional autonomy of both spheres against their parasitism as militaristic state ideology (Hovorun, 2018; Kalaitzidis et al., 2022) or mimetic falsification (Soloviov, 1900/1994).'}
                 {fig7SelectedNode === 'poarta2' &&
-                  'Poarta cauzală 2: Presiune civică în „Coridorul îngust” (Acemoglu & Robinson, 2019). Explică de ce Faza a III-a depinde de maturizarea Fazei a II-a: nicio arhitectură constituțională sau reformă legislativă nu se poate autoaplica în absența unei societăți civile vigilente, dotate cu discernământ critic, capital social de punte (Putnam, 2000) și capacitate de mobilizare („efectul Reginei Roșii”), care să oblige statul să rămână în „coridorul îngust” al responsabilității democratice.'}
+                  'Causal Gateway 2: Civic Pressure in the “Narrow Corridor” (Acemoglu & Robinson, 2019). It explains why Phase III depends on the maturation of Phase II: no constitutional architecture or legislative reform can be self-enforcing in the absence of a vigilant civil society equipped with critical discernment, bridging social capital (Putnam, 2000) and mobilization capacity (the "Red Queen effect") to force the state to stay within the "narrow corridor" of democratic accountability.'}
                 {fig7SelectedNode === 'faza3' &&
-                  'Faza III · Orizont strategic, 3–10 ani. Consolidează arhitectura suveranității democratice prin trei piloni: (3.1) închiderea operațională a statului de drept și isonomia fiscală; (3.2) guvernanța policentrică (Ostrom, 1990) și reforma cooperativelor; și (3.3) individuarea colectivă pe axa Ego–Sine, garantată prin dublul audit independent.'}
+                  'Phase III · Strategic horizon, 3–10 years. It consolidates the architecture of democratic sovereignty through three pillars: (3.1) the operational closure of the rule of law and fiscal equality; (3.2) polycentric governance (Ostrom, 1990) and cooperative reform; and (3.3) the collective individuation on the Ego–Self axis, guaranteed by the double independent audit.'}
                 {fig7SelectedNode === 'faza3-1' &&
-                  '3.1 Închidere operațională și isonomie fiscală (3–10 ani). Eliminarea vulnerabilităților de șantaj instituțional și a numirilor interimare perpetue (art. 509–510 O.U.G. nr. 57/2019), profesionalizarea meritocratică a corpului public și instituirea isonomiei fiscale: în baza principiului simetriei fiscale statuat prin Decizia CCR nr. 694/2015 (referitoare la vechiul art. 124 alin. 1 raportat la art. 70 din O.G. nr. 92/2003 — actualul art. 182 CPF privind obligația statului de a plăti dobânda fiscală pentru sumele încasate necuvenit sau nerambursate la termen), de lege ferenda se impune modificarea art. 167 și art. 182 CPF (compensarea automată din oficiu a creanțelor fiscale reciproce la art. 167 CPF și creditarea din oficiu a dobânzii și penalităților în oglindă în același IBAN la art. 182 CPF) și completarea cadrului procedural de la art. 281 CPF (distinct de actualul art. 281 CPF care vizează comunicarea deciziei de soluționare a contestației și de art. 499–500 din Codul administrativ privind răspunderea funcționarului față de autoritatea publică) pentru antrenarea răspunderii patrimoniale solidare și a regresului efectiv atunci când instanța constată definitiv că actul fiscal anulat a fost emis cu rea-credință sau gravă neglijență.'}
+                  '3.1 Operational closure and tax parity (3–10 years). Eliminating the vulnerabilities of institutional blackmail and perpetual interim appointments (art. 509–510 O.U.G. no. 57/2019), the meritocratic professionalization of the public body and the establishment of fiscal isonomy: based on the principle of fiscal symmetry established by CCR Decision no. 694/2015 (referring to the old art. 124 par. 1 related to art. 70 of O.G. no. 92/2003 — the current art. 182 CPF regarding the state\'s obligation to pay fiscal interest for sums improperly collected or not repaid on time), the ferenda law requires the amendment of art. 167 and art. 182 CPF (automatic automatic compensation of mutual tax claims under art. 167 CPF and ex officio crediting of interest and penalties in the same IBAN under art. 182 CPF) and completion of the procedural framework from art. 281 CPF (distinct from the current art. 281 CPF which aims to communicate the decision to resolve the appeal and from art. 499-500 of the Administrative Code regarding the civil servant\'s liability towards the public authority) for triggering the joint and several patrimonial liability and the effective recourse when the court definitively finds that the annulled tax act was issued in bad faith or gross negligence.'}
                 {fig7SelectedNode === 'faza3-2' &&
-                  '3.2 Guvernanță policentrică (Ostrom, 1990) și solidaritate economică (3–10 ani). Descentralizarea decizională, dezvoltarea unor centre locale autonome de rezolvare a problemelor comunitare și profesionalizarea guvernanței cooperativelor agricole conform Legii nr. 566/2004: modificarea de lege ferenda a art. 31 și art. 33–35 (sediul materiei pentru directorul executiv) coroborate cu regulile de incompatibilitate din art. 16 alin. (4) și art. 29 privind consiliul de administrație, pentru recrutarea prin concurs a unui director executiv independent și interdicția expresă a rudelor și afinilor până la gradul al III-lea, alături de garanțiile și facilitățile fiscale din art. 76 și art. 76¹, pentru generarea capitalului social de punte (Putnam, 2000).'}
+                  '3.2 Polycentric governance (Ostrom, 1990) and economic solidarity (3–10 years). Decision-making decentralization, the development of autonomous local centers for solving community problems and the professionalization of the governance of agricultural cooperatives according to Law no. 566/2004: amendment by law ferenda of art. 31 and art. 33–35 (the seat of the matter for the executive director) in conjunction with the rules of incompatibility in art. 16 para. (4) and art. 29 regarding the board of directors, for the recruitment by competition of an independent executive director and the express prohibition of relatives and relatives up to the 3rd degree, along with the guarantees and fiscal facilities in art. 76 and art. 76¹, for the generation of bridging social capital (Putnam, 2000).'}
                 {fig7SelectedNode === 'faza3-3' &&
-                  '3.3 Individuare colectivă și dublu audit independent (3–10 ani). Integrarea critică a umbrei colective și consolidarea axei Ego–Sine (depășirea sindromului „formelor fără fond”), dublată de un mecanism permanent de verificare: auditul financiar-operațional al Curții de Conturi (art. 2 lit. b și d și art. 28 alin. 2 din Legea nr. 94/1992) și auditul științific al consorțiilor universitare („cercetători agreați” art. 40 DSA), utilizând Cadrul european al competențelor digitale (DigComp), metodologiile Institutului Național pentru Educație Audiovizuală KAVI și simulări decizionale și educaționale participative.'}
+                  '3.3 Collective identification and double independent audit (3–10 years). The critical integration of the collective shadow and the consolidation of the Ego-Self axis (overcoming the syndrome of "forms without substance"), doubled by a permanent verification mechanism: the financial-operational audit of the Court of Accounts (art. 2 letters b and d and art. 28 par. 2 of Law no. 94/1992) and the scientific audit of university consortia ("approved researchers" art. 40 DSA), using The European framework of digital competences (DigComp), the methodologies of the National Institute for Audiovisual Education KAVI and decision-making and participatory educational simulations.'}
                 {fig7SelectedNode === 'fronton' &&
-                  'Sinteza modernității organice și a suveranității democratice. Formele constituționale și de securitate occidentale încetează să mai fie „forme fără fond” mimate superficial de o elită extractivă și devin expresia instituțională firească a unui fond cultural și moral autohton regenerat.'}
+                  'The synthesis of organic modernity and democratic sovereignty. Western constitutional and security forms cease to be "bottomless forms" superficially imitated by an extractive elite and become the natural institutional expression of a regenerated native cultural and moral background.'}
                 {fig7SelectedNode === 'fundament' &&
-                  'Fundamentul Lalonde–Dever (Lalonde, 1974; Dever, 1976). Demonstrează că reziliența cognitivă a unei națiuni depinde simultan de organizarea sistemului instituțional, de mediul socioeconomic și digital, de stilul de viață asociativ și de rezerva neurobiologică a cetățenilor.'}
+                  'The Lalonde–Dever Foundation (Lalonde, 1974; Dever, 1976). It demonstrates that the cognitive resilience of a nation depends simultaneously on the organization of the institutional system, the socioeconomic and digital environment, the associative lifestyle and the neurobiological reserve of the citizens.'}
               </p>
             </div>
           </div>
@@ -5393,7 +5393,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
           {meta.caption}
         </p>
         <p className="text-xs font-mono not-italic text-[#6E7376] leading-relaxed">
-          Notă metodologică · {meta.chapterRef}. {meta.methodologicalNote}
+          Methodological note · {meta.chapterRef}. {meta.methodologicalNote}
         </p>
       </div>
     </div>

@@ -9,11 +9,11 @@ interface SocialShareButtonsProps {
 }
 
 const CANONICAL_BASE_URL =
-  'https://laurentiustaicu.github.io/diagnosticul-razboiului-cognitiv-romania/';
+  'https://laurentiustaicu.github.io/cognitive-warfare-diagnosis-romania/';
 
 export const SocialShareButtons: React.FC<SocialShareButtonsProps> = ({
   url,
-  title = 'Diagnosticul războiului cognitiv în România (Versiunea 1.0, Arhitectura instituțională, neurocognitivă și culturală a vulnerabilității și rezilienței societale)',
+  title = 'Cognitive war diagnosis in Romania (Version 1.0, Institutional, neurocognitive and cultural architecture of societal vulnerability and resilience)',
   compact = false,
   label = 'Distribuie'
 }) => {
@@ -54,7 +54,7 @@ export const SocialShareButtons: React.FC<SocialShareButtonsProps> = ({
         href={facebookShareUrl}
         target="_blank"
         rel="noopener noreferrer"
-        title="Distribuie pe Facebook"
+        title="Share on Facebook"
         className="px-2.5 py-1 text-xs font-mono border border-[#222426] bg-[#F6F5EE] text-[#222426] hover:bg-[#E5B822] transition-colors inline-flex items-center gap-1.5 whitespace-nowrap shrink-0"
       >
         <svg className="w-3.5 h-3.5 fill-current shrink-0" viewBox="0 0 24 24" aria-hidden="true">
@@ -68,7 +68,7 @@ export const SocialShareButtons: React.FC<SocialShareButtonsProps> = ({
         href={xShareUrl}
         target="_blank"
         rel="noopener noreferrer"
-        title="Distribuie pe X (Twitter)"
+        title="Share on X (Twitter)"
         className="px-2.5 py-1 text-xs font-mono border border-[#222426] bg-[#F6F5EE] text-[#222426] hover:bg-[#E5B822] transition-colors inline-flex items-center gap-1.5 whitespace-nowrap shrink-0"
       >
         <svg className="w-3 h-3 fill-current shrink-0" viewBox="0 0 24 24" aria-hidden="true">
@@ -82,7 +82,7 @@ export const SocialShareButtons: React.FC<SocialShareButtonsProps> = ({
         href={whatsappShareUrl}
         target="_blank"
         rel="noopener noreferrer"
-        title="Distribuie pe WhatsApp"
+        title="Share on WhatsApp"
         className="px-2.5 py-1 text-xs font-mono border border-[#222426] bg-[#F6F5EE] text-[#222426] hover:bg-[#E5B822] transition-colors inline-flex items-center gap-1.5 whitespace-nowrap shrink-0"
       >
         <svg className="w-3.5 h-3.5 fill-current shrink-0" viewBox="0 0 24 24" aria-hidden="true">
@@ -96,18 +96,18 @@ export const SocialShareButtons: React.FC<SocialShareButtonsProps> = ({
         <button
           type="button"
           onClick={handleCopy}
-          title="Copiază linkul în clipboard"
+          title="Copy the link to the clipboard"
           className="px-2.5 py-1 text-xs font-mono border border-[#222426] bg-[#F6F5EE] text-[#222426] hover:bg-[#E5B822] transition-colors cursor-pointer inline-flex items-center gap-1.5 whitespace-nowrap shrink-0"
         >
           {copied ? (
             <>
               <Check className="w-3.5 h-3.5 text-[#222426]" />
-              <span>Link copiat</span>
+              <span>Link copied</span>
             </>
           ) : (
             <>
               <Link2 className="w-3.5 h-3.5 text-[#6E7376]" />
-              <span>Copiază link</span>
+              <span>Copy link</span>
             </>
           )}
         </button>

@@ -48,16 +48,16 @@ export const SearchModal: React.FC<SearchModalProps> = ({
         <div className="flex items-center justify-between gap-4 pb-4 border-b border-[#222426]">
           <div>
             <div className="text-xs font-mono text-[#6E7376]">
-              Căutare deterministă în textul integral, glosar și bibliografie
+              Deterministic full-text search, glossary and bibliography
             </div>
             <h3 className="font-serif text-lg font-bold text-[#222426]">
-              Explorare rapidă în monografie
+              Quick browsing in the monograph
             </h3>
           </div>
           <button
             onClick={onClose}
             className="p-2 border border-[#222426] bg-[#F6F5EE] hover:bg-[#E5B822] transition-colors cursor-pointer"
-            aria-label="Închide căutarea"
+            aria-label="Close search"
           >
             <X className="w-4 h-4 text-[#222426]" />
           </button>
@@ -70,7 +70,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({
             autoFocus
             value={query}
             onChange={(e) => setQuery(e.target.value)}
-            placeholder="Introduceți un termen, concept sau autor (ex. Luhmann, OODA, alostazie, Bobok, Cipolla, Bion)..."
+            placeholder="Enter a term, concept or author (eg Luhmann, OODA, allostasy, Bobok, Cipolla, Bion)..."
             className="w-full pl-10 pr-4 py-3 text-sm bg-[#F6F5EE] border-2 border-[#222426] text-[#222426] placeholder:text-[#6E7376] focus:outline-none focus:bg-[#F6F5EE]"
           />
         </div>
@@ -78,7 +78,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({
         <div className="space-y-5 max-h-[60vh] overflow-y-auto pr-1">
           <div>
             <div className="text-xs font-mono uppercase tracking-wider text-[#6E7376] mb-2">
-              {q ? `Capitole și subcapitole găsite (${matchingSteps.length})` : 'Pași recomandați pentru parcurgere'}
+              {q ? `Chapters and subchapters found (${matchingSteps.length})` : 'Recommended steps to follow'}
             </div>
             <div className="space-y-2">
               {matchingSteps.map((step) => (
@@ -115,13 +115,13 @@ export const SearchModal: React.FC<SearchModalProps> = ({
           {matchingConcepts.length > 0 && (
             <div>
               <div className="text-xs font-mono uppercase tracking-wider text-[#6E7376] mb-2">
-                Concepte din glosar ({matchingConcepts.length})
+                Glossary concepts ({matchingConcepts.length})
               </div>
               <div className="space-y-2">
                 {matchingConcepts.map((c) => (
                   <div key={c.id} className="p-3 border border-[#8C9BA5] bg-[#F6F5EE]">
                     <div className="text-xs font-mono text-[#6E7376]">
-                      STRATUL {c.stratum} · {c.authors}
+                      LAYER {c.stratum} · {c.authors}
                     </div>
                     <div className="font-serif text-sm font-bold text-[#222426]">{c.term}</div>
                     <p className="text-xs text-[#222426] mt-1">{c.definition}</p>
@@ -134,7 +134,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({
           {matchingBib.length > 0 && (
             <div>
               <div className="text-xs font-mono uppercase tracking-wider text-[#6E7376] mb-2">
-                Referințe bibliografice ({matchingBib.length})
+                Bibliographic references ({matchingBib.length})
               </div>
               <div className="space-y-2">
                 {matchingBib.map((b) => (
@@ -159,13 +159,13 @@ export const PdfDocumentView: React.FC = () => {
       <div className="bg-[#F6F5EE] border border-[#222426] p-5 flex flex-col sm:flex-row sm:items-center justify-between gap-4">
         <div>
           <div className="text-xs font-mono text-[#6E7376] mb-1">
-            Sursă primară verificată (47 pagini, Versiunea 1.0)
+            Verified primary source (47 pages, Version 1.0)
           </div>
           <h2 className="font-serif text-xl sm:text-2xl font-bold text-[#222426]">
-            Documentul original în format PDF (Diagnosticul războiului cognitiv în România)
+            The original document in PDF format (Diagnosis of the cognitive war in Romania)
           </h2>
           <p className="text-xs sm:text-sm text-[#6E7376] mt-1">
-            Toate textele, diagramele, tabelele și referințele bibliografice din platformă sunt extrase integral din această monografie.
+            All texts, diagrams, tables and bibliographic references in the platform are fully extracted from this monograph.
           </p>
         </div>
 
@@ -176,7 +176,7 @@ export const PdfDocumentView: React.FC = () => {
           className="inline-flex items-center gap-2 px-4 py-2.5 text-xs font-semibold bg-[#222426] text-[#F6F5EE] border border-[#222426] hover:bg-[#6E7376] transition-colors whitespace-nowrap shrink-0"
         >
           <FileText className="w-4 h-4" />
-          <span>Descărcare PDF original</span>
+          <span>Original PDF Download</span>
           <ExternalLink className="w-3.5 h-3.5" />
         </a>
       </div>
@@ -184,7 +184,7 @@ export const PdfDocumentView: React.FC = () => {
       <div className="bg-[#F6F5EE] border-2 border-[#222426] p-2 h-[80vh]">
         <iframe
           src={pdfPath}
-          title="Diagnosticul războiului cognitiv în România (PDF)"
+          title="Diagnosis of the cognitive war in Romania (PDF)"
           className="w-full h-full border border-[#8C9BA5] bg-[#F6F5EE]"
         />
       </div>

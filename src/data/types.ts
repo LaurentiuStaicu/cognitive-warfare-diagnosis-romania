@@ -38,7 +38,7 @@ export interface Table1Row {
 
 export interface Table2Row {
   id: string;
-  phaseCode: 'Faza I' | 'Faza II' | 'Faza III';
+  phaseCode: 'Phase I' | 'Phase II' | 'Phase III';
   phaseSubtitle: string;
   horizon: string;
   humanBiology: string;
@@ -77,7 +77,7 @@ export interface BibliographyItem {
   title: string;
   publication: string;
   fullCitation: string;
-  domain: 'Sociologie instituțională' | 'Neuroștiințe și psihobiologie' | 'Cibernetică și semiotică' | 'Psihologie analitică și memorie' | 'Geopolitică și ideologie rusă';
+  domain: 'Institutional Sociology' | 'Neuroscience & Psychobiology' | 'Cybernetics & Semiotics' | 'Analytical Psychology & Memory' | 'Geopolitics & Russian Ideology';
 }
 
 export interface ExecutivePoint {
@@ -95,7 +95,7 @@ export interface ChapterExecutiveSummary {
 
 export interface InstitutionalProtocolRow {
   id: string;
-  phaseCode: 'Faza I' | 'Faza II' | 'Faza III';
+  phaseCode: 'Phase I' | 'Phase II' | 'Phase III';
   phaseTitle: string;
   horizon: string;
   targetObjective: string;

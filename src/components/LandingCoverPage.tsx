@@ -23,53 +23,53 @@ const COVER_BLOCK_INFO: Record<
   }
 > = {
   'stratul-a': {
-    badge: 'STRATUL A · MACROINSTITUȚIONAL',
-    title: 'Cadrul constituțional, închiderea operațională și vectorul revizionist',
+    badge: 'LAYER A · MACRO-INSTITUTIONAL',
+    title: 'The constitutional framework, the operational closure and the revisionist vector',
     synthesis:
-      'Examinează tensiunea istorică dintre arhitectura constituțională occidentală („forme fără fond”) și rețelele extractive dintr-o ordine socială cu acces limitat, deficitul cronic de închidere operațională (Luhmann) și polarizarea sociospațială, pe care vectorul revizionist al Antilumii (Epstein) și nihilismul stării Bobok (Dostoievski) le exploatează oportunist.',
-    chapterLabel: 'Capitolul 1',
+      'It examines the historical tension between Western constitutional architecture ("bottomless forms") and the extractive networks of a social order with limited access, the chronic deficit of operational closure (Luhmann), and sociospatial polarization, which the revisionist vector of the Antiworld (Epstein) and the nihilism of the Bobok state (Dostoevsky) opportunistically exploit.',
+    chapterLabel: 'Chapter 1',
     chapterHash: '#pasul-2',
-    figureLabel: 'Figura 1',
+    figureLabel: 'Figure 1',
     figureHash: '#figura-1'
   },
   'stratul-b': {
-    badge: 'STRATUL B · NEUROCOGNITIV ȘI CIBERNETIC',
-    title: 'Uzura alostatică, raționalizarea motivată și capturarea buclei OODA',
+    badge: 'LAYER B · NEUROCOGNITIVE AND CYBERNETIC',
+    title: 'Allostatic attrition, motivated rationalization, and capturing the OODA loop',
     synthesis:
-      'Investighează dublul mecanism neurocognitiv al vulnerabilității — inhibiția funcțională a cortexului prefrontal dorsolateral (dlPFC) și comutarea pe Sistemul 1 reactiv în mediile marcate de precaritate, respectiv deturnarea Sistemului 2 în disraționalitate și raționalizare motivată (Stanovich; Kahan) în bulele urbane educate —, alături de colonizarea fazei de Orientare din bucla OODA prin control reflexiv de rang secund (Lefebvre) și poluare algoritmică.',
-    chapterLabel: 'Capitolul 3',
+      'It investigates the dual neurocognitive mechanism of vulnerability—functional inhibition of the dorsolateral prefrontal cortex (dlPFC) and switching to reactive System 1 in precarious environments, respectively the hijacking of System 2 in irrationality and motivated rationalization (Stanovich; Kahan) in educated urban bubbles—along with the colonization of the Orientation phase of the OODA loop by reflexive second-order control (Lefebvre) and algorithmic pollution.',
+    chapterLabel: 'Chapter 3',
     chapterHash: '#pasul-8',
-    figureLabel: 'Figura 3',
+    figureLabel: 'Figure 3',
     figureHash: '#figura-3'
   },
   'filtrul-moral': {
-    badge: 'FILTRUL AXIOLOGIC CREȘTIN-SECULAR',
-    title: 'Demnitatea persoanei (Imago Dei) versus dubla falsificare axiologică',
+    badge: 'THE CHRISTIAN-SECULAR AXIOLOGICAL FILTER',
+    title: 'The dignity of the person (Imago Dei) versus the double axiological falsification',
     synthesis:
-      'Sinteza creștin-seculară europeană unește antropologia patristică a persoanei libere (Imago Dei și discernământul proairesis — Berdiaev, Stăniloae, Kalaitzidis) cu domnia legii impersonale (Habermas, Taylor). Propaganda Kremlinului operează o dublă falsificare mimetică (Soloviov, 1900/1994): substituie ortodoxia canonică cu erezia etnofiletistă militaristă Russkii Mir și suveranitatea constituțională cu dezarmarea strategică izolaționistă.',
-    chapterLabel: 'Capitolul 2',
+      'The Christian-secular European synthesis unites the patristic anthropology of the free person (Imago Dei and the discernment of proairesis—Berdiaev, Stăniloae, Kalaitzidis) with the rule of impersonal law (Habermas, Taylor). Kremlin propaganda operates a double mimetic falsification (Soloviov, 1900/1994): it substitutes canonical orthodoxy for the militarist ethnophiletist heresy Russkii Mir and constitutional sovereignty for isolationist strategic disarmament.',
+    chapterLabel: 'Chapter 2',
     chapterHash: '#pasul-6',
-    figureLabel: 'Figura 2',
+    figureLabel: 'Figure 2',
     figureHash: '#figura-2'
   },
   'stratul-c': {
-    badge: 'STRATUL C · INCONȘTIENTUL CULTURAL ȘI PSIHODINAMICA GRUPURILOR',
-    title: 'Traseul A (Ipoteze de bază, enantiodromie, Cadranul III) vs. Traseul B (Grup de lucru, Cadranul I)',
+    badge: 'LAYER C · THE CULTURAL UNCONSCIOUS AND THE PSYCHODYNAMICS OF GROUPS',
+    title: 'Route A (Basic assumptions, enantiodromy, Quadrant III) vs. Route B (Working Group, Quadrant I)',
     synthesis:
-      'Opune regresia colectivă de pe Traseul A — proiecția Umbrei, enantiodromia suveranistă, ipotezele de bază ale lui Wilfred R. Bion (dependența baD, împerecherea mesianică baP, luptă-sau-fugi baF) și prăbușirea în Cadranul III al autosabotajului din matricea lui Cipolla (-X, -Y) — maturizării de pe Traseul B: constituirea comunității ca „grup de lucru” rațional (Bion, 1961), activarea funcției transcendente (Jung), refacerea axei Ego–Sine și cooperarea inteligentă în Cadranul I (+X, +Y).',
-    chapterLabel: 'Capitolele 4–5',
+      'It opposes the collective regression on Path A—Shadow projection, sovereignist enantiodromy, Wilfred R. Bion\'s basic assumptions (baD dependence, baP messianic pairing, baF fight-or-flight) and the collapse into Quadrant III of Cipolla\'s matrix self-sabotage (-X,-Y)—to Path B maturation: the constitution of community as a rational "workgroup" (Bion, 1961), activation of the transcendent function (Jung), restoration of the Ego–Self axis and intelligent cooperation in Quadrant I (+X, +Y).',
+    chapterLabel: 'Chapters 4–5',
     chapterHash: '#pasul-11',
-    figureLabel: 'Figurile 4–6',
+    figureLabel: 'Figures 4–6',
     figureHash: '#figura-4'
   },
   protocol: {
-    badge: 'CAPITOLUL 6 · PROTOCOLUL SECVENȚIAL ÎN TREI FAZE',
-    title: 'Arhitectura cauzală Lalonde–Dever și sinteza modernității organice',
+    badge: 'CHAPTER 6 · THE SEQUENTIAL THREE-PHASE PROTOCOL',
+    title: 'Lalonde–Dever Causal Architecture and the Synthesis of Organic Modernity',
     synthesis:
-      'Stabilește ordinea cauzală obligatorie a reconstrucției pentru evitarea efectului de bumerang (Nyhan & Reifler): Faza I (0–72h triaj CERC, DSA și Follow the Money · 0–12 luni decompresie alostatică e-Estonia), Faza II (1–3 ani validare comunitară, prebunking calibrat pe curba Ebbinghaus și parteneriat axiologic creștin-secular) și Faza III (3–10 ani închidere operațională, isonomie și simetrie fiscală conform Deciziei CCR nr. 694/2015 și reforma art. 182 CPF, guvernanță policentrică Ostrom — inclusiv reforma cooperativelor din Legea nr. 566/2004 — și individuare colectivă în „coridorul îngust”).',
-    chapterLabel: 'Capitolul 6',
+      'Establishes the mandatory causal order of reconstruction to avoid the boomerang effect (Nyhan & Reifler): Phase I (0–72h triage CERC, DSA and Follow the Money · 0–12 months allostatic decompression e-Estonia), Phase II (1–3 years community validation, prebunking calibrated on the Ebbinghaus curve and Christian-secular axiological partnership) and Phase III (3–10 years operational closure, isonomy and symmetry) fiscal according to the CCR Decision no. 694/2015 and the reform of art. 182 of the Ostrom - including the reform of cooperatives in the "narrow corridor").',
+    chapterLabel: 'Chapter 6',
     chapterHash: '#pasul-16',
-    figureLabel: 'Figura 7',
+    figureLabel: 'Figure 7',
     figureHash: '#figura-7'
   }
 };
@@ -98,10 +98,10 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
         {/* Top Archival Header */}
         <div className="flex flex-wrap items-center justify-between gap-4 pb-6 border-b border-[#222426] text-xs font-mono text-[#6E7376]">
           <span className="inline-block px-3 py-1 text-[11px] font-mono font-semibold tracking-wider text-[#222426] uppercase bg-[#F6F5EE] border border-[#222426]">
-            MONOGRAFIE ȘTIINȚIFICĂ • VERSIUNEA 1.0
+            SCIENTIFIC MONOGRAPH • VERSION 1.0
           </span>
           <span>
-            19 secțiuni analitice · 7 diagrame vectoriale · 2 tabele de sinteză, matricea instituțională și analiza regională · {BIBLIOGRAPHY_DATA.length} referințe academice
+            19 analytical sections · 7 vector diagrams · 2 synthesis tables, institutional matrix, and regional analysis · {BIBLIOGRAPHY_DATA.length} academic references
           </span>
         </div>
 
@@ -110,23 +110,23 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
           {/* Left 7 Columns: Title, Subtitle, Abstract & Action Button */}
           <div className="lg:col-span-7 space-y-6">
             <div className="text-xs font-mono text-[#6E7376]">
-              Arhitectura cauzală pe trei straturi: Sociologie instituțională · Neuroștiințe și semiotică · Psihologie analitică
+              Three-Layered Causal Architecture: Institutional Sociology · Neuroscience and Semiotics · Analytical Psychology
             </div>
 
             <h1 className="font-serif text-2xl sm:text-4xl lg:text-[42px] font-bold text-[#222426] leading-[1.12] headline-balance">
-              Diagnosticul războiului cognitiv în România
+              Diagnosis of the cognitive war in Romania
             </h1>
 
             <p className="font-serif text-sm sm:text-base font-normal text-[#222426] leading-relaxed headline-balance">
-              Arhitectura instituțională, neurocognitivă și culturală a vulnerabilității și rezilienței societale în fața operațiunilor informaționale ruse și a ideologiei putiniste
+              The Institutional, Neurocognitive, and Cultural Architecture of Societal Vulnerability and Resilience to Russian Information Operations and Putinist Ideology
             </p>
 
             <div className="pt-2 border-t border-[#8C9BA5] space-y-3 text-xs sm:text-sm text-[#222426] leading-relaxed max-w-[65ch]">
               <p>
-                Această lucrare demonstrează că vulnerabilitatea cognitivă a societății românești nu reprezintă un simplu deficit de alfabetizare media, ci rezultatul emergent al interacțiunii dintre trei paliere cauzale: anomalia istorică a „formelor fără fond”, deficitul cronic de închidere operațională, vidul de reprezentare politică și persistența instituțiilor extractive (Stratul A); uzura alostatică cronică cu comutare pe Sistemul 1 reactiv în mediile afectate de precaritate, deturnarea Sistemului 2 prin raționalizare motivată în bulele urbane și colonizarea fazei de Orientare din bucla OODA prin control reflexiv (Stratul B); respectiv proiecția Umbrei colective, enantiodromia și alunecarea în autosabotaj colectiv în condiții de criză acută (Stratul C).
+                This paper demonstrates that the cognitive vulnerability of Romanian society does not represent a simple lack of media literacy, but the emergent result of the interaction between three causal levels: the historical anomaly of "bottomless forms", the chronic deficit of operational closure, the vacuum of political representation and the persistence of extractive institutions (Layer A); chronic allostatic wear and tear with switching to reactive System 1 in environments affected by precariousness, hijacking System 2 through motivated rationalization in urban bubbles, and colonizing the Orientation phase of the OODA loop through reflexive control (Layer B); respectively the projection of the collective Shadow, enantiodromia and slipping into collective self-sabotage in conditions of acute crisis (Layer C).
               </p>
               <p className="text-[#6E7376]">
-                Explorarea interactivă reunește textul integral al celor șase capitole, sinteza executivă pentru decidenți, descompunerea în oglindă pe două registre — teoretic și empiric —, laboratorul celor șapte diagrame cibernetice și protocolul secvențial de reconstrucție în trei faze.
+                The interactive exploration brings together the full text of the six chapters, the executive synthesis for decision-makers, the mirroring decomposition into two registers—theoretical and empirical—the laboratory of the seven cybernetic diagrams, and the sequential three-phase reconstruction protocol.
               </p>
             </div>
 
@@ -138,7 +138,7 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
                   onClick={onOpenInteractivePage}
                   className="px-6 py-3.5 text-xs sm:text-sm font-serif font-bold text-[#222426] bg-[#E5B822] border-2 border-[#222426] hover:bg-[#E5B822]/85 transition-colors cursor-pointer inline-flex items-center justify-center gap-2"
                 >
-                  <span>Citește monografia online</span>
+                  <span>Read the monograph online</span>
                   <ArrowRight className="w-4 h-4 shrink-0" />
                 </button>
                 <button
@@ -150,14 +150,14 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
                   }}
                   className="px-5 py-3.5 text-xs sm:text-sm font-mono font-semibold text-[#222426] bg-[#F6F5EE] border-2 border-[#222426] hover:bg-[#E5B822]/25 transition-colors cursor-pointer inline-flex items-center justify-center gap-2"
                 >
-                  <span>Urmărește sinteza video (Teaser)</span>
+                  <span>Watch the video synopsis (Teaser)</span>
                 </button>
               </div>
 
               <div className="pt-3 border-t border-[#8C9BA5]">
                 <SocialShareButtons
-                  url="https://laurentiustaicu.github.io/diagnosticul-razboiului-cognitiv-romania/"
-                  label="Distribuie monografia pe"
+                  url="https://laurentiustaicu.github.io/cognitive-warfare-diagnosis-romania/"
+                  label="Share the monograph on"
                 />
               </div>
             </div>
@@ -167,15 +167,15 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
           <div className="lg:col-span-5 space-y-6">
             <div className="bg-[#F6F5EE] border-2 border-[#222426] p-4 sm:p-6">
               <div className="text-[11px] font-mono text-[#6E7376] pb-2 mb-3 border-b border-[#8C9BA5] flex items-center justify-between">
-                <span>Planșa sinoptică de copertă · Modelul Macro–Micro–Macro</span>
-                <span>Fig. I–VII · Click pe straturi</span>
+                <span>Synoptic Cover Plate · The Macro–Micro–Macro Model</span>
+                <span>Fig. I–VII · Click on layers</span>
               </div>
 
               <svg
                 viewBox="0 0 460 476"
                 className="w-full h-auto block"
                 role="img"
-                aria-label="Harta conceptuală a arhitecturii pe trei straturi din monografie"
+                aria-label="Concept map of the three-layer architecture in the monograph"
               >
                 <defs>
                   <pattern
@@ -247,7 +247,7 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
                     fontWeight="700"
                     fill="#6E7376"
                   >
-                    STRATUL A · MACROINSTITUȚIONAL · CAPITOLELE 1–2
+                    LAYER A · MACRO-INSTITUTIONAL · CHAPTERS 1–2
                   </text>
                   <text
                     x="30"
@@ -257,7 +257,7 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
                     fontWeight="800"
                     fill="#222426"
                   >
-                    Cadrul constituțional și închiderea operațională
+                    Constitutional framework and operational closure
                   </text>
                   <text
                     x="30"
@@ -266,7 +266,7 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
                     fontSize="10.5"
                     fill="#222426"
                   >
-                    Instituții extractive și „forme fără fond” vs. statul de drept
+                    Extractive institutions and "bottomless forms" vs. the rule of law
                   </text>
                   <text
                     x="30"
@@ -275,7 +275,7 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
                     fontSize="10.5"
                     fill="#6E7376"
                   >
-                    Vectorul revizionist al Antilumii și nihilismul stării Bobok
+                    The revisionist vector of the Antiworld and the nihilism of the Bobok state
                   </text>
                 </g>
 
@@ -322,7 +322,7 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
                     fontWeight="700"
                     fill="#F01E1E"
                   >
-                    STRATUL B · NEUROCOGNITIV ȘI CIBERNETIC · CAPITOLUL 3
+                    LAYER B · NEUROCOGNITIVE AND CYBERNETIC · CHAPTER 3
                   </text>
                   <text
                     x="30"
@@ -332,7 +332,7 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
                     fontWeight="800"
                     fill="#222426"
                   >
-                    Uzura alostatică cronică și capturarea buclei OODA
+                    Chronic allostatic wear and OODA loop capture
                   </text>
                   <text
                     x="30"
@@ -341,7 +341,7 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
                     fontSize="10"
                     fill="#222426"
                   >
-                    Inhibiție prefrontală (S1) și raționalizare motivată (S2 deturnat)
+                    Prefrontal inhibition (S1) and motivated rationalization (S2 hijacked)
                   </text>
                   <text
                     x="30"
@@ -350,7 +350,7 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
                     fontSize="10"
                     fill="#6E7376"
                   >
-                    Control reflexiv de rang secund vs. mediere semiotică ternară
+                    Second-order reflexive control vs. ternary semiotic mediation
                   </text>
                 </g>
 
@@ -406,7 +406,7 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
                     fontWeight="700"
                     fill="#222426"
                   >
-                    Filtrul moral creștin-secular · Imago Dei și discernământ
+                    The Christian-Secular Moral Filter · Imago Dei and Discernment
                   </text>
                 </g>
 
@@ -434,7 +434,7 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
                     fontWeight="700"
                     fill="#F01E1E"
                   >
-                    STRATUL C · TENSIUNE · TRASEUL A
+                    LAYER C · TENSION · ROUTE A
                   </text>
                   <text
                     x="30"
@@ -444,7 +444,7 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
                     fontWeight="800"
                     fill="#222426"
                   >
-                    Proiecția Umbrei și Cipolla
+                    Shadow Projection and Cipolla
                   </text>
                   <text
                     x="30"
@@ -453,7 +453,7 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
                     fontSize="9.2"
                     fill="#222426"
                   >
-                    Enantiodromie și ipoteze de bază (Bion)
+                    Enantiodromy and Basic Assumptions (Bion)
                   </text>
                   <text
                     x="30"
@@ -462,7 +462,7 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
                     fontSize="9.5"
                     fill="#6E7376"
                   >
-                    Autosabotaj în Cadranul III
+                    Self-sabotage in Quadrant III
                   </text>
 
                   <rect
@@ -484,7 +484,7 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
                     fontWeight="700"
                     fill="#222426"
                   >
-                    STRATUL C · SINTEZĂ · TRASEUL B
+                    LAYER C · SYNTHESIS · ROUTE B
                   </text>
                   <text
                     x="250"
@@ -494,7 +494,7 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
                     fontWeight="800"
                     fill="#222426"
                   >
-                    Grup de lucru (Bion) și individuare
+                    Working group (Bion) and individuation
                   </text>
                   <text
                     x="250"
@@ -503,7 +503,7 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
                     fontSize="9.5"
                     fill="#222426"
                   >
-                    Refacerea axei Ego–Sine
+                    Restoring the Ego-Self axis
                   </text>
                   <text
                     x="250"
@@ -512,7 +512,7 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
                     fontSize="9.5"
                     fill="#222426"
                   >
-                    Cooperare în Cadranul I
+                    Cooperation in Quadrant I
                   </text>
                 </g>
 
@@ -566,7 +566,7 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
                     fontWeight="700"
                     fill="#E5B822"
                   >
-                    CAPITOLUL 6 · PROTOCOLUL SECVENȚIAL ÎN TREI FAZE · LALONDE–DEVER
+                    CHAPTER 6 · THE SEQUENTIAL THREE-PHASE PROTOCOL · LALONDE–DEVER
                   </text>
                   <text
                     x="230"
@@ -577,7 +577,7 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
                     fontWeight="600"
                     fill="#F6F5EE"
                   >
-                    Faza I (0–12 luni) → Faza II (1–3 ani) → Faza III (3–10 ani, guvernanță)
+                    Phase I (0–12 months) → Phase II (1–3 years) → Phase III (3–10 years, governance)
                   </text>
                 </g>
               </svg>
@@ -587,11 +587,11 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
                 <div className="flex flex-wrap items-center gap-1.5">
                   {(
                     [
-                      { id: 'stratul-a', label: 'Stratul A' },
-                      { id: 'stratul-b', label: 'Stratul B' },
-                      { id: 'filtrul-moral', label: 'Filtru moral' },
-                      { id: 'stratul-c', label: 'Stratul C' },
-                      { id: 'protocol', label: 'Protocol Cap. 6' }
+                      { id: 'stratul-a', label: 'Layer A' },
+                      { id: 'stratul-b', label: 'Layer B' },
+                      { id: 'filtrul-moral', label: 'Moral filter' },
+                      { id: 'stratul-c', label: 'Layer C' },
+                      { id: 'protocol', label: 'Ch. 6 Protocol' }
                     ] as const
                   ).map((tab) => (
                     <button
@@ -633,7 +633,7 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
                       onClick={() => handleNavigate(activeBlockInfo.figureHash)}
                       className="px-2.5 py-1 text-[11px] font-mono font-semibold bg-[#F6F5EE] text-[#222426] border border-[#222426] hover:bg-[#E5B822]/25 transition-colors cursor-pointer inline-flex items-center gap-1"
                     >
-                      <span>Inspectează {activeBlockInfo.figureLabel}</span>
+                      <span>inspects {activeBlockInfo.figureLabel}</span>
                       <ArrowRight className="w-3 h-3" />
                     </button>
                   </div>
@@ -653,10 +653,10 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
             <div className="flex flex-wrap items-center justify-between gap-2 pb-3 mb-4 border-b border-[#8C9BA5]">
               <div>
                 <span className="inline-block px-2.5 py-0.5 text-[11px] font-mono font-bold tracking-wider text-[#222426] uppercase bg-[#E5B822] border border-[#222426]">
-                  SINTEZĂ VIDEO • INTRODUCERE VIZUALĂ
+                  VIDEO SYNTHESIS • VISUAL INTRODUCTION
                 </span>
                 <h2 className="font-serif text-base sm:text-lg font-bold text-[#222426] mt-1.5">
-                  Prezentare video a arhitecturii cauzale din monografie
+                  Video presentation of the causal architecture from the monograph
                 </h2>
               </div>
               <a
@@ -665,7 +665,7 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
                 rel="noopener noreferrer"
                 className="text-xs font-mono text-[#6E7376] hover:text-[#222426] underline underline-offset-4"
               >
-                Deschide pe YouTube ↗
+                Open on YouTube ↗
               </a>
             </div>
 
@@ -673,7 +673,7 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
             <div className="relative w-full aspect-video border-2 border-[#222426] bg-[#222426] overflow-hidden">
               <iframe
                 src="https://www.youtube-nocookie.com/embed/alJXGWmn3lU?rel=0&modestbranding=1"
-                title="Diagnosticul războiului cognitiv în România — Video Teaser Oficial"
+                title="Diagnosis of the cognitive war in Romania — Official Video Teaser"
                 className="absolute inset-0 w-full h-full border-0"
                 loading="lazy"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -684,7 +684,7 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
 
             {/* Footer Caption */}
             <p className="mt-3 text-xs font-serif italic text-[#6E7376] leading-relaxed">
-              Sinteză audio-vizuală a modelului pe trei straturi (instituțional, neurocognitiv și cultural), construită fără indicatori statistici bruți, exclusiv pe dinamici structurale și cauzale.
+              Audio-visual synthesis of the three-layer model (institutional, neurocognitive and cultural), built without raw statistical indicators, exclusively on structural and causal dynamics.
             </p>
           </div>
         </section>
@@ -693,27 +693,27 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
         <div className="pt-6 border-t border-[#222426] grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 text-xs text-[#6E7376]">
           <div>
             <div className="font-mono font-semibold text-[#222426]">
-              Diagnosticul endogen · Capitolele 0–1
+              Endogenous diagnosis · Chapters 0–1
             </div>
-            <div>Arhitectura cauzală Macro–Micro–Macro (Coleman–Hedström), determinanții Lalonde–Dever și uzura alostatică</div>
+            <div>Macro–Micro–Macro causal architecture (Coleman–Hedström), Lalonde–Dever determinants and allostatic attrition</div>
           </div>
           <div>
             <div className="font-mono font-semibold text-[#222426]">
-              Vectorul rus și OODA · Capitolele 2–3
+              The Russian Vector and OODA · Chapters 2–3
             </div>
-            <div>Antilumea putinistă, dubla falsificare axiologică, controlul reflexiv și poluarea cu date sintetice</div>
+            <div>Putinist antiworld, axiological double falsification, reflexive control and synthetic data pollution</div>
           </div>
           <div>
             <div className="font-mono font-semibold text-[#222426]">
-              Polarizare și criză · Capitolele 4–5
+              Polarization and Crisis · Chapters 4–5
             </div>
-            <div>Proiecția Umbrei colective, enantiodromia, matricea lui Cipolla și bifurcația Track A / Track B</div>
+            <div>Collective Shadow projection, enantiodromy, Cipolla's matrix and the Track A / Track B bifurcation</div>
           </div>
           <div>
             <div className="font-mono font-semibold text-[#222426]">
-              Reconstrucție · Capitolul 6
+              Reconstruction · Chapter 6
             </div>
-            <div>Protocolul secvențial în 3 faze Lalonde–Dever, isonomie fiscală, policentricitate și modernitate organică</div>
+            <div>Lalonde–Dever 3-phase sequential protocol, fiscal isonomy, polycentricity and organic modernity</div>
           </div>
         </div>
       </div>

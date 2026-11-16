@@ -1,6 +1,8 @@
 {
-  "name": "Diagnosticul războiului cognitiv în România (Versiunea 1.0)",
-  "description": "Platformă explicativă și interactivă dedicată arhitecturii instituționale, neurocognitive și culturale a vulnerabilității și rezilienței societale în fața operațiunilor informaționale ruse și a ideologiei putiniste.",
+  "name": "Diagnosis of Cognitive Warfare in Romania (Version 1.0)",
+  "description": "Interactive digital edition of the monograph Diagnosis of Cognitive Warfare in Romania (The Institutional, Neurocognitive, and Cultural Architecture of Societal Vulnerability and Resilience to Russian Information Operations and Putinist Ideology).",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
 }
