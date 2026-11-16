@@ -24,7 +24,7 @@ export const DocumentaryGuideView: React.FC<DocumentaryGuideViewProps> = ({
       keyScenes: [
         {
           sceneNumber: '1.1',
-          heading: 'The historical anomaly of bottomless forms (Maiorescu & Zeletin)',
+          heading: 'The historical anomaly of forms without substance (Maiorescu & Zeletin)',
           narration:
             'The state apparatus adopted the formal architecture of the Euro-Atlantic constitutional democracy, but deeply preserving the patrimonial and extractive dynamics of power relations.',
           scriptNote:
@@ -63,7 +63,7 @@ export const DocumentaryGuideView: React.FC<DocumentaryGuideViewProps> = ({
           sceneNumber: '2.2',
           heading: 'The double axiological falsification of conservatism',
           narration:
-            'Defensive nationalism is hijacked from within, turning community values ​​into tools of anti-institutional mobilization.',
+            'Defensive nationalism is hijacked from within, turning community values  into tools of anti-institutional mobilization.',
           scriptNote:
             'Close ups of old icons in mirror with smartphone screens illuminated in the dark. Strong light-shadow contrast.'
         }
@@ -74,7 +74,7 @@ export const DocumentaryGuideView: React.FC<DocumentaryGuideViewProps> = ({
       code: 'ACT III',
       title: 'System loops and OODA capture',
       timeframe: 'Minute 25:00 – 37:30',
-      focus: 'Stratul B/C (Bucla OODA, Control reflexiv & Filtrele Umbrei)',
+      focus: 'Layer B/C (OODA Loop, Reflexive Control & Shadow Filters)',
       visualDirection:
         'Animated cyber diagrams overlaid on real images; gold and red vector graphics representing information and interference flows.',
       audioDesign:
@@ -115,7 +115,7 @@ export const DocumentaryGuideView: React.FC<DocumentaryGuideViewProps> = ({
           narration:
             'Restoring prefrontal executive capacity first requires reducing stress pressure and regulating the digital information environment.',
           scriptNote:
-            'Sequences from cyber security centers, classrooms with media literacy programs, and youth communities.'
+            'Sequences from cybersecurity centers, classrooms with media literacy programs, and youth communities.'
         },
         {
           sceneNumber: '4.2',

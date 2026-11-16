@@ -48,7 +48,7 @@ export const FIGURE_METADATA: Record<
       'Integrating Boyd\'s OODA decision loop, Lefebvre\'s reflexive control, and Lotman and Peirce\'s semiotics of culture',
     chapterRef: 'Chapter 3 · Subchapters 3.1–3.3',
     caption:
-      'The raw information flow from the Observation phase, polluted with synthetic data in two stages—non-parametric contamination at the time of querying search engines and RAG (inference-time RAG poisoning) systems in the short term, followed by parametric degradation upon retraining (Model Collapse and Model Autophagy Disorder – MAD) in the medium term—and algorithmically amplified by capturing reward prediction error and dopamine D2 receptors, enters the phase of Orientation, where the subject\'s mental and cultural models are targeted by second-order reflexive control and automated by recommendation algorithms (DRLs), which maintain the target at Rank 0 and Rank 1 reflexivity (Lefebvre, 1982, 2001) and distort precision-weighting (aberrant precision-weighting, Friston, 2010: assigning rigid hyperprecision to conspiratorial belief and mitigating prediction errors factual). This intervention compromises the axiological filter of the first ethical system, blocks the path of ternary mediation and prefrontal rational discernment, and diverts processing down the path of the second ethical system and the binary logic of annihilation. The result is a Decision phase dominated by induced emotional selection, cognitive closure and defensive processing motivated by the protection of group identity, which translates into the Action phase, through complex social contagion on wide bridges (Centola, 2018), in acute social polarization and anti-institutional conflict.',
+      'The raw information flow from the Observation phase, polluted with synthetic data in two stages—non-parametric contamination at the time of querying search engines and RAG (inference-time RAG poisoning) systems in the short term, followed by parametric degradation upon retraining (Model Collapse and Model Autophagy Disorder – MAD) in the medium term—and algorithmically amplified by capturing reward prediction error and dopamine D2 receptors, enters the phase of Orientation, where the subject\'s mental and cultural models are targeted by second-order reflexive control and automated by recommendation algorithms (DRLs), which maintain the target at Rank 0 and Rank 1 reflexivity (Lefebvre, 1982, 2001) and distort precision-weighting (aberrant precision-weighting, Friston, 2010: assigning rigid hyperprecision to conspiratorial belief and mitigating factual prediction errors). This intervention compromises the axiological filter of the first ethical system, blocks the path of ternary mediation and prefrontal rational discernment, and diverts processing down the path of the second ethical system and the binary logic of annihilation. The result is a Decision phase dominated by induced emotional selection, cognitive closure and defensive processing motivated by the protection of group identity, which translates into the Action phase, through complex social contagion on wide bridges (Centola, 2018), in acute social polarization and anti-institutional conflict.',
     methodologicalNote:
       'The cybernetic model integrates the OODA decision loop (Boyd, 1987/2018) with reflexive control theory (Lefebvre, 1982, 2001) and ternary semiotics (Peirce, 1931–1958; Lotman, 1990), demonstrating how capturing the Orientation phase suppresses democratic compromise.'
   },
@@ -59,7 +59,7 @@ export const FIGURE_METADATA: Record<
       'Institutional and metacognitive mediating architecture on the Ego–Self axis and the conversion of psychodynamic flows',
     chapterRef: 'Chapter 4 · Subchapter 4.2',
     caption:
-      'On the left are the repressed psychodynamic energies in Layer C: the defensive historical memory and unchanneled adaptive vitality associated with the Trickster archetype. In the absence of mediation, these resources slide down the lower, red-marked path into enantiodromy, cynicism, and destructive revolt against democratic rules. When processed through the three central filters of Layers A and B—the framework of impersonal righteous law with operational closure (incrementally activated by islands of operational closure and administrative predictability in Ostrom, 1990 and Acemoglu & Robinson, 2019), critical discernment, and prefrontal metacognitive vigilance—they are converted on the Ego–Self axis into organic modernity, trust, and autonomous institutional cooperation.',
+      'On the left are the repressed psychodynamic energies in Layer C: the defensive historical memory and unchanneled adaptive vitality associated with the Trickster archetype. In the absence of mediation, these resources slide down the lower, red-marked path into enantiodromia, cynicism, and destructive revolt against democratic rules. When processed through the three central filters of Layers A and B—the framework of impersonal righteous law with operational closure (incrementally activated by islands of operational closure and administrative predictability in Ostrom, 1990 and Acemoglu & Robinson, 2019), critical discernment, and prefrontal metacognitive vigilance—they are converted on the Ego–Self axis into organic modernity, trust, and autonomous institutional cooperation.',
     methodologicalNote:
       'The diagram illustrates the structural conditions by which the resources repressed in the collective Shadow, namely the defensive historical memory and the adaptive vitality of the Trickster archetype, cease to fuel the destructive revolt against democratic rules and are converted into organic modernity.'
   },
@@ -72,7 +72,7 @@ export const FIGURE_METADATA: Record<
     caption:
       'The primary endogenous cause is the systemic spoliation pressure exerted by internal extractive actors in Quadrant IV (+X, -Y) on the vulnerable citizen in Quadrant II (-X, +Y) on two orthogonal barriers: the vertical extractive dam (blocking horizontal meritocratic mobility to Quadrant I) and the cracked horizontal constitutional and epistemic floor of protection. Against this background of allostatic attrition and legitimate resentment—and in tactical convergence with internal oligarchic factions that encourage anti-institutional chaos to save their impunity before the European rule of law—the intervention of the external catalyst of cognitive warfare exploits hyperbolic discounting of the future (Laibson, 1997) and the diversion of altruistic punishment into symbolic self-destructive revenge and antisocial punishment (spiteful and antisocial punishment; Fehr & Gächter, 2002), pushing the vulnerable citizen vertically down through the cracked floor into Quadrant III of collective self-sabotage (-X, -Y), where his anti-institutional actions simultaneously destroy the public good and his own socioeconomic security; in the mirror, the removal of the extractive dam and the consolidation of the constitutional floor through the architecture of institutional choice (Thaler & Sunstein, 2008) open the restorative trajectory towards Quadrant I of intelligent cooperation (+X, +Y).',
     methodologicalNote:
-      'The adaptation of the two-dimensional matrix of Carlo M. Cipolla (1976/2011) highlights the mechanism by which the systemic spoliation pressure exerted by extractive actors (+X, -Y) and the cracking of the constitutional floor of protection push the vulnerable citizen (-X, +Y), under the impulse of external cognitive capture, into the quadrant of self-destructive behavior and collective self-sabotage (-X, -Y), while the architecture of choice institutional (Thaler & Sunstein, 2008) opens the transition to Quadrant I (+X, +Y).'
+      'The adaptation of the two-dimensional matrix of Carlo M. Cipolla (1976/2011) highlights the mechanism by which the systemic spoliation pressure exerted by extractive actors (+X, -Y) and the cracking of the constitutional floor of protection push the vulnerable citizen (-X, +Y), under the impulse of external cognitive capture, into the quadrant of self-destructive behavior and collective self-sabotage (-X, -Y), while the architecture of institutional choice (Thaler & Sunstein, 2008) opens the transition to Quadrant I (+X, +Y).'
   },
   6: {
     id: 6,
@@ -81,18 +81,18 @@ export const FIGURE_METADATA: Record<
       'Divergence between the Track A defensive reactive loop and the Track B adaptive deliberative pathway',
     chapterRef: 'Chapter 5 · Subchapter 5.2',
     caption:
-      'The single upper bifurcation node, triggered by acute stress and polycrisis, divergently separates Track A defensive reactive processing, left, from Track B adaptive deliberative processing, right. On Route A, chronic anxiety, prefrontal inhibition (System 1 under allostatic exhaustion) or motivated rationalization (System 2 hijacked in urban bubbles either to elitist civic secession or to pseudoscientific and revisionist justifications) and the need for cognitive closure (seizing and freezing) push subjects toward the facade conformism of the Mimetic Person, toward regression into Bion\'s basic assumptions (baD, baP, baF) and towards the hostile projection of the collective Shadow, in an algorithmic self-amplification loop (R). On Pathway B—opened at the moment of the acute shock through the CDC CERC institutional calm bridge (Reynolds & Seeger, 2005), the verifiable technical proving ground and the proximity community validators, and stabilized at the population level by allostatic decompression and the technical measures to limit algorithmic amplification in Phase I—processing goes through the five adaptive stages: (1) negative uncertainty tolerance, (2) reactivation of the System 2 in the mode of active thinking open to Rank 2 and Rank 3 of reflexivity (Lefebvre), (3) the constructive conversion of the agility of the Trickster archetype, (4) critical discernment in ternary mediation and the constitution of the community as a rational "working group" (Bion, 1961) and (5) sovereign action on the Ego–Self axis.',
+      'The single upper bifurcation node, triggered by acute stress and polycrisis, divergently separates Track A defensive reactive processing, left, from Track B adaptive deliberative processing, right. On Track A, chronic anxiety, prefrontal inhibition (System 1 under allostatic exhaustion) or motivated rationalization (System 2 hijacked in urban bubbles either to elitist civic secession or to pseudoscientific and revisionist justifications) and the need for cognitive closure (seizing and freezing) push subjects toward the facade conformism of the Mimetic Persona, toward regression into Bion\'s basic assumptions (baD, baP, baF) and towards the hostile projection of the collective Shadow, in an algorithmic self-amplification loop (R). On Track B—opened at the moment of the acute shock through the CDC CERC institutional calm bridge (Reynolds & Seeger, 2005), the verifiable technical proving ground and the proximity community validators, and stabilized at the population level by allostatic decompression and the technical measures to limit algorithmic amplification in Phase I—processing goes through the five adaptive stages: (1) negative capability (tolerance of uncertainty), (2) reactivation of the System 2 in the mode of actively open-minded thinking to Rank 2 and Rank 3 of reflexivity (Lefebvre), (3) the constructive conversion of the agility of the Trickster archetype, (4) critical discernment in ternary mediation and the constitution of the community as a rational "work group" (Bion, 1961) and (5) sovereign action on the Ego–Self axis.',
     methodologicalNote:
-      'The systemic model of cognitive processing in crisis, based on the works of Kruglanski, Kahneman, Stanovich, Kahan, Bion and analytical psychology, highlights the bifurcation between the reactive self-amplification loop and the adaptive deliberative path opened by the polycentric architecture of CERC co-regulation and integrated on the Ego–Sine axis.'
+      'The systemic model of cognitive processing in crisis, based on the works of Kruglanski, Kahneman, Stanovich, Kahan, Bion and analytical psychology, highlights the bifurcation between the reactive self-amplification loop and the adaptive deliberative path opened by the polycentric architecture of CERC co-regulation and integrated on the Ego–Self axis.'
   },
   7: {
     id: 7,
     title: 'Figure 7. Three-phase sequential protocol of societal resilience reconstruction',
     subtitle:
-      'Mandatory order of interventions on Lalonde–Dever determinants and Tiers A, B and C levels',
+      'Mandatory order of interventions on Lalonde–Dever determinants and Layers A, B, and C',
     chapterRef: 'Chapter 6 · Subchapters 6.1–6.4',
     caption:
-      'The diagram highlights the mandatory causal order of interventions based on the determinants of the Lalonde–Dever model: Phase I, dedicated to allostatic decompression and regulation of the digital ecosystem, creates the neurobiological conditions for Phase II, focused on preventive psychocognitive training through prebunking, Ebbinghaus mnesic consolidation and reconciliation of the Christian-secular moral filter. This in turn supports Phase III, which aims at the operational closure of the rule of law, polycentric governance and collective individuation, culminating in the architecture of democratic sovereignty and organic modernity.',
+      'The diagram highlights the mandatory causal order of interventions based on the determinants of the Lalonde–Dever model: Phase I, dedicated to allostatic decompression and regulation of the digital ecosystem, creates the neurobiological conditions for Phase II, focused on preventive psychocognitive training through prebunking, Ebbinghaus mnemonic consolidation and reconciliation of the Christian-secular moral filter. This in turn supports Phase III, which aims at the operational closure of the rule of law, polycentric governance and collective individuation, culminating in the architecture of democratic sovereignty and organic modernity.',
     methodologicalNote:
       'The sequential architecture of the reconstruction of cognitive and institutional resilience demonstrates why the educational interventions of Phase II and the structural reforms of Phase III are causally dependent on the prior achievement of Phase I, consisting in the allostatic decompression of the population and the regulation of the digital ecosystem.'
   }
@@ -595,7 +595,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 textAnchor="middle"
                 className="font-mono text-[9.5px] font-semibold fill-[#6E7376]"
               >
-                Cyber ​​loop
+                Cybernetic loop
               </text>
 
               {/* Node B2: Romb (center 525, 302) */}
@@ -624,7 +624,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[10.5px] fill-[#6E7376]"
                 >
-                  {fig1Mode === 'vulnerable' ? 'irrationality S2' : 'Rational mediation'}
+                  {fig1Mode === 'vulnerable' ? 'S2 dysrationalia' : 'Rational mediation'}
                 </text>
               </g>
 
@@ -717,11 +717,11 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[11px] fill-[#6E7376]"
                 >
-                  "bottomless shapes"
+                  "forms without substance"
                 </text>
               </g>
 
-              {/* Axa de simetrie psihoculturală: Axa Ego–Sine (x1=310..430, y=508) */}
+              {/* Axa de simetrie psihoculturală: Axa Ego–Self (x1=310..430, y=508) */}
               <line
                 x1="310"
                 y1="508"
@@ -1022,7 +1022,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 {fig1SelectedNode === 'mediu' &&
                   (fig1Mode === 'vulnerable'
                     ? 'Layer A (Lalonde–Dever Field: Socioeconomic and sociospatial environment—vulnerable regime): Severe polarization between metropolitan centers and deindustrialized or rural peripheries, deepened by mass emigration, destroys bridging social capital (Putnam, 2000) through amoral familism (Banfield) at one pole and tacit secession into private services at the other.'
-                    : 'Layer A (Lalonde–Dever Field: Socioeconomic and sociospatial environment — resilient regime): Polycentric governance (Ostrom, 1990), objective mathematical equalization of local budgets, proximity associative infrastructure (schools, libraries, professionalized cooperatives according to Law no. 566/2004) and networks with "broad bridges" (Centola, 2018) restore territorial cohesion and bridging social capital (Putnam, 2000).')}
+                    : 'Layer A (Lalonde–Dever Field: Socioeconomic and sociospatial environment — resilient regime): Polycentric governance (Ostrom, 1990), objective mathematical equalization of local budgets, proximity associative infrastructure (schools, libraries, professionalized cooperatives according to Law no. 566/2004) and networks with "wide bridges" (Centola, 2018) restore territorial cohesion and bridging social capital (Putnam, 2000).')}
                 {fig1SelectedNode === 'alostazie' &&
                   (fig1Mode === 'vulnerable'
                     ? 'Layer B (Micro level of action formation · Lalonde–Dever field: Neurobiological reserve — vulnerable regime): Allostasis (Sterling & Eyer, 1988), allostatic load/wear (McEwen & Stellar, 1993; McEwen, 1998) and the triad model of brain networks (Menon, 2011; Seeley et al., 2007; Sapolsky, Arnsten). Chronic exposure to insecurity and bureaucratic humiliation induces HPA axis dysfunction (flattening of the circadian cortisol curve, glucocorticoid receptor desensitization, and systemic inflammation), causing hypertrophy of the basolateral amygdala, hyperactivation of the Salience Network (SN), disruption of the Default Mode Network (DMN), and dendritic retraction in the hippocampus and dorsolateral prefrontal cortex (dlPFC), over which acute shocks add fast catecholaminergic synaptic inhibition.'
@@ -1033,14 +1033,14 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     : 'Layer B (Resilient Regime): Functional coupling between System 1 (emotionally regulated by the ventral vagal complex and GABAergic inhibition of the amygdala) and deliberative System 2, supported by actively open-minded thinking (Stanovich, 2009), metacognitive vigilance at Rank 2/3 reflexivity, and resilience against dopaminergic capture and precision weighting errors (Friston, 2010).')}
                 {fig1SelectedNode === 'persona' &&
                   (fig1Mode === 'vulnerable'
-                    ? 'Layer C (Micro → Macro transition through the three transformational mechanisms — affective synchronization, complex contagion through wide bridges and political intermediation in the vacuum of representation, respecting William S. Robinson\'s (1950) clause against the ecological fallacy and Karl Popper\'s (1934/2002) falsifiability criterion — vulnerable regime): Mimetic institutional persona ("bottomless forms", Maiorescu). The formal copying of Western institutions without assimilating their normative content creates a vulnerable bureaucratic facade, disconnected from the real needs of citizens.'
-                    : 'Layer C (Resilient Regime): Overcoming the "bottomless forms" syndrome through organic modernity and the critical integration of vital resources from the collective Shadow on the Ego–Self axis (Jung, 1916/1960; Edinger, 1972). Democratic institutions cease to be perceived as mimetic facades and become the authentic expression of civic autonomy and societal solidarity.')}
+                    ? 'Layer C (Micro → Macro transition through the three transformational mechanisms — affective synchronization, complex contagion through wide bridges and political intermediation in the vacuum of representation, respecting William S. Robinson\'s (1950) clause against the ecological fallacy and Karl Popper\'s (1934/2002) falsifiability criterion — vulnerable regime): Mimetic institutional persona ("forms without substance", Maiorescu). The formal copying of Western institutions without assimilating their normative content creates a vulnerable bureaucratic facade, disconnected from the real needs of citizens.'
+                    : 'Layer C (Resilient Regime): Overcoming the "forms without substance" syndrome through organic modernity and the critical integration of vital resources from the collective Shadow on the Ego–Self axis (Jung, 1916/1960; Edinger, 1972). Democratic institutions cease to be perceived as mimetic facades and become the authentic expression of civic autonomy and societal solidarity.')}
                 {fig1SelectedNode === 'fatalism' &&
                   (fig1Mode === 'vulnerable'
                     ? 'Layer C (Vulnerable Regime): Expression in the cultural unconscious. The lowering of conscious tension (abaissement du niveau mental, Janet and Jung) and the blocking of the Ego–Self axis (Edinger) produce the oscillation between learned helplessness (Seligman), regressive basic assumptions (Bion) and compensatory defensive inflation.'
-                    : 'Layer C (Resilient Regime): Activation of transcendent function (Jung, 1916/1960), negative capacity (Bion, 1970) and reality-anchored Work Group (Bion, 1961) on the Ego–Self axis, replacing learned helplessness and paranoid projection with moral discernment (proairesis) and historical responsibility.')}
+                    : 'Layer C (Resilient Regime): Activation of transcendent function (Jung, 1916/1960), negative capability (Bion, 1970) and reality-anchored Work Group (Bion, 1961) on the Ego–Self axis, replacing learned helplessness and paranoid projection with moral discernment (proairesis) and historical responsibility.')}
                 {fig1SelectedNode === 'filtru-moral' &&
-                  'Layer C (Lalonde–Dever Field: Filter of Christian-Secular Moral Values ​​and Associative Lifestyle): In its intact state, patristic anthropology of human dignity (Imago Dei) reconciled with secular universalism protects the civic conscience. In conditions of cognitive warfare, the hostile actor short-circuits this filter through ethnophyletic instrumentalization and normative inversion.'}
+                  'Layer C (Lalonde–Dever Field: Filter of Christian-Secular Moral Values  and Associative Lifestyle): In its intact state, patristic anthropology of human dignity (Imago Dei) reconciled with secular universalism protects the civic conscience. In conditions of cognitive warfare, the hostile actor short-circuits this filter through ethnophyletic instrumentalization and normative inversion.'}
                 {fig1SelectedNode === 'vector' &&
                   'The vector of external cognitive warfare does not create the vulnerabilities of the target society out of nothing, but is grafted parasitically on the faults and pre-existing vulnerabilities of Layers A, B and C, when the failure of representation of traditional parties (Mair, 2013) leaves a political vacuum that populist intermediaries (Mudde, 2004) and reflexive control operations divert to false targets.'}
               </p>
@@ -1115,7 +1115,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 textAnchor="middle"
                 className="font-sans text-[16px] font-bold fill-[#222426]"
               >
-                EuropEan
+                European
               </text>
 
               {/* Right Column Header (center x=710) */}
@@ -1296,7 +1296,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[9.5px] font-bold fill-[#F01E1E]"
                   >
-                    Semiotic parasitism a
+                    Semiotic parasitism of
                   </text>
                   <text
                     x="420"
@@ -1468,7 +1468,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[10.5px] font-bold fill-[#222426]"
                 >
-                  Forgery II: The Fake
+                  Falsification II: False
                 </text>
                 <text
                   x="795"
@@ -1669,7 +1669,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 {fig2Inspect === 'retele-spalare' &&
                   'The architecture in 3 levels of recycling and dissimulation of the information source through intermediaries (information laundering): (1) the ideological laboratories and strategic platforms of the Kremlin (RT, Sputnik, Fundul Culturii Strategice, Katehon and the aggregators of the Pravda network); (2) ideological intermediaries, opportunistic political actors, and informal autochthonous paraecclesial nuclei; (3) digital distribution infrastructure through cloned sites (Doppelgänger), swarms of bots (Matryoshka), contamination of linguistic model corpora (LLM grooming) and micro-influencer networks on TikTok and Telegram.'}
                 {fig2Inspect === 'subordonare' &&
-                  'Strategic Finality: Imperial Subordination and Anomie. By compromising internal normative cohesion and decoupling Romania from Western collective guarantees, the target state is pushed into a gray area of ​​insecurity and asymmetrical bilateralism in the face of revisionist aggression.'}
+                  'Strategic Finality: Imperial Subordination and Anomie. By compromising internal normative cohesion and decoupling Romania from Western collective guarantees, the target state is pushed into a gray area of  insecurity and asymmetrical bilateralism in the face of revisionist aggression.'}
               </p>
             </div>
           </div>
@@ -2052,7 +2052,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     fig3ReflexiveActive ? 'fill-[#F01E1E]' : 'fill-[#222426]'
                   }`}
                 >
-                  {fig3ReflexiveActive ? 'Rang 0/1 reflexiv' : 'Rang 2+ reflexiv'}
+                  {fig3ReflexiveActive ? 'Rank 0/1 reflexivity' : 'Rank 2+ reflexivity'}
                 </text>
               </g>
 
@@ -2271,7 +2271,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-mono text-[8.5px] fill-[#6E7376]"
                 >
-                  (wide decks · Centola)
+                  (wide bridges · Centola)
                 </text>
               </g>
 
@@ -2408,7 +2408,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 {fig3SelectedStage === 'decizie' &&
                   (fig3ReflexiveActive
                     ? 'Decision phase under reflexive capture. The inhibition of prefrontal deliberation produces the hasty and uncritical adoption of a simplistic explanation (seizing) and epistemic freezing (freezing, Kruglanski), or the complete short-circuiting of the Decision stage through implicit guidance and control loops (Boyd, 1987/2018).'
-                    : 'The Decision Phase in a democratic compromise regime. Supported by the executive function of the dorsolateral prefrontal cortex (dlPFC), active open thinking (Stanovich, 2009), and the negative capacity to tolerate complexity (Bion, 1970), Decision formulates testable hypotheses and keeps the political opponent within the legitimate framework of the rule of law.')}
+                    : 'The Decision Phase in a democratic compromise regime. Supported by the executive function of the dorsolateral prefrontal cortex (dlPFC), actively open-minded thinking (Stanovich, 2009), and the negative capability to tolerate complexity (Bion, 1970), Decision formulates testable hypotheses and keeps the political opponent within the legitimate framework of the rule of law.')}
                 {fig3SelectedStage === 'actiune' &&
                   (fig3ReflexiveActive
                     ? 'Action phase under reflexive capture. The translation of the affective reflex and the energetic interpretant (Peirce) into polarizing behaviors, institutional boycott or anti-system social conflict, feeding the cybernetic feedback loop.'
@@ -2459,7 +2459,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     : 'bg-[#F6F5EE] text-[#222426] border-[#8C9BA5]'
                 }`}
               >
-                Slipping into enantiodromy and cynicism
+                Slipping into enantiodromia and cynicism
               </button>
             </div>
           </div>
@@ -2955,7 +2955,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[10.5px] font-bold fill-[#F01E1E]"
                 >
-                  Grief incapacity, paranoid projection, and enantiodromy
+                  Inability to mourn, paranoid projection, and enantiodromia
                 </text>
 
                 <g onClick={() => setFig4ActiveNode('anomizare')} className="cursor-pointer">
@@ -2975,7 +2975,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[12px] font-bold fill-[#F01E1E]"
                   >
-                    Capture in destructive riot
+                    Capture into destructive revolt
                   </text>
                 </g>
               </g>
@@ -2986,7 +2986,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
               <div className="flex items-center gap-2">
                 <span className="inline-block w-6 h-0.5 bg-[#F01E1E] border-b border-dashed border-[#F01E1E] shrink-0" />
                 <span className="text-[#222426]">
-                  Regression in enantiodromy and destructive rebellion
+                  Regression in enantiodromia and destructive rebellion
                 </span>
               </div>
               <div className="flex items-center gap-2">
@@ -3018,7 +3018,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 {fig4ActiveNode === 'cooperare' &&
                   'Autonomous institutional cooperation. Restoring bridging social capital (Putnam, 2000) and transforming reactive nationalism into responsible constitutional patriotism.'}
                 {fig4ActiveNode === 'anomizare' &&
-                  'The unfiltered lower pathway: The inability to hold grief (Mitscherlich & Mitscherlich, 1967/1975; Volkan, 1997, 2004), paranoid projection, and the slide into enantiodromy. When the three filters are missing or the Shadow energies are arrogantly repressed, they are captured by cognitive warfare vectors in destructive revolt against democratic rules.'}
+                  'The unfiltered lower pathway: The inability to mourn (Mitscherlich & Mitscherlich, 1967/1975; Volkan, 1997, 2004), paranoid projection, and the slide into enantiodromia. When the three filters are missing or the Shadow energies are arrogantly repressed, they are captured by cognitive warfare vectors in destructive revolt against democratic rules.'}
               </p>
             </div>
           </div>
@@ -3344,7 +3344,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[10.5px] font-bold fill-[#222426]"
                 >
-                  Systemic spoilage pressure
+                  Systemic spoliation pressure
                 </text>
               </g>
 
@@ -3766,7 +3766,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[9.5px] fill-[#6E7376]"
                   >
-                    dlPFC Inhibition (S1) / Reasoning Rationale (S2)
+                    dlPFC Inhibition (S1) / Motivated Rationalization (S2)
                   </text>
                 </g>
 
@@ -3900,7 +3900,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[9px] font-bold fill-[#F01E1E]"
                 >
-                  Voltage and compensation
+                  Tension and compensation
                 </text>
 
                 {/* A4: Umbra colectivă (y=426..476) */}
@@ -3936,7 +3936,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[9.5px] fill-[#6E7376]"
                   >
-                    Puer Aeternus, basic hypotheses (Bion) and projection
+                    Puer Aeternus, basic assumptions (Bion) and projection
                   </text>
                 </g>
 
@@ -4065,7 +4065,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[8.5px] font-bold fill-[#222426]"
                 >
-                  Recovery ingenuity
+                  Reclaiming ingenuity
                 </text>
                 <text
                   x="465"
@@ -4230,7 +4230,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[9.5px] fill-[#6E7376]"
                   >
-                    Negative capacity and emergency suspension
+                    Negative capability and suspension of urgency
                   </text>
                 </g>
 
@@ -4278,7 +4278,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[11px] font-bold fill-[#222426]"
                   >
-                    2. System 2 and active open thinking
+                    2. System 2 and actively open-minded thinking
                   </text>
                   <text
                     x="690"
@@ -4398,7 +4398,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                     textAnchor="middle"
                     className="font-sans text-[9.5px] fill-[#6E7376]"
                   >
-                    Ternary Mediation and Working Group (Bion)
+                    Ternary Mediation and Work group (Bion)
                   </text>
                 </g>
 
@@ -4457,7 +4457,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   </text>
                 </g>
 
-                {/* Linie punctată spre Axa Ego-Sine la bază */}
+                {/* Linie punctată spre Axa Ego–Self la bază */}
                 <line
                   x1="690"
                   y1="490"
@@ -4486,7 +4486,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   Psychodynamic coherence
                 </text>
 
-                {/* Baza: Axa Ego–Sine (cy=582) */}
+                {/* Baza: Axa Ego–Self (cy=582) */}
                 <ellipse
                   cx="690"
                   cy="582"
@@ -4547,25 +4547,25 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 {fig6SelectedStep === 'bifurcatie' &&
                   'Single bifurcation node (acute material stress and polycrisis). It represents the point of incidence of cognitive and socioeconomic shock. In the absence of a metacognitive pause and neurobiological reserve, the pressure of the crisis automatically pushes processing into the Track A defensive reaction.'}
                 {fig6SelectedStep === 'punte-cerc' &&
-                  'The CERC Institutional Corregulatory Bridge and Phase I Measures Because a citizen in acute shock and revolt against the Mimetic Institutional Persona cannot activate their own negative capacity nor listen to partisan political rhetoric, the opening of Path B in the 0–72 hour window rests on a two-tier polycentric de-escalation architecture (CDC CERC protocol, Reynolds & Seeger, 2005): (1) tier technical-evidentiary depoliticized (DNSC, ANCOM, AEP, ONPCSB and the EDMO/BROD regional hub, with STIX/DISARM verifiable evidence and technical measures to limit algorithmic amplification) and (2) the level of proximity community and epistemic validators (doctors, teachers, canonical clerics anchored in proairesis discernment, civic leaders and independent journalists), subsequently stabilized by Phase I allostatic decompression.'}
+                  'The CERC Institutional Corregulatory Bridge and Phase I Measures Because a citizen in acute shock and revolt against the Mimetic Institutional Persona cannot activate their own negative capability nor listen to partisan political rhetoric, the opening of Path B in the 0–72 hour window rests on a two-tier polycentric de-escalation architecture (CDC CERC protocol, Reynolds & Seeger, 2005): (1) tier technical-evidentiary depoliticized (DNSC, ANCOM, AEP, ONPCSB and the EDMO/BROD regional hub, with STIX/DISARM verifiable evidence and technical measures to limit algorithmic amplification) and (2) the level of proximity community and epistemic validators (doctors, teachers, canonical clerics anchored in proairesis discernment, civic leaders and independent journalists), subsequently stabilized by Phase I allostatic decompression.'}
                 {fig6SelectedStep === 'anxietate' &&
                   'Chronic anxiety, dlPFC inhibition, and motivated rationalization (Track A). In disadvantaged communities (marked by precariousness), alertness activates the amygdala and the relevance detection network (SN, Menon, 2011), uncoupling the dorsolateral prefrontal cortex (dlPFC) and switching processing to System 1; symmetrically, in educated urban bubbles, intact System 2 is hijacked in the motivated rationalization of tribal outrage (Stanovich, 2009; Kahan, 2017).'}
                 {fig6SelectedStep === 'nfcc' &&
                   'Need for cognitive closure (NFCC, Need for Cognitive Closure). Under the pressure of anxiety, the individual shows an acute intolerance of ambiguity (seizing) and an extreme urgency to adopt categorical, quick and simplifying conclusions (freezing), refusing any nuance or complexity.'}
                 {fig6SelectedStep === 'persona' &&
-                  'Mimetic Persona (Track A). Formal facade conformism and copying of non-integrated external models ("bottomless forms"). The individual adopts ready-made discourses and appearances to simulate belonging and reduce dissonance, without real critical assimilation.'}
+                  'Mimetic Persona (Track A). Formal facade conformism and copying of non-integrated external models ("forms without substance"). The individual adopts ready-made discourses and appearances to simulate belonging and reduce dissonance, without real critical assimilation.'}
                 {fig6SelectedStep === 'umbra' &&
                   'The Collective Shadow, the Puer Aeternus Archetype, and the Regressive Basic Assumptions (Bion, 1961). Under the strain of the Mimetic Persona, the community regresses from the "workgroup" state into the basic assumptions of dependency (baD), messianic hope (baP), or fight-flight (baF), projecting hostility onto scapegoats.'}
                 {fig6SelectedStep === 'bucla_algoritmica' &&
                   'Algorithmic feedback loop and physical closure (R). Shadow resentment is captured by attention optimization algorithms and cognitive warfare operators, amplifying polarization. The arrow of the loop physically returns to Chronic Anxiety as a positive reaction (self-reinforcing loop – R), self-amplifying the crisis.'}
                 {fig6SelectedStep === 'b1' &&
-                  '1. Acceptance of uncertainty (Track B). The entry point into adaptive processing is negative capacity (Bion, 1962, 1970)—resistance to the urge to shut down cognition prematurely (resistance to NFCC) and calm acceptance of the unknown without panic. In the midst of acute shock (0–72h), this metacognitive break is opened by the two-tier polycentric architecture (the depoliticized technical agencies with STIX/DISARM evidence and the proximity community validators, according to CDC CERC principles, Reynolds & Seeger, 2005), which provides the population with an external framework of epistemic safety.'}
+                  '1. Acceptance of uncertainty (Track B). The entry point into adaptive processing is negative capability (Bion, 1962, 1970)—resistance to the urge to shut down cognition prematurely (resistance to NFCC) and calm acceptance of the unknown without panic. In the midst of acute shock (0–72h), this metacognitive break is opened by the two-tier polycentric architecture (the depoliticized technical agencies with STIX/DISARM evidence and the proximity community validators, according to CDC CERC principles, Reynolds & Seeger, 2005), which provides the population with an external framework of epistemic safety.'}
                 {fig6SelectedStep === 'b2' &&
-                  '2. System 2 and active open thinking (Track B). Supported by allostatic decompression and Phase I algorithmic gain-limiting technical measures, executive regulation of the prefrontal network (dlPFC and vmPFC) regains control over amygdala impulses. Coupled with actively open-minded thinking, epistemic humility and Rank 2+ strategic reflexivity (Lefebvre), it prevents motivated rationalization and allows for logical analysis and historical contextualization.'}
+                  '2. System 2 and actively open-minded thinking (Track B). Supported by allostatic decompression and Phase I algorithmic gain-limiting technical measures, executive regulation of the prefrontal network (dlPFC and vmPFC) regains control over amygdala impulses. Coupled with actively open-minded thinking, epistemic humility and Rank 2+ strategic reflexivity (Lefebvre), it prevents motivated rationalization and allows for logical analysis and historical contextualization.'}
                 {fig6SelectedStep === 'b3' &&
                   '3. Dissonance Tolerance and Trickster Ingenuity Integration (Track B). The individual tolerates the contradictions inherent in reality and creatively recovers the contents of the collective shadow—adaptive ingenuity, adaptability, and subversive humor (the archetypal figure of the Trickster) transformed from destructive resentment into a resource for survival and innovation.'}
                 {fig6SelectedStep === 'b4' &&
-                  '4. Critical Discernment and Working Group (Track B). Ternary semiotic mediation (sign–object–interpreter) and moral discernment extract the community from the captivity of basic assumptions and reconstitute it as a rational reality-oriented "working group" (Bion, 1961).'}
+                  '4. Critical Discernment and Work group (Track B). Ternary semiotic mediation (sign–object–interpreter) and moral discernment extract the community from the captivity of basic assumptions and reconstitute it as a rational reality-oriented "work group" (Bion, 1961).'}
                 {fig6SelectedStep === 'b5' &&
                   '5. Sovereign Action and the Ego–Self Axis (Track B). The culmination of adaptive processing: responsible civic action, decisional autonomy, and deep coherence on the Ego–Self axis, producing genuine systemic resilience.'}
                 {(fig6SelectedStep === 'trackA' ||
@@ -4989,7 +4989,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[11px] font-bold fill-[#222426]"
                 >
-                  2.1 Community Validation and Broad Bridges
+                  2.1 Community Validation and Wide Bridges
                 </text>
                 <text
                   x="480"
@@ -5034,7 +5034,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[9.5px] fill-[#6E7376]"
                 >
-                  Metacognitive training and active open thinking
+                  Metacognitive training and actively open-minded thinking
                 </text>
               </g>
 
@@ -5271,7 +5271,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                   textAnchor="middle"
                   className="font-sans text-[11px] font-bold fill-[#222426]"
                 >
-                  3.3 Collective identification and double auditing
+                  3.3 Collective individuation and double auditing
                 </text>
                 <text
                   x="805"
@@ -5361,7 +5361,7 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 {fig7SelectedNode === 'faza2' &&
                   'Phase II · Medium operational horizon, 1–3 years. Once the prefrontal cortex regains functional availability, Phase II rebuilds the Orientation phase of the OODA loop through three pillars: (2.1) empathic community validation and wide-bridge networks; (2.2) prebunking preventive training calibrated on the Ebbinghaus forgetting curve; and (2.3) Christian-secular axiological partnership.'}
                 {fig7SelectedNode === 'faza2-1' &&
-                  '2.1 Community validation and broad bridges (1–3 years). The reconstruction of horizontal trust in the proximity associative infrastructure (schools, parishes, libraries, community centers, cooperatives) and the formation of networks with "wide bridges" (wide bridges, Centola, 2018) capable of supporting the complex contagion of cooperative norms and extracting the community from regressive basic assumptions (Bion, 1961).'}
+                  '2.1 Community validation and wide bridges (1–3 years). The reconstruction of horizontal trust in the proximity associative infrastructure (schools, parishes, libraries, community centers, cooperatives) and the formation of networks with "wide bridges" (wide bridges, Centola, 2018) capable of supporting the complex contagion of cooperative norms and extracting the community from regressive basic assumptions (Bion, 1961).'}
                 {fig7SelectedNode === 'faza2-2' &&
                   '2.2 Prebunking and Ebbinghaus consolidation (1–3 years). Preventive psychological inoculation against manipulation techniques (prebunking, McGuire, 1964; Roozenbeek & van der Linden, 2019, 2022), supported by periodic reminder sessions calibrated on the forgetting curve of Ebbinghaus (1885/1913) and the training of actively open-minded thinking (Stanovich, 2009) against motivated rationalization.'}
                 {fig7SelectedNode === 'faza2-3' &&
@@ -5375,9 +5375,9 @@ export const InteractiveFigures: React.FC<InteractiveFiguresProps> = ({
                 {fig7SelectedNode === 'faza3-2' &&
                   '3.2 Polycentric governance (Ostrom, 1990) and economic solidarity (3–10 years). Decision-making decentralization, the development of autonomous local centers for solving community problems and the professionalization of the governance of agricultural cooperatives according to Law no. 566/2004: amendment by law ferenda of art. 31 and art. 33–35 (the seat of the matter for the executive director) in conjunction with the rules of incompatibility in art. 16 para. (4) and art. 29 regarding the board of directors, for the recruitment by competition of an independent executive director and the express prohibition of relatives and relatives up to the 3rd degree, along with the guarantees and fiscal facilities in art. 76 and art. 76¹, for the generation of bridging social capital (Putnam, 2000).'}
                 {fig7SelectedNode === 'faza3-3' &&
-                  '3.3 Collective identification and double independent audit (3–10 years). The critical integration of the collective shadow and the consolidation of the Ego-Self axis (overcoming the syndrome of "forms without substance"), doubled by a permanent verification mechanism: the financial-operational audit of the Court of Accounts (art. 2 letters b and d and art. 28 par. 2 of Law no. 94/1992) and the scientific audit of university consortia ("approved researchers" art. 40 DSA), using The European framework of digital competences (DigComp), the methodologies of the National Institute for Audiovisual Education KAVI and decision-making and participatory educational simulations.'}
+                  '3.3 Collective individuation and double independent audit (3–10 years). The critical integration of the collective shadow and the consolidation of the Ego-Self axis (overcoming the syndrome of "forms without substance"), doubled by a permanent verification mechanism: the financial-operational audit of the Court of Accounts (art. 2 letters b and d and art. 28 par. 2 of Law no. 94/1992) and the scientific audit of university consortia ("approved researchers" art. 40 DSA), using The European framework of digital competences (DigComp), the methodologies of the National Institute for Audiovisual Education KAVI and decision-making and participatory educational simulations.'}
                 {fig7SelectedNode === 'fronton' &&
-                  'The synthesis of organic modernity and democratic sovereignty. Western constitutional and security forms cease to be "bottomless forms" superficially imitated by an extractive elite and become the natural institutional expression of a regenerated native cultural and moral background.'}
+                  'The synthesis of organic modernity and democratic sovereignty. Western constitutional and security forms cease to be "forms without substance" superficially imitated by an extractive elite and become the natural institutional expression of a regenerated native cultural and moral background.'}
                 {fig7SelectedNode === 'fundament' &&
                   'The Lalonde–Dever Foundation (Lalonde, 1974; Dever, 1976). It demonstrates that the cognitive resilience of a nation depends simultaneously on the organization of the institutional system, the socioeconomic and digital environment, the associative lifestyle and the neurobiological reserve of the citizens.'}
               </p>

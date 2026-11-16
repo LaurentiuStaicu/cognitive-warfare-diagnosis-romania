@@ -42,7 +42,7 @@ export const TABLE_1_DATA: Table1Row[] = [
     "dimensionNumber": 4,
     "dimensionTitle": "4. Information ecology and decision dynamics in the OODA loop",
     "stratumA": "The deregulation of the digital attention market and the proliferation of networks for recycling and disguising the information source through intermediaries (information laundering: bot farms, non-transparently coordinated micro-influencer networks, encrypted channels). At the same time, the digital ecosystem is deliberately polluted with synthetic data in two stages: in the short term, the non-parametric contamination at the time of querying search engines and RAG systems (inference-time RAG poisoning), and in the medium term, the parametric degradation when retraining through Model Collapse (Shumailov) and Model Autophagy Disorder (Alemohammad).",
-    "stratumB": "Bypassing the Orientation phase of the OODA loop (Boyd) by second-order reflexive control and distortion of precision-weighting (aberrant precision-weighting, Friston: hyper-precision given to conspiratorial dogma and mitigation of factual prediction errors), keeping the target at Rank 0 and Rank 1 reflexivity, switching it into the second ethical system of confrontation (Lefebvre) and binary semiotics of annihilation (Lotman), a process accelerated by dopaminergic capture in the nucleus accumbens and complex contagion through broad bridges (Centola).",
+    "stratumB": "Bypassing the Orientation phase of the OODA loop (Boyd) by second-order reflexive control and distortion of precision-weighting (aberrant precision-weighting, Friston: hyper-precision given to conspiratorial dogma and mitigation of factual prediction errors), keeping the target at Rank 0 and Rank 1 reflexivity, switching it into the second ethical system of confrontation (Lefebvre) and binary semiotics of annihilation (Lotman), a process accelerated by dopaminergic capture in the nucleus accumbens and complex contagion through wide bridges (Centola).",
     "stratumC": "Psychological captivity in closed identity bubbles, cognitive homogenization, and the deterioration of the predictive mental map of reality. In this framework of algorithmic encapsulation, vulnerable groups reactively adopt defensive cultural patterns (Singer & Kimbles) and the psychodynamic mechanism of identification with the geopolitical aggressor (against the existential anguish of abandonment) under the guise of defending sovereignty."
   },
   {
@@ -50,7 +50,7 @@ export const TABLE_1_DATA: Table1Row[] = [
     "dimensionNumber": 5,
     "dimensionTitle": "5. Dynamics of polarization and response to acute crisis",
     "stratumA": "The slippage of the vulnerable citizen (-X, +Y), under the primary endogenous pressure of internal extractive actors (+X, -Y) — whose oligarchic factions threatened by the European rule of law have a tactical interest in encouraging anti-institutional chaos — and under the action of the exogenous catalyst of cognitive warfare (through hyperbolic discounting of the future, self-destructive symbolic revenge and antisocial punishment), in the behavior quadrant self-destructive and collective self-sabotage (-X, -Y) from Cipolla's matrix. The systemic result is institutional paralysis and strategic vulnerability of the target state.",
-    "stratumB": "Bifurcation of processing at the critical point of an acute crisis (decisional bifurcation node) and blocking on the Maladaptive Reactive Track (Track A: amygdala hyperactivation, hasty adoption and epistemic seizing/freezing, defensive processing motivated by protecting group identity, anger and decisional blocking). This blockage comes at the expense of the adaptive deliberative Track (Track B: prefrontal regulation, negative capacity, active thinking open to Rank 2 and Rank 3 reflexivity and epistemic validation), whose opening depends on the bridge of co-regulation through the CDC CERC protocol, the verifiable technical evidence and the proximity community validators that reconstitute the community as a rational \"workgroup\" (Bion, 1961).",
+    "stratumB": "Bifurcation of processing at the critical point of an acute crisis (decisional bifurcation node) and blocking on the Maladaptive Reactive Track (Track A: amygdala hyperactivation, hasty adoption and epistemic seizing/freezing, defensive processing motivated by protecting group identity, anger and decisional blocking). This blockage comes at the expense of the adaptive deliberative Track (Track B: prefrontal regulation, negative capability, actively open-minded thinking to Rank 2 and Rank 3 reflexivity and epistemic validation), whose opening depends on the bridge of co-regulation through the CDC CERC protocol, the verifiable technical evidence and the proximity community validators that reconstitute the community as a rational \"workgroup\" (Bion, 1961).",
     "stratumC": "The sovereignist enantiodrome, manifested by the reversal of pro-Western mimicry in the radical rejection of constitutional modernity. Added to this is the collective Puer Aeternus syndrome (von Franz), the illusion of isolationist sovereignty and the regression towards passive dependence on a tutelary paternalistic state (Neumann)."
   }
 ];
@@ -63,7 +63,7 @@ export const TABLE_2_DATA: Table2Row[] = [
     "horizon": "Dual horizon: 0–72 hours (acute tactical triage) · 0–12 months (structural decompression)",
     "humanBiology": "Reducing allostatic wear and tear (McEwen) and chronic hyperactivation of the HPA axis by decreasing material and bureaucratic insecurity. Protecting sleep and attention by limiting exposure to addictive streams that capture dopaminergic circuits in the nucleus accumbens restores the temporal latency required to unlock the dorsolateral prefrontal cortex.",
     "digitalAndSociospatial": "The application of the DSA Regulation (Law no. 50/2024) and the AI Act by associating the Orders to act against illegal content (art. 7–8 of Law no. 50/2024 / art. 9 of the DSA) issued by the sectoral authorities (CNA, AEP/BEC, DNSC) and procedurally transmitted through ANCOM (without substantive decisions on content) with the mandatory Orders to provide financial information and the identity of payers (art. 9 of Law no. 50/2024 / art. 10 of DSA) to VLOPs. This is doubled by STIX/DISARM evidentiary standardization through DNSC and EDMO/BROD, virality-slowing mechanisms, cryptographic tagging of synthetic data, and investment in exclusion enclave services.",
-    "informationalLifestyle": "Public campaigns to raise awareness of digital hygiene and attention-grabbing mechanisms. The arrogant or alarmist official communication is replaced by a strategic allostatic decompression communication based on the principles of CDC CERC (Crisis and Emergency Risk Communication, Reynolds & Seeger, 2005), intended to defuse the hypervigilance of the Salience Network (SN) and stop the reactive loop of Pathway A.",
+    "informationalLifestyle": "Public campaigns to raise awareness of digital hygiene and attention-grabbing mechanisms. The arrogant or alarmist official communication is replaced by a strategic allostatic decompression communication based on the principles of CDC CERC (Crisis and Emergency Risk Communication, Reynolds & Seeger, 2005), intended to defuse the hypervigilance of the Salience Network (SN) and stop the reactive loop of Track A.",
     "institutionalSystem": "On the structural level (0–12 months), administrative simplification according to the e-Estonia model. On the acute triage level (0–72h), the tracking and blocking of illicit financial flows (on the Follow the Money principle) is performed in three steps. In the first step, the relevant sectoral authorities (including CNA for online audiovisual, AEP/BEC or DNSC) issue orders to act against illegal content, procedurally transmitted through the single point ANCOM to VLOPs and associated with orders to identify payers (art. 9 and 10 DSA / art. 7–8 and art. 9 Law no. 50/2024). In the second step, AEP and BEC ensure the verification of the CMF and the blocking of unmarked or financed political advertising from third countries (Law no. 334/2006, O.U.G. no. 1/2025 — art. 16–17 for the presidential elections of May 2025 and Regulation TTPA (EU) 2024/900 applicable from October 10, 2025 — art. 5 para. 11-12 and art. 13, 15 and 17). In the third step, ONPCSB orders under exclusive competence the operative suspension within 24-72 hours of suspicious transactions and the blocking of conversions from crypto-assets to fiduciary currency (off-ramp) (art. 33-34 of Law no. 129/2019), with notification to the PICCJ, under the sectoral supervision of the BNR and ASF by querying the electronic central register for payment accounts and bank accounts (art. 61¹ of Law No. 207/2015 and Article 33 of Law No. 129/2019, updated by Law No. 86/2025. no. 10/2025 (the national mechanism for the TFR Regulation (EU) 2023/1113 – Travel Rule and the supervision of crypto-asset service providers (CASP) regarding the fight against money laundering and terrorist financing according to art. 32¹ of Law no. 129/2019) and MiCA Regulation (EU) 2023/1114."
   },
   {
@@ -71,7 +71,7 @@ export const TABLE_2_DATA: Table2Row[] = [
     "phaseCode": "Phase II",
     "phaseSubtitle": "Community stabilization and preventive preparedness",
     "horizon": "Average operational horizon: 1–3 years",
-    "humanBiology": "Entrainment of descending regulation of the basolateral amygdala by ventromedial and dorsolateral prefrontal cortex. Cultivating negative capacity (Bion) and uncertainty tolerance ensures stable switching on Deliberative Route B, supported by periodic sessions of mnemonic consolidation calibrated on Hermann Ebbinghaus's forgetting curve.",
+    "humanBiology": "Entrainment of descending regulation of the basolateral amygdala by ventromedial and dorsolateral prefrontal cortex. Cultivating negative capability (Bion) and uncertainty tolerance ensures stable switching on Deliberative Track B, supported by periodic sessions of mnemonic consolidation calibrated on Hermann Ebbinghaus's forgetting curve.",
     "digitalAndSociospatial": "Rebuilding community and cultural infrastructure of proximity in rural areas, small towns and diaspora communities to replace isolation in closed informational bubbles with physical spaces of direct human interaction. These local networks foster positive complex social contagion (Centola, 2018) and rebuilding bridging social capital (Putnam, 2000).",
     "informationalLifestyle": "Institutionalizing preventive psychocognitive training in schools, universities, and adult programs focused on the detection of second-order reflexive control and binary semiosis. In parallel, the Christian-secular moral filter is reconciled through the dialogue between the orthodox patristic theology of the dignity of the person and the constitutional civic ethics, strengthening the first ethical system of cooperation.",
     "institutionalSystem": "Creation of permanent institutional mechanisms of inter-ministerial and societal coordination for the defense of cognitive space, following the model of comprehensive defense in Estonia and Poland. At the same time, CNA and public authorities directly apply Regulation (EU) 2024/1083 on media freedom (European Media Freedom Act – EMFA), ensuring the transparency of the real beneficiaries of media institutions (art. 6 EMFA), editorial independence guarantees (art. 4–5 EMFA), structured dialogue with VLOPs (art. 18 EMFA) and non-discriminatory allocation of state advertising (art. 25 EMFA), alongside the integration of community validation to neutralize defensive processing motivated by protecting group identity."
@@ -83,7 +83,7 @@ export const TABLE_2_DATA: Table2Row[] = [
     "horizon": "Strategic horizon: 3–10 years",
     "humanBiology": "Long-term stabilization of the neurobiological reserve and psychophysiological balance of the population through a predictable and meritocratic social environment. This stability maintains the capacity of the conscious mind to critically integrate information and prevents lowering of conscious tension (abaissement du niveau mental) in the face of future geopolitical shocks.",
     "digitalAndSociospatial": "The structural reduction of sociospatial faults between metropolitan centers and internal peripheries and the integration of the diaspora into the country's economic and civic networks by converting Western experience into \"social and institutional remittances\" (Sandu, 2010). The reconstruction of the bridge social capital (Putnam, 2000) in the rural environment and the overcoming of amoral familism (Banfield, 1958) is achieved through the law ferenda reform of the governance of agricultural cooperatives from Law no. 566/2004 (amending art. 31 and art. 33–35 in conjunction with art. 16 para. 4 and art. 29 and the facilities in art. 76–76¹: competitively recruited independent executive director, prohibition of relatives or relatives up to the 3rd degree of administrators, integrity filters and protection of VAT refunds).",
-    "informationalLifestyle": "Critical and honest take on national history in education and public culture, overcoming the inability to hold grief and chosen trauma. The latent resources of the collective Shadow and Trickster archetype are functionally converted into cognitive agility and innovation, supporting the maturation of civic consciousness beyond the Puer Aeternus syndrome and collective individuation on the Ego–Self axis.",
+    "informationalLifestyle": "Critical and honest take on national history in education and public culture, overcoming the inability to mourn and chosen trauma. The latent resources of the collective Shadow and Trickster archetype are functionally converted into cognitive agility and innovation, supporting the maturation of civic consciousness beyond the Puer Aeternus syndrome and collective individuation on the Ego–Self axis.",
     "institutionalSystem": "Genuine operational closure of justice and administration (elimination of temporary discretionary appointments from art. 509–510 O.U.G. no. 57/2019, termination of temporary mandates in the chain in state companies provided for in art. 29¹ and art. 64¹ of O.U.G. no. 109/2011 amended by Law no. 187/2023 and the autonomous operationalization of AMEPIP), local financial autonomy based on objective cost formulas (art. 32-33 of Law no. 273/2006 and the restriction of the Reserve Fund from art. 30 of Law no. 500/2002 exclusively to unpredictable emergencies), doubled by the ferenda law reform of art. 167 and art. 182 of the Fiscal Procedure Code (Law no. 207/2015) through \"penalization in the mirror of the state\", the automatic ex officio compensation of mutual fiscal claims (art. 167 CPF) and the ex officio transfer, to the same IBAN account, of interest and penalties for late VAT reimbursement (art. 169 CPF), of FNUASS medical leaves (art. 38 and art. 40 of O.U.G. no. 158/2005) and payment of commercial invoices (Law no. 72/2013, distinct from e-Invoice), in full agreement with the principle of fiscal symmetry (CCR Decision no. 694/2015) and overcoming the blockages in O.G. no. 22/2002 or the ruling from RIL no. 24/2025; delimited by the internal patrimonial liability of officials towards the institution (art. 499–500 Administrative Code), the proposal to supplement art. 281 CPF covers joint patrimonial liability and effective recourse when the court definitively finds that the annulled tax act was issued in bad faith or with gross negligence. The entire protocol is verified by the biennial audit of the Court of Accounts (art. 2 letters b and d and art. 28 para. 2 of Law no. 94/1992; Law no. 500/2002) and by the scientific audit of \"approved researchers\" (art. 40 DSA / EDMO) on the European Digital Skills Framework (DigComp), on the methodologies of the National Institute for Audiovisual Education KAVI and through participatory decision-making simulations."
   }
 ];
@@ -96,7 +96,7 @@ export const REGIONAL_CONTROL_GROUP: RegionalCase[] = [
     "exposureProfile": "Intense exposure to sovereignist discursive camouflage and semiotic parasitism of orthodoxy and conservatism, bypassing direct historical aversion to Russia.",
     "stratumA": "Semi-conformed institutional order based on \"forms without substance\"; the coexistence of formal Euro-Atlantic institutions with clientelistic extractive networks and severe sociospatial polarization.",
     "stratumB": "Double neurocognitive vulnerability (allostatic wear and dlPFC inhibition with switching to System 1 under allostatic exhaustion, respectively the hijacking of System 2 in irrationality and motivated rationalization — either for elitist civic secession or for radical pseudoscientific and revisionist justifications —), against the background of the vacuum of political representation (Mair, 2013), the absence of a national strategy of preventive preparation and the deregulation of space algorithmically, favoring the diversion of the Orientation phase from the OODA loop.",
-    "stratumC": "Split between the mimetic institutional Persona and the collective Shadow, the inability to mourn totalitarian complicity and the triggering of the sovereignist enantiodromy.",
+    "stratumC": "Split between the mimetic institutional Persona and the collective Shadow, the inability to mourn totalitarian complicity and the triggering of the sovereignist enantiodromia.",
     "strategicLesson": "The vulnerability does not arise from a cultural fatality or lack of security guarantees, but from the complacency of a part of the elites in an extractive order that has left the axiological filter exposed to erosion.",
     "statusType": "tension"
   },
@@ -107,7 +107,7 @@ export const REGIONAL_CONTROL_GROUP: RegionalCase[] = [
     "exposureProfile": "Frontline geographic state on the border with the Russian Federation, with a significant Russian-speaking minority and the target of major cyber and information attacks since 2007.",
     "stratumA": "Early and radical transition to inclusive institutions with genuine operational closure; transparent digitization through the e-Estonia system, which eliminated petty corruption and bureaucratic humiliation; supported policies of educational unification and credible public media alternatives to reduce the residual vulnerability of the Russian-speaking minority.",
     "stratumB": "Institutionalizing preventive psychocognitive training and media and digital literacy from kindergarten to adult, integrated into the doctrine of comprehensive defense and the will to defend.",
-    "stratumC": "Stable collective Ego–Self axis, in which pro-Western modernization is experienced as an organic expression of national identity, not as a bottomless form imposed from the outside.",
+    "stratumC": "Stable collective Ego–Self axis, in which pro-Western modernization is experienced as an organic expression of national identity, not as a form without substance imposed from the outside.",
     "strategicLesson": "Eliminating bureaucratic humiliation and corruption through transparent digitization lowers allostatic attrition and organically anchors the citizen to the defense of constitutional order.",
     "statusType": "synthesis"
   },
@@ -140,7 +140,7 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
     "id": "al-saselea-domeniu",
     "term": "The sixth operational domain: cognitive space",
     "stratum": "B",
-    "authors": "Claverie, Baptiste și du Cluzel, 2022 · du Cluzel, 2020 · NATO ACT",
+    "authors": "Claverie, Baptiste and du Cluzel, 2022 · du Cluzel, 2020 · NATO ACT",
     "domain": "Strategic doctrine and military cyber",
     "definition": "Operational domain defined by NATO's Supreme Allied Command Transformation, along with land, sea, air, space and cyber, where the direct target is a nation's reality processing architecture and decision-making capacity.",
     "monographContext": "It pursues the erosion of confidence in democratic institutions and decision-making paralysis of the target state without triggering the threshold of Article 5 of the North Atlantic Treaty.",
@@ -188,9 +188,9 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
   },
   {
     "id": "forme-fara-fond",
-    "term": "Bottomless forms and extractive versus inclusive institutions",
+    "term": "Forms without substance and extractive versus inclusive institutions",
     "stratum": "A",
-    "authors": "Titu Maiorescu, 1868 · Constantin Rădulescu-Motru, 1904 · Constantin Dobrogeanu-Gherea, 1910 · Eugen Lovinescu, 1924–1925 · Henri H. Stahl, 1980 · Daron Acemoglu și James A. Robinson, 2012 · North, Wallis și Weingast, 2009",
+    "authors": "Titu Maiorescu, 1868 · Constantin Rădulescu-Motru, 1904 · Constantin Dobrogeanu-Gherea, 1910 · Eugen Lovinescu, 1924–1925 · Henri H. Stahl, 1980 · Daron Acemoglu and James A. Robinson, 2012 · North, Wallis and Weingast, 2009",
     "domain": "Historical Sociology and Institutional Economics",
     "definition": "Analytical paradigm inaugurated by Titu Maiorescu (1868) and developed in the sociology of Romanian modernization (Rădulescu-Motru, 1904; Dobrogeanu-Gherea, 1910; Lovinescu, 1924–1925; Stahl, 1980). While Lovinescu demonstrated that in cultures that entered the sphere of modernity late, synchronization operates through a reverse evolution, from form to substance, the violent interruption of this organic process by the totalitarian regimes of the 20th century and the capture of the post-communist transition chronicled the dissociation between the formally adopted Western constitutional architecture — inclusive institutions — and the persistence of informal practices of rent capture and blocking of meritocracy, specific to extractive institutions in a social order with limited access (North, Wallis & Weingast, 2009; Acemoglu & Robinson, 2012).",
     "monographContext": "It constitutes the historical root of the Romanian citizen's distrust in the official discourse and the split between the mimetic institutional Persona and the collective Shadow.",
@@ -200,17 +200,17 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
     "id": "persona-si-umbra",
     "term": "The Mimetic Institutional Persona and the Collective Shadow",
     "stratum": "C",
-    "authors": "Carl Gustav Jung, 1928 · Joseph Henderson, 1984 · Thomas Singer și Samuel L. Kimbles, 2004 · Gail Kligman și Katherine Verdery, 2011",
+    "authors": "Carl Gustav Jung, 1928 · Joseph Henderson, 1984 · Thomas Singer and Samuel L. Kimbles, 2004 · Gail Kligman and Katherine Verdery, 2011",
     "domain": "Post-Jungian Analytical Psychology and Historical Anthropology",
     "definition": "The split from the cultural unconscious (Henderson, 1984) and cultural complexes (Singer & Kimbles, 2004) between the conformist facade of declarative alignment to external standards—the Mimetic Institutional Persona—and the Collective Shadow. In this Shadow, informal survival strategies, politics of duplicity (Kligman & Verdery, 2011) and unintegrated historical traumas are repressed.",
-    "monographContext": "It explains why the imposture of the domestic elites symbolically compromises the very idea of ​​European modernization in the eyes of the vulnerable citizen.",
+    "monographContext": "It explains why the imposture of the domestic elites symbolically compromises the very idea of  European modernization in the eyes of the vulnerable citizen.",
     "polarity": "tension"
   },
   {
     "id": "trauma-aleasa",
-    "term": "Inability to hold grief and chosen trauma",
+    "term": "Inability to mourn and chosen trauma",
     "stratum": "C",
-    "authors": "Alexander și Margarete Mitscherlich, 1967 · Vamık D. Volkan, 1997, 2004",
+    "authors": "Alexander and Margarete Mitscherlich, 1967 · Vamık D. Volkan, 1997, 2004",
     "domain": "Social and psychopolitical psychoanalysis",
     "definition": "The articulation of two collective psychodynamic mechanisms: the inability to mourn (Die Unfähigkeit zu trauern, Mitscherlich & Mitscherlich, 1967), defined as the refusal of honest moral confrontation with one's own internal complicities in totalitarian regimes, and chosen trauma (chosen trauma, Volkan, 1997, 2004). The latter denotes the mental representation of a historical injustice that fixes the group in a transgenerational identity of innocent and perpetual victim.",
     "monographContext": "It blocks civic maturation and favors the venting of historical guilt through paranoid projections of \"external persecutors.\"",
@@ -238,9 +238,9 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
   },
   {
     "id": "uzura-alostatica",
-    "term": "Allostasis and pregnancy / chronic allostatic wear and tear",
+    "term": "Allostasis and chronic allostatic load / wear and tear",
     "stratum": "B",
-    "authors": "Peter Sterling și Joseph Eyer, 1988 · Bruce S. McEwen și Eliot Stellar, 1993 · Bruce S. McEwen, 1998 · Robert M. Sapolsky, 2004, 2017",
+    "authors": "Peter Sterling and Joseph Eyer, 1988 · Bruce S. McEwen and Eliot Stellar, 1993 · Bruce S. McEwen, 1998 · Robert M. Sapolsky, 2004, 2017",
     "domain": "Neurobiology of stress",
     "definition": "The neurobiological framework that distinguishes between allostasis — the maintenance of physiological stability through adaptive change (Sterling & Eyer, 1988) — and allostatic load (allostatic load, McEwen & Stellar, 1993; McEwen, 1998), defined as the cumulative physiological cost and tissue and neural damage produced by chronic overload of the stress response axis. In this analysis, the concept shows how socioeconomic insecurity, legislative unpredictability, and bureaucratic humiliation in Layer A deplete citizens' neurocognitive reserve before external propaganda intervenes.",
     "monographContext": "It exhausts the citizen's neurocognitive reserve before contact with digital propaganda; its reduction is the primary objective of Phase I.",
@@ -268,12 +268,12 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
   },
   {
     "id": "sistema",
-    "term": "The system network, siloviki, kompromat and the model of the \"four Russias\"",
+    "term": "The sistema network, siloviki, kompromat and the model of the \"four Russias\"",
     "stratum": "A",
     "authors": "Alena Ledeneva, 2013 · Natalia Zubarevich, 2011 · Karen Dawisha, 2014 · Mark Galeotti, 2019",
     "domain": "The political economy of the Russian regime",
     "definition": "Informal and opaque mechanism of kleptocratic governance (Ledeneva, 2013) in which formal constitutional institutions are subordinated to networks of force and intelligence structures (siloviki). Loyalty is maintained through the discretionary distribution of rents, institutionalized blackmail with compromising materials (kompromat) and the exploitation of the precarity of the internal peripheries in the model of the \"four Russias\" (Zubarevich, 2011) through the military Keynesianism of death economics (deathonomics).",
-    "monographContext": "Functional neighboring democracies existentially threaten the internal legitimacy of the system network, motivating Russian cognitive warfare.",
+    "monographContext": "Functional neighboring democracies existentially threaten the internal legitimacy of the sistema network, motivating Russian cognitive warfare.",
     "polarity": "tension"
   },
   {
@@ -318,11 +318,11 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
   },
   {
     "id": "bucla-ooda",
-    "term": "The OODA decision loop, the Orientation phase and default guidance",
+    "term": "The OODA decision loop, the Orientation phase and implicit guidance and control",
     "stratum": "B",
     "authors": "John Boyd, 1987/2018 · Frans P. B. Osinga, 2007",
     "domain": "Decisional Cybernetics and Strategic Theory",
-    "definition": "Cybernetic adaptive cycle consisting of Observation, Orientation, Decision and Action (Boyd, 1987/2018; Osinga, 2007), in which the Orientation phase — consisting of cultural heritage, historical experience, destructive deduction / creative induction and moral values ​​— represents the center of gravity (Schwerpunkt) of the entire decision-making process. Beyond the four-step sequence, Boyd's architecture includes direct \"Implicit Guidance and Control\" links, whereby Guidance directly shapes Observation and can automatically trigger Action, bypassing the deliberative stage of Decision.",
+    "definition": "Cybernetic adaptive cycle consisting of Observation, Orientation, Decision and Action (Boyd, 1987/2018; Osinga, 2007), in which the Orientation phase — consisting of cultural heritage, historical experience, destructive deduction / creative induction and moral values  — represents the center of gravity (Schwerpunkt) of the entire decision-making process. Beyond the four-step sequence, Boyd's architecture includes direct \"Implicit Guidance and Control\" links, whereby Guidance directly shapes Observation and can automatically trigger Action, bypassing the deliberative stage of Decision.",
     "monographContext": "When the Guidance phase loses its capacity for critical review (destruction–creation) and is captured from the outside, implicit guidance loops lock the subject into a self-referential circuit that selects only confirmatory observations and triggers impulsive actions on System 1, according to Figure 3.",
     "polarity": "neutral"
   },
@@ -340,7 +340,7 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
     "id": "mediere-ternara-vs-binara",
     "term": "Ternary semiosis (triad of interpretants) versus binary semiotics of annihilation",
     "stratum": "B",
-    "authors": "Charles Sanders Peirce, 1931–1958 · Iuri Lotman, 1990, 1992/2009 · Iuri Lotman și Boris Uspenski, 1985",
+    "authors": "Charles Sanders Peirce, 1931–1958 · Iuri Lotman, 1990, 1992/2009 · Iuri Lotman and Boris Uspenski, 1985",
     "domain": "Semiotics of culture and pragmatics",
     "definition": "In the architecture of Charles Sanders Peirce (1931–1958), authentic semiosis is a three-term relationship between sign, object, and interpretant, the latter evolving from the affective interpretant (primary emotion) and the energetic interpretant (immediate reaction) to the logical interpretant (critical deliberation and the rational rule of verification in the community). This structure corresponds to the boundary of the semiosphere as a bilingual translation filter (Lotman, 1990) and ternary cultures (Lotman, 1992/2009). In opposition to this, the binary semiotics of annihilation (Lotman & Uspenski, 1985) amputates the logical interpretant and the neutral zone of mediation, encapsulating the receiver in the short-circuited reaction of the affective and energetic interpretant, in which the opponent is treated as an ontological enemy to be exterminated.",
     "monographContext": "Cognitive operations export binary semiotics to democracies to block access to the logical interpretant and disrupt civil peace.",
@@ -350,7 +350,7 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
     "id": "inchidere-cognitiva-seizing-freezing",
     "term": "The need for cognitive closure (seizing and freezing) and defensive processing",
     "stratum": "B",
-    "authors": "Arie W. Kruglanski și Donna M. Webster, 1996 · Arie W. Kruglanski, 2004 · Dan M. Kahan, 2013, 2017",
+    "authors": "Arie W. Kruglanski and Donna M. Webster, 1996 · Arie W. Kruglanski, 2004 · Dan M. Kahan, 2013, 2017",
     "domain": "Cognitive and social psychology",
     "definition": "Psychocognitive mechanism triggered by acute stress and ambiguity, unfolding in two sequences: hasty and uncritical adoption of the first simplistic explanation that promises certainty (seizing), followed by epistemic freezing and impermeability to counterarguments (freezing). This hardening is reinforced by merging belief with identity and emotional status in the group of belonging (Identity-Protective Cognition, Kahan, 2013).",
     "monographContext": "It explains why aggressive confrontation strengthens amygdala defenses and why Phase II must begin with community validation.",
@@ -388,9 +388,9 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
   },
   {
     "id": "enantiodromie",
-    "term": "Law of collective enantiodromy",
+    "term": "Law of collective enantiodromia",
     "stratum": "C",
-    "authors": "Heraclit · Carl Gustav Jung, 1921",
+    "authors": "Heraclitus · Carl Gustav Jung, 1921",
     "domain": "Analytical psychology",
     "definition": "Principle formulated by Heraclitus and theorized in analytical psychology by Carl Gustav Jung (1921), which describes a collective reaction pattern and a defensive compensation mechanism. When a society lacking predictable institutions (Layer A) and exhausted by chronic stress (Layer B) is held in an excessively one-sided official stance and torn by frustrations repressed in the Shadow, it reactively swings to its opposite extreme.",
     "monographContext": "It explains the collective swing from facade pro-Western mimicry (Institutional Persona) to radical rejection of constitutional modernity, without treating Layer C concepts as autonomous occult forces.",
@@ -410,7 +410,7 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
     "id": "matricea-cipolla",
     "term": "Carlo M. Cipolla's Behavioral Matrix",
     "stratum": "A",
-    "authors": "Carlo M. Cipolla, 1976/2011 · Douglass C. North, John Joseph Wallis și Barry R. Weingast, 2009 · Richard H. Thaler și Cass R. Sunstein, 2008 · David Laibson, 1997 · Ernst Fehr și Simon Gächter, 2002",
+    "authors": "Carlo M. Cipolla, 1976/2011 · Douglass C. North, John Joseph Wallis and Barry R. Weingast, 2009 · Richard H. Thaler and Cass R. Sunstein, 2008 · David Laibson, 1997 · Ernst Fehr and Simon Gächter, 2002",
     "domain": "Economic history and decision theory",
     "definition": "Two-dimensional Cartesian system (Cipolla, 1976/2011) that classifies human and institutional actions according to personal gain or loss on the X-axis and societal benefit or damage on the Y-axis in four quadrants: Quadrant I of intelligent cooperation (+X, +Y), Quadrant II of the vulnerable citizen (-X, +Y, helpless), Quadrant IV of the extractive actor (+X, -Y, bandits) and Quadrant III of collective self-sabotage (-X, -Y). This Quadrant III is systemically more dangerous than Quadrant IV because it defies means–end rationality.",
     "monographContext": "It formalizes the trajectory by which the vulnerable citizen of Quadrant II (-X, +Y), subject to the endogenous primary cause of internal spoliation in Quadrant IV (+X, -Y) — whose oligarchic factions threatened by the European rule of law have a tactical interest in encouraging anti-institutional chaos — is driven by the external catalyst of cognitive warfare — through the hyperbolic discounting of the future (Laibson, 1997) and diversion of altruistic punishment (Fehr & Gächter, 2002) into self-destructive symbolic revenge (spiteful punishment) and antisocial punishment (antisocial punishment) — vertically downwards, in Quadrant III of collective self-sabotage (-X, -Y), while the restorative transition to Quadrant I (+X, +Y) is achieved by strengthening the constitutional floor and removing the extractive dam through the institutional choice architecture (Richard H. Thaler and Cass R. Sunstein, 2008) in Figure 5.",
@@ -428,19 +428,19 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
   },
   {
     "id": "bifurcare-track-a-track-b",
-    "term": "The neurocognitive bifurcation in crisis: Reactive Pathway A versus deliberative Pathway B",
+    "term": "The neurocognitive bifurcation in crisis: Reactive Track A versus deliberative Track B",
     "stratum": "B",
-    "authors": "Wilfred R. Bion, 1962, 1970 · Stephen W. Porges, 2011 · Julian F. Thayer și Richard D. Lane, 2009",
+    "authors": "Wilfred R. Bion, 1962, 1970 · Stephen W. Porges, 2011 · Julian F. Thayer and Richard D. Lane, 2009",
     "domain": "The neurobiology of decision and epistemic psychoanalysis",
-    "definition": "Decisional model describing the opposition, at the critical point of an acute crisis (decisional bifurcation node), between the maladaptive reactive loop of Pathway A—dominated by amygdala hyperactivation (fight-or-flight sympathetic discharge) or unmyelinated dorsal vagal collapse (dissociative immobilization and learned helplessness), attentional field narrowing, and defensively motivated System 1/System 2—and adaptive deliberative Pathway B. This from the latter is supported by descending prefrontal inhibition (vmPFC/dlPFC activating GABAergic inhibitory interneurons in the central and basolateral amygdala), myelinated ventral vagal complex (vagal brake and social engagement system, Porges, 2011), high heart rate variability (HRV, index of neurovisceral integration, Thayer & Lane, 2009) and negative uncertainty tolerance (Bion, 1970).",
-    "monographContext": "At the moment of acute shock, the opening of Pathway B relies on the CERC coregulatory bridge and the proximity community validators, while for the general population the stable transition to Pathway B becomes possible through allostatic decompression and the technical measures to limit algorithmic amplification in Phase I (Figure 6).",
+    "definition": "Decisional model describing the opposition, at the critical point of an acute crisis (decisional bifurcation node), between the maladaptive reactive loop of Track A—dominated by amygdala hyperactivation (fight-or-flight sympathetic discharge) or unmyelinated dorsal vagal collapse (dissociative immobilization and learned helplessness), attentional field narrowing, and defensively motivated System 1/System 2—and adaptive deliberative Track B. This from the latter is supported by descending prefrontal inhibition (vmPFC/dlPFC activating GABAergic inhibitory interneurons in the central and basolateral amygdala), myelinated ventral vagal complex (vagal brake and social engagement system, Porges, 2011), high heart rate variability (HRV, index of neurovisceral integration, Thayer & Lane, 2009) and negative capability (tolerance of uncertainty) (Bion, 1970).",
+    "monographContext": "At the moment of acute shock, the opening of Track B relies on the CERC coregulatory bridge and the proximity community validators, while for the general population the stable transition to Track B becomes possible through allostatic decompression and the technical measures to limit algorithmic amplification in Phase I (Figure 6).",
     "polarity": "synthesis"
   },
   {
     "id": "prebunking-inoculare",
     "term": "Prebunking and resistance to persuasion",
     "stratum": "B",
-    "authors": "William J. McGuire, 1964 · Jon Roozenbeek și Sander van der Linden, 2019, 2022 · Hermann Ebbinghaus, 1885",
+    "authors": "William J. McGuire, 1964 · Jon Roozenbeek and Sander van der Linden, 2019, 2022 · Hermann Ebbinghaus, 1885",
     "domain": "Experimental psychology and cognitive education",
     "definition": "Preventive strengthening mechanism of epistemic resilience based on the theory of resistance to persuasion (McGuire, 1964) and digitally operationalized as prebunking (Roozenbeek & van der Linden, 2019, 2022), through which the population is trained in advance to recognize formal patterns of manipulation. This training is accompanied by periodic sessions of mnemonic consolidation calibrated on the forgetting curve (Ebbinghaus, 1885) for the transfer of discernment into long-term procedural memory.",
     "monographContext": "The second pillar of Phase II of the resilience rebuilding protocol.",
@@ -450,7 +450,7 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
     "id": "guvernanta-policentrica-ostrom",
     "term": "Polycentric governance, autonomous political action, and perceived self-efficacy",
     "stratum": "A",
-    "authors": "Vincent și Elinor Ostrom, 1990, 2010 · Albert Bandura, 1997",
+    "authors": "Vincent and Elinor Ostrom, 1990, 2010 · Albert Bandura, 1997",
     "domain": "Political Science and Institutional Economics",
     "definition": "Institutional system in which multiple autonomous decision-making centers — local, regional, national and European — cooperate and balance each other under a common constitutional framework (Ostrom, 1990, 2010), giving back to the citizen the capacity for autonomous political action (political agency) and the sense of perceived self-efficacy (Bandura, 1997).",
     "monographContext": "It overcomes in Phase III both bureaucratic hypercentralism and the fiefdoms of local barons.",
@@ -470,7 +470,7 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
     "id": "stratul-a",
     "term": "Layer A: Institutional, historical and sociological architecture",
     "stratum": "A",
-    "authors": "Titu Maiorescu, 1868 · Niklas Luhmann, 1995, 2004 · Daron Acemoglu și James A. Robinson, 2012",
+    "authors": "Titu Maiorescu, 1868 · Niklas Luhmann, 1995, 2004 · Daron Acemoglu and James A. Robinson, 2012",
     "domain": "Institutional sociology and systems theory",
     "definition": "The first causal level of the model in the monograph, which analyzes the structure of the state, the degree of operational closure of justice and administration, the relationship between inclusive institutions and extractive networks, and sociospatial polarization.",
     "monographContext": "Deficits in Layer A deterministically generate the allostatic wear and tear in Layer B and the split between the mimetic Persona and the collective Shadow in Layer C, according to Figure 1.",
@@ -490,7 +490,7 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
     "id": "stratul-c",
     "term": "Layer C: The Cultural Unconscious and Archetypal Dynamics",
     "stratum": "C",
-    "authors": "Carl Gustav Jung, 1951/1968, 1954/1968 · Edward F. Edinger, 1972 · Singer și Kimbles, 2004 · Vamık D. Volkan, 1997",
+    "authors": "Carl Gustav Jung, 1951/1968, 1954/1968 · Edward F. Edinger, 1972 · Singer and Kimbles, 2004 · Vamık D. Volkan, 1997",
     "domain": "Post-Jungian analytical psychology and psychosociology",
     "definition": "The third causal level of the monographic architecture, which examines cultural complexes, the relationship between the institutional Persona and the collective Shadow, the state of the Ego–Self axis, unintegrated historical traumas, and archetypes activated in crisis.",
     "monographContext": "It explains why cognitive capture takes on the force of an identity conversion immune to mere statistical argument or fact-checking.",
@@ -500,7 +500,7 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
     "id": "institutii-extractive",
     "term": "Extractive institutions and limited access social order",
     "stratum": "A",
-    "authors": "Daron Acemoglu și James A. Robinson, 2012 · North, Wallis și Weingast, 2009",
+    "authors": "Daron Acemoglu and James A. Robinson, 2012 · North, Wallis and Weingast, 2009",
     "domain": "Political economy and neo-institutionalism",
     "definition": "Institutional arrangements in which the formal rules of the rule of law are subsumed by clientelistic politico-economic networks for rent extraction, the distribution of group privileges, and the blocking of open meritocratic competition.",
     "monographContext": "It generates the citizen's perception that the state is hostile or indifferent, eroding democratic legitimacy and paving the way for the slide into Quadrant III of Cipolla's matrix.",
@@ -521,7 +521,7 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
     "term": "Recycling and disguising the information source through intermediaries: Doppelgänger, Matryoshka and Pravda networks",
     "stratum": "A",
     "authors": "Thomas Rid, 2020 · Peter Pomerantsev, 2014, 2019 · Ilia Shumailov et al., 2024",
-    "domain": "Cyber ​​security and OSINT analysis",
+    "domain": "Cybersecurity and OSINT analysis",
     "definition": "Transnational architecture in three levels of recycling and dissimulation of the information source (information laundering): the Kremlin's strategic laboratories and Pravda aggregators, followed by ideological intermediaries and local paraecclesial nuclei. The third level is the digital distribution infrastructure through cloned sites (Doppelgänger), swarms of bots (Matryoshka), manipulation of linguistic model training corpora (LLM grooming) and non-transparently coordinated micro-influencers.",
     "monographContext": "It bypasses Romanians' direct historical aversion to Russia and floods AI models and search engines with synthetic data.",
     "polarity": "tension"
@@ -540,7 +540,7 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
     "id": "grup-control-regional",
     "term": "Regional control group: Estonia, Poland and the Republic of Moldova",
     "stratum": "A",
-    "authors": "Analiza comparativă din Subcapitolul 2.3 al monografiei",
+    "authors": "Comparative analysis in Subchapter 2.3 of the monograph",
     "domain": "Comparative security and resilience policies",
     "definition": "Comparative methodology that examines three states from the eastern flank exposed to the same Russian cognitive vector, without idealizing them, but taking into account their own internal tensions (the residual vulnerability of the Russian-speaking minority in Estonia, the constitutional disputes regarding justice in Poland and the narrow electoral margins or the resistance of oligarchic networks to vetting in the Republic of Moldova). It demonstrates that resilience results from digital debureaucratization (e-Estonia) and preventive preparedness in Estonia, institutionalized historical memory and strategic consensus in Poland, and firm sanctioning of illicit financial flows in the Republic of Moldova.",
     "monographContext": "It refutes the thesis of cultural fatality and isolates the internal institutional variables responsible for Romania's vulnerability.",
@@ -560,7 +560,7 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
     "id": "proairesis",
     "term": "Proairesis: Moral Discernment and Deliberate Choice",
     "stratum": "B",
-    "authors": "Aristotel · Epictet · Grigorie de Nyssa · Maxim Mărturisitorul · Dumitru Stăniloae, 1978",
+    "authors": "Aristotle · Epictetus · Gregory of Nyssa · Maximus the Confessor · Dumitru Stăniloae, 1978",
     "domain": "Classical Ethics, Decision Theory, and Patristic Theology",
     "definition": "The rational and moral capacity of the free person to suspend the impulsive automatic reaction and consciously choose between good and evil; the deliberative faculty through which consciousness exercises its ontological freedom in the face of manipulative stimuli and collectivist determinations.",
     "monographContext": "It forms the ethical and patristic foundation of Adaptive Deliberative Track B and of reconciling the Christian-secular moral filter in Subchapters 2.2 and 6.2.",
@@ -580,7 +580,7 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
     "id": "proiectie-paranoida",
     "term": "Shadow's paranoid projection and the scapegoat mechanism",
     "stratum": "C",
-    "authors": "Vamık D. Volkan, 1997 · Thomas Singer și Samuel L. Kimbles, 2004 · Carl Gustav Jung, 1951/1968 · René Girard, 1982",
+    "authors": "Vamık D. Volkan, 1997 · Thomas Singer and Samuel L. Kimbles, 2004 · Carl Gustav Jung, 1951/1968 · René Girard, 1982",
     "domain": "Analytical psychology and political anthropology",
     "definition": "Collective psychodynamic mechanism by which the community ascribes to itself absolute ontological innocence (the archetype of the pure victim), evacuating the unintegrated contents of the collective Shadow—totalitarian complicity, endogenous corruption, and underdevelopment—on an omnipotent \"external persecutor\" or scapegoat (Girard, 1982; Volkan, 1997).",
     "monographContext": "It provides an illusory discharge of psychic tension but blinds society to the real internal institutional causes of its suffering.",
@@ -608,9 +608,9 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
   },
   {
     "id": "capacitate-negativa-bion",
-    "term": "Negative potentiation and descending neurovisceral regulation of Pathway B",
+    "term": "Negative capability and descending neurovisceral regulation of Track B",
     "stratum": "B",
-    "authors": "Wilfred R. Bion, 1962, 1970 · Stephen W. Porges, 2011 · Julian F. Thayer și Richard D. Lane, 2009",
+    "authors": "Wilfred R. Bion, 1962, 1970 · Stephen W. Porges, 2011 · Julian F. Thayer and Richard D. Lane, 2009",
     "domain": "Epistemic psychoanalysis and the neurobiology of decision",
     "definition": "The psychic and metacognitive ability formulated by John Keats and theorized in psychoanalysis by Wilfred R. Bion (1962, 1970) to tolerate uncertainty, ambiguity, and the lack of an immediate response in the midst of an acute crisis. At the neurophysiological level, this capacity is supported by the top-down regulation of the ventromedial and dorsolateral prefrontal cortex (which activates GABAergic inhibitory interneurons in the central and basolateral amygdala), by the myelinated ventral vagal complex (vagal brake and social engagement system from the polyvagal theory, Porges, 2011) and by a high heart rate variability (HRV, the index of neurovisceral integration, Thayer & Lane, 2009 ), preventing both the burst sympathetic response and unmyelinated dorsal vagal collapse.",
     "monographContext": "The decisive condition in the bifurcation node for the opening of Deliberative Path B in acute crisis by institutional leaders, technical agencies and proximity community validators, illustrated in Figure 6.",
@@ -620,7 +620,7 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
     "id": "protocolul-secvential-trei-faze",
     "term": "The mandatory three-phase sequential protocol",
     "stratum": "A",
-    "authors": "Marc Lalonde, 1974 · G. E. Alan Dever, 1976 · Bruce S. McEwen, 1998 · Brendan Nyhan și Jason Reifler, 2010 · Dan M. Kahan, 2017 · Jon Roozenbeek et al., 2022",
+    "authors": "Marc Lalonde, 1974 · G. E. Alan Dever, 1976 · Bruce S. McEwen, 1998 · Brendan Nyhan and Jason Reifler, 2010 · Dan M. Kahan, 2017 · Jon Roozenbeek et al., 2022",
     "domain": "Strategic Architecture of Societal Resilience",
     "definition": "The strict causal order of resilience reconstruction on Lalonde–Dever systemic determinants: Phase I of allostatic decompression and algorithmic hygiene (0–12 months, with tactical triage of 0–72h), Phase II of community validation, preventive training and moral filter (1–3 years) and Phase III of operational closure, polycentricity and collective individuation (3–10 years).",
     "monographContext": "It demonstrates why phase reversal—launching fact-checking or media education campaigns without prior allostatic decompression—fails through three experimentally documented perverse effects (Nyhan & Reifler, 2010; Kahan, 2017; Roozenbeek et al., 2022): the identity boomerang effect (worldview backfire), the familiarity backfire effect (on the background of prefrontal working memory exhausted) and epistemic cynicism towards the official discourse.",
@@ -628,9 +628,9 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
   },
   {
     "id": "curba-uitarii-ebbinghaus",
-    "term": "Ebbinghaus's forgetting curve and spaced mnesic consolidation",
+    "term": "Ebbinghaus's forgetting curve and spaced mnemonic consolidation",
     "stratum": "B",
-    "authors": "Hermann Ebbinghaus, 1885 · Jon Roozenbeek și Sander van der Linden, 2022",
+    "authors": "Hermann Ebbinghaus, 1885 · Jon Roozenbeek and Sander van der Linden, 2022",
     "domain": "Psychology of memory and preventive psychocognitive training",
     "definition": "Psychocognitive law showing that cognitive resilience acquired through a single session of preemptive training erodes exponentially over time if not reactivated by periodic sessions of memory consolidation calibrated on the forgetting curve.",
     "monographContext": "It mandates the design of Phase II educational programs as recurrent training for the transfer of discernment to procedural memory.",
@@ -640,20 +640,20 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
     "id": "individuare-colectiva",
     "term": "Collective individuation and the reconciliation of substance with form",
     "stratum": "C",
-    "authors": "Carl Gustav Jung, 1928 · Edward F. Edinger, 1972 · Alexander și Margarete Mitscherlich, 1967",
+    "authors": "Carl Gustav Jung, 1928 · Edward F. Edinger, 1972 · Alexander and Margarete Mitscherlich, 1967",
     "domain": "Analytical psychology and the philosophy of history",
     "definition": "The process of historical maturation by which a national community honestly integrates its Shadow and totalitarian traumas, overcomes the split between mimetic Persona and informal reality, and rebuilds its coherence on the Ego–Self axis.",
-    "monographContext": "It crowns Phase III of the protocol, transforming democratic institutions from \"bottomless forms\" into the expression of an organic modernity.",
+    "monographContext": "It crowns Phase III of the protocol, transforming democratic institutions from \"forms without substance\" into the expression of an organic modernity.",
     "polarity": "synthesis"
   },
   {
     "id": "ipoteze-baza-grup-lucru-bion",
-    "term": "Basic assumptions (baD, baF, baP), valence and working group",
+    "term": "Basic assumptions (baD, baF, baP), valence and work group",
     "stratum": "C",
     "authors": "Wilfred R. Bion, 1961",
     "domain": "Group Psychodynamics and Clinical Sociology",
     "definition": "Fundamental distinction formulated by Wilfred R. Bion (1961) between the \"work group\" (oriented towards reality testing, rational cooperation and methodical task solving, which requires training and procedures) and the collective regression into \"basic assumptions\" (basic assumptions), which is instantly and involuntarily triggered by \"valency\" (valency - the prerational readiness of distressed individuals to merge affectively in contagion): passive dependence on a tutelary authority (baD), messianic mating in anticipation of a providential savior (baP), and fight-or-flight dominated by paranoid projections (baF). As the magical promise of the savior (baP) or the tutelary state (baD) inevitably disappoints in contact with structural reality, the collectivity veers cyclically into paranoid rage and fight-or-flight (baF) aggression.",
-    "monographContext": "It explains in Subchapters 5.1 and 5.2 (and on the Synoptic Cover Plate) the cyclical dynamics of the collective regression on Route A and the conditions for the establishment of a rational working group on Route B.",
+    "monographContext": "It explains in Subchapters 5.1 and 5.2 (and on the Synoptic Cover Plate) the cyclical dynamics of the collective regression on Track A and the conditions for the establishment of a rational work group on Track B.",
     "polarity": "neutral"
   },
   {
@@ -670,9 +670,9 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
     "id": "coreglare-cerc-validatori",
     "term": "CERC coregulatory bridge and community proximity validators",
     "stratum": "B",
-    "authors": "Barbara Reynolds și Matthew W. Seeger, 2005 (CDC CERC) · Wilfred R. Bion, 1962, 1970 · Stephen W. Porges, 2011 · Julian F. Thayer și Richard D. Lane, 2009",
+    "authors": "Barbara Reynolds and Matthew W. Seeger, 2005 (CDC CERC) · Wilfred R. Bion, 1962, 1970 · Stephen W. Porges, 2011 · Julian F. Thayer and Richard D. Lane, 2009",
     "domain": "Crisis communication and the neurobiology of decision",
-    "definition": "Polycentric de-escalation architecture in the first 0–72 hours of an acute informational shock, based on the principles of Crisis and Emergency Risk Communication (CDC CERC, Reynolds & Seeger, 2005: be first, be fair, be credible, express empathy, promote concrete action and show respect). Since the partisan political discourse is affected by the mistrust of the mimetic Persona, the affective co-regulation and opening of Route B is supported on two depoliticized levels: the autonomous technical agencies that publish verifiable STIX/DISARM evidence and the proximity community validators (doctors, teachers, canonical clergy, civic leaders).",
+    "definition": "Polycentric de-escalation architecture in the first 0–72 hours of an acute informational shock, based on the principles of Crisis and Emergency Risk Communication (CDC CERC, Reynolds & Seeger, 2005: be first, be fair, be credible, express empathy, promote concrete action and show respect). Since the partisan political discourse is affected by the mistrust of the mimetic Persona, the affective co-regulation and opening of Track B is supported on two depoliticized levels: the autonomous technical agencies that publish verifiable STIX/DISARM evidence and the proximity community validators (doctors, teachers, canonical clergy, civic leaders).",
     "monographContext": "Resolves in Subchapters 5.2 and 6.1 (and Figure 6) the paradox of reactivation of the prefrontal cortex under acute shock.",
     "polarity": "synthesis"
   },
@@ -680,7 +680,7 @@ export const GLOSSARY_CONCEPTS: GlossaryConcept[] = [
     "id": "isonomie-fiscala-arhitectura-alegerii",
     "term": "Fiscal isonomy, mirror penalization and the architecture of institutional choice",
     "stratum": "A",
-    "authors": "Richard H. Thaler și Cass R. Sunstein, 2008 · Niklas Luhmann, 2004 · Decizia CCR nr. 694/2015",
+    "authors": "Richard H. Thaler and Cass R. Sunstein, 2008 · Niklas Luhmann, 2004 · Constitutional Court Decision no. 694/2015",
     "domain": "Constitutional tax law and institutional economics",
     "definition": "Mechanism of institutional choice architecture (institutional choice architecture, Thaler & Sunstein, 2008) and operational closure (Luhmann, 2004) through which the state eliminates the extractive asymmetry from the fiscal report (art. 167, art. 182 and art. 281 of Law no. 207/2015 – CPF, in accordance with the principle of fiscal symmetry from CCR Decision no. 694/2015), operating the ex officio automatic compensation of mutual claims (art. 167 CPF), ex officio transferring to the same IBAN account the mirror interest and penalties owed to the citizen or the company (art. 182 CPF) and establishing joint and several patrimonial liability and the effective recourse for definitively annulled tax acts in which the court finds bad faith or gross negligence (art. 281 CPF).",
     "monographContext": "It seals in Subchapter 6.3 and Figure 5 the horizontal constitutional floor between Quadrant II and Quadrant III in Cipolla's matrix, reducing the opportunity cost of honesty and drawing citizens into Quadrant I (+X, +Y).",
@@ -2092,7 +2092,7 @@ export const CHAPTER_EXECUTIVE_SUMMARIES: ChapterExecutiveSummary[] = [
     "executiveSynthesis": [
       {
         "id": "exec-1-1",
-        "title": "Diagnosed mechanism: Bottomless forms and allostatic wear",
+        "title": "Diagnosed mechanism: Forms without substance and allostatic wear",
         "takeaway": "Deficit of operational closure, extractive institutions, and sociospatial polarization induce chronic allostatic wear and biological inhibition of the dorsolateral prefrontal cortex (dlPFC, with System 1 switching) in vulnerable environments, while in deprived urban strata it diverts System 2 into irrationality and motivated rationalization (Stanovich, 2009; Kahan, 2017).",
         "implication": "Against the background of the vacuum of political representation (Mair, 2013), everyday insecurity in the peripheries and defensive conformity in urban bubbles compromise the analytical processing of information before contact with external propaganda."
       },
@@ -2142,7 +2142,7 @@ export const CHAPTER_EXECUTIVE_SUMMARIES: ChapterExecutiveSummary[] = [
         "id": "exec-3-1",
         "title": "Diagnosed mechanism: Colonization of the OODA Orientation phase and binary semiosis",
         "takeaway": "Second-order reflexive control—automated today by recommendation algorithms and based on aberrant precision-weighting (Friston) that attributes hyperprecision to conspiratorial dogma and mitigates factual prediction errors—targets the Orientation phase of the OODA loop, keeping the citizen at Rank 0/1 reflexivity and switching him from the first ethical system of cooperation to the second ethical system of confrontation binary.",
-        "implication": "Once the Orientation matrix is ​​altered, the citizen spontaneously rejects fact checks to protect his identity and status within the group he belongs to."
+        "implication": "Once the Orientation matrix is  altered, the citizen spontaneously rejects fact checks to protect his identity and status within the group he belongs to."
       },
       {
         "id": "exec-3-2",
@@ -2160,11 +2160,11 @@ export const CHAPTER_EXECUTIVE_SUMMARIES: ChapterExecutiveSummary[] = [
   },
   {
     "chapterNumber": 4,
-    "chapterTitle": "Chapter 4: Chronicling polarization and the dynamics of social self-destruction",
+    "chapterTitle": "Chapter 4: The entrenchment of polarization and the dynamics of social self-destruction",
     "executiveSynthesis": [
       {
         "id": "exec-4-1",
-        "title": "Diagnosed Mechanism: Sovereign Enantiodromy and Shadow Projection",
+        "title": "Diagnosed Mechanism: Sovereign Enantiodromia and Shadow Projection",
         "takeaway": "The saturation of the mimetic institutional Persona in a society devoid of predictable institutions and exhausted by chronic stress generates an enantiodromous reactive pendulum, overturning the pro-Western facade conformism in the radical rejection of the constitutional order.",
         "implication": "Unintegrated contents of the collective Shadow are vented by paranoid projection onto an \"external persecutor\", masking the responsibility of internal extractive networks."
       },
@@ -2194,15 +2194,15 @@ export const CHAPTER_EXECUTIVE_SUMMARIES: ChapterExecutiveSummary[] = [
       },
       {
         "id": "exec-5-2",
-        "title": "Systemic vulnerability: The bifurcation between the reactive Pathway A and the deliberative Pathway B",
-        "takeaway": "Under acute informational shock, the absence of prefrontal regulation diverts processing into reactive Pathway A—the amygdala loop, dopaminergic-induced cognitive tunneling, and fear contagion—blocking adaptive deliberative Pathway B.",
-        "implication": "On Route A, the electorate and institutions go into decisional paralysis without firing a single shot, fulfilling the terminal goal of cognitive warfare."
+        "title": "Systemic vulnerability: The bifurcation between the reactive Track A and the deliberative Track B",
+        "takeaway": "Under acute informational shock, the absence of prefrontal regulation diverts processing into reactive Track A—the amygdala loop, dopaminergic-induced cognitive tunneling, and fear contagion—blocking adaptive deliberative Track B.",
+        "implication": "On Track A, the electorate and institutions go into decisional paralysis without firing a single shot, fulfilling the terminal goal of cognitive warfare."
       },
       {
         "id": "exec-5-3",
         "title": "Strategic Decision: Leaders' Responsibility in Acute Shock and Phase I Decompression",
-        "takeaway": "At the moment of the acute shock (0–72h), the opening of the deliberative Path B through negative capacity (Bion, 1970) and CDC CERC communication relies on a polycentric architecture on two levels: the depoliticized technical agencies (with STIX/DISARM proving ground) and the proximity community validators (doctors, teachers, canonical clerics, independent journalists).",
-        "implication": "For the broad biologically depleted population, stable and autonomous transition to Pathway B becomes possible as the coregulatory bridge of the first 72 hours is strengthened by the allostatic decompression and technical algorithmic amplification-limiting measures of Phase I of the protocol."
+        "takeaway": "At the moment of the acute shock (0–72h), the opening of the deliberative Path B through negative capability (Bion, 1970) and CDC CERC communication relies on a polycentric architecture on two levels: the depoliticized technical agencies (with STIX/DISARM proving ground) and the proximity community validators (doctors, teachers, canonical clerics, independent journalists).",
+        "implication": "For the broad biologically depleted population, stable and autonomous transition to Track B becomes possible as the coregulatory bridge of the first 72 hours is strengthened by the allostatic decompression and technical algorithmic amplification-limiting measures of Phase I of the protocol."
       }
     ]
   },
@@ -2213,7 +2213,7 @@ export const CHAPTER_EXECUTIVE_SUMMARIES: ChapterExecutiveSummary[] = [
       {
         "id": "exec-6-1",
         "title": "Diagnosed Mechanism: Mandatory Causal Sequentiality on the Lalonde–Dever Model",
-        "takeaway": "The reconstruction protocol must be executed strictly sequentially: Phase I of acute cognitive and financial triage (0–72h) and structural allostatic decompression (0–12 months), Phase II of community validation, active open thinking and preventive preparation (1–3 years) and Phase III of operational closure, fiscal isonomy and polycentricity in the “narrow corridor” (3–10 years).",
+        "takeaway": "The reconstruction protocol must be executed strictly sequentially: Phase I of acute cognitive and financial triage (0–72h) and structural allostatic decompression (0–12 months), Phase II of community validation, actively open-minded thinking and preventive preparation (1–3 years) and Phase III of operational closure, fiscal isonomy and polycentricity in the “narrow corridor” (3–10 years).",
         "implication": "Phase reversal—launching media education campaigns over a population in allostatic attrition and algorithmic capture—triggers three experimentally documented perverse effects (Nyhan & Reifler, 2010; Kahan, 2017; Roozenbeek et al., 2022): the worldview backfire, the familiarity backfire, and epistemic cynicism towards official discourse."
       },
       {
@@ -2226,7 +2226,7 @@ export const CHAPTER_EXECUTIVE_SUMMARIES: ChapterExecutiveSummary[] = [
         "id": "exec-6-3",
         "title": "Strategic decision: Institutional operationalization and the synthesis of organic modernity",
         "takeaway": "The articulation of responsibilities between DNSC, ANCOM, CSAT, CNA, the Ministry of Education, the Romanian Orthodox Church, universities and the local administration unites the just impersonal law with the ethics of the dignity of the person.",
-        "implication": "The synthesis of organic modernity definitively resolves the historical anomaly of \"bottomless forms\", transforming Romania into a pillar of democratic sovereignty in NATO and the European Union."
+        "implication": "The synthesis of organic modernity definitively resolves the historical anomaly of \"forms without substance\", transforming Romania into a pillar of democratic sovereignty in NATO and the European Union."
       }
     ]
   }
@@ -2238,7 +2238,7 @@ export const OPERATIONAL_PROTOCOL_TABLE: InstitutionalProtocolRow[] = [
     "phaseCode": "Phase I",
     "phaseTitle": "Allostatic decompression, neutralization of financing circuits (Follow the Money) and technical slowing of virality",
     "horizon": "Dual horizon: 0–72 hours (acute tactical triage) · 0–12 months (structural decompression)",
-    "targetObjective": "Stopping the maladaptive reactive loop of Pathway A, decreasing basal hypercortisolemia on the HPA axis, interrupting dopaminergic capture in the nucleus accumbens, and blocking the financial and cryptographic flows of informational operations.",
+    "targetObjective": "Stopping the maladaptive reactive loop of Track A, decreasing basal hypercortisolemia on the HPA axis, interrupting dopaminergic capture in the nucleus accumbens, and blocking the financial and cryptographic flows of informational operations.",
     "concreteIntervention": "Sequential execution on three steps of tracking and financial and technical blocking, under the constitutional proportionality guarantees of art. 30 and art. 53 of the Romanian Constitution and art. 14, 17 and 20 of the DSA Regulation (transparent technical reasoning, effective appeal in litigation and the intangibility of legitimate political opinions). In the first step, STIX/DISARM evidentiary standardization through DNSC and the EDMO/BROD regional hub is doubled by CDC CERC strategic communication (Reynolds & Seeger, 2005) and the systematic association of Orders to act against illegal content (art. 7–8 of Law no. 50/2024 / art. 9 of DSA) issued by the relevant sector authorities (including CNA for online audiovisual content, AEP/BEC, DNSC or prosecutors' offices) and procedurally transmitted through the ANCOM single point of contact (without substantive decisions on the content) with the mandatory Orders for the provision of financial information and the identity of the payers (art. 9 of Law no. 50/2024 / art. 10 of the DSA) to VLOPs. In the second step, AEP and BEC carry out the real-time verification of the financial trustee code (CMF) and the blocking of unmarked or funded political advertising from third countries (Law no. 334/2006, O.U.G. no. 1/2025 — art. 16–17 adopted specifically for the presidential elections of May 2025 and Regulation (EU) 2024/900 TTPA applicable of October 10, 2025 — art. 11–16, distinct from art. 15 and 17. In the third step, ONPCSB orders, under exclusive jurisdiction, the operational suspension in real time for 24-72 hours of suspicious transactions and the blocking of conversions from crypto-assets to fiduciary currency (off-ramp) (art. 33-34 of Law no. 129/2019), followed by notification to the PICCJ for insurance seizure, under the sectoral and prudential supervision of the BNR and ASF by querying the electronic central register for payment accounts and bank accounts (art. 61¹ of Law no. 207/2015 – CPF in conjunction with art. 33 par. 4–5 of Law no. 129/2019 and Law no. 86/2025), the application of O.U.G. no. 10/2025 (the national mechanism for the TFR Regulation (EU) 2023/1113 – Travel Rule and the supervision of crypto-asset service providers (CASP) regarding the fight against money laundering and terrorist financing according to art. 32¹ of Law no. 129/2019) and MiCA Regulation (EU) 2023/1114, completed over the 0-12 month horizon of digital debureaucratization according to the e-Estonia model.",
     "responsibleActors": "ANCOM as Coordinator of Digital Services (DSC, Law no. 50/2024), the National Broadcasting Council (CNA), DNSC, AEP and BEC, ONPCSB, BNR, ASF and PICCJ, the crisis cells of CSAT, MAI and MApN, in direct coordination with the European Commission and the European Digital Media Observatory (EDMO / BROD regional hub)."
   },
@@ -2247,7 +2247,7 @@ export const OPERATIONAL_PROTOCOL_TABLE: InstitutionalProtocolRow[] = [
     "phaseCode": "Phase II",
     "phaseTitle": "Preventive psychocognitive training, community validation, and moral reconciliation",
     "horizon": "Average operational horizon: 1–3 years",
-    "targetObjective": "The reconstruction of the Orientation phase from the OODA loop, the stable switch to the adaptive deliberative Route B and the neutralization of the double axiological falsification of the Russkii Mir doctrine.",
+    "targetObjective": "The reconstruction of the Orientation phase from the OODA loop, the stable switch to the adaptive deliberative Track B and the neutralization of the double axiological falsification of the Russkii Mir doctrine.",
     "concreteIntervention": "Independent auditing of recommendation algorithms by approved researchers (art. 40 of the DSA) and early notification of manipulation by certified trusted notifiers, direct application of Regulation (EU) 2024/1083 on media freedom (European Media Freedom Act – EMFA: transparency of the real beneficiaries of the media in art. 6, editorial independence in art. 4–5, structured dialogue with VLOPs in art. 18 and the objective and transparent allocation of state advertising to art. 25), along with national preventive psychocognitive training campaigns with periodic memory consolidation sessions calibrated on Ebbinghaus's forgetting curve. In parallel, the associative proximity infrastructure for positive complex contagion is restored and the civic-theological partnership based on the Imago Dei principle and moral discernment is strengthened.",
     "responsibleActors": "ANCOM (DSC), the National Broadcasting Council (CNA), DNSC, the European Commission, the EDMO/BROD regional hub, approved researchers and certified reliable notifiers, public interest media, the Romanian Orthodox Church and the other recognized cults, along with the theological faculties."
   },
@@ -2256,7 +2256,7 @@ export const OPERATIONAL_PROTOCOL_TABLE: InstitutionalProtocolRow[] = [
     "phaseCode": "Phase III",
     "phaseTitle": "Operational closure of the rule of law, fiscal isonomy, polycentric governance and double auditing",
     "horizon": "Strategic horizon: 3–10 years",
-    "targetObjective": "Eliminating the historical root of \"bottomless forms\", strengthening the institutional barrier in Cipolla's matrix through the architecture of choice (Thaler & Sunstein) for drawing into Quadrant I of intelligent cooperation and institutional support of mature constitutional patriotism.",
+    "targetObjective": "Eliminating the historical root of \"forms without substance\", strengthening the institutional barrier in Cipolla's matrix through the architecture of choice (Thaler & Sunstein) for drawing into Quadrant I of intelligent cooperation and institutional support of mature constitutional patriotism.",
     "concreteIntervention": "The protocol is structured on four macrostructural pillars: the closure of justice, administrative meritocracy (by eliminating temporary discretionary appointments from art. 509–510 of O.U.G. no. 57/2019 and the termination of the chain provisional mandates of administrators and directors in state companies provided for in art. 29¹ and art. 64¹ of O.U.G. no. 109/2011, amended by Law no. 187/2023, under the supervision of AMEPIP), fiscal isonomy and polycentric governance (through objective formulas for balancing local budgets in art. 32–33 of Law no. 273/2006, the limitation of the Reserve Fund from art. 30 of Law no. 500/2002 exclusively to unpredictable emergencies and capitalizing on the social and institutional remittances of the diaspora, Sandu, 2010). Within these pillars, the protocol establishes two paradigmatic case studies of the architecture of institutional choice (institutional choice architecture, Thaler & Sunstein, 2008): the law reform of ferenda of art. 167 and art. 182 of Law no. 207/2015 regarding the Fiscal Procedure Code (penalization in the mirror of the state, automatic automatic compensation of mutual tax claims according to art. 167 CPF and ex officio transfer of interest and penalties to the same IBAN account according to art. 182 CPF, in full agreement with the principle of fiscal symmetry enshrined in CCR Decision no. 694/2015) and the proposal to supplement art. 281 CPF regarding the joint patrimonial liability and effective recourse when the court definitively finds that the annulled tax act was issued in bad faith or with gross negligence, distinct from the internal patrimonial liability of the officials towards the institution regulated by art. 499–500 of the Administrative Code; respectively the Ferenda law reform of the governance of agricultural cooperatives from Law no. 566/2004 (amending art. 31 and art. 33–35 in conjunction with art. 16 para. 4 and art. 29 and the facilities in art. 76–76¹: competitively recruited independent executive director, prohibition of relatives and relatives up to the third degree and protection of VAT refunds), which rebuilds the bridging social capital (Putnam, 2000). The entire protocol is subject to a dual independent periodic audit mechanism: the external public audit of the performance carried out biennially by the Court of Accounts (art. 2 letters b and d and art. 28 para. 2 of Law no. 94/1992; Law no. 500/2002) and the scientific and civic audit carried out by university consortia accredited as \"approved researchers\" (art. 40 of DSA / EDMO) on The European framework of digital skills (DigComp), on the methodologies of the National Institute for Audiovisual Education KAVI and through participatory decision-making simulations.",
     "responsibleActors": "The Parliament of Romania, the Ministry of Finance and the State Treasury, the Court of Accounts of Romania, the judicial and administrative system, the Ministry of Education, accredited university consortia (researchers approved according to art. 40 DSA / EDMO), agricultural cooperatives and local public administration."
   }

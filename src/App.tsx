@@ -864,7 +864,7 @@ export function App() {
                   {/* Step Header & Navigation */}
                   <div className="flex flex-wrap items-center justify-between gap-2 pb-4 mb-4 border-b border-[#8C9BA5]">
                     <div className="text-xs font-mono text-[#6E7376]">
-                      PASUL {String(currentStep.stepNumber).padStart(2, '0')} / 19 · {currentStep.chapterTitle}
+                      STEP {String(currentStep.stepNumber).padStart(2, '0')} / 19 · {currentStep.chapterTitle}
                     </div>
                     <div className="flex flex-wrap items-center gap-2">
                       <button
@@ -994,7 +994,7 @@ export function App() {
                           {currentExecutiveSummary.chapterTitle}
                         </h3>
                         <p className="text-xs sm:text-sm font-mono text-[#6E7376] mt-1">
-                          Methodological scope · {currentStep.code} · Pasul {currentStep.stepNumber} of 19
+                          Methodological scope · {currentStep.code} · Step {currentStep.stepNumber} of 19
                         </p>
                       </div>
 
@@ -1005,7 +1005,7 @@ export function App() {
                             Focus on current section · {currentStep.code}
                           </span>
                           <span className="px-2 py-0.5 text-[11px] font-mono font-bold bg-[#E5B822] text-[#222426] border border-[#222426]">
-                            PASUL {String(currentStep.stepNumber).padStart(2, '0')} / 19
+                            STEP {String(currentStep.stepNumber).padStart(2, '0')} / 19
                           </span>
                         </div>
                         <p className="font-serif text-sm sm:text-base font-bold text-[#222426] leading-snug">
@@ -1412,7 +1412,7 @@ export function App() {
                                   : 'font-bold text-[#222426]'
                               }
                             >
-                              Stratul {conceptObj.stratum}
+                              Layer {conceptObj.stratum}
                             </span>
                             <span aria-hidden="true">·</span>
                             <span>{conceptObj.domain}</span>
@@ -1589,7 +1589,7 @@ export function App() {
                 Causal diagrams laboratory in the monograph
               </h2>
               <p className="text-xs sm:text-sm text-[#6E7376] mt-1">
-                Interact with all seven vector diagrams of the paper to inspect allostatic stress propagation, double axiological falsification, OODA loop hijacking, collective Shadow projection and enantiodromy, Cipolla's matrix, Track A / Track B bifurcation, and the three-phase protocol.
+                Interact with all seven vector diagrams of the paper to inspect allostatic stress propagation, double axiological falsification, OODA loop hijacking, collective Shadow projection and enantiodromia, Cipolla's matrix, Track A / Track B bifurcation, and the three-phase protocol.
               </p>
             </div>
 

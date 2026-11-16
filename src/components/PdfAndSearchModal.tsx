@@ -92,7 +92,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({
                 >
                   <div>
                     <div className="text-xs font-mono text-[#6E7376]">
-                      PASUL {String(step.stepNumber).padStart(2, '0')} / 19 · {step.chapterTitle}
+                      STEP {String(step.stepNumber).padStart(2, '0')} / 19 · {step.chapterTitle}
                     </div>
                     <div className="font-serif text-sm font-bold text-[#222426] mt-0.5">
                       {step.title}

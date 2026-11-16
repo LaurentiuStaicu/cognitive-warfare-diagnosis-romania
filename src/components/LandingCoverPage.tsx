@@ -26,7 +26,7 @@ const COVER_BLOCK_INFO: Record<
     badge: 'LAYER A · MACRO-INSTITUTIONAL',
     title: 'The constitutional framework, the operational closure and the revisionist vector',
     synthesis:
-      'It examines the historical tension between Western constitutional architecture ("bottomless forms") and the extractive networks of a social order with limited access, the chronic deficit of operational closure (Luhmann), and sociospatial polarization, which the revisionist vector of the Antiworld (Epstein) and the nihilism of the Bobok state (Dostoevsky) opportunistically exploit.',
+      'It examines the historical tension between Western constitutional architecture ("forms without substance") and the extractive networks of a social order with limited access, the chronic deficit of operational closure (Luhmann), and sociospatial polarization, which the revisionist vector of the Antiworld (Epstein) and the nihilism of the Bobok state (Dostoevsky) opportunistically exploit.',
     chapterLabel: 'Chapter 1',
     chapterHash: '#pasul-2',
     figureLabel: 'Figure 1',
@@ -54,9 +54,9 @@ const COVER_BLOCK_INFO: Record<
   },
   'stratul-c': {
     badge: 'LAYER C · THE CULTURAL UNCONSCIOUS AND THE PSYCHODYNAMICS OF GROUPS',
-    title: 'Route A (Basic assumptions, enantiodromy, Quadrant III) vs. Route B (Working Group, Quadrant I)',
+    title: 'Track A (Basic assumptions, enantiodromia, Quadrant III) vs. Track B (Work group, Quadrant I)',
     synthesis:
-      'It opposes the collective regression on Path A—Shadow projection, sovereignist enantiodromy, Wilfred R. Bion\'s basic assumptions (baD dependence, baP messianic pairing, baF fight-or-flight) and the collapse into Quadrant III of Cipolla\'s matrix self-sabotage (-X,-Y)—to Path B maturation: the constitution of community as a rational "workgroup" (Bion, 1961), activation of the transcendent function (Jung), restoration of the Ego–Self axis and intelligent cooperation in Quadrant I (+X, +Y).',
+      'It opposes the collective regression on Path A—Shadow projection, sovereignist enantiodromia, Wilfred R. Bion\'s basic assumptions (baD dependence, baP messianic pairing, baF fight-or-flight) and the collapse into Quadrant III of Cipolla\'s matrix self-sabotage (-X,-Y)—to Path B maturation: the constitution of community as a rational "workgroup" (Bion, 1961), activation of the transcendent function (Jung), restoration of the Ego–Self axis and intelligent cooperation in Quadrant I (+X, +Y).',
     chapterLabel: 'Chapters 4–5',
     chapterHash: '#pasul-11',
     figureLabel: 'Figures 4–6',
@@ -123,7 +123,7 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
 
             <div className="pt-2 border-t border-[#8C9BA5] space-y-3 text-xs sm:text-sm text-[#222426] leading-relaxed max-w-[65ch]">
               <p>
-                This paper demonstrates that the cognitive vulnerability of Romanian society does not represent a simple lack of media literacy, but the emergent result of the interaction between three causal levels: the historical anomaly of "bottomless forms", the chronic deficit of operational closure, the vacuum of political representation and the persistence of extractive institutions (Layer A); chronic allostatic wear and tear with switching to reactive System 1 in environments affected by precariousness, hijacking System 2 through motivated rationalization in urban bubbles, and colonizing the Orientation phase of the OODA loop through reflexive control (Layer B); respectively the projection of the collective Shadow, enantiodromia and slipping into collective self-sabotage in conditions of acute crisis (Layer C).
+                This paper demonstrates that the cognitive vulnerability of Romanian society does not represent a simple lack of media literacy, but the emergent result of the interaction between three causal levels: the historical anomaly of "forms without substance", the chronic deficit of operational closure, the vacuum of political representation and the persistence of extractive institutions (Layer A); chronic allostatic wear and tear with switching to reactive System 1 in environments affected by precariousness, hijacking System 2 through motivated rationalization in urban bubbles, and colonizing the Orientation phase of the OODA loop through reflexive control (Layer B); respectively the projection of the collective Shadow, enantiodromia and slipping into collective self-sabotage in conditions of acute crisis (Layer C).
               </p>
               <p className="text-[#6E7376]">
                 The interactive exploration brings together the full text of the six chapters, the executive synthesis for decision-makers, the mirroring decomposition into two registers—theoretical and empirical—the laboratory of the seven cybernetic diagrams, and the sequential three-phase reconstruction protocol.
@@ -266,7 +266,7 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
                     fontSize="10.5"
                     fill="#222426"
                   >
-                    Extractive institutions and "bottomless forms" vs. the rule of law
+                    Extractive institutions and "forms without substance" vs. the rule of law
                   </text>
                   <text
                     x="30"
@@ -434,7 +434,7 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
                     fontWeight="700"
                     fill="#F01E1E"
                   >
-                    LAYER C · TENSION · ROUTE A
+                    LAYER C · TENSION · TRACK A
                   </text>
                   <text
                     x="30"
@@ -453,7 +453,7 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
                     fontSize="9.2"
                     fill="#222426"
                   >
-                    Enantiodromy and Basic Assumptions (Bion)
+                    Enantiodromia and Basic Assumptions (Bion)
                   </text>
                   <text
                     x="30"
@@ -484,7 +484,7 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
                     fontWeight="700"
                     fill="#222426"
                   >
-                    LAYER C · SYNTHESIS · ROUTE B
+                    LAYER C · SYNTHESIS · TRACK B
                   </text>
                   <text
                     x="250"
@@ -494,7 +494,7 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
                     fontWeight="800"
                     fill="#222426"
                   >
-                    Working group (Bion) and individuation
+                    Work group (Bion) and individuation
                   </text>
                   <text
                     x="250"
@@ -625,7 +625,7 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
                       onClick={() => handleNavigate(activeBlockInfo.chapterHash)}
                       className="px-2.5 py-1 text-[11px] font-mono font-semibold bg-[#E5B822] text-[#222426] border border-[#222426] hover:bg-[#E5B822]/85 transition-colors cursor-pointer inline-flex items-center gap-1"
                     >
-                      <span>Deschide {activeBlockInfo.chapterLabel}</span>
+                      <span>Open {activeBlockInfo.chapterLabel}</span>
                       <ArrowRight className="w-3 h-3" />
                     </button>
                     <button
@@ -707,7 +707,7 @@ export const LandingCoverPage: React.FC<LandingCoverPageProps> = ({
             <div className="font-mono font-semibold text-[#222426]">
               Polarization and Crisis · Chapters 4–5
             </div>
-            <div>Collective Shadow projection, enantiodromy, Cipolla's matrix and the Track A / Track B bifurcation</div>
+            <div>Collective Shadow projection, enantiodromia, Cipolla's matrix and the Track A / Track B bifurcation</div>
           </div>
           <div>
             <div className="font-mono font-semibold text-[#222426]">

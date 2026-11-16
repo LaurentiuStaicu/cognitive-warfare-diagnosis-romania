@@ -15,7 +15,7 @@ export const SocialShareButtons: React.FC<SocialShareButtonsProps> = ({
   url,
   title = 'Cognitive war diagnosis in Romania (Version 1.0, Institutional, neurocognitive and cultural architecture of societal vulnerability and resilience)',
   compact = false,
-  label = 'Distribuie'
+  label = 'Share'
 }) => {
   const [copied, setCopied] = useState(false);
 
