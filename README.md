@@ -6,7 +6,6 @@
 
 <p align="center">
   <a href="https://laurentiustaicu.github.io/cognitive-warfare-diagnosis-romania/"><img alt="Monograph edition: 1.0" src="https://img.shields.io/badge/monograph_edition-1.0-707070?style=flat-square&labelColor=222426"></a>
-  <a href="https://laurentiustaicu.github.io/cognitive-warfare-diagnosis-romania/"><img alt="Available online" src="https://img.shields.io/badge/availability-online-707070?style=flat-square&labelColor=222426"></a>
   <a href="https://github.com/LaurentiuStaicu/cognitive-warfare-diagnosis-romania/actions/workflows/deploy.yml"><img alt="GitHub Pages deployment" src="https://img.shields.io/github/actions/workflow/status/LaurentiuStaicu/cognitive-warfare-diagnosis-romania/deploy.yml?branch=main&event=push&style=flat-square&label=GitHub%20Pages&color=707070"></a>
 </p>
 
