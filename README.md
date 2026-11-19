@@ -99,6 +99,11 @@ The argument follows a causal and operational sequence:
 
 The Christian-secular axiological filter, the OODA loop, and the regional comparison support this explanatory structure. They are not isolated topics, but components connecting diagnosis, mechanisms, and intervention.
 
+
+## Releases
+
+See the [releases page](https://github.com/LaurentiuStaicu/cognitive-warfare-diagnosis-romania/releases) for published versions of the English-language edition.
+
 ---
 
 <p align="center">
