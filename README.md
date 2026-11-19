@@ -6,25 +6,51 @@
 
 <p align="center">
   <a href="https://laurentiustaicu.github.io/cognitive-warfare-diagnosis-romania/">
-    <img src="https://img.shields.io/badge/READ_THE_MONOGRAPH_ONLINE-E5B822?style=for-the-badge&logoColor=222426&labelColor=222426" alt="Read the monograph online" />
+    <img src="https://img.shields.io/badge/READ_THE_MONOGRAPH-333333?style=for-the-badge" alt="Read the monograph online" width="274" />
   </a>
-</p>
-
-<p align="center">
-  👉 <strong><a href="https://laurentiustaicu.github.io/cognitive-warfare-diagnosis-romania/">https://laurentiustaicu.github.io/cognitive-warfare-diagnosis-romania/</a></strong>
 </p>
 
 ---
 
+## About the Monograph
+
+This repository contains the English-language edition of **Diagnosis of Cognitive Warfare in Romania (Version 1.0)**, an interactive digital monograph intended for English-speaking readers. It presents an integrated analysis of the institutional, neurocognitive, and cultural architecture of societal vulnerability and resilience in Romania in the context of Russian information operations and Putinist ideology.
+
+**[Read the monograph online](https://laurentiustaicu.github.io/cognitive-warfare-diagnosis-romania/)**
+
 ## Structure of the Interactive Web Application
 
-1. **Editorial Cover (Landing Page with Interactive Synoptic Plate and Social Sharing)**:
-   - Presents the title, subtitle, three-layer causal synthesis (Layer A macro-institutional, Layer B neurocognitive and cybernetic, Layer C cultural unconscious and group psychodynamics), the interactive 2D vector synoptic plate (*The Macro–Micro–Macro Model*, featuring a 5-block inspector: `Layer A`, `Layer B`, `Moral Filter`, `Layer C`, `Ch. 6 Protocol`), quick social sharing buttons (**Facebook**, **X**, **WhatsApp**, **Copy Link**), and the primary action button (`Read the monograph online`).
-2. **Step-by-Step Walkthrough (All 19 Full Sections, Executive Summary, and Dual-Register Mirror Decomposition)**:
-   - Full verbatim text of the Introduction and Chapters 1–6 (subchapters `1.1`–`6.4`), dual reading-mode toggle (`Full Academic Text` and `Executive Summary` for institutional decision-makers and public policy), layout display selector (`Text + Registers`, `Text Only`, `Registers Only`), `Focused Reading` mode, dynamic layer filtering (`Layer A`, `Layer B`, `Layer C`), dual-register mirror decomposition (39 analytical cards comparing *Theoretical Register* vs. *Empirical Reality*), 183 interactive in-text academic citations (parenthetical and narrative, plus 236 author anchors in section footers linked to the lateral bibliographic dossier), and 55 contextual terminological explanations in text (*tooltips*).
-3. **2D Vector Diagram Laboratory (`Figures 1–7`)**:
-   - Interactive SVG vector reproductions of all 7 cybernetic, institutional, and causal models from the monograph (rendered both inline within their canonical sections and inside the dedicated laboratory), equipped with regime/scenario switches and an interactive inspector for nodes and causal loops.
-4. **Synthesis Tables (`Table 1` and `Table 2`), Institutional Responsibility Matrix, and Regional Control Group**:
-   - `Table 1` (synthesis of the diagnostic causal architecture across 3 layers and 5 major dimensions of societal vulnerability), `Table 2` (sequential reconstruction protocol across the 3 phases and 4 determinants of the Lalonde–Dever model), the `Institutional Responsibility Matrix Across the Three Sequential Phases` (DNSC, ANCOM, CSAT, CNA, AEP/BEC, ONPCSB, BNR, ASF, Ministry of Education, Romanian Orthodox Church, EDMO/BROD), and the comparative mirror analysis of Romania against the regional control group (Estonia, Poland, Republic of Moldova).
-5. **Conceptual Glossary (55 Concepts), Complete Bibliography (152 Works), and Global Monograph Search**:
-   - Interdisciplinary glossary filterable by layer (`A`, `B`, `C`) and polarity, complete academic bibliography ordered alphabetically in accordance with the APA 7th Edition standard and filterable across 5 scientific domains, and a deterministic full-text search engine across the monograph text, glossary, and bibliography (`Search in Monograph`).
+1. **Editorial Cover (Landing Page with Interactive Synoptic Plate and Social Sharing)**
+   - Presents the title and subtitle, the three-layer causal synthesis (Layer A: macro-institutional; Layer B: neurocognitive and cybernetic; Layer C: cultural unconscious and group psychodynamics), and the interactive 2D vector synoptic plate (*The Macro–Micro–Macro Model*).
+   - The plate includes a five-block inspector: `Layer A`, `Layer B`, `Moral Filter`, `Layer C`, and `Ch. 6 Protocol`.
+   - Provides quick social-sharing actions (**Facebook**, **X**, **WhatsApp**, **Copy Link**) and the primary action to read the monograph.
+
+2. **Step-by-Step Walkthrough (19 Sections, Executive Summary, and Dual-Register Mirror Decomposition)**
+   - Includes the full text of the Introduction and Chapters 1–6 (subsections `1.1`–`6.4`).
+   - Offers two reading modes: `Full Academic Text` and `Executive Summary`, the latter intended for institutional decision-makers and public-policy readers.
+   - Includes layout options (`Text + Registers`, `Text Only`, `Registers Only`), `Focused Reading` mode, and dynamic filtering by `Layer A`, `Layer B`, and `Layer C`.
+   - Presents 39 analytical cards comparing the *Theoretical Register* with *Empirical Reality*, 183 interactive in-text academic citations, 236 author anchors in section footers linked to the lateral bibliographic dossier, and 55 contextual terminological explanations (*tooltips*).
+
+3. **2D Vector Diagram Laboratory (Figures 1–7)**
+   - Provides interactive SVG reproductions of all seven cybernetic, institutional, and causal models from the monograph, both within their canonical sections and in the dedicated laboratory.
+   - Includes regime/scenario switches and an interactive inspector for nodes and causal loops.
+
+4. **Synthesis Tables, Institutional Responsibility Matrix, and Regional Control Group**
+   - `Table 1` synthesises the diagnostic causal architecture across three layers and five major dimensions of societal vulnerability.
+   - `Table 2` presents the sequential reconstruction protocol across the three phases and four determinants of the Lalonde–Dever model.
+   - The institutional responsibility matrix covers the three sequential phases and the relevant Romanian institutions (DNSC, ANCOM, CSAT, CNA, AEP/BEC, ONPCSB, BNR, ASF, the Ministry of Education, the Romanian Orthodox Church, and EDMO/BROD).
+   - The regional comparison examines Romania alongside Estonia, Poland, and the Republic of Moldova.
+
+5. **Conceptual Glossary, Complete Bibliography, and Global Monograph Search**
+   - Includes a 55-concept interdisciplinary glossary, filterable by layer (`A`, `B`, `C`) and polarity.
+   - Provides a complete bibliography of 152 works, alphabetised in accordance with APA 7th Edition and filterable across five scientific domains.
+   - Includes deterministic full-text search across the monograph, glossary, and bibliography (`Search in Monograph`).
+
+---
+
+## Repository and Edition
+
+This repository hosts the English-language reader edition. It is the English counterpart of the Romanian monograph, with its own repository and reader-facing web address.
+
+**[Open the interactive English edition](https://laurentiustaicu.github.io/cognitive-warfare-diagnosis-romania/)**
+
